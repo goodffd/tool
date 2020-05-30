@@ -40,4 +40,4 @@ ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/serv
 ${sudoCmd} chmod +x /etc/server-confs.sh
 ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.service -O /etc/systemd/system/server-confs.service 
 ${sudoCmd} systemctl enable server-confs.service
-${sudoCmd} systemctl start server-confs.service
+${sudoCmd} systemctl restart server-confs.service
