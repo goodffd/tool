@@ -1,0 +1,8 @@
+[Unit]
+Description=Server confs service
+
+[Service]
+ExecStart=/etc/server-confs.sh
+
+[Install]
+WantedBy=default.target
