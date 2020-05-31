@@ -1,5 +1,6 @@
 [Unit]
 Description=Server confs service
+After=v2ray.service
 
 [Service]
 ExecStart=/etc/server-confs.sh
