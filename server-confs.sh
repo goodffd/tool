@@ -1,6 +1,7 @@
 #!/bin/sh
 
 common() {
+      sleep 5
       if ! iptables -C INPUT -s 27.122.57.247 -p tcp --dport 22 -j ACCEPT; then
            iptables -A INPUT -s 27.122.57.247 -p tcp --dport 22 -j ACCEPT
       fi
