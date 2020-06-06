@@ -10,8 +10,6 @@ fi
 if [[ -f /etc/redhat-release ]]; then
   release="centos"
   systemPackage="yum"
-  #colorEcho ${RED} "unsupported OS"
-  #exit 0
 elif cat /etc/issue | grep -Eqi "debian"; then
   release="debian"
   systemPackage="apt-get"
@@ -21,8 +19,6 @@ elif cat /etc/issue | grep -Eqi "ubuntu"; then
 elif cat /etc/issue | grep -Eqi "centos|red hat|redhat"; then
   release="centos"
   systemPackage="yum"
-  #colorEcho ${RED} "unsupported OS"
-  #exit 0
 elif cat /proc/version | grep -Eqi "debian"; then
   release="debian"
   systemPackage="apt-get"
@@ -32,8 +28,7 @@ elif cat /proc/version | grep -Eqi "ubuntu"; then
 elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   release="centos"
   systemPackage="yum"
-  #colorEcho ${RED} "unsupported OS"
-  #exit 0
+
 fi
 ${sudoCmd} ${systemPackage} install wget -y -qq
 ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.sh -O /etc/server-confs.sh
