@@ -28,7 +28,10 @@ common() {
       fi
       if ! iptables -C INPUT -p tcp --dport 22 -j DROP; then
            iptables -A INPUT -p tcp --dport 22 -j DROP
-      fi    
+      fi
+      if ! iptables -C INPUT -p tcp --dport 10086 -j DROP; then
+           iptables -A INPUT -p tcp --dport 10086 -j DROP
+      fi
 }
 
 common &
