@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 common() {
       sleep 5
