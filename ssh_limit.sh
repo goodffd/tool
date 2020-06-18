@@ -33,6 +33,8 @@ fi
 ${sudoCmd} ${systemPackage} install wget -y -qq
 ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.sh -O /etc/server-confs.sh
 ${sudoCmd} chmod +x /etc/server-confs.sh
+${sudoCmd} systemctl disable server-confs.service
+${sudoCmd} rm -rf /etc/systemd/system/server-confs.service
 ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.service -O /etc/systemd/system/server-confs.service 
 ${sudoCmd} systemctl enable server-confs.service
 ${sudoCmd} systemctl restart server-confs.service
