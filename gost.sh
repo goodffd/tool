@@ -31,6 +31,7 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
 
 fi
 ${sudoCmd} ${systemPackage} install wget -y -qq
-${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost.service -O /etc/systemd/system/gost.service 
+${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost.service -O /etc/systemd/system/gost.service
+${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost-config.json -O /etc/gost/config.json
 ${sudoCmd} systemctl enable gost.service
 ${sudoCmd} systemctl restart gost.service
