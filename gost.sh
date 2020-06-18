@@ -34,9 +34,9 @@ ${sudoCmd} ${systemPackage} install wget -y -qq
 ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost.service -O /etc/systemd/system/gost.service
 if [ ! -d "/etc/gost" ]; then
   mkdir /etc/gost
-  ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost-config.json -O /etc/gost/config.json
+  ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost-forward-config.json -O /etc/gost/config.json
 else
-  ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost-config.json -O /etc/gost/config.json
+  ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost-forward-config.json -O /etc/gost/config.json
 fi
 ${sudoCmd} systemctl enable gost.service
 ${sudoCmd} systemctl restart gost.service
