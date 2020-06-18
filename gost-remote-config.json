@@ -1,5 +1,12 @@
 {
     "Debug": false,
     "Retries": 0,
-    "ServeNodes": ["relay+tls://:13001/127.0.0.1:32357"]
+    "ServeNodes": [],
+    "ChainNodes": [],
+    "Routes": [
+        {
+            "ServeNodes": [ "relay+tls://:13001/127.0.0.1:32357" ],
+            "ChainNodes": []
+        }
+    ]
 }
