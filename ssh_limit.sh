@@ -30,13 +30,17 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   systemPackage="yum"
 fi
 ${sudoCmd} ${systemPackage} install wget -y -qq
-${sudoCmd} rm -f /etc/server-confs.sh
-${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.sh -O /etc/server-confs.sh
-${sudoCmd} chmod +x /etc/server-confs.sh
 ${sudoCmd} systemctl stop server-confs.service
 ${sudoCmd} systemctl disable server-confs.service
 ${sudoCmd} rm -f /etc/systemd/system/server-confs.service
 ${sudoCmd} rm -f /etc/systemd/system/server-confs.service
-${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.service -O /etc/systemd/system/server-confs.service 
+${sudoCmd} rm -f /etc/server-confs.sh
+while [ ! -f "/etc/server-confs.sh" ]; then
+    ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.sh -O /etc/server-confs.sh
+done
+${sudoCmd} chmod +x /etc/server-confs.sh
+while [ ! -f "/etc/systemd/system/server-confs.service" ]; then
+    ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.service -O /etc/systemd/system/server-confs.service 
+done
 ${sudoCmd} systemctl enable server-confs.service
 ${sudoCmd} systemctl start server-confs.service
