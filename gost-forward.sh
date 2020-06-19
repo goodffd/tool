@@ -31,13 +31,18 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
 
 fi
 ${sudoCmd} ${systemPackage} install wget -y -qq
+${sudoCmd} systemctl stop gost.service
 ${sudoCmd} systemctl disable gost.service
-${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost.service -O /etc/systemd/system/gost.service
+${sudoCmd} rm -f /etc/systemd/system/gost.service
+${sudoCmd} rm -f /etc/systemd/system/gost.service
+while [ ! -f "/etc/systemd/system/gost.service" ]; do
+    ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost.service -O /etc/systemd/system/gost.service
+done
 if [ ! -d "/etc/gost" ]; then
   mkdir /etc/gost
-  ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost-forward-config.json -O /etc/gost/config.json
-else
-  ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost-forward-config.json -O /etc/gost/config.json
 fi
+while [ ! -f "/etc/gost/config.json" ]; do
+  ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/gost-forward-config.json -O /etc/gost/config.json
+done
 ${sudoCmd} systemctl enable gost.service
 ${sudoCmd} systemctl restart gost.service
