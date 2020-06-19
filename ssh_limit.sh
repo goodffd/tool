@@ -28,14 +28,12 @@ elif cat /proc/version | grep -Eqi "ubuntu"; then
 elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   release="centos"
   systemPackage="yum"
-
 fi
 ${sudoCmd} ${systemPackage} install wget -y -qq
 ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.sh -O /etc/server-confs.sh
 ${sudoCmd} chmod +x /etc/server-confs.sh
-if [ -f "/etc/systemd/system/server-confs.service" ]; then
-   ${sudoCmd} systemctl disable server-confs.service 
-fi
+${sudoCmd} systemctl stop server-confs.service
+${sudoCmd} systemctl disable server-confs.service 
 ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.service -O /etc/systemd/system/server-confs.service 
 ${sudoCmd} systemctl enable server-confs.service
-${sudoCmd} systemctl restart server-confs.service
+${sudoCmd} systemctl start server-confs.service
