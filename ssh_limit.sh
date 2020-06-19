@@ -34,6 +34,7 @@ install_iptables() {
         ${sudoCmd} ${systemPackage} install iptables-services -y -qq
     else
         ${sudoCmd} ${systemPackage} install iptables -y -qq
+    fi
 }
 
 set_iptables_rules() {
@@ -63,4 +64,5 @@ set_iptables_rules() {
       fi
 }
 
+install_iptables
 set_iptables_rules
