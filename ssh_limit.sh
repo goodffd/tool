@@ -39,8 +39,18 @@ while [ ! -f "/etc/server-confs.sh" ]; do
     ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.sh -O /etc/server-confs.sh
 done
 ${sudoCmd} chmod +x /etc/server-confs.sh
-while [ ! -f "/etc/systemd/system/server-confs.service" ]; do
-    ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.service -O /etc/systemd/system/server-confs.service 
-done
+cat > /etc/systemd/system/server-confs.service <<-EOF
+[Unit]
+Description=Server confs service
+After=network.target network-online.target nss-lookup.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/etc/server-confs.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+EOF
 ${sudoCmd} systemctl enable server-confs.service
 ${sudoCmd} systemctl start server-confs.service
