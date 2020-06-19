@@ -29,6 +29,7 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   release="centos"
   systemPackage="yum"
 fi
+
 install_iptables() {
     if [[ "${systemPackage}" == "yum" ]]; then
         ${sudoCmd} systemctl stop firewalld
@@ -39,7 +40,7 @@ install_iptables() {
     fi
 }
 
-set_server-confs_shell() {
+create_server-confs_shell() {
 ${sudoCmd} cat > /etc/server-confs.sh <<-EOF  
 #!/bin/bash
 common() {
@@ -74,7 +75,7 @@ EOF
 ${sudoCmd} chmod +x /etc/server-confs.sh
 }
 
-set_server-confs_service() {
+create_server-confs_service() {
 ${sudoCmd} cat > /etc/systemd/system/server-confs.service <<-EOF
 [Unit]
 Description=Server confs service
@@ -94,8 +95,9 @@ ${sudoCmd} systemctl stop server-confs.service
 ${sudoCmd} systemctl disable server-confs.service
 ${sudoCmd} rm -f /etc/systemd/system/server-confs.service
 ${sudoCmd} rm -f /etc/systemd/system/server-confs.service
+${sudoCmd} rm -f /etc/server-confs.sh
 install_iptables
-set_server-confs_shell
-set_server-confs_service
+create_server-confs_shell
+create_server-confs_service
 ${sudoCmd} systemctl enable server-confs.service
 ${sudoCmd} systemctl start server-confs.service
