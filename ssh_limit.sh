@@ -31,6 +31,8 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
 fi
 install_iptables() {
     if [[ "$(systemPackage)" == "yum" ]]; then
+        ${sudoCmd} systemctl stop firewalld
+        ${sudoCmd} systemctl disable firewalld
         ${sudoCmd} ${systemPackage} install iptables-services -y -qq
     else
         ${sudoCmd} ${systemPackage} install iptables -y -qq
