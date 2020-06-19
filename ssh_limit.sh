@@ -35,11 +35,11 @@ ${sudoCmd} systemctl disable server-confs.service
 ${sudoCmd} rm -f /etc/systemd/system/server-confs.service
 ${sudoCmd} rm -f /etc/systemd/system/server-confs.service
 ${sudoCmd} rm -f /etc/server-confs.sh
-while [ ! -f "/etc/server-confs.sh" ]; then
+while [ ! -f "/etc/server-confs.sh" ]; do
     ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.sh -O /etc/server-confs.sh
 done
 ${sudoCmd} chmod +x /etc/server-confs.sh
-while [ ! -f "/etc/systemd/system/server-confs.service" ]; then
+while [ ! -f "/etc/systemd/system/server-confs.service" ]; do
     ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.service -O /etc/systemd/system/server-confs.service 
 done
 ${sudoCmd} systemctl enable server-confs.service
