@@ -31,9 +31,6 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
 fi
 
 set_iptables_rules() {
-      if ! iptables -C INPUT -s 27.122.57.247 -p tcp --dport 22 -j ACCEPT; then
-           iptables -A INPUT -s 27.122.57.247 -p tcp --dport 22 -j ACCEPT
-      fi
       if ! iptables -C INPUT -s 92.38.189.201 -p tcp --dport 22 -j ACCEPT; then
            iptables -A INPUT -s 92.38.189.201 -p tcp --dport 22 -j ACCEPT
       fi
