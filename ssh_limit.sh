@@ -29,6 +29,12 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   release="centos"
   systemPackage="yum"
 fi
+install_iptables() {
+    if [[ "$(systemPackage)" == "yum" ]]; then
+        ${sudoCmd} ${systemPackage} install iptables-services -y -qq
+    else
+        ${sudoCmd} ${systemPackage} install iptables -y -qq
+}
 
 set_iptables_rules() {
       if ! iptables -C INPUT -s 92.38.189.201 -p tcp --dport 22 -j ACCEPT; then
