@@ -57,29 +57,4 @@ set_iptables_rules() {
       fi
 }
 
-set_service_file() {
-${sudoCmd} cat > /etc/systemd/system/server-confs.service <<-EOF
-[Unit]
-Description=Server confs service
-After=network.target network-online.target nss-lookup.target
-Wants=network-online.target
-
-[Service]
-ExecStart=/etc/server-confs.sh
-Restart=on-failure
-
-[Install]
-WantedBy=default.target
-EOF
-}
-
-${sudoCmd} ${systemPackage} install wget -y -qq
-${sudoCmd} systemctl stop server-confs.service
-${sudoCmd} systemctl disable server-confs.service
-${sudoCmd} rm -f /etc/systemd/system/server-confs.service
-${sudoCmd} rm -f /etc/systemd/system/server-confs.service
-
 set_iptables_rules
-set_service_file
-${sudoCmd} systemctl enable server-confs.service
-${sudoCmd} systemctl start server-confs.service
