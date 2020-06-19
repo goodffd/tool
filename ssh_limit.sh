@@ -31,7 +31,6 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
 fi
 ${sudoCmd} ${systemPackage} install wget -y -qq
 ${sudoCmd} rm -f /etc/server-confs.sh
-${sudoCmd} rm -f /etc/server-confs.sh
 ${sudoCmd} wget -q -N https://raw.githubusercontent.com/goodffd/tool/master/server-confs.sh -O /etc/server-confs.sh
 ${sudoCmd} chmod +x /etc/server-confs.sh
 ${sudoCmd} systemctl stop server-confs.service
