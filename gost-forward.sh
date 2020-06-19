@@ -83,7 +83,7 @@ EOF
 get_gost(){
   if [ ! -f "/usr/bin/gost" ]; then
       local API_URL="https://api.github.com/repos/ginuerzh/gost/releases/latest"
-      local DOWNLOAD_URL="$(curl "${PROXY}" -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | cut -d\" -f4)"
+      local DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'linux-amd64' | cut -d\" -f4)"
       ${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/tmp/gost.gz" "${DOWNLOAD_URL}"
       ${sudoCmd} gzip -d /tmp/gost.gz
       ${sudoCmd} mv /tmp/gost /usr/bin/gost
