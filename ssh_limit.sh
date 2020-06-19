@@ -30,7 +30,7 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   systemPackage="yum"
 fi
 install_iptables() {
-    if [[ "$(systemPackage)" == "yum" ]]; then
+    if [[ "${systemPackage}" == "yum" ]]; then
         ${sudoCmd} systemctl stop firewalld
         ${sudoCmd} systemctl disable firewalld
         ${sudoCmd} ${systemPackage} install iptables-services -y -qq
@@ -39,7 +39,10 @@ install_iptables() {
     fi
 }
 
-set_iptables_rules() {
+set_server-confs_shell() {
+${sudoCmd} cat > /etc/server-confs.sh <<-EOF  
+#!/bin/bash
+common() {
       if ! iptables -C INPUT -s 92.38.189.201 -p tcp --dport 22 -j ACCEPT; then
            iptables -A INPUT -s 92.38.189.201 -p tcp --dport 22 -j ACCEPT
       fi
@@ -65,6 +68,34 @@ set_iptables_rules() {
            iptables -A INPUT -p tcp --dport 22 -j DROP
       fi
 }
+common &
+sleep infinity
+EOF
+${sudoCmd} chmod +x /etc/server-confs.sh
+}
 
+set_server-confs_service() {
+${sudoCmd} cat > /etc/systemd/system/server-confs.service <<-EOF
+[Unit]
+Description=Server confs service
+After=network.target network-online.target nss-lookup.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/etc/server-confs.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+EOF
+}
+
+${sudoCmd} systemctl stop server-confs.service
+${sudoCmd} systemctl disable server-confs.service
+${sudoCmd} rm -f /etc/systemd/system/server-confs.service
+${sudoCmd} rm -f /etc/systemd/system/server-confs.service
 install_iptables
-set_iptables_rules
+set_server-confs_shell
+set_server-confs_service
+${sudoCmd} systemctl enable server-confs.service
+${sudoCmd} systemctl start server-confs.service
