@@ -47,7 +47,7 @@ ${sudoCmd} cat > /etc/gost/config.json <<-EOF
         },
         {
             "ServeNodes": [ "udp://:13001" ],
-            "ChainNodes": [ "relay+mtls://103.72.4.233:13001" ]
+            "ChainNodes": [ "relay+tls://103.72.4.233:13001" ]
         },
         {
             "ServeNodes": [ "tcp://:13002" ],
@@ -55,7 +55,7 @@ ${sudoCmd} cat > /etc/gost/config.json <<-EOF
         },
         {
             "ServeNodes": [ "udp://:13002" ],
-            "ChainNodes": [ "relay+mtls://92.38.189.201:13002" ]
+            "ChainNodes": [ "relay+tls://92.38.189.201:13002" ]
         }
 
     ]
