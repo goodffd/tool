@@ -1,0 +1,76 @@
+本文转自51CTO博客作者tasnrh的原创作品，因原文中有部分书写错误，特重新编辑更新。
+
+Proxmox VE 6.0发布了正式版本，使用Proxmox VE 5.4的可通过官方提供的更新源升级到最新版本。官方提供了更新升级指南：
+https://pve.proxmox.com/wiki/Upgrade_from_5.x_to_6.0
+
+1、更新Proxmox VE 5.4到最新版本
+
+修改debian的镜像源地址：
+
+echo "deb https://mirrors.ustc.edu.cn/debian/ stretch main contrib non-free
+deb-src https://mirrors.ustc.edu.cn/debian/ stretch main contrib non-free
+deb https://mirrors.ustc.edu.cn/debian/ stretch-updates main contrib non-free
+deb-src https://mirrors.ustc.edu.cn/debian/ stretch-updates main contrib non-free
+deb https://mirrors.ustc.edu.cn/debian/ stretch-backports main contrib non-free
+deb-src https://mirrors.ustc.edu.cn/debian/ stretch-backports main contrib non-free
+deb https://mirrors.ustc.edu.cn/debian-security/ stretch/updates main contrib non-free
+deb-src https://mirrors.ustc.edu.cn/debian-security/ stretch/updates main contrib non-free" > /etc/apt/sources.list
+
+修改pve 5.x 更新源地址为 no subscription，不使用企业更新源
+
+echo "deb http://mirrors.ustc.edu.cn/proxmox/debian/pve/ stretch pve-no-subscription" > /etc/apt/sources.list.d/pve-no-subscription.list
+echo "deb http://mirrors.ustc.edu.cn/proxmox/debian/pve/ stretch pve-no-subscription" >/etc/apt/sources.list.d/pve-install-repo.list
+关闭pve 5.x企业更新源
+
+sed -i.bak 's|deb https://enterprise.proxmox.com/debian stretch pve-enterprise|# deb https://enterprise.proxmox.com/debian stretch pve-enterprise|' /etc/apt/sources.list.d/pve-enterprise.list
+修改 ceph镜像更新源
+
+echo "deb http://mirrors.ustc.edu.cn/proxmox/debian/ceph-luminous stretch main" >> /etc/apt/sources.list.d/ceph.list
+开始更新即可
+
+apt update && apt dis-ugprade
+2、升级Corosync到Corosync 3
+
+关闭高可用服务，只有一台pve的可以忽略。
+
+systemctl stop pve-ha-lrm
+systemctl stop pve-ha-crm
+添加Proxmox Corosync 3 Stretch存储库
+
+echo "deb http://mirrors.ustc.edu.cn/proxmox/debian/corosync-3/ stretch main" > /etc/apt/sources.list.d/corosync3.list
+运行命令更新
+
+apt update
+根据官方手册支持执行：
+
+apt list --upgradeable
+apt dist-upgrade --download-only
+apt dist-upgrade
+如果关闭了高可用服务的在更新完毕后需要重新启动高可用服务
+
+systemctl start pve-ha-lrm
+systemctl start pve-ha-crm
+3、升级到Proxmox 6.0
+
+执行以下更新命令确保最新：
+
+apt update && apt dist-upgrade
+执行镜像源更新命令，将Debian的镜像源更换为升级源
+
+sed -i 's/stretch/buster/g' /etc/apt/sources.list
+添加Proxmox VE 6的镜像存储库地址
+
+echo "deb http://mirrors.ustc.edu.cn/proxmox/debian/pve buster pve-no-subscription " > /etc/apt/sources.list.d/pve-no-subscription.list
+修改其他镜像源的升级包地址
+
+sed -i -e 's/stretch/buster/g' /etc/apt/sources.list.d/pve-install-repo.list
+修改Ceph的升级包地址
+
+echo "deb http://mirrors.ustc.edu.cn/proxmox/debian/ceph-luminous buster main" > /etc/apt/sources.list.d/ceph.list
+开始运行更新命令
+
+apt update && apt dist-upgrade
+在更新的过程中会出现几次输入的交互，第一次提示apt相关信息，输入Q退出继续执行更新，后续直接确认回车即可。
+
+4、升级完成后删除额外的corosync3软件源
+rm /etc/apt/sources.list.d/corosync3.list
