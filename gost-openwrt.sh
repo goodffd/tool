@@ -1,11 +1,11 @@
 #!/bin/sh
+
 create_gost_service() {
 cat > /etc/init.d/gost <<-EOF
 #!/bin/sh /etc/rc.common
 START=99
 
 USE_PROCD=1
-
 create_gost_config() {
 cat > /etc/config/gost.json <<-EOF
 {
@@ -41,9 +41,7 @@ cat > /etc/config/gost.json <<-EOF
     ]
 }
 EOF
-chmod +x /etc/init.d/gost
 }
-
 
 start_service() {
     create_gost_config
@@ -57,7 +55,9 @@ stop_service() {
     ps | grep "gost" | grep -v "grep" | awk '{print $1}' | xargs kill -s 9 > /dev/null 2>&1 &
 }
 EOF
+chmod +x /etc/init.d/gost
 }
+
 
 get_gost() {
   if [ ! -f "/usr/bin/gost" ]; then
