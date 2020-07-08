@@ -47,7 +47,7 @@ cat > /etc/config/gost.json <<-EOF
     ]
 }
 EOF
-chmod +x /etc/init.d/gost
+${sudoCmd} chmod +x /etc/init.d/gost
 }
 
 
