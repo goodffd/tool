@@ -82,6 +82,7 @@ ${sudoCmd} service gost disable
 ${sudoCmd} rm -f /etc/init.d/gost
 ${sudoCmd} rm -f /etc/init.d/gost
 ${sudoCmd} rm -f /etc/config/gost.json
+${sudoCmd} rm -f /usr/bin/gost
 get_gost
 create_gost_service
 ${sudoCmd} service gost enable
