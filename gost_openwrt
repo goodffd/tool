@@ -1,0 +1,88 @@
+#!/bin/bash
+if [[ $(/usr/bin/id -u) -ne 0 ]]; then
+  sudoCmd="sudo"
+else
+  sudoCmd=""
+fi
+
+create_gost_service(){
+${sudoCmd} cat > /etc/init.d/gost <<-EOF
+#!/bin/sh /etc/rc.common
+START=99
+
+USE_PROCD=1
+
+create_gost_config() {
+cat > /etc/config/gost.json <<-EOF
+{
+    "Debug": false,
+    "Retries": 0,
+    "ServeNodes": [],
+    "ChainNodes": [],
+    "Routes": [
+        {
+            "ServeNodes": [ "tcp://:13000" ],
+            "ChainNodes": [ "relay+tls://14.128.60.161:13000" ]
+        },
+        {
+            "ServeNodes": [ "udp://:13000" ],
+            "ChainNodes": [ "relay+tls://14.128.60.161:13000" ]
+        },
+        {
+            "ServeNodes": [ "tcp://:13001" ],
+            "ChainNodes": [ "relay+tls://89.208.253.8:13001" ]
+        },
+        {
+            "ServeNodes": [ "udp://:13001" ],
+            "ChainNodes": [ "relay+tls://89.208.253.8:13001" ]
+        },
+        {
+            "ServeNodes": [ "tcp://:13002" ],
+            "ChainNodes": [ "relay+tls://154.17.2.166:13002" ]
+        },
+        {
+            "ServeNodes": [ "udp://:13002" ],
+            "ChainNodes": [ "relay+tls://154.17.2.166:13002" ]
+        }
+    ]
+}
+EOF
+chmod +x /etc/init.d/gost
+}
+
+
+start_service() {
+    create_gost_config
+    procd_open_instance
+    procd_set_param command /usr/bin/gost -C /etc/config/gost.json
+    procd_set_param respawn
+    procd_close_instance
+}
+
+stop_service() {
+    ps | grep "gost" | grep -v "grep" | awk '{print $1}' | xargs kill -s 9 > /dev/null 2>&1 &
+}
+EOF
+}
+
+get_gost(){
+  if [ ! -f "/usr/bin/gost" ]; then
+      local API_URL="https://api.github.com/repos/ginuerzh/gost/releases/latest"
+      local DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'linux-amd64' | cut -d\" -f4)"
+      ${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/tmp/gost.gz" "${DOWNLOAD_URL}"
+      ${sudoCmd} gzip -d /tmp/gost.gz
+      ${sudoCmd} mv /tmp/gost /usr/bin/gost
+      ${sudoCmd} chmod +x /usr/bin/gost
+  fi
+}
+
+
+${sudoCmd} service gost stop
+${sudoCmd} service gost disable
+${sudoCmd} rm -f /etc/init.d/gost
+${sudoCmd} rm -f /etc/init.d/gost
+${sudoCmd} rm -f /etc/config/gost.json
+get_gost
+create_gost_service
+${sudoCmd} service gost enable
+${sudoCmd} service gost start
