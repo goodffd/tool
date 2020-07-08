@@ -1,21 +1,5 @@
 #!/bin/sh
 
-get_gost() {
-  if [ ! -f "/usr/bin/gost" ]; then
-      local API_URL="https://api.github.com/repos/ginuerzh/gost/releases/latest"
-      local DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'linux-amd64' | cut -d\" -f4)"
-      curl -L -H "Cache-Control: no-cache" -o "/tmp/gost.gz" "${DOWNLOAD_URL}"
-      gzip -d /tmp/gost.gz
-      mv /tmp/gost /usr/bin/gost
-      chmod +x /usr/bin/gost
-  fi
-}
-
-cat > /etc/init.d/gost <<-EOF
-"#!/bin/sh /etc/rc.common
-START=99
-
-USE_PROCD=1
 create_gost_config() {
 cat > /etc/config/gost.json <<-EOF
 {
@@ -53,8 +37,14 @@ cat > /etc/config/gost.json <<-EOF
 EOF
 }
 
+create_gost_service() {
+cat > /etc/init.d/gost <<-EOF
+#!/bin/sh /etc/rc.common
+START=99
+
+USE_PROCD=1
+
 start_service() {
-    create_gost_config
     procd_open_instance
     procd_set_param command /usr/bin/gost -C /etc/config/gost.json
     procd_set_param respawn
@@ -64,7 +54,20 @@ start_service() {
 stop_service() {
     ps | grep "gost" | grep -v "grep" | awk '{print $1}' | xargs kill -s 9 > /dev/null 2>&1 &
 }
-EOF"
+EOF
+chmod +x /etc/init.d/gost
+}
+
+get_gost() {
+  if [ ! -f "/usr/bin/gost" ]; then
+      local API_URL="https://api.github.com/repos/ginuerzh/gost/releases/latest"
+      local DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'linux-amd64' | cut -d\" -f4)"
+      curl -L -H "Cache-Control: no-cache" -o "/tmp/gost.gz" "${DOWNLOAD_URL}"
+      gzip -d /tmp/gost.gz
+      mv /tmp/gost /usr/bin/gost
+      chmod +x /usr/bin/gost
+  fi
+}
 
 service gost stop
 service gost disable
@@ -73,6 +76,5 @@ rm -f /etc/init.d/gost
 rm -f /etc/config/gost.json
 rm -f /usr/bin/gost
 get_gost
-chmod +x /etc/init.d/gost
 service gost enable
 service gost start
