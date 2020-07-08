@@ -76,5 +76,7 @@ rm -f /etc/init.d/gost
 rm -f /etc/config/gost.json
 rm -f /usr/bin/gost
 get_gost
+create_gost_config
+create_gost_service
 service gost enable
 service gost start
