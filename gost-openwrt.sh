@@ -70,8 +70,6 @@ get_gost() {
 }
 
 service gost stop
-service gost stop
-service gost disable
 service gost disable
 rm -f /etc/init.d/gost
 rm -f /etc/init.d/gost
@@ -81,6 +79,4 @@ get_gost
 create_gost_config
 create_gost_service
 service gost enable
-service gost enable
-service gost start
 service gost start
