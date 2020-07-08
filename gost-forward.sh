@@ -96,6 +96,7 @@ ${sudoCmd} systemctl disable gost.service
 ${sudoCmd} rm -f /etc/systemd/system/gost.service
 ${sudoCmd} rm -f /etc/systemd/system/gost.service
 ${sudoCmd} rm -f /etc/gost/config.json
+${sudoCmd} rm -f /usr/bin/gost
 get_gost
 create_gost_config
 create_gost_service
