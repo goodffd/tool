@@ -101,4 +101,4 @@ get_gost
 create_gost_config
 create_gost_service
 ${sudoCmd} systemctl enable gost.service
-${sudoCmd} systemctl restart gost.service
+${sudoCmd} systemctl start gost.service
