@@ -1,5 +1,5 @@
 #!/bin/sh
-create_gost_service(){
+create_gost_service() {
 cat > /etc/init.d/gost <<-EOF
 #!/bin/sh /etc/rc.common
 START=99
@@ -59,7 +59,7 @@ stop_service() {
 EOF
 }
 
-get_gost(){
+get_gost() {
   if [ ! -f "/usr/bin/gost" ]; then
       local API_URL="https://api.github.com/repos/ginuerzh/gost/releases/latest"
       local DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'linux-amd64' | cut -d\" -f4)"
