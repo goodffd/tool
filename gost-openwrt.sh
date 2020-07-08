@@ -1,12 +1,6 @@
 #!/bin/sh
-if [[ $(/usr/bin/id -u) -ne 0 ]]; then
-  sudoCmd="sudo"
-else
-  sudoCmd=""
-fi
-
 create_gost_service(){
-${sudoCmd} cat > /etc/init.d/gost <<-EOF
+cat > /etc/init.d/gost <<-EOF
 #!/bin/sh /etc/rc.common
 START=99
 
@@ -47,7 +41,7 @@ cat > /etc/config/gost.json <<-EOF
     ]
 }
 EOF
-${sudoCmd} chmod +x /etc/init.d/gost
+chmod +x /etc/init.d/gost
 }
 
 
@@ -69,21 +63,21 @@ get_gost(){
   if [ ! -f "/usr/bin/gost" ]; then
       local API_URL="https://api.github.com/repos/ginuerzh/gost/releases/latest"
       local DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'linux-amd64' | cut -d\" -f4)"
-      ${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/tmp/gost.gz" "${DOWNLOAD_URL}"
-      ${sudoCmd} gzip -d /tmp/gost.gz
-      ${sudoCmd} mv /tmp/gost /usr/bin/gost
-      ${sudoCmd} chmod +x /usr/bin/gost
+      curl -L -H "Cache-Control: no-cache" -o "/tmp/gost.gz" "${DOWNLOAD_URL}"
+      gzip -d /tmp/gost.gz
+      mv /tmp/gost /usr/bin/gost
+      chmod +x /usr/bin/gost
   fi
 }
 
 
-${sudoCmd} service gost stop
-${sudoCmd} service gost disable
-${sudoCmd} rm -f /etc/init.d/gost
-${sudoCmd} rm -f /etc/init.d/gost
-${sudoCmd} rm -f /etc/config/gost.json
-${sudoCmd} rm -f /usr/bin/gost
+service gost stop
+service gost disable
+rm -f /etc/init.d/gost
+rm -f /etc/init.d/gost
+rm -f /etc/config/gost.json
+rm -f /usr/bin/gost
 get_gost
 create_gost_service
-${sudoCmd} service gost enable
-${sudoCmd} service gost start
+service gost enable
+service gost start
