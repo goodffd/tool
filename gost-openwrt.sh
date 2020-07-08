@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
   sudoCmd="sudo"
 else
