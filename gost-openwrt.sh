@@ -1,6 +1,16 @@
 #!/bin/sh
 
-create_gost_service() {
+get_gost() {
+  if [ ! -f "/usr/bin/gost" ]; then
+      local API_URL="https://api.github.com/repos/ginuerzh/gost/releases/latest"
+      local DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'linux-amd64' | cut -d\" -f4)"
+      curl -L -H "Cache-Control: no-cache" -o "/tmp/gost.gz" "${DOWNLOAD_URL}"
+      gzip -d /tmp/gost.gz
+      mv /tmp/gost /usr/bin/gost
+      chmod +x /usr/bin/gost
+  fi
+}
+
 cat > /etc/init.d/gost <<-EOF
 #!/bin/sh /etc/rc.common
 START=99
@@ -55,21 +65,6 @@ stop_service() {
     ps | grep "gost" | grep -v "grep" | awk '{print $1}' | xargs kill -s 9 > /dev/null 2>&1 &
 }
 EOF
-chmod +x /etc/init.d/gost
-}
-
-
-get_gost() {
-  if [ ! -f "/usr/bin/gost" ]; then
-      local API_URL="https://api.github.com/repos/ginuerzh/gost/releases/latest"
-      local DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'linux-amd64' | cut -d\" -f4)"
-      curl -L -H "Cache-Control: no-cache" -o "/tmp/gost.gz" "${DOWNLOAD_URL}"
-      gzip -d /tmp/gost.gz
-      mv /tmp/gost /usr/bin/gost
-      chmod +x /usr/bin/gost
-  fi
-}
-
 
 service gost stop
 service gost disable
@@ -78,6 +73,6 @@ rm -f /etc/init.d/gost
 rm -f /etc/config/gost.json
 rm -f /usr/bin/gost
 get_gost
-create_gost_service
+chmod +x /etc/init.d/gost
 service gost enable
 service gost start
