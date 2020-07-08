@@ -12,7 +12,7 @@ get_gost() {
 }
 
 cat > /etc/init.d/gost <<-EOF
-#!/bin/sh /etc/rc.common
+"#!/bin/sh /etc/rc.common
 START=99
 
 USE_PROCD=1
@@ -64,7 +64,7 @@ start_service() {
 stop_service() {
     ps | grep "gost" | grep -v "grep" | awk '{print $1}' | xargs kill -s 9 > /dev/null 2>&1 &
 }
-EOF
+EOF"
 
 service gost stop
 service gost disable
