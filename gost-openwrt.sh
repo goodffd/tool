@@ -77,8 +77,8 @@ get_gost() {
   fi
 }
 
-service gost stop >/dev/null 2>&1 &
-service gost disable >/dev/null 2>&1 &
+/etc/init.d/gost stop >/dev/null 2>&1 &
+/etc/init.d/gost disable >/dev/null 2>&1 &
 rm -f /etc/init.d/gost
 rm -f /etc/init.d/gost
 rm -f /etc/config/gost.json
@@ -86,5 +86,5 @@ rm -f /usr/bin/gost
 get_gost
 create_gost_config
 create_gost_service
-service gost enable >/dev/null 2>&1 &
-service gost start >/dev/null 2>&1 &
+/etc/init.d/gost enable >/dev/null 2>&1 &
+/etc/init.d/gost start >/dev/null 2>&1 &
