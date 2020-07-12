@@ -44,6 +44,18 @@ ${sudoCmd} cat > /etc/gost/config.json <<-EOF
         {
             "ServeNodes": [ "relay+tls://:13001/127.0.0.1:32357" ],
             "ChainNodes": []
+        },
+        {
+            "ServeNodes": [ "relay+tls://:13002/127.0.0.1:39446" ],
+            "ChainNodes": []
+        },
+        {
+            "ServeNodes": [ "relay+tls://:13003" ],
+            "ChainNodes": []
+        },
+        {
+            "ServeNodes": [ "relay+tls://:13004/127.0.0.1:30888" ],
+            "ChainNodes": []
         }
     ]
 }
