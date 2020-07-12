@@ -70,6 +70,20 @@ ${sudoCmd} cat > /etc/gost/config.json <<-EOF
                             "relay+tls://89.208.253.8:13003",
                             "relay://154.17.2.166:13003"
                           ]
+        },
+        {
+            "ServeNodes": [ "tcp://:13003" ],
+            "ChainNodes": [ 
+                            "relay+tls://89.208.253.8:13003",
+                            "relay://154.17.2.166:13003"
+                          ]
+        },
+        {
+            "ServeNodes": [ "udp://:13004" ],
+            "ChainNodes": [ 
+                            "relay+tls://89.208.253.8:13003",
+                            "relay://154.17.2.166:13003"
+                          ]
         }
 
     ]
