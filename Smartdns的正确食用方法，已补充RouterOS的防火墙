@@ -1,0 +1,67 @@
+0x01 环境要求
+
+     1.Openwrt
+     2.RouterOS（非必须）
+     2.Pi-hole（非必须）
+     3.Smartdns
+     4.p* a* s* s* w* a* l* l*
+
+
+0x02 推荐网络构架
+
+懒得画图了将就看吧
++++++++++++++++++++++++++++
+    RouterOS             Openwrt(旁)        Pi-hole
+          /\                /\               /\
+          |                  |               |
+          *     <————>       *     <————>    *
+          |
+          |  
+         \/
+       Client
++++++++++++++++++++++++++++
+
+
+0x03 安装
+
+   1.下载适用Openwrt的程序，无需下载luci用不上  https://github.com/pymumu/smartdns  （GitHub里有安装教程）
+   *.建议使用WinSCP 安装opk包，安装会生成/etc/smartdns文件夹，自己修改两个附件内的两个文件上传到该文件夹，配置均有注释，自己看一下就理解了。
+   *.建议的DNS服务器是保留一个运营商分配的DNS，添加三个离自己地理位置最近的三网DNS服务器
+   2.使用ssh登陆运行下方代码启动两个smartdns（是启动两个不是安装两个）
+   3.在(系统->启动)的最下方添加代码：
+smartdns -c /etc/smartdns/smartdns_cn.conf -p /var/run/smartdns_cn.pid > /dev/null 2>&1
+smartdns -c /etc/smartdns/smartdns_cm.conf -p /var/run/smartdns_cm.pid > /dev/null 2>&1
+
+0x04 一些关键的设置
+
+   RouterOS 上防火墙添加规则，将smartdns_cm内的国外DNS服务器添加到黑名单既不允许直接访问；（Openwrt的设置方法道理是一样的，防火墙拦截从路由器访问指定DNS的流量。）
+#全部复制到 RouterOS 的Terminal 执行，如果smartdns_cm的服务地址有添加要相应添加下方列表
+/ip firewall address-list
+add address=1.1.1.1 list=DNSAddress_gfw
+add address=8.8.8.8 list=DNSAddress_gfw
+add address=9.9.9.9 list=DNSAddress_gfw
+add address=8.8.4.4 list=DNSAddress_gfw
+/ip firewall filter
+add action=drop chain=input comment="\BD\FB\D6\B9\B4\D3\B9\FA\C4\DA\CF\DF\C2\
+\B7\B7\C3\CE\CA\B9\FA\CD\E2DNS\A3\A8\B7\C0\CE\DB\C8\BE\A3\A9" \
+src-address-list=DNSAddress_gfw
+
+   Openwrt 上的p* a* s* s* w* a* l* l*强制smartdns_cm内的DNS服务器走梯既黑名单。
+   p* a* s* s* w* a* l* l*上的国内服务填(127.0.0.1#6035);DNS模式选择(使用7913端口)
+
+0x05 实现的效果
+
+  1. 国内线路 --> smartdns_cn --> RouterOS --> Pi-hole  --> Client
+  2. 国外线路 --> smartdns_cm --> Openwrt --> Pi-hole  --> Client
+  既 smartdns_cn DNS服务走国内线路；smartdns_cm DNS服务走低调上网线路；
+
+
+0x06 十万个为什么
+     为什么RouterOS 拦截cm内的DNS？因为RouterOS 不会拦截被XX的流量，由国内访问的话会被拦截。确保DNS正确
+  为什么使用两个smartdns？因为一个smartdns会导致DNS缓存污染ip插入，所以使用了两个就算手工竹手工竹手工竹手工竹手工竹手工竹手工竹手工竹手工竹手工竹手工竹梯子断了不会因为国内的DNS抢答造成缓存污染。
+  使用smartdns会导致DNS解析缓慢吗？ 这个用namebench测一下就知道了，问题不大；得益于smartdns的缓存机制其实在日常使用中因为日常访问的网站域名已经被预先缓存了会更有益处。
+  为什么不用adguard而用Pi-hole？使用过程中发现adguard这玩意延迟有点高。
+
+0x07 其他
+   这个模式已经用了挺久的了，效果不错，先这样了，有问题回帖吧，看到会回复。动态解析脚本已经发布到博客，有需要的自取吧，为避免推广嫌疑有需要的话自己谷歌搜索  “Mikrotik RouterOS 路由器 CloudFlare DDNS 动态解析脚本(IPv4/IPv6)”  
+流控规则自己花了几个月去看官方文档写的，英语太渣导致有部分理解错误的目前还在调试+测试阶段，后续流控调试好了会和其他脚本发布到博客
