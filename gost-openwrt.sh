@@ -15,30 +15,6 @@ cat > /etc/config/gost.json <<-EOF
         {
             "ServeNodes": [ "udp://:13000" ],
             "ChainNodes": [ "relay+tls://14.128.60.161:13000" ]
-        },
-        {
-            "ServeNodes": [ "tcp://:13001" ],
-            "ChainNodes": [ "relay+tls://89.208.253.8:13001" ]
-        },
-        {
-            "ServeNodes": [ "udp://:13001" ],
-            "ChainNodes": [ "relay+tls://89.208.253.8:13001" ]
-        },
-        {
-            "ServeNodes": [ "tcp://:13002" ],
-            "ChainNodes": [ "relay+tls://154.17.2.166:13002" ]
-        },
-        {
-            "ServeNodes": [ "udp://:13002" ],
-            "ChainNodes": [ "relay+tls://154.17.2.166:13002" ]
-        },
-        {
-            "ServeNodes": [ "tcp://:13003" ],
-            "ChainNodes": [ "relay+tls://14.128.60.161:13003" ]
-        },
-        {
-            "ServeNodes": [ "udp://:13003" ],
-            "ChainNodes": [ "relay+tls://14.128.60.161:13003" ]
         }
     ]
 }
