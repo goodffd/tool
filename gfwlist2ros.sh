@@ -39,7 +39,7 @@ gfwlist_domain_filename="gfwlist_domain.rsc"
 sed -i 's/\./\\\\./g' ${gfwlist_domain_filename}
 
 #2、文件中每行行首增加字符串"add regexp="(\\.|^)"
-sed -i 's/^/add regexp="(\\\.|^)&/g' ${gfwlist_domain_filename}
+sed -i 's/^/add regexp="(\\\\.|^)&/g' ${gfwlist_domain_filename}
 
 #3、文件中每行行尾增加字符串"\$" type=FWD forward-to=$gfwdns"
 sed -i 's/$/&\\$" type=FWD forward-to=$gfwdns/g' ${gfwlist_domain_filename}
