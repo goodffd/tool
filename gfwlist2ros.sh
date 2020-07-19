@@ -51,4 +51,4 @@ sed -i '1 i:local gfwdns 10.10.0.1' ${gfwlist_domain_filename}
 sed -i '2 i/ip dns static' ${gfwlist_domain_filename}
 
 #6、文件中删除空行"
-sed -i '/^\s*$/d' ${gfwlist_domain_filename}
+sed '/^\s*$/d' ${gfwlist_domain_filename}
