@@ -35,22 +35,23 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist
 
 gfwlist_domain_filename="gfwlist_domain.rsc"
 
+#开始处理 gfwlist_domain_filename 内容
 #1、文件中域名的"."替换成"\\."
 sed -i 's/\./\\\\./g' ${gfwlist_domain_filename}
 
-#2、文件中每行行首增加字符串"add regexp="(\\.|^)"
+#2、每行行首增加字符串"add regexp="(\\.|^)"
 sed -i 's/^/add regexp="(\\\\.|^)&/g' ${gfwlist_domain_filename}
 
-#3、文件中每行行尾增加字符串"\$" type=FWD forward-to=$gfwdns"
+#3、每行行尾增加字符串"\$" type=FWD forward-to=$gfwdns"
 sed -i 's/$/&\\$" type=FWD forward-to=$gfwdns/g' ${gfwlist_domain_filename}
 
-#4、文件中在第1行前插入新行":local gfwdns 10.10.0.1"
+#4、在文件第1行前插入新行":local gfwdns 10.10.0.1"
 sed -i '1 i:local gfwdns 10.10.0.1' ${gfwlist_domain_filename}
 
-#5、文件中在第2行前插入新行"/ip dns static"
+#5、在文件第2行前插入新行"/ip dns static"
 sed -i '2 i/ip dns static' ${gfwlist_domain_filename}
 
-#6、文件中删除文件尾的换行"
+#6、删除文件尾的换行（可选）
 #tail -n 1 ${gfwlist_domain_filename} | tr -d '\n' >> gfwlist_lastline_tmp
 #sed -i '$d' ${gfwlist_domain_filename}
 #sed -i '$r gfwlist_lastline_tmp' ${gfwlist_domain_filename}
