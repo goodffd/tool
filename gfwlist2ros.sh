@@ -53,5 +53,5 @@ sed -i '2 i/ip dns static' ${gfwlist_domain_filename}
 #6、文件中删除文件尾的换行"
 tail -n 1 ${gfwlist_domain_filename} | tr -d '\n' >> gfwlist_lastline_tmp
 sed -i '$d' ${gfwlist_domain_filename}
-sed -i 'r gfwlist_lastline_tmp' ${gfwlist_domain_filename}
+sed -i '$r gfwlist_lastline_tmp' ${gfwlist_domain_filename}
 rm -f gfwlist_lastline_tmp
