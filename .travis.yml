@@ -1,5 +1,5 @@
 #filename:.travis.yml
-dist: xential
+dist: bionic
 sudo: false
 notifications:
   email: false
