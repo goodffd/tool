@@ -8,9 +8,10 @@ env:
   - REPO=tool
 script:
 - mkdir -p $TRAVIS_BUILD_DIR/output
-- wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh
-- chmod +x gfwlist2dnsmasq.sh
-- ./gfwlist2dnsmasq.sh -l -o ./output/gfwlist_domain.rsc
+- mkdir -p $TRAVIS_BUILD_DIR/tmp
+- wget -N --no-check-certificate -O ./tmp/gfwlist2dnsmasq.sh https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh
+- chmod +x ./tmp/gfwlist2dnsmasq.sh
+- ./tmp/gfwlist2dnsmasq.sh -l -o ./output/gfwlist_domain.rsc
 - sed -i 's/\./\\\\./g' ./output/gfwlist_domain.rsc
 - sed -i 's/^/add regexp="(\\\\.|^)&/g' ./output/gfwlist_domain.rsc
 - sed -i 's/$/&\\$" type=FWD forward-to=$gfwdns/g' ./output/gfwlist_domain.rsc
