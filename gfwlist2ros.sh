@@ -48,8 +48,11 @@ sed -i 's/$/&\\$" type=FWD forward-to=$gfwdns/g' ${gfwlist_domain_filename}
 #4、在文件第1行前插入新行":local gfwdns 10.10.0.1"
 sed -i '1 i:local gfwdns 10.10.0.1' ${gfwlist_domain_filename}
 
-#5、在文件第2行前插入新行"/ip dns static"
-sed -i '2 i/ip dns static' ${gfwlist_domain_filename}
+#5、在文件第2行前插入新行"/ip dns static remove [/ip dns static find type=FWD]"
+sed -i '2 i/ip dns static remove [/ip dns static find type=FWD]' ${gfwlist_domain_filename}
+
+#6、在文件第3行前插入新行"/ip dns static"
+sed -i '3 i/ip dns static' ${gfwlist_domain_filename}
 
 #6、删除文件尾的换行（可选）
 #tail -n 1 ${gfwlist_domain_filename} | tr -d '\n' >> gfwlist_lastline_tmp
