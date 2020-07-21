@@ -11,8 +11,8 @@ before_script:
 script:
 - mkdir -p $TRAVIS_BUILD_DIR/output
 #- mkdir -p $TRAVIS_BUILD_DIR/tmp
-- ./gfwlist2ros.sh && mv ./gfwlist_domain.rsc ./output
-- ./cnlist2ros.sh && mv ./all_cn_cidr.rsc ./output
+- chmod +x ./gfwlist2ros.sh && ./gfwlist2ros.sh && mv ./gfwlist_domain.rsc ./output
+- chmod +x ./cnlist2ros.sh && ./cnlist2ros.sh && mv ./all_cn_cidr.rsc ./output
 #- wget -N --no-check-certificate -O ./tmp/gfwlist2dnsmasq.sh https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh
 #- wget -N --no-check-certificate -O ./output/all_cn_cidr.rsc https://ispip.clang.cn/all_cn_cidr.txt
 #- chmod +x ./tmp/gfwlist2dnsmasq.sh
