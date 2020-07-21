@@ -31,9 +31,9 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
 fi
 
 ${sudoCmd} ${systemPackage} install wget -y -qq
-wget -N --no-check-certificate https://ispip.clang.cn/all_cn_cidr.txt
+wget -N --no-check-certificate -O ./all_cn_cidr.rsc https://ispip.clang.cn/all_cn_cidr.txt
 
-cn_filename="all_cn_cidr.txt"
+cn_filename="all_cn_cidr.rsc"
 
 #开始处理 cn_filename 内容
 
