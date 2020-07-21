@@ -6,6 +6,8 @@ notifications:
 env:
   global:
   - REPO=tool
+before_script:
+- export TZ=Asia/Shanghai
 script:
 - mkdir -p $TRAVIS_BUILD_DIR/output
 - mkdir -p $TRAVIS_BUILD_DIR/tmp
