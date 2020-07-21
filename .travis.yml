@@ -20,11 +20,11 @@ script:
 - sed -i 's/$/&\\$" type=FWD forward-to=$gfwdns/g' ./output/gfwlist_domain.rsc
 - sed -i '1 i:local gfwdns 10.10.0.1' ./output/gfwlist_domain.rsc
 - sed -i '2 i/ip dns static' ./output/gfwlist_domain.rsc
-- sed -i 's/^/:do { add address=&/g' all_cn_cidr.rsc
-- sed -i 's/$/& list=CN } on-error={}/g' all_cn_cidr.rsc
-- sed -i '1 i/log info "Loading CN ipv4 address list"' all_cn_cidr.rsc
-- sed -i '2 i/ip firewall address-list remove [/ip firewall address-list find list=CN]' all_cn_cidr.rsc
-- sed -i '3 i/ip firewall address-list' all_cn_cidr.rsc
+- sed -i 's/^/:do { add address=&/g' ./output/all_cn_cidr.rsc
+- sed -i 's/$/& list=CN } on-error={}/g' ./output/all_cn_cidr.rsc
+- sed -i '1 i/log info "Loading CN ipv4 address list"' ./output/all_cn_cidr.rsc
+- sed -i '2 i/ip firewall address-list remove [/ip firewall address-list find list=CN]' ./output/all_cn_cidr.rsc
+- sed -i '3 i/ip firewall address-list' ./output/all_cn_cidr.rsc
 - DATE_TIME=$(date "+%Y-%m-%d %H:%M:%S")
 - cd /tmp/
 - git clone https://${GIT_USER}:${TOKEN}@github.com/${GIT_USER}/${REPO}.git --branch gh-pages --single-branch gh-pages > /dev/null 2>&1 || exit 1
