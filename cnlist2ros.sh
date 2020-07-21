@@ -38,10 +38,10 @@ cn_filename="all_cn_cidr.rsc"
 #开始处理 cn_filename 内容
 
 #1、每行行首增加字符串":do { add address="
-sed -i 's/^/:do { add address=&/g' ${cn_filename}
+sed -i 's/^/add address=&/g' ${cn_filename}
 
 #2、每行行尾增加字符串" list=CN } on-error={}"
-sed -i 's/$/& list=CN } on-error={}/g' ${cn_filename}
+sed -i 's/$/& list=CN/g' ${cn_filename}
 
 #3、在文件第1行前插入新行"/log info "Loading CN ipv4 address list""
 sed -i '1 i/log info "Loading CN ipv4 address list"' ${cn_filename}
