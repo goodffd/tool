@@ -26,7 +26,6 @@ script:
 - git config user.name "goodffd"
 - git config user.email "goodffd@gmail.com"
 - cp $TRAVIS_BUILD_DIR/output/* .
-- rm -f gfwlist_domain.rsc
 - git add -A
 - git commit -a -m "Configuration Files Generated on [$DATE_TIME]"
 - git push -fq origin gh-pages > /dev/null 2>&1 || exit 1
