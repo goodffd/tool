@@ -20,8 +20,8 @@ script:
 - sed -i 's/$/&\\$" type=FWD forward-to=$gfwdns/g' ./output/gfwlist_domain.rsc
 - sed -i '1 i:local gfwdns 10.10.0.1' ./output/gfwlist_domain.rsc
 - sed -i '2 i/ip dns static' ./output/gfwlist_domain.rsc
-- sed -i 's/^/:do { add address=&/g' ./output/all_cn_cidr.rsc
-- sed -i 's/$/& list=CN } on-error={}/g' ./output/all_cn_cidr.rsc
+- sed -i 's/^/add address=&/g' ./output/all_cn_cidr.rsc
+- sed -i 's/$/& list=CN/g' ./output/all_cn_cidr.rsc
 - sed -i '1 i/log info "Loading CN ipv4 address list"' ./output/all_cn_cidr.rsc
 - sed -i '2 i/ip firewall address-list remove [/ip firewall address-list find list=CN]' ./output/all_cn_cidr.rsc
 - sed -i '3 i/ip firewall address-list' ./output/all_cn_cidr.rsc
