@@ -62,5 +62,3 @@ sed -i '2 i/ip route rule remove [/ip route rule find table=ros]' /usr/share/ngi
 
 #5、在文件第3行前插入新行"/ip route rule"
 sed -i '3 i/ip route rule' /usr/share/nginx/${gfwlist_ip_filename}
-
-mv gfwlist_ip.rsc /usr/share/nginx/
