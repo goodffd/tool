@@ -42,7 +42,7 @@ rm -f gfwlist_ip.rsc
 
 while read -r line
 do
-  dig $line +short >> gfwlist_ip.rsc
+  dig $line +short | tail -n 1 >> gfwlist_ip.rsc
 done < gfwlist_domain.rsc
 
 gfwlist_ip_filename="gfwlist_ip.rsc"
