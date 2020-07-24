@@ -44,7 +44,11 @@ rm -f ${nginx_root}/gfwlist_ip.rsc
 
 while read -r line
 do
-  dig $line +short | tail -n 1 >> ${nginx_root}/gfwlist_ip.rsc
+  ip=`dig $line +short | tail -n 1`
+  ipcalc -cs ${ip}
+    if [ $? -eq 0 ]; then
+     echo ${ip} >> ${nginx_root}/gfwlist_ip.rsc
+    fi
 done < gfwlist_domain.rsc
 
 sort -n /usr/share/nginx/html/gfwlist_ip.rsc | uniq > ${nginx_root}/gfwlist_ip_finall.rsc
