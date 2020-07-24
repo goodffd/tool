@@ -35,7 +35,7 @@ wget -N --no-check-certificate -O ./all_cn_cidr.rsc https://ispip.clang.cn/all_c
 cp ./all_cn_cidr.rsc ./all_cn_cidr_rule.rsc
 
 cn_filename1="all_cn_cidr.rsc"
-#cn_filename2="all_cn_cidr_rule.rsc"
+cn_filename2="all_cn_cidr_rule.rsc"
 
 #开始处理 cn_filename1和2 内容
 # cn_filename1
