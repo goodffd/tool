@@ -49,16 +49,16 @@ gfwlist_ip_filename="gfwlist_ip.rsc"
 
 #开始处理 gfwlist_ip_filename 内容
 #1、每行行首增加字符串"add action=lookup dst-address="
-sed -i 's/^/add action=lookup dst-address=&/g' /usr/share/nginx/${gfwlist_ip_filename}
+sed -i 's/^/add action=lookup dst-address=&/g' /usr/share/nginx/html/${gfwlist_ip_filename}
 
 #2、每行行尾增加字符串" table=ros"
-sed -i 's/$/& table=ros/g' /usr/share/nginx/${gfwlist_ip_filename}
+sed -i 's/$/& table=ros/g' /usr/share/nginx/html/${gfwlist_ip_filename}
 
 #3、在文件第1行前插入新行"/log info "Loading gfwlist ipv4 route rules""
-sed -i '1 i/log info "Loading gfwlist ipv4 route rules"' /usr/share/nginx/${gfwlist_ip_filename}
+sed -i '1 i/log info "Loading gfwlist ipv4 route rules"' /usr/share/nginx/html/${gfwlist_ip_filename}
 
 #4、在文件第2行前插入新行"/ip route rule remove [/ip route rule find table=ros]"
-sed -i '2 i/ip route rule remove [/ip route rule find table=ros]' /usr/share/nginx/${gfwlist_ip_filename}
+sed -i '2 i/ip route rule remove [/ip route rule find table=ros]' /usr/share/nginx/html/${gfwlist_ip_filename}
 
 #5、在文件第3行前插入新行"/ip route rule"
-sed -i '3 i/ip route rule' /usr/share/nginx/${gfwlist_ip_filename}
+sed -i '3 i/ip route rule' /usr/share/nginx/html/${gfwlist_ip_filename}
