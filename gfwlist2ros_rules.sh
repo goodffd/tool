@@ -45,7 +45,9 @@ do
   dig $line +short | tail -n 1 >> /usr/share/nginx/gfwlist_ip.rsc
 done < gfwlist_domain.rsc
 
-gfwlist_ip_filename="gfwlist_ip.rsc"
+sort -n /usr/share/nginx/gfwlist_ip.rsc | uniq > /usr/share/nginx/gfwlist_ip_finall.rsc
+
+gfwlist_ip_filename="gfwlist_ip_finall.rsc"
 
 #开始处理 gfwlist_ip_filename 内容
 #1、每行行首增加字符串"add action=lookup dst-address="
