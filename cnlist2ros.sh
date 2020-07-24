@@ -56,7 +56,7 @@ sed -i '3 i/ip firewall address-list' ${cn_filename1}
 
 # cn_filename2
 #1、每行行首增加字符串"add action=lookup interface=gre-tunnel1 dst-address="
-sed -i 's/^/add action=lookup interface=gre-tunnel1 dst-address=&/g' ${cn_filename2}
+sed -i 's/^/add action=drop interface=gre-tunnel1 dst-address=&/g' ${cn_filename2}
 
 #2、每行行尾增加字符串" table=CN"
 sed -i 's/$/& table=CN/g' ${cn_filename2}
