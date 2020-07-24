@@ -35,7 +35,7 @@ wget -N --no-check-certificate -O ./all_cn_cidr.rsc https://ispip.clang.cn/all_c
 cp ./all_cn_cidr.rsc ./all_cn_cidr_rule.rsc
 
 cn_filename1="all_cn_cidr.rsc"
-cn_filename2="all_cn_cidr_rule.rsc"
+#cn_filename2="all_cn_cidr_rule.rsc"
 
 #开始处理 cn_filename1和2 内容
 # cn_filename1
@@ -56,16 +56,16 @@ sed -i '3 i/ip firewall address-list' ${cn_filename1}
 
 # cn_filename2
 #1、每行行首增加字符串"add action=lookup interface=gre-tunnel1 dst-address="
-sed -i 's/^/add action=drop interface=gre-tunnel1 dst-address=&/g' ${cn_filename2}
+#sed -i 's/^/add action=drop interface=gre-tunnel1 dst-address=&/g' ${cn_filename2}
 
 #2、每行行尾增加字符串" table=CN"
-sed -i 's/$/& table=CN/g' ${cn_filename2}
+#sed -i 's/$/& table=CN/g' ${cn_filename2}
 
 #3、在文件第1行前插入新行"/log info "Loading CN ipv4 rule""
-sed -i '1 i/log info "Loading CN ipv4 rule"' ${cn_filename2}
+#sed -i '1 i/log info "Loading CN ipv4 rule"' ${cn_filename2}
 
 #4、在文件第2行前插入新行"/ip route rule remove [/ip route rule find table=CN]"
-sed -i '2 i/ip route rule remove [/ip route rule find table=CN]' ${cn_filename2}
+#sed -i '2 i/ip route rule remove [/ip route rule find table=CN]' ${cn_filename2}
 
 #5、在文件第3行前插入新行"/ip route rule"
-sed -i '3 i/ip route rule' ${cn_filename2}
+#sed -i '3 i/ip route rule' ${cn_filename2}
