@@ -42,10 +42,10 @@ rm -f /usr/share/nginx/gfwlist_ip.rsc
 
 while read -r line
 do
-  dig $line +short | tail -n 1 >> /usr/share/nginx/gfwlist_ip.rsc
+  dig $line +short | tail -n 1 >> /usr/share/nginx/html/gfwlist_ip.rsc
 done < gfwlist_domain.rsc
 
-sort -n /usr/share/nginx/gfwlist_ip.rsc | uniq > /usr/share/nginx/gfwlist_ip_finall.rsc
+sort -n /usr/share/nginx/html/gfwlist_ip.rsc | uniq > /usr/share/nginx/html/gfwlist_ip_finall.rsc
 
 gfwlist_ip_filename="gfwlist_ip_finall.rsc"
 
