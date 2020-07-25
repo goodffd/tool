@@ -42,10 +42,10 @@ if [ $? -eq 0 ]; then
 fi
 EOF
 
+${sudoCmd} chmod +x /etc/sysconfig/modules/ip_gre.modules
 echo "load gre module...done."
 
 #安装必要的软件
-${sudoCmd} chmod +x /etc/sysconfig/modules/ip_gre.modules
 ${sudoCmd} ${systemPackage} -y install epel-release
 ${sudoCmd} ${systemPackage} -y install htop tcpdump net-tools bind-utils wget nano
 ${sudoCmd} rpm -vhU https://nmap.org/dist/nmap-7.80-1.x86_64.rpm
