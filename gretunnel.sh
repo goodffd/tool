@@ -181,6 +181,7 @@ ${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/tmp/smartdns.tar.gz" "${DOW
 ${sudoCmd} tar -zxf /tmp/smartdns.tar.gz -C /tmp
 ${sudoCmd} chmod +x /tmp/smartdns/install
 ${sudoCmd} /tmp/smartdns/install -i
+${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/master/smartdns.conf > /etc/smartdns/smartdns.conf 
 
 echo "install smartdns...done."
 
