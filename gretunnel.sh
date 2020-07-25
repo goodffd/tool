@@ -80,7 +80,6 @@ PEER_INNER_IPADDR=10.10.0.2
 MY_OUTER_IPADDR=$my_ip
 MY_INNER_IPADDR=10.10.0.1
 BOOTPROTO=static
-MTU=1406
 EOF
 
 ${sudoCmd} systemctl restart network
@@ -171,6 +170,9 @@ ${sudoCmd} sysctl -p
 
 echo "set sysctl...done."
 
+echo "nameserver 127.0.0.1" > /etc/resolv.conf
+${sudoCmd} chattr +i /etc/resolv.conf
+
 #安装并配置smartdns
 ${sudoCmd} ${systemPackage} install -y curl tar
 API_URL="https://api.github.com/repos/pymumu/smartdns/releases/latest"
@@ -186,6 +188,7 @@ echo "install smartdns...done."
 ${sudoCmd} ${systemPackage} install -y iptables-services
 ${sudoCmd} systemctl enable iptables.service
 ${sudoCmd} iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
+${sudoCmd} iptables -t mangle -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
 ${sudoCmd} service iptables save
 
 echo "install iptables & nat masquerdo...done."
