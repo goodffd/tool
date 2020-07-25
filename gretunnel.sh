@@ -61,7 +61,7 @@ ${sudoCmd} systemctl stop firewalld.service
 ${sudoCmd} systemctl disable firewalld.service
 
 #创建gre接口
-${sudoCmd} cat >>/etc/sysconfig/network-scripts/ifcfg-tun0 <<EOF 
+${sudoCmd} cat >/etc/sysconfig/network-scripts/ifcfg-tun0 <<EOF 
 DEVICE=tun0
 ONBOOT=yes
 TYPE=GRE
@@ -78,7 +78,7 @@ ${sudoCmd} systemctl restart network
 ${sudoCmd} ${systemPackage} install -y libreswan unbound-devel
 ${sudoCmd} systemctl enable ipsec
 
-${sudoCmd} cat >>/etc/ipsec.d/gre1.conf <<EOF
+${sudoCmd} cat >/etc/ipsec.d/gre1.conf <<EOF
 conn gre1
     type=transport
     left=%defaultroute
@@ -100,7 +100,7 @@ conn gre1
 EOF
 
 #创建预共享密码
-${sudoCmd} cat >>/etc/ipsec.d/gre1.secrets <<EOF
+${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<EOF
 %any 0.0.0.0: PSK "u#H!Qv0p"
 EOF
 
@@ -164,10 +164,28 @@ ${sudoCmd} tar zxf /tmp/smartdns.tar.gz
 ${sudoCmd} chmod +x /tmp/smartdns/install
 ${sudoCmd} /tmp/smartdns/install -i
 
-安装iptables
-yum install -y iptables iptables-services
+#安装iptables
+${sudoCmd} ${systemPackage} install -y iptables-services
+${sudoCmd} systemctl enable iptables.service
+${sudoCmd} iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
+${sudoCmd} service iptables save
 
-
-开启服务，设置开机自启动
-systemctl enable iptables.service
-      
+#配置ddns脚本
+${sudoCmd} cat >/root/monitor.sh <<EOF
+#!/bin/bash
+oldip=$(awk -F: '/PEER_OUTER_IPADDR/' /etc/sysconfig/network-scripts/ifcfg-tun0 | cut -d '=' -f 2)
+newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
+if [ "$oldip" = "$newip" ];then
+    echo "No Change IP!"
+else
+sed -i '4c PEER_OUTER_IPADDR='$newip'' /etc/sysconfig/network-scripts/ifcfg-tun0
+sed -i '5c \    right='$newip'' /etc/ipsec.d/gre1.conf
+sleep 1
+/sbin/ipsec restart
+systemctl restart network
+ping 10.10.0.2 -c5
+        echo "IP updated!"
+fi
+EOF
+${sudoCmd} chmod +x /root/monitor.sh
+echo "*/2 * * * * bash /root/monitor.sh" >> /var/spool/cron/root
