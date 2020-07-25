@@ -42,12 +42,17 @@ nginx_root="/usr/share/nginx/html"
 
 rm -f ${nginx_root}/gfwlist_ip.rsc
 
+#解析gfwlist域名并验证解析结果是否为合法的ip地址
 while read -r line
 do
-  ip=`dig $line +short | tail -n 1`
+  #将读取的每一行域名删除回车符、换行符
+  line=`echo ${line} | tr -d '\n' | tr -d '\r'`
+  #取dig answer段的最后一行解析结果（解析出来如果是有CNAME记录和ip记录，则ip记录是在最后行）
+  ip=`dig ${line} +short | tail -n 1`
+  #用ipcalc验证ip地址合法性（如果dig的结果为非ip地址，如CNAME，则判定为非合法的ip地址
   ipcalc -cs ${ip}
     if [ $? -eq 0 ]; then
-     echo ${ip} >> ${nginx_root}/gfwlist_ip.rsc
+     echo ${ip} >> gfwlist_ip.rsc
     fi
 done < gfwlist_domain.rsc
 
