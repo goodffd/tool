@@ -69,7 +69,7 @@ ${sudoCmd} systemctl disable firewalld.service
 echo "stop & disable firewalld...done."
 
 #创建gre接口
-my_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -1`
+my_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
 ros_ip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
 ${sudoCmd} cat >/etc/sysconfig/network-scripts/ifcfg-tun0 <<EOF 
 DEVICE=tun0
