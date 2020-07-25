@@ -170,8 +170,8 @@ echo "set sysctl...done."
 
 #安装并配置smartdns
 ${sudoCmd} ${systemPackage} install -y curl tar
-local API_URL="https://api.github.com/repos/pymumu/smartdns/releases/latest"
-local DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'x86_64-linux-all' | cut -d\" -f4)"
+API_URL="https://api.github.com/repos/pymumu/smartdns/releases/latest"
+DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'x86_64-linux-all' | cut -d\" -f4)"
 ${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/tmp/smartdns.tar.gz" "${DOWNLOAD_URL}"
 ${sudoCmd} tar zxf /tmp/smartdns.tar.gz
 ${sudoCmd} chmod +x /tmp/smartdns/install
