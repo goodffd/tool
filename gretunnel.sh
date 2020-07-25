@@ -172,8 +172,6 @@ ${sudoCmd} sysctl -p
 
 echo "set sysctl...done."
 
-echo "nameserver 127.0.0.1" > /etc/resolv.conf
-${sudoCmd} chattr +i /etc/resolv.conf
 
 #安装并配置smartdns
 ${sudoCmd} ${systemPackage} install -y curl tar
@@ -186,6 +184,7 @@ ${sudoCmd} /tmp/smartdns/install -i
 
 echo "install smartdns...done."
 
+
 #安装iptables
 ${sudoCmd} ${systemPackage} install -y iptables-services
 ${sudoCmd} systemctl enable iptables.service
@@ -194,6 +193,10 @@ ${sudoCmd} iptables -t mangle -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -
 ${sudoCmd} service iptables save
 
 echo "install iptables & nat masquerdo & Change MSS...done."
+
+#域名解析指向本地
+echo "nameserver 127.0.0.1" > /etc/resolv.conf
+${sudoCmd} chattr +i /etc/resolv.conf
 
 #配置ddns脚本
 ${sudoCmd} cat >/root/monitor.sh <<EOF
