@@ -42,6 +42,8 @@ if [ $? -eq 0 ]; then
 fi
 EOF
 
+echo "load gre module...done."
+
 #安装必要的软件
 ${sudoCmd} chmod +x /etc/sysconfig/modules/ip_gre.modules
 ${sudoCmd} ${systemPackage} -y install epel-release
@@ -52,13 +54,19 @@ ${sudoCmd} rpm -vhU https://nmap.org/dist/nmap-7.80-1.x86_64.rpm
 ${sudoCmd} systemctl stop networkManager
 ${sudoCmd} systemctl disable networkManager
 
+echo "stop & disable networkManager...done."
+
 #关闭SELINUX
 ${sudoCmd} sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
 ${sudoCmd} sed -i 's/SELINUX=permissive/SELINUX=disabled/g' /etc/sysconfig/selinux
 
+echo "disable SELINUX...done."
+
 #关闭防火墙
 ${sudoCmd} systemctl stop firewalld.service
 ${sudoCmd} systemctl disable firewalld.service
+
+echo "stop & disable firewalld...done."
 
 #创建gre接口
 ${sudoCmd} cat >/etc/sysconfig/network-scripts/ifcfg-tun0 <<EOF 
@@ -73,6 +81,7 @@ BOOTPROTO=static
 EOF
 
 ${sudoCmd} systemctl restart network
+echo "create gre interface...done."
 
 #安装并配置ipsec
 ${sudoCmd} ${systemPackage} install -y libreswan unbound-devel
@@ -103,6 +112,8 @@ EOF
 ${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<EOF
 %any 0.0.0.0: PSK "u#H!Qv0p"
 EOF
+
+echo "install ipsec for gre...done."
 
 #配置系统内核sysctl
 ${sudoCmd} cat >>/etc/sysctl.conf <<EOF
@@ -155,6 +166,8 @@ EOF
 
 ${sudoCmd} sysctl -p
 
+echo "set sysctl...done."
+
 #安装并配置smartdns
 ${sudoCmd} ${systemPackage} install -y curl tar
 local API_URL="https://api.github.com/repos/pymumu/smartdns/releases/latest"
@@ -164,11 +177,15 @@ ${sudoCmd} tar zxf /tmp/smartdns.tar.gz
 ${sudoCmd} chmod +x /tmp/smartdns/install
 ${sudoCmd} /tmp/smartdns/install -i
 
+echo "install smartdns...done."
+
 #安装iptables
 ${sudoCmd} ${systemPackage} install -y iptables-services
 ${sudoCmd} systemctl enable iptables.service
 ${sudoCmd} iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
 ${sudoCmd} service iptables save
+
+echo "install iptables & nat masquerdo...done."
 
 #配置ddns脚本
 ${sudoCmd} cat >/root/monitor.sh <<EOF
@@ -189,3 +206,6 @@ fi
 EOF
 ${sudoCmd} chmod +x /root/monitor.sh
 echo "*/2 * * * * bash /root/monitor.sh" >> /var/spool/cron/root
+${sudoCmd} systemctl restart crond
+
+echo "cron ddns scripts...done."
