@@ -69,15 +69,15 @@ ${sudoCmd} systemctl disable firewalld.service
 echo "stop & disable firewalld...done."
 
 #创建gre接口
-my_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
-ros_ip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
+local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
+remote_ip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
 ${sudoCmd} cat >/etc/sysconfig/network-scripts/ifcfg-tun0 <<EOF 
 DEVICE=tun0
 ONBOOT=yes
 TYPE=GRE
-PEER_OUTER_IPADDR=$ros_ip
+PEER_OUTER_IPADDR=$remote_ip
 PEER_INNER_IPADDR=10.10.0.2
-MY_OUTER_IPADDR=$my_ip
+MY_OUTER_IPADDR=$local_ip
 MY_INNER_IPADDR=10.10.0.1
 BOOTPROTO=static
 EOF
@@ -94,7 +94,7 @@ conn gre1
     type=transport
     left=%defaultroute
     leftprotoport=gre
-    right=$ros_ip
+    right=$remote_ip
     rightprotoport=gre
     ike=aes128-sha1;modp1024
     phase2alg=aes128-sha1,aes256-sha256
