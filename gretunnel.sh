@@ -80,6 +80,7 @@ PEER_INNER_IPADDR=10.10.0.2
 MY_OUTER_IPADDR=$my_ip
 MY_INNER_IPADDR=10.10.0.1
 BOOTPROTO=static
+MTU=1406
 EOF
 
 ${sudoCmd} systemctl restart network
