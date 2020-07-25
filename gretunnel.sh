@@ -111,8 +111,10 @@ conn gre1
 EOF
 
 #创建预共享密码
+${sudoCmd} ${systemPackage} install -y pwgen
+psk=$(pwgen -1cny 10)
 ${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<EOF
-%any 0.0.0.0: PSK "u#H!Qv0p"
+%any 0.0.0.0: PSK "$psk"
 EOF
 
 echo "install ipsec for gre...done."
