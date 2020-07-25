@@ -207,7 +207,7 @@ ping 10.10.0.2 -c5
 fi
 EOF
 ${sudoCmd} chmod +x /root/monitor.sh
-echo "*/2 * * * * bash /root/monitor.sh" >> /var/spool/cron/root
+echo "*/5 * * * * bash /root/monitor.sh" >> /var/spool/cron/root
 ${sudoCmd} systemctl restart crond
 
 echo "cron ddns scripts...done."
