@@ -191,7 +191,7 @@ ${sudoCmd} iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
 ${sudoCmd} iptables -t mangle -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
 ${sudoCmd} service iptables save
 
-echo "install iptables & nat masquerdo...done."
+echo "install iptables & nat masquerdo & Change MSS...done."
 
 #配置ddns脚本
 ${sudoCmd} cat >/root/monitor.sh <<EOF
