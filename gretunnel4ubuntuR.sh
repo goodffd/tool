@@ -170,8 +170,15 @@ ${sudoCmd} ${systemPackage} install -y iptables
 ${sudoCmd} cat > /etc/network-conf.sh <<-"EOF"  
 #!/bin/bash
 common() {
-      iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
-      iptables -t mangle -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+      is_exist=$(iptables-save | grep -- "-A POSTROUTING -o eth0 -j MASQUERADE")
+      if [[ -z "${is_exist}" ]]; then
+          ${sudoCmd} iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
+      fi
+
+      is_exist=$(iptables-save | grep -- "-A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu")
+      if [[ -z "${is_exist}" ]]; then
+          ${sudoCmd} iptables -t mangle -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+      fi
       local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
       remote_ip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
       ip tunnel add tun0 mode gre remote $remote_ip local $local_ip ttl 255
