@@ -1,5 +1,22 @@
 #!/bin/bash
 #本脚本仅适用centos7以上
+_green() {
+    printf '\033[1;31;32m'
+    printf -- "%b" "$1"
+    printf '\033[0m'
+}
+
+_red() {
+    printf '\033[1;31;31m'
+    printf -- "%b" "$1"
+    printf '\033[0m'
+}
+
+_yellow() {
+    printf '\033[1;31;33m'
+    printf -- "%b" "$1"
+    printf '\033[0m'
+}
 
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
   sudoCmd="sudo"
@@ -43,7 +60,7 @@ fi
 EOF
 
 ${sudoCmd} chmod +x /etc/sysconfig/modules/ip_gre.modules
-echo "load gre module...done."
+_yellow 'load gre module...done.\n'
 
 #安装必要的软件
 ${sudoCmd} ${systemPackage} -y install epel-release
@@ -54,19 +71,19 @@ ${sudoCmd} rpm -vhU https://nmap.org/dist/nmap-7.80-1.x86_64.rpm
 ${sudoCmd} systemctl stop networkManager
 ${sudoCmd} systemctl disable networkManager
 
-echo "stop & disable networkManager...done."
+_yellow 'stop & disable networkManager...done.\n'
 
 #关闭SELINUX
 ${sudoCmd} sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
 ${sudoCmd} sed -i 's/SELINUX=permissive/SELINUX=disabled/g' /etc/sysconfig/selinux
 
-echo "disable SELINUX...done."
+_yellow 'disable SELINUX...done.\n'
 
 #关闭防火墙
 ${sudoCmd} systemctl stop firewalld.service
 ${sudoCmd} systemctl disable firewalld.service
 
-echo "stop & disable firewalld...done."
+_yellow 'stop & disable firewalld...done.\n'
 
 #创建gre接口
 local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
@@ -83,7 +100,7 @@ BOOTPROTO=static
 EOF
 
 ${sudoCmd} systemctl restart network
-echo "create gre interface...done."
+_yellow 'create gre interface...done.\n'
 
 #安装并配置ipsec
 ${sudoCmd} ${systemPackage} install -y libreswan unbound-devel
@@ -117,7 +134,7 @@ ${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<-EOF
 %any 0.0.0.0: PSK "${psk}"
 EOF
 
-echo "install ipsec for gre...done."
+_yellow 'install ipsec for gre...done.\n'
 
 #配置系统内核sysctl
 ${sudoCmd} cat >>/etc/sysctl.conf <<-EOF
@@ -170,7 +187,7 @@ EOF
 
 ${sudoCmd} sysctl -p
 
-echo "set sysctl...done."
+_yellow 'set sysctl...done.\'
 
 
 #安装并配置smartdns
@@ -189,7 +206,7 @@ ${sudoCmd} systemctl start smartdns.service
 echo "nameserver 127.0.0.1" > /etc/resolv.conf
 ${sudoCmd} chattr +i /etc/resolv.conf
 
-echo "install smartdns...done."
+_yellow 'install smartdns...done.\n'
 
 
 #安装iptables
@@ -207,7 +224,7 @@ if [[ -z "${is_exist}" ]]; then
 fi
 ${sudoCmd} service iptables save
 
-echo "install iptables & nat masquerdo & Change MSS...done."
+_yellow 'install iptables & nat masquerdo & Change MSS...done.\n'
 
 
 #配置ddns脚本
@@ -231,4 +248,4 @@ ${sudoCmd} chmod +x /root/monitor.sh
 echo "*/5 * * * * bash /root/monitor.sh" >> /var/spool/cron/root
 ${sudoCmd} systemctl restart crond
 
-echo "cron ddns scripts...done."
+_yellow 'cron ddns scripts...done.\n'
