@@ -75,9 +75,9 @@ ${sudoCmd} cat >/etc/sysconfig/network-scripts/ifcfg-tun0 <<-EOF
 DEVICE=tun0
 ONBOOT=yes
 TYPE=GRE
-PEER_OUTER_IPADDR=$remote_ip
+PEER_OUTER_IPADDR=${remote_ip}
 PEER_INNER_IPADDR=10.10.0.2
-MY_OUTER_IPADDR=$local_ip
+MY_OUTER_IPADDR=${local_ip}
 MY_INNER_IPADDR=10.10.0.1
 BOOTPROTO=static
 EOF
@@ -94,7 +94,7 @@ conn gre1
     type=transport
     left=%defaultroute
     leftprotoport=gre
-    right=$remote_ip
+    right=${remote_ip}
     rightprotoport=gre
     ike=aes128-sha1;modp1024
     phase2alg=aes128-sha1,aes256-sha256
@@ -114,7 +114,7 @@ EOF
 ${sudoCmd} ${systemPackage} install -y pwgen
 psk=$(pwgen -1cny 10)
 ${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<-EOF
-%any 0.0.0.0: PSK "$psk"
+%any 0.0.0.0: PSK "${psk}"
 EOF
 
 echo "install ipsec for gre...done."
