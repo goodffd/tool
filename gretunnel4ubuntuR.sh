@@ -1,5 +1,22 @@
 #!/bin/bash
 #本脚本适用/etc/network/interfaces被接管、没有rc.local的ubuntu
+_green() {
+    printf '\033[1;31;32m'
+    printf -- "%b" "$1"
+    printf '\033[0m'
+}
+
+_red() {
+    printf '\033[1;31;31m'
+    printf -- "%b" "$1"
+    printf '\033[0m'
+}
+
+_yellow() {
+    printf '\033[1;31;33m'
+    printf -- "%b" "$1"
+    printf '\033[0m'
+}
 
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
   sudoCmd="sudo"
@@ -35,7 +52,7 @@ fi
 #加载gre模块
 echo "ip_gre" >> /etc/modules
 
-echo "load gre module...done."
+_green 'load gre module...done.\n'
 
 #安装必要的软件
 ${sudoCmd} ${systemPackage} -y htop tcpdump net-tools dnsutils wget nano
@@ -44,7 +61,7 @@ ${sudoCmd} ${systemPackage} -y htop tcpdump net-tools dnsutils wget nano
 ${sudoCmd} systemctl stop networkManager
 ${sudoCmd} systemctl disable networkManager
 
-echo "stop & disable networkManager...done."
+_green 'stop & disable networkManager...done.\n'
 
 
 #创建gre接口
@@ -54,7 +71,7 @@ ${sudoCmd} ip tunnel add tun0 mode gre remote ${remote_ip} local ${local_ip} ttl
 ${sudoCmd} ip link set tun0 up
 ${sudoCmd} ip addr add 10.10.0.1/24 dev tun0
 
-echo "create gre interface...done."
+_green 'create gre interface...done.\n'
 
 #安装并配置ipsec
 ${sudoCmd} ${systemPackage} install -y libreswan
@@ -88,7 +105,7 @@ ${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<-EOF
 %any 0.0.0.0: PSK "${psk}"
 EOF
 
-echo "install ipsec for gre...done."
+_green 'install ipsec for gre...done.\n'
 
 #配置系统内核sysctl
 ${sudoCmd} cat >>/etc/sysctl.conf <<-EOF
@@ -141,7 +158,7 @@ EOF
 
 ${sudoCmd} sysctl -p
 
-echo "set sysctl...done."
+_green 'set sysctl...done.\n'
 
 
 #安装并配置smartdns
@@ -162,7 +179,7 @@ ${sudoCmd} mv /etc/resolv.conf /etc/resolv.conf.bak
 echo "nameserver 127.0.0.1" > /etc/resolv.conf
 ${sudoCmd} chattr +i /etc/resolv.conf
 
-echo "install smartdns...done."
+_green 'install smartdns...done.\n'
 
 
 #安装iptables并配置systemd服务（含gre接口开机加载）
@@ -204,7 +221,7 @@ EOF
 systemctl enable network-conf.service
 systemctl start network-conf.service
 
-echo "install iptables & nat masquerdo & Change MSS & gretunnel load at start...done."
+_green 'install iptables & nat masquerdo & Change MSS & gretunnel load at start...done.\n'
 
 
 #配置ddns脚本
@@ -231,4 +248,4 @@ ${sudoCmd} chmod +x /root/monitor.sh
 echo "*/5 * * * * bash /root/monitor.sh" >> /var/spool/cron/crontabs/root
 ${sudoCmd} systemctl restart cron
 
-echo "cron ddns scripts...done."
+_green 'cron ddns scripts...done.\n'
