@@ -152,8 +152,9 @@ ${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/tmp/smartdns.tar.gz" "${DOW
 ${sudoCmd} tar -zxf /tmp/smartdns.tar.gz -C /tmp
 ${sudoCmd} chmod +x /tmp/smartdns/install
 ${sudoCmd} /tmp/smartdns/install -i
+${sudoCmd} systemctl stop smartdns.service
 ${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/master/smartdns.conf > /etc/smartdns/smartdns.conf 
-${sudoCmd} systemctl restart smartdns.service
+${sudoCmd} systemctl start smartdns.service
 
 #域名解析指向本地并加锁
 ${sudoCmd} sed -i 's/#DNSStubListener=yes/DNSStubListener=no/g' /etc/systemd/resolved.conf
