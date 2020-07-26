@@ -183,6 +183,10 @@ ${sudoCmd} chmod +x /tmp/smartdns/install
 ${sudoCmd} /tmp/smartdns/install -i
 ${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/master/smartdns.conf > /etc/smartdns/smartdns.conf 
 
+#域名解析指向本地并加锁
+echo "nameserver 127.0.0.1" > /etc/resolv.conf
+${sudoCmd} chattr +i /etc/resolv.conf
+
 echo "install smartdns...done."
 
 
@@ -195,9 +199,6 @@ ${sudoCmd} service iptables save
 
 echo "install iptables & nat masquerdo & Change MSS...done."
 
-#域名解析指向本地
-echo "nameserver 127.0.0.1" > /etc/resolv.conf
-${sudoCmd} chattr +i /etc/resolv.conf
 
 #配置ddns脚本
 ${sudoCmd} cat >/root/monitor.sh <<EOF
