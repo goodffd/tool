@@ -203,6 +203,7 @@ echo "install iptables & nat masquerdo & Change MSS & gretunnel load at start...
 #配置ddns脚本
 ${sudoCmd} cat >/root/monitor.sh <<-"EOF"
 #!/bin/bash
+local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
 oldip=$(ip addr|grep -o -e 'peer [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|awk '{print $2}')
 newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
 if [ "$oldip" = "$newip" ];then
