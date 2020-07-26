@@ -1,4 +1,22 @@
 #!/bin/bash
+_green() {
+    printf '\033[1;31;32m'
+    printf -- "%b" "$1"
+    printf '\033[0m'
+}
+
+_red() {
+    printf '\033[1;31;31m'
+    printf -- "%b" "$1"
+    printf '\033[0m'
+}
+
+_yellow() {
+    printf '\033[1;31;33m'
+    printf -- "%b" "$1"
+    printf '\033[0m'
+}
+
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
   sudoCmd="sudo"
 else
@@ -38,7 +56,7 @@ fi
 ${sudoCmd} ${systemPackage} install wget nginx -y -qq
 wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh && chmod +x gfwlist2dnsmasq.sh && sh ./gfwlist2dnsmasq.sh -l -o ./gfwlist_domain.rsc
 
-echo "start resolve domain."
+_green 'start resolve domain.\n'
 nginx_root="/usr/share/nginx/html"
 
 rm -f ${nginx_root}/gfwlist_ip.rsc
@@ -93,4 +111,4 @@ sed -i '2 i/ip route rule remove [/ip route rule find table=ros]' ${nginx_root}/
 #5、在文件第3行前插入新行"/ip route rule"
 sed -i '3 i/ip route rule' ${nginx_root}/${gfwlist_ip_filename}
 
-echo "all is done."
+_green 'all is done.\n'
