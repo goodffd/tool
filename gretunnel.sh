@@ -202,7 +202,7 @@ echo "install iptables & nat masquerdo & Change MSS...done."
 
 
 #配置ddns脚本
-${sudoCmd} cat >/root/monitor.sh <<-EOF
+${sudoCmd} cat >/root/monitor.sh <<-"EOF"
 #!/bin/bash
 oldip=$(awk -F: '/PEER_OUTER_IPADDR/' /etc/sysconfig/network-scripts/ifcfg-tun0 | cut -d '=' -f 2)
 newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
