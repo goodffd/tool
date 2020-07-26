@@ -55,7 +55,7 @@ echo "ip_gre" >> /etc/modules
 _green 'load gre module...done.\n'
 
 #安装必要的软件
-${sudoCmd} ${systemPackage} -y htop tcpdump net-tools dnsutils wget nano
+${sudoCmd} ${systemPackage} -y net-tools dnsutils wget -qq
 
 #关闭网络管理（如果开启的话）
 ${sudoCmd} systemctl stop networkManager
@@ -74,7 +74,7 @@ ${sudoCmd} ip addr add 10.10.0.1/24 dev tun0
 _green 'create gre interface...done.\n'
 
 #安装并配置ipsec
-${sudoCmd} ${systemPackage} install -y libreswan
+${sudoCmd} ${systemPackage} install -y libreswan -qq
 ${sudoCmd} systemctl enable ipsec
 
 ${sudoCmd} cat >/etc/ipsec.d/gre1.conf <<-EOF
@@ -99,7 +99,7 @@ conn gre1
 EOF
 
 #创建预共享密码
-${sudoCmd} ${systemPackage} install -y pwgen
+${sudoCmd} ${systemPackage} install -y pwgen -qq
 psk=$(pwgen -1cny 10)
 ${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<-EOF
 %any 0.0.0.0: PSK "${psk}"
@@ -162,7 +162,7 @@ _green 'set sysctl...done.\n'
 
 
 #安装并配置smartdns
-${sudoCmd} ${systemPackage} install -y curl tar
+${sudoCmd} ${systemPackage} install -y curl tar -qq
 API_URL="https://api.github.com/repos/pymumu/smartdns/releases/latest"
 DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'x86_64-linux-all' | cut -d\" -f4)"
 ${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/tmp/smartdns.tar.gz" "${DOWNLOAD_URL}"
@@ -183,7 +183,7 @@ _green 'install smartdns...done.\n'
 
 
 #安装iptables并配置systemd服务（含gre接口开机加载）
-${sudoCmd} ${systemPackage} install -y iptables
+${sudoCmd} ${systemPackage} install -y iptables -qq
 ${sudoCmd} cat > /etc/network-conf.sh <<-"EOF"  
 #!/bin/bash
 common() {
