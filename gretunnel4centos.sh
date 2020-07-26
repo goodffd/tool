@@ -187,7 +187,7 @@ EOF
 
 ${sudoCmd} sysctl -p
 
-_yellow 'set sysctl...done.\'
+_yellow 'set sysctl...done.\n'
 
 
 #安装并配置smartdns
