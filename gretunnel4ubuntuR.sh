@@ -166,7 +166,6 @@ echo "install smartdns...done."
 
 #安装iptables并配置systemd服务（含gre接口开机加载）
 ${sudoCmd} ${systemPackage} install -y iptables
-${sudoCmd} systemctl enable iptables.service
 ${sudoCmd} cat > /etc/network-conf.sh <<-"EOF"  
 #!/bin/bash
 common() {
