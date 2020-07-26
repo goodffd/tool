@@ -49,11 +49,9 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
 fi
 
 if [ ${systemPackage} == "yum" ]; then
-    ${sudoCmd} ${systemPackage} install bind-utils -y -q
-    ${sudoCmd} ${systemPackage} install wget nginx -y -q
+    ${sudoCmd} ${systemPackage} install bind-utils wget nginx -y -q
 else
-    ${sudoCmd} ${systemPackage} install dnsutils -y -qq
-    ${sudoCmd} ${systemPackage} install wget nginx -y -qq
+    ${sudoCmd} ${systemPackage} install dnsutils wget nginx -y -qq
 fi
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh && chmod +x gfwlist2dnsmasq.sh && sh ./gfwlist2dnsmasq.sh -l -o ./gfwlist_domain.rsc
