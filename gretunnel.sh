@@ -34,7 +34,7 @@ fi
 
 #加载gre模块
 ${sudoCmd} modprobe ip_gre
-${sudoCmd} cat >>/etc/sysconfig/modules/ip_gre.modules <<EOF
+${sudoCmd} cat >>/etc/sysconfig/modules/ip_gre.modules <<-EOF
 #!/bin/sh 
 /sbin/modinfo -F filename ip_gre > /dev/null 2>&1 
 if [ $? -eq 0 ]; then 
@@ -71,7 +71,7 @@ echo "stop & disable firewalld...done."
 #创建gre接口
 local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
 remote_ip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
-${sudoCmd} cat >/etc/sysconfig/network-scripts/ifcfg-tun0 <<EOF 
+${sudoCmd} cat >/etc/sysconfig/network-scripts/ifcfg-tun0 <<-EOF 
 DEVICE=tun0
 ONBOOT=yes
 TYPE=GRE
@@ -89,7 +89,7 @@ echo "create gre interface...done."
 ${sudoCmd} ${systemPackage} install -y libreswan unbound-devel
 ${sudoCmd} systemctl enable ipsec
 
-${sudoCmd} cat >/etc/ipsec.d/gre1.conf <<EOF
+${sudoCmd} cat >/etc/ipsec.d/gre1.conf <<-EOF
 conn gre1
     type=transport
     left=%defaultroute
@@ -113,14 +113,14 @@ EOF
 #创建预共享密码
 ${sudoCmd} ${systemPackage} install -y pwgen
 psk=$(pwgen -1cny 10)
-${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<EOF
+${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<-EOF
 %any 0.0.0.0: PSK "$psk"
 EOF
 
 echo "install ipsec for gre...done."
 
 #配置系统内核sysctl
-${sudoCmd} cat >>/etc/sysctl.conf <<EOF
+${sudoCmd} cat >>/etc/sysctl.conf <<-EOF
 #打开IP转发
 net.ipv4.conf.all.forwarding = 1
 net.ipv4.conf.default.forwarding = 1
@@ -202,7 +202,7 @@ echo "install iptables & nat masquerdo & Change MSS...done."
 
 
 #配置ddns脚本
-${sudoCmd} cat >/root/monitor.sh <<EOF
+${sudoCmd} cat >/root/monitor.sh <<-EOF
 #!/bin/bash
 oldip=$(awk -F: '/PEER_OUTER_IPADDR/' /etc/sysconfig/network-scripts/ifcfg-tun0 | cut -d '=' -f 2)
 newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
