@@ -1,5 +1,5 @@
 #!/bin/bash
-#本脚本适用/etc/network/interfaces被接管的ubuntu
+#本脚本适用/etc/network/interfaces被接管、没有rc.local的ubuntu
 
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
   sudoCmd="sudo"
