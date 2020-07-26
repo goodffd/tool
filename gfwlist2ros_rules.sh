@@ -50,12 +50,16 @@ do
   line=`echo ${line} | tr -d '\n' | tr -d '\r'`
   #取dig answer段的最后一行解析结果（解析出来如果是有CNAME记录和ip记录，则ip记录是在最后行）
   ip=`dig ${line} +short | tail -n 1`
-  #用ipcalc验证ip地址合法性（如果dig的结果为非ip地址，如CNAME，则判定为非合法的ip地址
-  #ipcalc适用centos、unbuntu，不适用debian系统
-  ipcalc -cs ${ip}
-    if [ $? -eq 0 ]; then
-     echo ${ip} >> ${nginx_root}/gfwlist_ip.rsc
-    fi
+  #用ipcalc验证ip地址合法性（如果dig的结果为非ip地址，如CNAME，则判定为非合法的ip地址）
+  #因ipcalc只适用centos，改用脚本判断
+  #ipcalc -cs ${ip}
+  #  if [ $? -eq 0 ]; then
+  #   echo ${ip} >> ${nginx_root}/gfwlist_ip.rsc
+  #  fi
+     VALID_CHECK=$(echo $ip|awk -F. '$1<=255&&$2<=255&&$3<=255&&$4<=255{print "yes"}')
+        if [ ${VALID_CHECK:-no} == "yes" ]; then
+            echo ${ip} >> ${nginx_root}/gfwlist_ip.rsc
+        fi
 done < gfwlist_domain.rsc
 
 sort -n ${nginx_root}/gfwlist_ip.rsc | uniq > ${nginx_root}/gfwlist_ip_finall.rsc
