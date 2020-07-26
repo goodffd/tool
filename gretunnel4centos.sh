@@ -195,8 +195,16 @@ echo "install smartdns...done."
 #安装iptables
 ${sudoCmd} ${systemPackage} install -y iptables-services
 ${sudoCmd} systemctl enable iptables.service
-${sudoCmd} iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
-${sudoCmd} iptables -t mangle -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+
+is_exist=$(iptables-save | grep -- "-A POSTROUTING -o eth0 -j MASQUERADE")
+if [ -z ${is_exit} ]; then
+    ${sudoCmd} iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
+fi
+
+is_exist=$(iptables-save | grep -- "-A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu")
+if [ -z ${is_exit} ]; then
+    ${sudoCmd} iptables -t mangle -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+fi
 ${sudoCmd} service iptables save
 
 echo "install iptables & nat masquerdo & Change MSS...done."
