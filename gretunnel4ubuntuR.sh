@@ -224,7 +224,7 @@ systemctl start network-conf.service
 _green 'install iptables & nat masquerdo & Change MSS & gretunnel load at start...done.\n'
 
 
-#配置ddns脚本
+#配置自动更新gre和ipsec配置文件里的动态对端ip（ros侧）脚本
 ${sudoCmd} cat >/root/monitor.sh <<-"EOF"
 #!/bin/bash
 local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
@@ -233,15 +233,15 @@ newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
 if [ "$oldip" = "$newip" ];then
     echo "No Change IP!"
 else
-ip tunnel del tun0
-ip tunnel add tun0 mode gre remote $newip local $local_ip ttl 255
-ip link set tun0 up
-ip addr add 10.10.0.1/24 dev tun0
-sed -i '5c \    right='$newip'' /etc/ipsec.d/gre1.conf
-sleep 1
-/sbin/ipsec restart
-ping 10.10.0.2 -c5
-        echo "IP updated!"
+    ip tunnel del tun0
+    ip tunnel add tun0 mode gre remote $newip local $local_ip ttl 255
+    ip link set tun0 up
+    ip addr add 10.10.0.1/24 dev tun0
+    sed -i '5c \    right='$newip'' /etc/ipsec.d/gre1.conf
+    sleep 1
+    /sbin/ipsec restart
+    ping 10.10.0.2 -c5
+    echo "IP updated!"
 fi
 EOF
 ${sudoCmd} chmod +x /root/monitor.sh
