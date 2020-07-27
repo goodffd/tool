@@ -230,7 +230,7 @@ ${sudoCmd} cat >/root/monitor.sh <<-"EOF"
 local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
 oldip=$(ip addr|grep -o -e 'peer [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|awk '{print $2}')
 newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
-if [ "$oldip" = "$newip" ];then
+if [ "$oldip" = "$newip" ]; then
     echo "No Change IP!"
 else
     ip tunnel del tun0
