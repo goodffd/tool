@@ -226,7 +226,7 @@ ${sudoCmd} service iptables save
 _yellow 'install iptables & nat masquerdo & Change MSS...done.\n'
 
 
-#配置ddns脚本
+#配置自动更新gre和ipsec配置文件里的动态对端ip（ros侧）脚本
 ${sudoCmd} cat >/root/monitor.sh <<-"EOF"
 #!/bin/bash
 oldip=$(awk -F: '/PEER_OUTER_IPADDR/' /etc/sysconfig/network-scripts/ifcfg-tun0 | cut -d '=' -f 2)
