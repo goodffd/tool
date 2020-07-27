@@ -231,7 +231,7 @@ ${sudoCmd} cat >/root/monitor.sh <<-"EOF"
 #!/bin/bash
 oldip=$(awk -F: '/PEER_OUTER_IPADDR/' /etc/sysconfig/network-scripts/ifcfg-tun0 | cut -d '=' -f 2)
 newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
-if [ "$oldip" = "$newip" ];then
+if [ "$oldip" = "$newip" ]; then
     echo "No Change IP!"
 else
     sed -i '4c PEER_OUTER_IPADDR='$newip'' /etc/sysconfig/network-scripts/ifcfg-tun0
