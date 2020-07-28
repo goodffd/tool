@@ -111,6 +111,8 @@ ${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<-EOF
 %any 0.0.0.0: PSK "${psk}"
 EOF
 
+${sudoCmd} ipsec restart
+
 _green 'install ipsec for gre...done.\n'
 
 #配置系统内核sysctl
@@ -238,7 +240,7 @@ else
     sed -i "/^pre-up ip tunnel add tun0 mode gre local/c${tmp_tun}" /etc/network/interfaces
     sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
     sleep 1
-    /sbin/ipsec restart
+    ipsec restart
     echo "IP updated!"
 fi
 EOF
