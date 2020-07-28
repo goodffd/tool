@@ -198,7 +198,7 @@ common() {
       fi
       local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
       remote_ip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
-      ip tunnel add tun0 mode gre remote $remote_ip local $local_ip ttl 255
+      ip tunnel add tun0 mode gre remote ${remote_ip} local ${local_ip} ttl 255
       ip link set tun0 up
       ip addr add 10.10.0.1/24 dev tun0
 }
@@ -230,17 +230,16 @@ ${sudoCmd} cat >/root/monitor.sh <<-"EOF"
 local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
 oldip=$(ip addr|grep -o -e 'peer [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|awk '{print $2}')
 newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
-if [ "$oldip" = "$newip" ]; then
+if [ "${oldip}" = "${newip}" ]; then
     echo "No Change IP!"
 else
     ip tunnel del tun0
-    ip tunnel add tun0 mode gre remote $newip local $local_ip ttl 255
+    ip tunnel add tun0 mode gre remote ${newip} local ${local_ip} ttl 255
     ip link set tun0 up
     ip addr add 10.10.0.1/24 dev tun0
-    sed -i '5c \    right='$newip'' /etc/ipsec.d/gre1.conf
+    sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
     sleep 1
     /sbin/ipsec restart
-    ping 10.10.0.2 -c5
     echo "IP updated!"
 fi
 EOF
