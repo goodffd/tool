@@ -55,7 +55,7 @@ echo "ip_gre" >> /etc/modules
 _green 'load gre module...done.\n'
 
 #安装必要的软件
-${sudoCmd} ${systemPackage} -y net-tools dnsutils wget -qq
+${sudoCmd} ${systemPackage} install -y net-tools dnsutils wget -qq
 
 #关闭网络管理（如果开启的话）
 ${sudoCmd} systemctl stop networkManager
