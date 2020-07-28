@@ -105,6 +105,8 @@ ${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<-EOF
 %any 0.0.0.0: PSK "${psk}"
 EOF
 
+${sudoCmd} ipsec restart
+
 _green 'install ipsec for gre...done.\n'
 
 #配置系统内核sysctl
