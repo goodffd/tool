@@ -231,15 +231,14 @@ ${sudoCmd} cat >/root/monitor.sh <<-"EOF"
 #!/bin/bash
 oldip=$(awk -F: '/PEER_OUTER_IPADDR/' /etc/sysconfig/network-scripts/ifcfg-tun0 | cut -d '=' -f 2)
 newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
-if [ "$oldip" = "$newip" ]; then
+if [ "${oldip}" = "${newip}" ]; then
     echo "No Change IP!"
 else
-    sed -i '4c PEER_OUTER_IPADDR='$newip'' /etc/sysconfig/network-scripts/ifcfg-tun0
-    sed -i '5c \    right='$newip'' /etc/ipsec.d/gre1.conf
+    sed -i '4c PEER_OUTER_IPADDR='${newip}'' /etc/sysconfig/network-scripts/ifcfg-tun0
+    sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
     sleep 1
     systemctl restart network
     /sbin/ipsec restart
-    ping 10.10.0.2 -c5
     echo "IP updated!"
 fi
 EOF
