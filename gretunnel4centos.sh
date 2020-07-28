@@ -240,7 +240,7 @@ else
     sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
     sleep 1
     systemctl restart network
-    /sbin/ipsec restart
+    ipsec restart
     echo "IP updated!"
 fi
 EOF
