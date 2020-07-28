@@ -205,6 +205,7 @@ common() {
       ip addr add 10.10.0.1/24 dev tun0
 }
 common &
+sleep infinity
 EOF
 ${sudoCmd} chmod +x /etc/network-conf.sh
 
