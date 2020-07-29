@@ -58,7 +58,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist
 
 _green 'start resolve domain.\n'
 
-if [ ${release} == "centos" ]]; then
+if [ ${release} == "centos" ]; then
     nginx_root="/usr/share/nginx/html"
 else
     nginx_root="/var/www/html"
