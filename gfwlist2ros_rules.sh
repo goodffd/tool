@@ -57,14 +57,18 @@ fi
 wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh && chmod +x gfwlist2dnsmasq.sh && sh ./gfwlist2dnsmasq.sh -l -o ./gfwlist_domain.rsc
 
 _green 'start resolve domain.\n'
-nginx_root="/usr/share/nginx/html"
+
+if [[ "${release}" = "centos" ]]; then
+    nginx_root="/usr/share/nginx/html"
+else
+    nginx_root="/var/www/html"
 
 rm -f ${nginx_root}/gfwlist_ip.rsc
 
 #解析gfwlist域名并验证解析结果是否为合法的ip地址
 #用ipcalc验证ip地址合法性（如果dig的结果为非ip地址，如CNAME，则判定为非合法的ip地址）
 #ipcalc只适用centos，其他系统用脚本判断（脚本判断耗时为ipcalc的3倍左右）
-if [ ${release} == "centos" ]; then
+if [[ "${release}" = "centos" ]]; then
     while read -r line
     do
       #将读取的每一行域名删除回车符、换行符
