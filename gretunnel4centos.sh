@@ -241,6 +241,7 @@ else
     sleep 1
     systemctl restart network
     ipsec restart
+    ping 10.10.0.2 -c5
     echo "IP updated!"
 fi
 EOF
