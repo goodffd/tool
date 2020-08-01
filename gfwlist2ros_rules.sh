@@ -58,6 +58,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist
 
 #增加额外需要加入gfwlist的域名
 echo "libreswan.org" >> gfwlist_domain.rsc
+_green 'add some domains to gfwlist.\n'
 
 _green 'start resolve domain.\n'
 
