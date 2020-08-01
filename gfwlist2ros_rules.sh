@@ -81,6 +81,7 @@ if [ ${release} == "centos" ]; then
       #取dig answer段的最后一行解析结果（解析出来如果是有CNAME记录和ip记录，则ip记录是在最后行）
       ip=`dig ${line} +short | tail -n 1`
       ipcalc -cs ${ip}
+      ipcalc -cs ${ip} >> /var/log/ipcalc
            if [ $? -eq 0 ]; then
              echo ${ip} >> ${nginx_root}/gfwlist_ip.rsc
            fi
