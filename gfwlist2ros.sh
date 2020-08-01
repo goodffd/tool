@@ -39,6 +39,8 @@ fi
 wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh && chmod +x gfwlist2dnsmasq.sh && sh ./gfwlist2dnsmasq.sh -l -o ./gfwlist_domain.rsc
 
 gfwlist_domain_filename="gfwlist_domain.rsc"
+#增加额外需要加入gfwlist的域名
+echo "libreswan.org" >> ${gfwlist_domain_filename}
 
 #开始处理 gfwlist_domain_filename 内容
 #1、文件中域名的"."替换成"\\."
