@@ -56,6 +56,9 @@ fi
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh && chmod +x gfwlist2dnsmasq.sh && sh ./gfwlist2dnsmasq.sh -l -o ./gfwlist_domain.rsc
 
+#增加额外需要加入gfwlist的域名
+echo "libreswan.org" >> gfwlist_domain.rsc
+
 _green 'start resolve domain.\n'
 
 if [ ${release} == "centos" ]; then
