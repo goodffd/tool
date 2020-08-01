@@ -36,7 +36,7 @@ wget -N --no-check-certificate -O ./all_cn_cidr.rsc https://ispip.clang.cn/all_c
 
 cn_filename="all_cn_cidr.rsc"
 
-#增加额外需要加入gfwlist的域名
+#增加私有地址
 echo "192.168.0.0/16" >> ${cn_filename}
 echo "172.16.0.0/12" >> ${cn_filename}
 echo "10.0.0.0/8" >> ${cn_filename}
