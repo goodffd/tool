@@ -40,8 +40,8 @@ install_iptables() {
     fi
 }
 
-create_server-confs_shell() {
-${sudoCmd} cat > /etc/server-confs.sh <<-EOF  
+create_ssh-confs_shell() {
+${sudoCmd} cat > /etc/ssh-confs.sh <<-EOF  
 #!/bin/bash
 common() {
       if ! iptables -C INPUT -s 92.38.189.201 -p tcp --dport 22 -j ACCEPT; then
@@ -75,18 +75,18 @@ common() {
 common &
 sleep infinity
 EOF
-${sudoCmd} chmod +x /etc/server-confs.sh
+${sudoCmd} chmod +x /etc/ssh-confs.sh
 }
 
-create_server-confs_service() {
-${sudoCmd} cat > /etc/systemd/system/server-confs.service <<-EOF
+create_ssh-confs_service() {
+${sudoCmd} cat > /etc/systemd/system/ssh-confs.service <<-EOF
 [Unit]
-Description=Server confs service
+Description=ssh confs service
 After=network.target network-online.target nss-lookup.target
 Wants=network-online.target
 
 [Service]
-ExecStart=/etc/server-confs.sh
+ExecStart=/etc/ssh-confs.sh
 Restart=on-failure
 
 [Install]
@@ -94,13 +94,13 @@ WantedBy=default.target
 EOF
 }
 
-${sudoCmd} systemctl stop server-confs.service
-${sudoCmd} systemctl disable server-confs.service
-${sudoCmd} rm -f /etc/systemd/system/server-confs.service
-${sudoCmd} rm -f /etc/systemd/system/server-confs.service
-${sudoCmd} rm -f /etc/server-confs.sh
+${sudoCmd} systemctl stop ssh-confs.service
+${sudoCmd} systemctl disable ssh-confs.service
+${sudoCmd} rm -f /etc/systemd/system/ssh-confs.service
+${sudoCmd} rm -f /etc/systemd/system/ssh-confs.service
+${sudoCmd} rm -f /etc/ssh-confs.sh
 install_iptables
-create_server-confs_shell
-create_server-confs_service
-${sudoCmd} systemctl enable server-confs.service
-${sudoCmd} systemctl start server-confs.service
+create_ssh-confs_shell
+create_ssh-confs_service
+${sudoCmd} systemctl enable ssh-confs.service
+${sudoCmd} systemctl start ssh-confs.service
