@@ -67,8 +67,8 @@ ${sudoCmd} ${systemPackage} -y install epel-release -q
 ${sudoCmd} ${systemPackage} -y install net-tools bind-utils wget -q
 
 #关闭网络管理（如果开启的话）
-${sudoCmd} systemctl stop networkManager
-${sudoCmd} systemctl disable networkManager
+${sudoCmd} systemctl stop NetworkManager
+${sudoCmd} systemctl disable NetworkManager
 
 _yellow 'stop & disable networkManager...done.\n'
 
