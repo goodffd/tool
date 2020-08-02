@@ -58,8 +58,8 @@ _green 'load gre module...done.\n'
 ${sudoCmd} ${systemPackage} install -y net-tools dnsutils wget -qq
 
 #关闭网络管理（如果开启的话）
-${sudoCmd} systemctl stop networkManager
-${sudoCmd} systemctl disable networkManager
+${sudoCmd} systemctl stop NetworkManager
+${sudoCmd} systemctl disable NetworkManager
 
 _green 'stop & disable networkManager...done.\n'
 
