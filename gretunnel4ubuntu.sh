@@ -240,7 +240,9 @@ else
     sed -i "/^pre-up ip tunnel add tun0 mode gre local/c${tmp_tun}" /etc/network/interfaces
     sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
     sleep 1
+    systemctl restart networking.service
     /sbin/ipsec restart
+    ping 10.10.0.2 -c5
     echo "IP updated!"
 fi
 EOF
