@@ -236,7 +236,7 @@ newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
 if [ "${oldip}" = "${newip}" ]; then
     echo "No Change IP!"
 else
-    tmp_tun="pre-up ip tunnel add tun0 mode gre local ${local_ip} remote ${new_ip} ttl 255"
+    tmp_tun="pre-up ip tunnel add tun0 mode gre local ${local_ip} remote ${newip} ttl 255"
     sed -i "/^pre-up ip tunnel add tun0 mode gre local/c${tmp_tun}" /etc/network/interfaces
     sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
     sleep 1
