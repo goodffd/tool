@@ -198,7 +198,7 @@ common() {
       if [[ -z "${is_exist}" ]]; then
           iptables -t mangle -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
       fi
-      local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1`
+      local_ip=$(ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'| head -n 1)
       remote_ip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
       ip tunnel add tun0 mode gre remote ${remote_ip} local ${local_ip} ttl 255
       ip link set tun0 up
