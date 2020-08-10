@@ -241,7 +241,7 @@ else
     sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
     sleep 1
     systemctl restart networking.service
-    ipsec restart
+    /usr/sbin/ipsec restart
     ping 10.10.0.2 -c5
     echo "IP updated!"
 fi
