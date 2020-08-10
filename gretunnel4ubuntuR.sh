@@ -241,7 +241,7 @@ else
     ip addr add 10.10.0.1/24 dev tun0
     sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
     sleep 1
-    ipsec restart
+    /usr/sbin/ipsec restart
     ping 10.10.0.2 -c5
     echo "IP updated!"
 fi
