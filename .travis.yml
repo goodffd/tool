@@ -10,7 +10,6 @@ before_script:
 - export TZ=Asia/Shanghai
 script:
 - mkdir -p $TRAVIS_BUILD_DIR/output
-#- mkdir -p $TRAVIS_BUILD_DIR/tmp
 - chmod +x ./gfwlist2ros.sh && ./gfwlist2ros.sh && mv ./gfwlist_domain.rsc ./output
 - chmod +x ./cnlist2ros.sh && ./cnlist2ros.sh && mv ./all_cn_cidr.rsc ./output
 - DATE_TIME=$(date "+%Y-%m-%d %H:%M:%S")
