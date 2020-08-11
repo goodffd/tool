@@ -16,7 +16,6 @@ script:
 - cd /tmp/
 - git clone https://${GIT_USER}:${TOKEN}@github.com/${GIT_USER}/${REPO}.git --branch gh-pages --single-branch gh-pages > /dev/null 2>&1 || exit 1
 - cd gh-pages || exit 1
-- rm -f gfwlist_domain.rsc all_cn_cidr.rsc
 - git config user.name "goodffd"
 - git config user.email "goodffd@gmail.com"
 - cp $TRAVIS_BUILD_DIR/output/* .
