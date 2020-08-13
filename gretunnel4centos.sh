@@ -231,8 +231,8 @@ _yellow 'install iptables & nat masquerdo & Change MSS...done.\n'
 #配置自动更新gre和ipsec配置文件里的动态对端ip（ros侧）脚本
 ${sudoCmd} cat >/root/monitor.sh <<-"EOF"
 #!/bin/bash
-oldip=$(awk -F: '/PEER_OUTER_IPADDR/' /etc/sysconfig/network-scripts/ifcfg-tun0 | cut -d '=' -f 2)
-newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
+oldip=`awk -F: '/PEER_OUTER_IPADDR/' /etc/sysconfig/network-scripts/ifcfg-tun0 | cut -d '=' -f 2`
+newip=`dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1`
 if [ "${oldip}" = "${newip}" ]; then
     echo "No Change IP!"
 else
