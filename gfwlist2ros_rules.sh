@@ -77,9 +77,9 @@ if [ ${release} == "centos" ]; then
     while read -r line
     do
       #将读取的每一行域名删除回车符、换行符
-      line=`echo ${line} | tr -d '\n' | tr -d '\r'`
+      line=$(echo ${line} | tr -d '\n' | tr -d '\r')
       #取dig answer段的最后一行解析结果（解析出来如果是有CNAME记录和ip记录，则ip记录是在最后行）
-      ip=`dig ${line} +short | tail -n 1`
+      ip=$(dig ${line} +short | tail -n 1)
       ipcalc -cs ${ip}
            if [ $? -eq 0 ]; then
              echo ${ip} >> ${nginx_root}/gfwlist_ip.rsc
@@ -89,9 +89,9 @@ else
      while read -r line
      do
        #将读取的每一行域名删除回车符、换行符
-       line=`echo ${line} | tr -d '\n' | tr -d '\r'`
+       line=$(echo ${line} | tr -d '\n' | tr -d '\r')
        #取dig answer段的最后一行解析结果（解析出来如果是有CNAME记录和ip记录，则ip记录是在最后行）
-       ip=`dig ${line} +short | tail -n 1`
+       ip=$(dig ${line} +short | tail -n 1)
        #其他系统用脚本判断
        VALID_CHECK=$(echo $ip|awk -F. '$1<=255&&$2<=255&&$3<=255&&$4<=255{print "yes"}')
            if [ ${VALID_CHECK:-no} == "yes" ]; then
