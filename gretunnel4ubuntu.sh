@@ -241,7 +241,6 @@ while true; do
         newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
     fi
 done
-
 if [ "${oldip}" = "${newip}" ]; then
     echo "No Change IP!"
 else
