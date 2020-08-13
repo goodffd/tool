@@ -229,9 +229,9 @@ _green 'install iptables & nat masquerdo & Change MSS & gretunnel load at start.
 #配置自动更新gre和ipsec配置文件里的动态对端ip（ros侧）脚本
 ${sudoCmd} cat >/root/monitor.sh <<-"EOF"
 #!/bin/bash
-local_ip=`/sbin/ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'|head -n 1`
-oldip=`ip addr show tun0|grep -o -e 'peer [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|awk '{print $2}'`
-newip=`dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1`
+local_ip=$(/sbin/ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'|head -n 1)
+oldip=$(ip addr show tun0|grep -o -e 'peer [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|awk '{print $2}')
+newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
 if [ "${oldip}" = "${newip}" ]; then
     echo "No Change IP!"
 else
