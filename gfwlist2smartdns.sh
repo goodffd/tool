@@ -60,7 +60,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist
 echo "libreswan.org" >> gfwlist_domain.conf
 _green 'add some domains to gfwlist.\n'
 
-_green 'start resolve domain.\n'
+_green 'start convert to smartdns domain conf.\n'
 
 gfwlist_domain_filename="gfwlist_domain.conf"
 
