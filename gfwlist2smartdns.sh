@@ -64,6 +64,8 @@ _green 'start resolve domain.\n'
 
 gfwlist_domain_filename="gfwlist_domain.conf"
 
+mv gfwlist_domain.conf /etc/smartdns/${gfwlist_ip_filename}
+
 #开始处理 gfwlist_domain_filename 内容
 #1、每行行首增加字符串"nameserver /."
 sed -i 's/^/add nameserver /.&/g' /etc/smartdns/${gfwlist_ip_filename}
