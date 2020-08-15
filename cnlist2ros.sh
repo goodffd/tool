@@ -30,7 +30,12 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   systemPackage="yum"
 fi
 
-${sudoCmd} ${systemPackage} install wget -y -qq
+if [ ${systemPackage} == "yum" ]; then
+    ${sudoCmd} ${systemPackage} install wget -y -q
+else
+    ${sudoCmd} ${systemPackage} install wget -y -qq
+fi
+
 wget -N --no-check-certificate -O ./all_cn_cidr.rsc https://ispip.clang.cn/all_cn_cidr.txt
 
 
