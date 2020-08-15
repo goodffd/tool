@@ -106,7 +106,7 @@ gfwlist_ip_filename="gfwlist_ip_finall.rsc"
 
 #开始处理 gfwlist_ip_filename 内容
 #方法1
-sed -i 's/\(.*\)/add action=lookup dst-address=\1 table=ros/g' ${nginx_root}/${gfwlist_domain_filename}
+sed -i 's/\(.*\)/add action=lookup dst-address=\1 table=ros/g' ${nginx_root}/${gfwlist_ip_filename}
 
 #方法2
 #1、每行行首增加字符串"add action=lookup dst-address="
