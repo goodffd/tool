@@ -43,14 +43,18 @@ gfwlist_domain_filename="gfwlist_domain.rsc"
 echo "libreswan.org" >> ${gfwlist_domain_filename}
 
 #开始处理 gfwlist_domain_filename 内容
+#方法1
+sed -i 's/\./\\\\./g; s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=FWD forward-to=$gfwdns/g' ${gfwlist_domain_filename}
+
+#方法2
 #1、文件中域名的"."替换成"\\."
-sed -i 's/\./\\\\./g' ${gfwlist_domain_filename}
+#sed -i 's/\./\\\\./g' ${gfwlist_domain_filename}
 
 #2、每行行首增加字符串"add regexp="(\\.|^)"
-sed -i 's/^/add regexp="(\\\\.|^)&/g' ${gfwlist_domain_filename}
+#sed -i 's/^/add regexp="(\\\\.|^)&/g' ${gfwlist_domain_filename}
 
 #3、每行行尾增加字符串"\$" type=FWD forward-to=$gfwdns"
-sed -i 's/$/&\\$" type=FWD forward-to=$gfwdns/g' ${gfwlist_domain_filename}
+#sed -i 's/$/&\\$" type=FWD forward-to=$gfwdns/g' ${gfwlist_domain_filename}
 
 #4、在文件第1行前插入新行":local gfwdns 10.10.0.1"
 sed -i '1 i:local gfwdns 10.10.0.1' ${gfwlist_domain_filename}
