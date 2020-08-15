@@ -105,11 +105,15 @@ sort -n ${nginx_root}/gfwlist_ip.rsc | uniq > ${nginx_root}/gfwlist_ip_finall.rs
 gfwlist_ip_filename="gfwlist_ip_finall.rsc"
 
 #开始处理 gfwlist_ip_filename 内容
+#方法1
+sed -i 's/\(.*\)/add action=lookup dst-address=\1 table=ros/g' ${nginx_root}/${gfwlist_domain_filename}
+
+#方法2
 #1、每行行首增加字符串"add action=lookup dst-address="
-sed -i 's/^/add action=lookup dst-address=&/g' ${nginx_root}/${gfwlist_ip_filename}
+#sed -i 's/^/add action=lookup dst-address=&/g' ${nginx_root}/${gfwlist_ip_filename}
 
 #2、每行行尾增加字符串" table=ros"
-sed -i 's/$/& table=ros/g' ${nginx_root}/${gfwlist_ip_filename}
+#sed -i 's/$/& table=ros/g' ${nginx_root}/${gfwlist_ip_filename}
 
 #3、在文件第1行前插入新行"/log info "Loading gfwlist ipv4 route rules""
 sed -i '1 i/log info "Loading gfwlist ipv4 route rules"' ${nginx_root}/${gfwlist_ip_filename}
