@@ -68,3 +68,5 @@ ${sudoCmd} sed -i 's/#DNSStubListener=yes/DNSStubListener=no/g' /etc/systemd/res
 ${sudoCmd} mv /etc/resolv.conf /etc/resolv.conf.bak
 echo "nameserver 127.0.0.1" > /etc/resolv.conf
 ${sudoCmd} chattr +i /etc/resolv.conf
+
+_green 'install smartdns...done.\n'
