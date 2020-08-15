@@ -48,7 +48,7 @@ echo "10.0.0.0/8" >> ${cn_filename}
 
 #开始处理 cn_filename 内容
 #方法1
-sed -i 's/\(.*\)/add address=\1 list=CN/g' ${gfwlist_domain_filename}
+sed -i 's/\(.*\)/add address=\1 list=CN/g' ${cn_filename}
 #方法2
 #1、每行行首增加字符串"add address="
 #sed -i 's/^/add address=&/g' ${cn_filename}
