@@ -59,7 +59,7 @@ ${sudoCmd} tar -zxf /tmp/smartdns.tar.gz -C /tmp
 ${sudoCmd} chmod +x /tmp/smartdns/install
 ${sudoCmd} /tmp/smartdns/install -i
 ${sudoCmd} systemctl stop smartdns.service
-${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/master/smartdns.conf > /etc/smartdns/smartdns.conf
+${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/master/smartdns_local.conf > /etc/smartdns/smartdns.conf
 ${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/gh-pages/gfwlist_domain.conf > /etc/smartdns/gfwlist_domain.conf
 ${sudoCmd} systemctl start smartdns.service
 
