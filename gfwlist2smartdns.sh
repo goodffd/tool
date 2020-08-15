@@ -68,9 +68,9 @@ mv gfwlist_domain.conf /etc/smartdns/${gfwlist_ip_filename}
 
 #开始处理 gfwlist_domain_filename 内容
 #1、每行行首增加字符串"nameserver /."
-sed -i 's/^/add nameserver /.&/g' /etc/smartdns/${gfwlist_ip_filename}
+sed -i 's/^/add nameserver \/.&/g' /etc/smartdns/${gfwlist_ip_filename}
 
 #2、每行行尾增加字符串"/oversea"
-sed -i 's/$/&/oversea/g' /etc/smartdns/${gfwlist_ip_filename}
+sed -i 's/$/&\/oversea/g' /etc/smartdns/${gfwlist_ip_filename}
 
 _green 'all is done.\n'
