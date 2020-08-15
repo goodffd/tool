@@ -200,7 +200,7 @@ _yellow 'set sysctl...done.\n'
 #${sudoCmd} chmod +x /tmp/smartdns/install
 #${sudoCmd} /tmp/smartdns/install -i
 #${sudoCmd} systemctl stop smartdns.service
-#${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/master/smartdns.conf > /etc/smartdns/smartdns.conf 
+#${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/master/smartdns_remote.conf > /etc/smartdns/smartdns.conf 
 #${sudoCmd} systemctl start smartdns.service
 
 
