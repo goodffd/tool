@@ -65,10 +65,14 @@ _green 'start convert to smartdns domain conf.\n'
 gfwlist_domain_filename="gfwlist_domain.conf"
 
 #开始处理 gfwlist_domain_filename 内容
+#方法1
+sed -i 's/\(.*\)/nameserver \/\1\/oversea/g' ${gfwlist_domain_filename}
+
+#方法2
 #1、每行行首增加字符串"nameserver /"
-sed -i 's/^/nameserver \/&/g' ${gfwlist_domain_filename}
+#sed -i 's/^/nameserver \/&/g' ${gfwlist_domain_filename}
 
 #2、每行行尾增加字符串"/oversea"
-sed -i 's/$/&\/oversea/g' ${gfwlist_domain_filename}
+#sed -i 's/$/&\/oversea/g' ${gfwlist_domain_filename}
 
 _green 'all is done.\n'
