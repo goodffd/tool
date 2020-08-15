@@ -190,7 +190,7 @@ ${sudoCmd} sysctl -p
 
 _yellow 'set sysctl...done.\n'
 
-
+/*
 #安装并配置smartdns
 ${sudoCmd} ${systemPackage} install -y curl tar -q
 API_URL="https://api.github.com/repos/pymumu/smartdns/releases/latest"
@@ -202,6 +202,7 @@ ${sudoCmd} /tmp/smartdns/install -i
 ${sudoCmd} systemctl stop smartdns.service
 ${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/master/smartdns.conf > /etc/smartdns/smartdns.conf 
 ${sudoCmd} systemctl start smartdns.service
+*/
 
 #域名解析指向本地并加锁
 echo "nameserver 127.0.0.1" > /etc/resolv.conf
