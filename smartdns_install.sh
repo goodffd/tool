@@ -75,9 +75,9 @@ ${sudoCmd} chattr +i /etc/resolv.conf
 
 #定时下载china_domain.conf
 if [ ${systemPackage} == "yum" ]; then
-    echo "0 12 * * 1 wget -N --no-check-certificate -O /etc/smartdns/china_domain.conf https://goodffd.github.io/tool/china_domain.conf" >> /var/spool/cron/root
+    echo "0 12 * * 1 wget -N --no-check-certificate -O /etc/smartdns/china_domain.conf https://goodffd.github.io/tool/china_domain.conf && systemctl restart smartdns.service" >> /var/spool/cron/root
 else
-    echo "0 12 * * 1 wget -N --no-check-certificate -O /etc/smartdns/china_domain.conf https://goodffd.github.io/tool/china_domain.conf" >> /var/spool/cron/crontabs/root
+    echo "0 12 * * 1 wget -N --no-check-certificate -O /etc/smartdns/china_domain.conf https://goodffd.github.io/tool/china_domain.conf && systemctl restart smartdns.service" >> /var/spool/cron/crontabs/root
 fi
 
 _green 'install smartdns...done.\n'
