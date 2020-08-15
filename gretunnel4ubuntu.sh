@@ -169,25 +169,25 @@ ${sudoCmd} sysctl -p
 _green 'set sysctl...done.\n'
 
 
-#安装并配置smartdns
-${sudoCmd} ${systemPackage} install -y curl tar -qq
-API_URL="https://api.github.com/repos/pymumu/smartdns/releases/latest"
-DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'x86_64-linux-all' | cut -d\" -f4)"
-${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/tmp/smartdns.tar.gz" "${DOWNLOAD_URL}"
-${sudoCmd} tar -zxf /tmp/smartdns.tar.gz -C /tmp
-${sudoCmd} chmod +x /tmp/smartdns/install
-${sudoCmd} /tmp/smartdns/install -i
-${sudoCmd} systemctl stop smartdns.service
-${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/master/smartdns.conf > /etc/smartdns/smartdns.conf 
-${sudoCmd} systemctl start smartdns.service
+#安装并配置smartdns，可选
+#${sudoCmd} ${systemPackage} install -y curl tar -qq
+#API_URL="https://api.github.com/repos/pymumu/smartdns/releases/latest"
+#DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'x86_64-linux-all' | cut -d\" -f4)"
+#${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/tmp/smartdns.tar.gz" "${DOWNLOAD_URL}"
+#${sudoCmd} tar -zxf /tmp/smartdns.tar.gz -C /tmp
+#${sudoCmd} chmod +x /tmp/smartdns/install
+#${sudoCmd} /tmp/smartdns/install -i
+#${sudoCmd} systemctl stop smartdns.service
+#${sudoCmd} curl -sL https://raw.githubusercontent.com/goodffd/tool/master/smartdns.conf > /etc/smartdns/smartdns.conf 
+#${sudoCmd} systemctl start smartdns.service
 
 #域名解析指向本地并加锁
-${sudoCmd} sed -i 's/#DNSStubListener=yes/DNSStubListener=no/g' /etc/systemd/resolved.conf
-${sudoCmd} mv /etc/resolv.conf /etc/resolv.conf.bak
-echo "nameserver 127.0.0.1" > /etc/resolv.conf
-${sudoCmd} chattr +i /etc/resolv.conf
+#${sudoCmd} sed -i 's/#DNSStubListener=yes/DNSStubListener=no/g' /etc/systemd/resolved.conf
+#${sudoCmd} mv /etc/resolv.conf /etc/resolv.conf.bak
+#echo "nameserver 127.0.0.1" > /etc/resolv.conf
+#${sudoCmd} chattr +i /etc/resolv.conf
 
-_green 'install smartdns...done.\n'
+#_green 'install smartdns...done.\n'
 
 
 #安装iptables并配置systemd服务（含gre接口开机加载）
