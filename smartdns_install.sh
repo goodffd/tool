@@ -68,13 +68,17 @@ ${sudoCmd} curl -sL https://goodffd.github.io/tool/china_domain.conf > /etc/smar
 ${sudoCmd} systemctl start smartdns.service
 
 #域名解析指向本地并加锁
-${sudoCmd} sed -i 's/#DNSStubListener=yes/DNSStubListener=no/g' /etc/systemd/resolved.conf
-${sudoCmd} mv /etc/resolv.conf /etc/resolv.conf.bak
-echo "nameserver 127.0.0.1" > /etc/resolv.conf
-${sudoCmd} chattr +i /etc/resolv.conf
+if [ ${release} == "centos" ]; then
+    echo "nameserver 127.0.0.1" > /etc/resolv.conf
+else
+    ${sudoCmd} sed -i 's/#DNSStubListener=yes/DNSStubListener=no/g' /etc/systemd/resolved.conf
+    ${sudoCmd} mv /etc/resolv.conf /etc/resolv.conf.bak
+    echo "nameserver 127.0.0.1" > /etc/resolv.conf
+fi
+    ${sudoCmd} chattr +i /etc/resolv.conf
 
 #定时下载china_domain.conf
-if [ ${systemPackage} == "yum" ]; then
+if [ ${release} == "centos" ]; then
     echo "0 12 * * 1 wget -N --no-check-certificate -O /etc/smartdns/china_domain.conf https://goodffd.github.io/tool/china_domain.conf && systemctl restart smartdns.service" >> /var/spool/cron/root
 else
     echo "0 12 * * 1 wget -N --no-check-certificate -O /etc/smartdns/china_domain.conf https://goodffd.github.io/tool/china_domain.conf && systemctl restart smartdns.service" >> /var/spool/cron/crontabs/root
