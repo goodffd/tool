@@ -57,12 +57,12 @@ fi
 _green 'start generate smartdns china domain conf.\n'
 
 wget -O ./china.conf https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf
-wget -O ./apple.conf https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf
-wget -O ./google.conf https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf
+#wget -O ./apple.conf https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf
+#wget -O ./google.conf https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf
 
 #合并
-cat apple.conf >> china.conf 2>/dev/null
-cat google.conf >> china.conf 2>/dev/null
+#cat apple.conf >> china.conf 2>/dev/null
+#cat google.conf >> china.conf 2>/dev/null
 
 #处理成smartdns域名列表格式
 sed -i "s/^server=\/\(.*\)\/[^\/]*$/nameserver \/\1\/china/g;/^nameserver/!d" china.conf 2>/dev/null
