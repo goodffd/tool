@@ -76,6 +76,9 @@ common() {
       fi
       if ! iptables -C INPUT -p tcp --dport 22 -j DROP; then
            iptables -A INPUT -p tcp --dport 22 -j DROP
+      else
+           iptables -D INPUT -p tcp --dport 22 -j DROP
+           iptables -A INPUT -p tcp --dport 22 -j DROP
       fi
 }
 common &
