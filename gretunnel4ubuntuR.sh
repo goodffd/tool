@@ -241,6 +241,7 @@ while true; do
     fi
 done
 if [ "${oldip}" = "${newip}" ]; then
+    ping 10.10.0.2 -c5
     echo "No Change IP!"
 else
     ip tunnel del tun0
