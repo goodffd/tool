@@ -242,6 +242,7 @@ while true; do
     fi
 done
 if [ "${oldip}" = "${newip}" ]; then
+    ping 10.10.0.2 -c5
     echo "No Change IP!"
 else
     tmp_tun="pre-up ip tunnel add tun0 mode gre local ${local_ip} remote ${newip} ttl 255"
