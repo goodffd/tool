@@ -256,8 +256,8 @@ else
 fi
 EOF
 ${sudoCmd} chmod +x /root/monitor.sh
-echo "*/5 * * * * bash /root/monitor.sh >> /var/log/monitor.log 2>&1" >> /var/spool/cron/root
-echo "0 8 * * 1 rm -f /var/log/monitor.log" >> /var/spool/cron/root
+echo "*/1 * * * * bash /root/monitor.sh >> /var/log/monitor.log 2>&1" >> /var/spool/cron/root
+echo "0 */1 * * * rm -f /var/log/monitor.log" >> /var/spool/cron/root
 ${sudoCmd} systemctl restart crond
 
 _yellow 'cron ddns scripts...done.\n'
