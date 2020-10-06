@@ -226,38 +226,38 @@ systemctl start network-conf.service
 _green 'install iptables & nat masquerdo & Change MSS & gretunnel load at start...done.\n'
 
 
-#配置自动更新gre和ipsec配置文件里的动态对端ip（ros侧）脚本
-${sudoCmd} cat >/root/monitor.sh <<-"EOF"
-#!/bin/bash
-local_ip=$(/sbin/ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'|head -n 1)
-oldip=$(ip addr show tun0|grep -o -e 'peer [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|awk '{print $2}')
-newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
-while true; do
-    VALID_CHECK=$(echo ${newip}|awk -F. '$1<=255&&$2<=255&&$3<=255&&$4<=255{print "yes"}')
-    if [ ${VALID_CHECK:-no} == "yes" ]; then
-        break
-    else
-        newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
-    fi
-done
-if [ "${oldip}" = "${newip}" ]; then
-    ping 10.10.0.2 -c5
-    echo "No Change IP!"
-else
-    ip tunnel del tun0
-    ip tunnel add tun0 mode gre remote ${newip} local ${local_ip} ttl 255
-    ip link set tun0 up
-    ip addr add 10.10.0.1/24 dev tun0
-    sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
-    sleep 1
-    /usr/sbin/ipsec restart
-    ping 10.10.0.2 -c5
-    echo "IP updated!"
-fi
-EOF
-${sudoCmd} chmod +x /root/monitor.sh
-echo "*/1 * * * * bash /root/monitor.sh >> /var/log/monitor.log 2>&1" >> /var/spool/cron/crontabs/root
-echo "0 */1 * * * rm -f /var/log/monitor.log" >> /var/spool/cron/crontabs/root
-${sudoCmd} systemctl restart cron
+#配置自动更新gre和ipsec配置文件里的动态对端ip（ros侧）脚本->可用下面的域名模式，也可调整为ros侧通过ssh连到vps进行ip更改
+#${sudoCmd} cat >/root/monitor.sh <<-"EOF"
+##!/bin/bash
+#local_ip=$(/sbin/ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'|head -n 1)
+#oldip=$(ip addr show tun0|grep -o -e 'peer [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|awk '{print $2}')
+#newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
+#while true; do
+#    VALID_CHECK=$(echo ${newip}|awk -F. '$1<=255&&$2<=255&&$3<=255&&$4<=255{print "yes"}')
+#    if [ ${VALID_CHECK:-no} == "yes" ]; then
+#        break
+#    else
+#        newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
+#    fi
+#done
+#if [ "${oldip}" = "${newip}" ]; then
+#    ping 10.10.0.2 -c5
+#    echo "No Change IP!"
+#else
+#    ip tunnel del tun0
+#    ip tunnel add tun0 mode gre remote ${newip} local ${local_ip} ttl 255
+#    ip link set tun0 up
+#    ip addr add 10.10.0.1/24 dev tun0
+#    sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
+#    sleep 1
+#    /usr/sbin/ipsec restart
+#    ping 10.10.0.2 -c5
+#    echo "IP updated!"
+#fi
+#EOF
+#${sudoCmd} chmod +x /root/monitor.sh
+#echo "*/1 * * * * bash /root/monitor.sh >> /var/log/monitor.log 2>&1" >> /var/spool/cron/crontabs/root
+#echo "0 */1 * * * rm -f /var/log/monitor.log" >> /var/spool/cron/crontabs/root
+#${sudoCmd} systemctl restart cron
 
-_green 'cron ddns scripts...done.\n'
+#_green 'cron ddns scripts...done.\n'
