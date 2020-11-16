@@ -49,6 +49,9 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   systemPackage="yum"
 fi
 
+read -rp "请输入要创建的隧道的本机ip: " gre_ip
+gre_ip_peer=$(echo ${gre_ip}|awk -F. '{print $1"."$2"."$3"."2}')
+
 #加载gre模块
 echo "ip_gre" >> /etc/modules
 
@@ -69,7 +72,7 @@ local_ip=`ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0
 remote_ip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
 ${sudoCmd} ip tunnel add tun0 mode gre remote ${remote_ip} local ${local_ip} ttl 255
 ${sudoCmd} ip link set tun0 up
-${sudoCmd} ip addr add 10.10.0.1/24 dev tun0
+${sudoCmd} ip addr add ${gre_ip}/24 dev tun0
 
 _green 'create gre interface...done.\n'
 
@@ -202,7 +205,9 @@ common() {
       remote_ip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
       ip tunnel add tun0 mode gre remote ${remote_ip} local ${local_ip} ttl 255
       ip link set tun0 up
-      ip addr add 10.10.0.1/24 dev tun0
+EOF
+${sudoCmd} cat > /etc/network-conf.sh <<-EOF
+      ip addr add ${gre_ip}/24 dev tun0
 }
 common &
 sleep infinity
@@ -241,17 +246,17 @@ _green 'install iptables & nat masquerdo & Change MSS & gretunnel load at start.
 #    fi
 #done
 #if [ "${oldip}" = "${newip}" ]; then
-#    ping 10.10.0.2 -c5
+#    ping ${gre_ip_peer} -c5
 #    echo "No Change IP!"
 #else
 #    ip tunnel del tun0
 #    ip tunnel add tun0 mode gre remote ${newip} local ${local_ip} ttl 255
 #    ip link set tun0 up
-#    ip addr add 10.10.0.1/24 dev tun0
+#    ip addr add ${gre_ip}/24 dev tun0
 #    sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
 #    sleep 1
 #    /usr/sbin/ipsec restart
-#    ping 10.10.0.2 -c5
+#    ping ${gre_ip_peer} -c5
 #    echo "IP updated!"
 #fi
 #EOF
