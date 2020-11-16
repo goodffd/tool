@@ -49,7 +49,7 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   systemPackage="yum"
 fi
 read -rp "请输入要创建的隧道的本机ip: " gre_ip
-gre_ip_peer=echo ${gre_ip}|awk -F. '{print $1"."$2"."$3"."2}'
+gre_ip_peer=${echo ${gre_ip}|awk -F. '{print $1"."$2"."$3"."2}'}
 
 #加载gre模块
 echo "ip_gre" >> /etc/modules
