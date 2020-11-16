@@ -48,6 +48,8 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   release="centos"
   systemPackage="yum"
 fi
+read -rp "请输入要创建的隧道的本机ip: " gre_ip
+gre_ip_peer=echo ${gre_ip}|awk -F. '{print $1"."$2"."$3"."2}'
 
 #加载gre模块
 echo "ip_gre" >> /etc/modules
@@ -70,7 +72,7 @@ remote_ip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short)
 ${sudoCmd} cat >> /etc/network/interfaces <<-EOF
 auto tun0
 iface tun0 inet static
-address 10.10.0.1
+address ${gre_ip}
 netmask 255.255.255.0
 pre-up ip tunnel add tun0 mode gre local ${local_ip} remote ${remote_ip} ttl 255
 up ifconfig tun0 multicast
@@ -242,7 +244,7 @@ _green 'install iptables & nat masquerdo & Change MSS & gretunnel load at start.
 #    fi
 #done
 #if [ "${oldip}" = "${newip}" ]; then
-#    ping 10.10.0.2 -c5
+#    ping ${gre_ip_peer} -c5
 #    echo "No Change IP!"
 #else
 #    tmp_tun="pre-up ip tunnel add tun0 mode gre local ${local_ip} remote ${newip} ttl 255"
@@ -251,7 +253,7 @@ _green 'install iptables & nat masquerdo & Change MSS & gretunnel load at start.
 #    sleep 1
 #    systemctl restart networking.service
 #    /usr/sbin/ipsec restart
-#    ping 10.10.0.2 -c5
+#    ping ${gre_ip_peer} -c5
 #    echo "IP updated!"
 #fi
 #EOF
