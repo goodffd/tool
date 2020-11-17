@@ -231,7 +231,7 @@ _green 'install iptables & nat masquerdo & Change MSS & gretunnel load at start.
 
 
 #配置自动更新gre和ipsec配置文件里的动态对端ip（ros侧）脚本->可用下面的域名模式，也可调整为ros侧通过ssh连到vps进行ip更改
-#${sudoCmd} cat >/root/monitor.sh <<-"EOF"
+#${sudoCmd} cat >/root/monitor.sh <<-EOF
 ##!/bin/bash
 #local_ip=\$(/sbin/ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print \$2}'|head -n 1)
 #oldip=\$(ip addr show tun0|grep -o -e 'peer [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|awk '{print \$2}')
