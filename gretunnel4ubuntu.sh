@@ -48,8 +48,9 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   release="centos"
   systemPackage="yum"
 fi
-read -rp "请输入要创建的隧道的本机ip: " gre_ip
-gre_ip_peer=$(echo ${gre_ip}|awk -F. '{print $1"."$2"."$3"."2}')
+read -rp "请输入本机隧道内网ip: " gre_ip
+read -rp "请输入对端隧道内网ip: " gre_ip_peer
+read -rp "请输入ipsec预共享密码: " psk
 
 #加载gre模块
 echo "ip_gre" >> /etc/modules
@@ -107,8 +108,8 @@ conn gre1
 EOF
 
 #创建预共享密码
-${sudoCmd} ${systemPackage} install -y pwgen -qq
-psk=$(pwgen -1cny 10)
+#${sudoCmd} ${systemPackage} install -y pwgen -qq
+#psk=$(pwgen -1cny 10)
 ${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<-EOF
 %any 0.0.0.0: PSK "${psk}"
 EOF
@@ -230,26 +231,26 @@ _green 'install iptables & nat masquerdo & Change MSS & gretunnel load at start.
 
 
 #配置自动更新gre和ipsec配置文件里的动态对端ip（ros侧）脚本->可用下面的域名模式，也可调整为ros侧通过ssh连到vps进行ip更改
-#${sudoCmd} cat >/root/monitor.sh <<-"EOF"
+#${sudoCmd} cat >/root/monitor.sh <<-EOF
 ##!/bin/bash
-#local_ip=$(/sbin/ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print $2}'|head -n 1)
-#oldip=$(ip addr show tun0|grep -o -e 'peer [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|awk '{print $2}')
-#newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
+#local_ip=\$(/sbin/ifconfig -a|grep -o -e 'inet [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|grep -v "127.0.0"|awk '{print \$2}'|head -n 1)
+#oldip=\$(ip addr show tun0|grep -o -e 'peer [0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}'|awk '{print \$2}')
+#newip=\$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
 #while true; do
-#    VALID_CHECK=$(echo ${newip}|awk -F. '$1<=255&&$2<=255&&$3<=255&&$4<=255{print "yes"}')
-#    if [ ${VALID_CHECK:-no} == "yes" ]; then
+#    VALID_CHECK=\$(echo \${newip}|awk -F. '\$1<=255&&\$2<=255&&\$3<=255&&\$4<=255{print "yes"}')
+#    if [ \${VALID_CHECK:-no} == "yes" ]; then
 #        break
 #    else
-#        newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
+#        newip=\$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
 #    fi
 #done
-#if [ "${oldip}" = "${newip}" ]; then
+#if [ "\${oldip}" = "\${newip}" ]; then
 #    ping ${gre_ip_peer} -c5
 #    echo "No Change IP!"
 #else
-#    tmp_tun="pre-up ip tunnel add tun0 mode gre local ${local_ip} remote ${newip} ttl 255"
-#    sed -i "/^pre-up ip tunnel add tun0 mode gre local/c${tmp_tun}" /etc/network/interfaces
-#    sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
+#    tmp_tun="pre-up ip tunnel add tun0 mode gre local \${local_ip} remote \${newip} ttl 255"
+#    sed -i "/^pre-up ip tunnel add tun0 mode gre local/c\${tmp_tun}" /etc/network/interfaces
+#    sed -i '5c \    right='\${newip}'' /etc/ipsec.d/gre1.conf
 #    sleep 1
 #    systemctl restart networking.service
 #    /usr/sbin/ipsec restart
