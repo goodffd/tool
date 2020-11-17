@@ -49,6 +49,10 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   systemPackage="yum"
 fi
 
+read -rp "请输入本机隧道内网ip: " gre_ip
+read -rp "请输入对端隧道内网ip: " gre_ip_peer
+read -rp "请输入ipsec预共享密码: " psk
+
 #加载gre模块
 ${sudoCmd} modprobe ip_gre
 ${sudoCmd} cat >>/etc/sysconfig/modules/ip_gre.modules <<-EOF
@@ -92,9 +96,9 @@ DEVICE=tun0
 ONBOOT=yes
 TYPE=GRE
 PEER_OUTER_IPADDR=${remote_ip}
-PEER_INNER_IPADDR=10.10.0.2
+PEER_INNER_IPADDR=${gre_ip_peer}
 MY_OUTER_IPADDR=${local_ip}
-MY_INNER_IPADDR=10.10.0.1
+MY_INNER_IPADDR=${gre_ip}
 BOOTPROTO=static
 EOF
 
@@ -127,8 +131,8 @@ conn gre1
 EOF
 
 #创建预共享密码
-${sudoCmd} ${systemPackage} install -y pwgen -q
-psk=$(pwgen -1cny 10)
+#${sudoCmd} ${systemPackage} install -y pwgen -q
+#psk=$(pwgen -1cny 10)
 ${sudoCmd} cat >/etc/ipsec.d/gre1.secrets <<-EOF
 %any 0.0.0.0: PSK "${psk}"
 EOF
@@ -230,28 +234,28 @@ _yellow 'install iptables & nat masquerdo & Change MSS...done.\n'
 
 
 #配置自动更新gre和ipsec配置文件里的动态对端ip（ros侧）脚本->可用下面的域名模式，也可调整为ros侧通过ssh连到vps进行ip更改
-#${sudoCmd} cat >/root/monitor.sh <<-"EOF"
+#${sudoCmd} cat >/root/monitor.sh <<-EOF
 ##!/bin/bash
-#oldip=$(awk -F: '/PEER_OUTER_IPADDR/' /etc/sysconfig/network-scripts/ifcfg-tun0 | cut -d '=' -f 2)
-#newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
+#oldip=\$(awk -F: '/PEER_OUTER_IPADDR/' /etc/sysconfig/network-scripts/ifcfg-tun0 | cut -d '=' -f 2)
+#newip=\$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
 #while true; do
-#    VALID_CHECK=$(echo ${newip}|awk -F. '$1<=255&&$2<=255&&$3<=255&&$4<=255{print "yes"}')
-#    if [ ${VALID_CHECK:-no} == "yes" ]; then
+#    VALID_CHECK=\$(echo \${newip}|awk -F. '\$1<=255&&\$2<=255&&\$3<=255&&\$4<=255{print "yes"}')
+#    if [ \${VALID_CHECK:-no} == "yes" ]; then
 #        break
 #    else
-#        newip=$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
+#        newip=\$(dig ipv4.fclouds.xyz @1.1.1.1 +short|tail -n 1)
 #    fi
 #done
-#if [ "${oldip}" = "${newip}" ]; then
-#    ping 10.10.0.2 -c5
+#if [ "\${oldip}" = "\${newip}" ]; then
+#    ping ${gre_ip_peer} -c5
 #    echo "No Change IP!"
 #else
-#    sed -i '4c PEER_OUTER_IPADDR='${newip}'' /etc/sysconfig/network-scripts/ifcfg-tun0
-#    sed -i '5c \    right='${newip}'' /etc/ipsec.d/gre1.conf
+#    sed -i '4c PEER_OUTER_IPADDR='\${newip}'' /etc/sysconfig/network-scripts/ifcfg-tun0
+#    sed -i '5c \    right='\${newip}'' /etc/ipsec.d/gre1.conf
 #    sleep 1
 #    systemctl restart network
 #    /sbin/ipsec restart
-#    ping 10.10.0.2 -c5
+#    ping ${gre_ip_peer} -c5
 #    echo "IP updated!"
 #fi
 #EOF
