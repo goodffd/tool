@@ -263,5 +263,9 @@ _yellow 'install iptables & nat masquerdo & Change MSS...done.\n'
 #echo "*/1 * * * * bash /root/monitor.sh >> /var/log/monitor.log 2>&1" >> /var/spool/cron/root
 #echo "0 */1 * * * rm -f /var/log/monitor.log" >> /var/spool/cron/root
 #${sudoCmd} systemctl restart crond
-
 #_yellow 'cron ddns scripts...done.\n'
+echo "*/1 * * * * ping ${gre_ip_peer} -c5 >> /var/log/grekeepalive.log 2>&1" >> /var/spool/cron/root
+echo "0 0 * * 1 rm -f /var/log/grekeepalive.log" >> /var/spool/cron/root
+_yellow 'cron scripts...done.\n'
+
+
