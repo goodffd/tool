@@ -207,6 +207,7 @@ common() {
       ip tunnel add tun0 mode gre remote \${remote_ip} local \${local_ip} ttl 255
       ip link set tun0 up
       ip addr add ${gre_ip}/24 dev tun0
+      ping -i 10 -s 0 ${gre_ip_peer}
 }
 common &
 sleep infinity
@@ -265,6 +266,6 @@ _green 'install iptables & nat masquerdo & Change MSS & gretunnel load at start.
 #${sudoCmd} systemctl restart cron
 
 #_green 'cron ddns scripts...done.\n'
-echo "*/1 * * * * ping ${gre_ip_peer} -c5 >> /var/log/grekeepalive.log 2>&1" >> /var/spool/cron/crontabs/root
-echo "0 0 * * 1 rm -f /var/log/grekeepalive.log" >> /var/spool/cron/crontabs/root
-_green 'cron scripts...done.\n'
+#echo "*/1 * * * * ping ${gre_ip_peer} -c5 >> /var/log/grekeepalive.log 2>&1" >> /var/spool/cron/crontabs/root
+#echo "0 0 * * 1 rm -f /var/log/grekeepalive.log" >> /var/spool/cron/crontabs/root
+#_green 'cron scripts...done.\n'
