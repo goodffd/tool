@@ -195,16 +195,16 @@ _green 'set sysctl...done.\n'
 
 #安装iptables并配置systemd服务（含gre接口开机加载）
 ${sudoCmd} ${systemPackage} install -y iptables -qq
-${sudoCmd} cat > /etc/network-conf.sh <<-"EOF"  
+${sudoCmd} cat > /etc/network-conf.sh <<-EOF  
 #!/bin/bash
 common() {
-      is_exist=$(iptables-save | grep -- "-A POSTROUTING -o eth0 -j MASQUERADE")
-      if [[ -z "${is_exist}" ]]; then
+      is_exist=\$(iptables-save | grep -- "-A POSTROUTING -o eth0 -j MASQUERADE")
+      if [[ -z "\${is_exist}" ]]; then
           iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
       fi
 
-      is_exist=$(iptables-save | grep -- "-A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu")
-      if [[ -z "${is_exist}" ]]; then
+      is_exist=\$(iptables-save | grep -- "-A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu")
+      if [[ -z "\${is_exist}" ]]; then
           iptables -t mangle -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
       fi
       ping -i 10 -s 0 ${gre_ip_peer}
