@@ -62,7 +62,7 @@ ${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/root/overture.zip" "${DOWNL
 ${sudoCmd} unzip -d /root/overture /root/overture.zip
 ${sudoCmd} wget -N --no-check-certificate -O /root/overture/ip_network_primary_sample https://ispip.clang.cn/all_cn_cidr.txt
 ${sudoCmd} wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh && chmod +x gfwlist2dnsmasq.sh && sh ./gfwlist2dnsmasq.sh -l -o /root/overture/domain_alternative_sample
-
+${sudoCmd} wget -N --no-check-certificate -O /root/overture/config.json https://raw.githubusercontent.com/goodffd/tool/master/overture_config.json
 
 #域名解析指向本地并加锁
 if [ ${release} == "centos" ]; then
