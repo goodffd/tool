@@ -3,25 +3,13 @@
   "DebugHTTPAddress": "127.0.0.1:5555",
   "PrimaryDNS": [
     {
-      "Name": "nbcmcc1",
-      "Address": "211.140.13.188:53",
-      "Protocol": "udp",
+      "Name": "ali",
+      "Address": "https://dns.alidns.com/dns-query",
+      "Protocol": "https",
       "SOCKS5Address": "",
       "Timeout": 6,
       "EDNSClientSubnet": {
-        "Policy": "disable",
-        "ExternalIP": "",
-        "NoCookie": true
-      }
-    },
-    {
-      "Name": "nbcmcc2",
-      "Address": "211.140.188.188:53",
-      "Protocol": "udp",
-      "SOCKS5Address": "",
-      "Timeout": 6,
-      "EDNSClientSubnet": {
-        "Policy": "disable",
+        "Policy": "auto",
         "ExternalIP": "",
         "NoCookie": true
       }
@@ -29,25 +17,13 @@
   ],
   "AlternativeDNS": [
     {
-      "Name": "GoogleDNS",
-      "Address": "8.8.8.8:53",
-      "Protocol": "udp",
+      "Name": "Google",
+      "Address": "dns.google:853@8.8.4.4",
+      "Protocol": "tcp-tls",
       "SOCKS5Address": "",
       "Timeout": 6,
       "EDNSClientSubnet": {
-        "Policy": "disable",
-        "ExternalIP": "",
-        "NoCookie": true
-      }
-    },
-    {
-      "Name": "CloudFlare",
-      "Address": "1.1.1.1:53",
-      "Protocol": "udp",
-      "SOCKS5Address": "",
-      "Timeout": 6,
-      "EDNSClientSubnet": {
-        "Policy": "disable",
+        "Policy": "auto",
         "ExternalIP": "",
         "NoCookie": true
       }
@@ -74,6 +50,6 @@
   },
   "MinimumTTL": 0,
   "DomainTTLFile" : "/root/overture/domain_ttl_sample",
-  "CacheSize" : 0,
+  "CacheSize" : 1000,
   "RejectQType": [255]
 }
