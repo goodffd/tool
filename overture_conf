@@ -1,0 +1,79 @@
+{
+  "BindAddress": ":53",
+  "DebugHTTPAddress": "127.0.0.1:5555",
+  "PrimaryDNS": [
+    {
+      "Name": "nbcmcc1",
+      "Address": "211.140.13.188:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "disable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    },
+    {
+      "Name": "nbcmcc2",
+      "Address": "211.140.188.188:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "disable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    }
+  ],
+  "AlternativeDNS": [
+    {
+      "Name": "GoogleDNS",
+      "Address": "8.8.8.8:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "disable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    },
+    {
+      "Name": "CloudFlare",
+      "Address": "1.1.1.1:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "disable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    }
+  ],
+  "OnlyPrimaryDNS": false,
+  "IPv6UseAlternativeDNS": false,
+  "AlternativeDNSConcurrent": false,
+  "PoolIdleTimeout": 15,
+  "PoolMaxCapacity": 15,
+  "WhenPrimaryDNSAnswerNoneUse": "PrimaryDNS",
+  "IPNetworkFile": {
+    "Primary": "/root/overture/ip_network_primary_sample",
+    "Alternative": "/root/overture/ip_network_alternative_sample"
+  },
+  "DomainFile": {
+    "Primary": "/root/overture/domain_primary_sample",
+    "Alternative": "/root/overture/domain_alternative_sample",
+    "Matcher":  "full-map"
+  },
+  "HostsFile": {
+    "HostsFile": "/root/overture/hosts_sample",
+    "Finder": "full-map"
+  },
+  "MinimumTTL": 0,
+  "DomainTTLFile" : "/root/overture/domain_ttl_sample",
+  "CacheSize" : 0,
+  "RejectQType": [255]
+}
