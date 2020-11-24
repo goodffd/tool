@@ -52,14 +52,15 @@ fi
 
 #安装和配置smartdns
 if [ ${systemPackage} == "yum" ]; then
-    ${sudoCmd} ${systemPackage} install curl tar -y -q
+    ${sudoCmd} ${systemPackage} install curl unzip -y -q
 else
-    ${sudoCmd} ${systemPackage} install curl tar -y -qq
+    ${sudoCmd} ${systemPackage} install curl unzip -y -qq
 fi
 API_URL="https://api.github.com/repos/shawn1m/overture/releases/latest"
 DOWNLOAD_URL="$(curl -H "Accept: application/json" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" -s "${API_URL}" --connect-timeout 10| grep 'browser_download_url' | grep 'linux-amd64' | cut -d\" -f4)"
 ${sudoCmd} curl -L -H "Cache-Control: no-cache" -o "/root/overture.zip" "${DOWNLOAD_URL}"
 ${sudoCmd} unzip -d /root/overture /root/overture.zip
+${sudoCmd} mv /root/overture/overture-linux-amd64 /root/overture/overture
 ${sudoCmd} wget -N --no-check-certificate -O /root/overture/ip_network_primary_sample https://ispip.clang.cn/all_cn_cidr.txt
 ${sudoCmd} wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh && chmod +x gfwlist2dnsmasq.sh && sh ./gfwlist2dnsmasq.sh -l -o /root/overture/domain_alternative_sample
 ${sudoCmd} wget -N --no-check-certificate -O /root/overture/config.json https://raw.githubusercontent.com/goodffd/tool/master/overture_config.json
