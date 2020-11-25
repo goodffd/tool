@@ -50,9 +50,6 @@ common() {
       if ! iptables -C INPUT -s 195.133.197.58 -p tcp --dport 22 -j ACCEPT; then
            iptables -A INPUT -s 195.133.197.58 -p tcp --dport 22 -j ACCEPT
       fi
-      if ! iptables -C INPUT -s 103.72.4.233 -p tcp --dport 22 -j ACCEPT; then
-           iptables -A INPUT -s 103.72.4.233 -p tcp --dport 22 -j ACCEPT
-      fi
       if ! iptables -C INPUT -s 89.208.253.8 -p tcp --dport 22 -j ACCEPT; then
            iptables -A INPUT -s 89.208.253.8 -p tcp --dport 22 -j ACCEPT
       fi
