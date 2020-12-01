@@ -50,7 +50,7 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
 fi
 
 
-#安装和配置smartdns
+#安装和配置overture
 if [ ${systemPackage} == "yum" ]; then
     ${sudoCmd} ${systemPackage} install curl unzip -y -q
 else
