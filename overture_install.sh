@@ -74,7 +74,7 @@ else
     echo "nameserver 127.0.0.1" > /etc/resolv.conf
 fi
     ${sudoCmd} chattr +i /etc/resolv.conf
-  
+
 #创建systemd进程
 cat > /etc/systemd/system/overture.service <<-EOF
 [Unit]
