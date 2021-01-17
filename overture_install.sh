@@ -86,7 +86,7 @@ ExecStart=/root/overture/overture -c /root/overture/config.json
 Restart=on-failure
 [Install]
 WantedBy=default.target
-EOF  
+EOF
 
 ${sudoCmd} systemctl enable overture.service
 ${sudoCmd} systemctl start overture.service
