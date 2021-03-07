@@ -51,10 +51,10 @@ domainFile:
   alternative: /root/overture/domain_alternative_sample
   matcher: suffix-tree
 hostsFile:
-  hostsFile: ./hosts_sample
+  hostsFile: /root/overture/hosts_sample
   finder: full-map
 minimumTTL: 0
-domainTTLFile: ./domain_ttl_sample
+domainTTLFile: /root/overture/domain_ttl_sample
 cacheSize: 0
 cacheRedisUrl:
 cacheRedisConnectionPoolSize:
