@@ -63,7 +63,7 @@ ${sudoCmd} unzip -d /root/overture /root/overture.zip
 ${sudoCmd} mv /root/overture/overture-linux-amd64 /root/overture/overture
 ${sudoCmd} wget -N --no-check-certificate -O /root/overture/ip_network_primary_sample https://ispip.clang.cn/all_cn_cidr.txt
 ${sudoCmd} wget -N --no-check-certificate https://raw.githubusercontent.com/cokebar/gfwlist2dnsmasq/master/gfwlist2dnsmasq.sh && chmod +x gfwlist2dnsmasq.sh && sh ./gfwlist2dnsmasq.sh -l -o /root/overture/domain_alternative_sample
-${sudoCmd} wget -N --no-check-certificate -O /root/overture/config.json https://raw.githubusercontent.com/goodffd/tool/master/overture_config.json
+${sudoCmd} wget -N --no-check-certificate -O /root/overture/config.yml https://raw.githubusercontent.com/goodffd/tool/master/overture_config.yml
 
 #域名解析指向本地并加锁
 if [ ${release} == "centos" ]; then
@@ -82,7 +82,7 @@ Description=overture service
 After=network.target network-online.target nss-lookup.target
 Wants=network-online.target
 [Service]
-ExecStart=/root/overture/overture -c /root/overture/config.json
+ExecStart=/root/overture/overture -c /root/overture/config.yml
 Restart=on-failure
 [Install]
 WantedBy=default.target
