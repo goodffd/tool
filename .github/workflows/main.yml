@@ -25,6 +25,7 @@ jobs:
           TERM: xterm
         run: |
           export TZ=Asia/Shanghai
+          mkdir -p $PUBLISH_DIR
           chmod +x ./gfwlist2ros.sh && ./gfwlist2ros.sh && mv ./gfwlist_domain.rsc $PUBLISH_DIR
           chmod +x ./cnlist2ros.sh && ./cnlist2ros.sh && mv ./all_cn_cidr.rsc $PUBLISH_DIR
           chmod +x ./gfwlist2smartdns.sh && ./gfwlist2smartdns.sh && mv ./gfwlist_domain.conf $PUBLISH_DIR
