@@ -39,7 +39,7 @@ jobs:
           git config --local user.name $USER_NAME
           git config --local user.email $USER_EMAIL
           git add -A
-          git commit -a -m "Configuration Files Generated on [$DATE_TIME]"
+          git commit -m "Configuration Files Generated on [$DATE_TIME]"
           git push -fq origin gh-pages
           echo -e "Uploaded files to gh-pages\n"
           
