@@ -31,6 +31,15 @@ jobs:
           chmod +x ./gfwlist2smartdns.sh && ./gfwlist2smartdns.sh && mv ./gfwlist_domain.conf $PUBLISH_DIR
           chmod +x ./cnlist2smartdns.sh && ./cnlist2smartdns.sh && mv ./china_domain.conf $PUBLISH_DIR
           chmod +x ./nfaws2ros.sh && ./nfaws2ros.sh && mv ./nfaws.rsc $PUBLISH_DIR
+          cat > $PUBLISH_DIR/index.html <<-EOF
+            <html><body>
+            <p>gfwlist to ros file: <a href="https://goodffd.github.io/tool/gfwlist_domain.rsc">https://goodffd.github.io/tool/gfwlist_domain.rsc</a></p>
+            <p>cnlist to ros address-list file: <a href="https://goodffd.github.io/tool/all_cn_cidr.rsc">https://goodffd.github.io/tool/all_cn_cidr.rsc</a></p>
+            <p>gfwlist to smartdns domain conf file: <a href="https://goodffd.github.io/tool/gfwlist_domain.conf">https://goodffd.github.io/tool/gfwlist_domain.conf</a></p>
+            <p>cnlist to smartdns domain conf file: <a href="https://goodffd.github.io/tool/china_domain.conf">https://goodffd.github.io/tool/china_domain.conf</a></p>
+            <p>netflix and aws IP to ros file: <a href="https://goodffd.github.io/tool/nfaws.rsc">https://goodffd.github.io/tool/nfaws.rsc</a></p>
+            </body></html>
+          EOF
           DATE_TIME=$(date "+%Y-%m-%d %H:%M:%S")
           cd $PUBLISH_DIR
           git init
