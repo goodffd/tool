@@ -39,8 +39,8 @@ jobs:
           git config --local user.name $USER_NAME
           git config --local user.email $USER_EMAIL
           git add -A
-          git commit -a -m "Configuration Files Generated on [$DATE_TIME]" > /dev/null 2>&1
-          git push -fq origin gh-pages > /dev/null 2>&1
+          git commit -a -m "Configuration Files Generated on [$DATE_TIME]"
+          git push -fq origin gh-pages > /dev/null 2>&1 || exit 1
           echo -e "Uploaded files to gh-pages\n"
           
 
