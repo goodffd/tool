@@ -33,10 +33,13 @@ jobs:
           chmod +x ./nfaws2ros.sh && ./nfaws2ros.sh && mv ./nfaws.rsc $PUBLISH_DIR
           DATE_TIME=$(date "+%Y-%m-%d %H:%M:%S")
           cd $PUBLISH_DIR
-          git clone https://$MY_SECRET@github.com/$GITHUB_REPOSITORY.git --branch gh-pages --single-branch gh-pages > /dev/null 2>&1 || exit 1
-          cd gh-pages || exit 1
-          git config user.name $USER_NAME
-          git config user.email $USER_EMAIL
+          git init
+          git config --local user.name $USER_NAME
+          git config --local user.email $USER_EMAIL
+          #git clone https://$MY_SECRET@github.com/$GITHUB_REPOSITORY.git --branch gh-pages --single-branch gh-pages > /dev/null 2>&1 || exit 1
+          #cd gh-pages || exit 1
+          git remote add origin https://$MY_SECRET@github.com/$GITHUB_REPOSITORY.git
+          git checkout -b gh_pages
           git add -A
           git commit -a -m "Configuration Files Generated on [$DATE_TIME]"
           git push -fq origin gh-pages > /dev/null 2>&1 || exit 1
