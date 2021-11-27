@@ -10,12 +10,6 @@ on:
 
 jobs:
   publish_github_pages:
-  build:
-    env:
-    MY_SECRET: ${{secrets.commit_secret}}
-    USER_NAME: goodffd
-    USER_EMAIL: goodffd@gmail.com
-    PUBLISH_DIR: ./dist
     runs-on: ubuntu-latest
     timeout-minutes: 1500
     steps:
@@ -24,6 +18,10 @@ jobs:
 
       - name: 'Publish Github Pages'
         env:
+          MY_SECRET: ${{secrets.commit_secret}}
+          USER_NAME: goodffd
+          USER_EMAIL: goodffd@gmail.com
+          PUBLISH_DIR: ./dist
           TERM: xterm
         run: |
           export TZ=Asia/Shanghai
