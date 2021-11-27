@@ -36,7 +36,7 @@ jobs:
           git clone https://$MY_SECRET@github.com/$GITHUB_REPOSITORY.git --branch gh-pages --single-branch gh-pages > /dev/null 2>&1 || exit 1
           cd gh-pages || exit 1
           cp $GITHUB_WORKSPACE/$BUILD_DIR/* .
-          sed -i "\$s/.*/$DATE_TIME/" index.html
+          sed -i "\$s/.*/更新时间：$DATE_TIME/" index.html
           git config --local user.name $USER_NAME
           git config --local user.email $USER_EMAIL
           git add -A
