@@ -1,0 +1,83 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+
+name: 'Publish Github Pages'
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+     - main
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  publish_github_pages:
+  build:
+    env:
+    MY_SECRET: ${{secrets.commit_secret}}
+    USER_NAME: goodffd
+    USER_EMAIL: goodffd@gmail.com
+    PUBLISH_DIR: ./dist
+    runs-on: ubuntu-latest
+    timeout-minutes: 1500
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Publish Github Pages'
+        env:
+          TERM: xterm
+        run: |
+          export TZ=Asia/Shanghai
+          chmod +x ./gfwlist2ros.sh && ./gfwlist2ros.sh && mv ./gfwlist_domain.rsc $PUBLISH_DIR
+          chmod +x ./cnlist2ros.sh && ./cnlist2ros.sh && mv ./all_cn_cidr.rsc $PUBLISH_DIR
+          chmod +x ./gfwlist2smartdns.sh && ./gfwlist2smartdns.sh && mv ./gfwlist_domain.conf $PUBLISH_DIR
+          chmod +x ./cnlist2smartdns.sh && ./cnlist2smartdns.sh && mv ./china_domain.conf $PUBLISH_DIR
+          chmod +x ./nfaws2ros.sh && ./nfaws2ros.sh && mv ./nfaws.rsc $PUBLISH_DIR
+          DATE_TIME=$(date "+%Y-%m-%d %H:%M:%S")
+          cd $PUBLISH_DIR
+          git clone https://$MY_SECRET@github.com/$GITHUB_REPOSITORY.git --branch gh-pages --single-branch gh-pages > /dev/null 2>&1 || exit 1
+          cd gh-pages || exit 1
+          git config user.name $USER_NAME
+          git config user.email $USER_EMAIL
+          git add -A
+          git commit -a -m "Configuration Files Generated on [$DATE_TIME]"
+          git push -fq origin gh-pages > /dev/null 2>&1 || exit 1
+          echo -e "Uploaded files to gh-pages\n"
+          
+
