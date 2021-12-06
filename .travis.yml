@@ -22,6 +22,7 @@ script:
 - git config user.name "goodffd"
 - git config user.email "goodffd@gmail.com"
 - cp $TRAVIS_BUILD_DIR/output/* .
+- sed -i "\$s/.*/<p>更新时间：$DATE_TIME<\/p><\/body><\/html>/" index.html
 - git add -A
 - git commit -a -m "Configuration Files Generated on [$DATE_TIME]"
 - git push -fq origin gh-pages > /dev/null 2>&1 || exit 1
