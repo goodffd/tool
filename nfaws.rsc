@@ -840,6 +840,8 @@ add address=103.87.204.0/22 list=netflix
 add address=107.23.255.0/26 list=netflix
 add address=108.128.160.0/23 list=netflix
 add address=108.128.162.0/24 list=netflix
+add address=108.136.154.16/28 list=netflix
+add address=108.136.154.32/27 list=netflix
 add address=108.175.32.0/20 list=netflix
 add address=130.176.0.0/18 list=netflix
 add address=130.176.64.0/21 list=netflix
