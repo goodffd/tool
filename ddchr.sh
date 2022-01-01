@@ -2,6 +2,7 @@
 
 read -p "Please type new CHR Version: " version
 read -sp "Please type Password for your new CHR: " password
+echo " "
 ip addr
 read -p "Please type Network Interface: " netif
 
