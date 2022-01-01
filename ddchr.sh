@@ -1,9 +1,9 @@
 #!/bin/bash
 
-read -p "Confirm new CHR Version: " version
-read -sp "Password for your new CHR: " password
+read -p "Please type new CHR Version: " version
+read -sp "Please type Password for your new CHR: " password
 ip addr
-read -p "network interface: " netif
+read -p "Please type Network Interface: " netif
 
 CHR_URL="https://download.mikrotik.com/routeros/${version}/chr-${version}.img.zip"
 
