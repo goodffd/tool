@@ -1,17 +1,16 @@
 #!/bin/bash
 
 read -p "Confirm new CHR Version: " version
-echo " "
+read -sp "Password for your new CHR: " password
+ip addr
+read -p "network interface: " netif
 
 CHR_URL="https://download.mikrotik.com/routeros/${version}/chr-${version}.img.zip"
-
-read -sp "Password for your new CHR: " password
-echo " "
 
 cd /tmp
 [ ! -e chr.img ] && wget -q --show-progress -O- "${CHR_URL}" | gunzip -c - > chr.img
 LOOP_DEV=`losetup --show -Pf chr.img`
-ADDRESS=`ip addr show eth0 | grep global | cut -d' ' -f 6 | head -n 1`
+ADDRESS=`ip addr show ${netif} | grep global | cut -d' ' -f 6 | head -n 1`
 GATEWAY=`ip route list | grep default | cut -d' ' -f 3`
 DISK=`lsblk -oMOUNTPOINT,PKNAME -P | grep 'MOUNTPOINT="/"' | sed -re 's/(.*)PKNAME="(.*?)"$/\2/'`
 [ -z $ADDRESS ] && read -p "Address (CIDR): " ADDRESS
