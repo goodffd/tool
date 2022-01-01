@@ -2,7 +2,7 @@
 
 read -p "Confirm new CHR Version: " version
 
-: ${CHR_URL:="https://download.mikrotik.com/routeros/${version}/chr-${version}.img.zip"}
+CHR_URL="https://download.mikrotik.com/routeros/${version}/chr-${version}.img.zip"
 
 read -sp "Password for your new CHR: " password
 echo " "
