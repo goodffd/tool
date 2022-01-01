@@ -7,7 +7,6 @@ read -p "Please type Network Interface: " netif
 
 CHR_URL="https://download.mikrotik.com/routeros/${version}/chr-${version}.img.zip"
 
-cd /tmp
 [ ! -e chr.img ] && wget -q --show-progress -O- "${CHR_URL}" | gunzip -c - > chr.img
 LOOP_DEV=`losetup --show -Pf chr.img`
 ADDRESS=`ip addr show ${netif} | grep global | cut -d' ' -f 6 | head -n 1`
