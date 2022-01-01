@@ -1,6 +1,7 @@
 #!/bin/bash
 
 read -p "Confirm new CHR Version: " version
+echo " "
 
 CHR_URL="https://download.mikrotik.com/routeros/${version}/chr-${version}.img.zip"
 
