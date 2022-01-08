@@ -64,8 +64,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
 #配置oh my zsh配置文件
-sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="ys"' ~/.zshrc
-sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)' ~/.zshrc
+sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="ys"/g' ~/.zshrc
+sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
 source ~/.zshrc
 
 _green 'install oh my zsh...done.\n'
