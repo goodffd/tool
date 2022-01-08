@@ -52,12 +52,12 @@ fi
 
 #安装zsh和git
 if [ ${systemPackage} == "yum" ]; then
-    ${sudoCmd} ${systemPackage} install curl zsh git -y -q
+    ${sudoCmd} ${systemPackage} install zsh git -y -q
 else
-    ${sudoCmd} ${systemPackage} install curl zsh git -y -qq
+    ${sudoCmd} ${systemPackage} install zsh git -y -qq
 fi
 #安装oh my zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 #安装插件
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
