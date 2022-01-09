@@ -69,7 +69,7 @@ sed -i '/^ZSH_THEME=".*"/s/".*"/"ys"/g' ~/.zshrc
 sed -i 's/^plugins=(\(.*\))/plugins=(\1 zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
 
 #切换默认shell到zsh
-${sudoCmd} chsh -s $zsh
+${sudoCmd} chsh -s $(which zsh)
 ${sudoCmd} exec zsh -l && source ~/.zshrc
 
 _green 'install oh my zsh...done.\n'
