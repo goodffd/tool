@@ -58,7 +58,11 @@ else
 fi
 
 #安装oh my zsh
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" && \
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" "" --unattended
+
+#切换默认shell到zsh，启动zsh，安装插件，修改.zshrc配置文件
+${sudoCmd} chsh -s $(which zsh)
+${sudoCmd} exec zsh -l && \
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions && \
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting && \
 sed -i '/^ZSH_THEME=".*"/s/".*"/"ys"/g' ~/.zshrc && \
