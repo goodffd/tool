@@ -58,18 +58,11 @@ else
 fi
 
 #安装oh my zsh
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" "" --unattended
-
-#安装插件
-git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-
-#配置oh my zsh配置文件
-sed -i '/^ZSH_THEME=".*"/s/".*"/"ys"/g' ~/.zshrc
-sed -i 's/^plugins=(\(.*\))/plugins=(\1 zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
-
-#切换默认shell到zsh
-${sudoCmd} chsh -s $(which zsh)
-${sudoCmd} exec zsh -l && source ~/.zshrc
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" && \
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions && \
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting && \
+sed -i '/^ZSH_THEME=".*"/s/".*"/"ys"/g' ~/.zshrc && \
+sed -i 's/^plugins=(\(.*\))/plugins=(\1 zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc && \
+source ~/.zshrc
 
 _green 'install oh my zsh...done.\n'
