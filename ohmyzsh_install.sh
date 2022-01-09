@@ -57,7 +57,7 @@ else
     ${sudoCmd} ${systemPackage} install zsh git -y -qq
 fi
 
-#切换shell
+#切换默认shell到zsh
 ${sudoCmd} chsh -s /bin/zsh
 
 #安装oh my zsh
