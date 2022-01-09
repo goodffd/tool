@@ -65,7 +65,6 @@ ${sudoCmd} git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-
 ${sudoCmd} git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ${sudoCmd} sed -i '/^ZSH_THEME=".*"/s/".*"/"ys"/g' ~/.zshrc
 ${sudoCmd} sed -i 's/^plugins=(\(.*\))/plugins=(\1 zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
-${sudoCmd} $(which zsh) -c "$(source ~/.zshrc)"
 ${sudoCmd} chsh -s $(which zsh)
 _green 'install oh my zsh...done.\n'
 ${sudoCmd} exec zsh -l
