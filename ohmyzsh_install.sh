@@ -57,11 +57,8 @@ else
     ${sudoCmd} ${systemPackage} install zsh git -y -qq
 fi
 
-#切换默认shell到zsh
-#${sudoCmd} chsh -s /bin/zsh
-
 #安装oh my zsh
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" "" --unattended
+source <(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -) --unattended
 
 #安装插件
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
@@ -70,6 +67,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 #配置oh my zsh配置文件
 sed -i '/^ZSH_THEME=".*"/s/".*"/"ys"/g' ~/.zshrc
 sed -i 's/^plugins=(\(.*\))/plugins=(\1 zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
-source ~/.zshrc
+
+#切换默认shell到zsh
+${sudoCmd} chsh -s $zsh
+${sudoCmd} exec zsh -l && source ~/.zshrc
 
 _green 'install oh my zsh...done.\n'
