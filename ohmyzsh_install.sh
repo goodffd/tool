@@ -57,14 +57,21 @@ else
     ${sudoCmd} ${systemPackage} install zsh git -y -qq
 fi
 
-#安装oh my zsh
+#安装oh my zsh，使用--unattended参数在安装过程中不切换默认shell且不启动zsh，目的是为了安装完ohmyzsh后能继续执行下面的命令。
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" "" --unattended
 
-#安装zsh插件，修改.zshrc配置文件，切换默认shell到zsh，启动zsh
+#安装zsh插件
 ${sudoCmd} git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 ${sudoCmd} git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
+#修改.zshrc配置文件
 ${sudoCmd} sed -i '/^ZSH_THEME=".*"/s/".*"/"ys"/g' ~/.zshrc
 ${sudoCmd} sed -i 's/^plugins=(\(.*\))/plugins=(\1 zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
+
+#切换默认shell到zsh
 ${sudoCmd} chsh -s $(which zsh)
+
 _green 'install oh my zsh...done.\n'
+
+#启动zsh
 ${sudoCmd} exec zsh -l
