@@ -61,10 +61,7 @@ fi
 #${sudoCmd} chsh -s /bin/zsh
 
 #安装oh my zsh
-#sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O ohmyzsh.sh && chmod +x ohmyzsh.sh
-./ohmyzsh.sh
-
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" "" --unattended
 
 #安装插件
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
