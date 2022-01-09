@@ -71,7 +71,7 @@ ${sudoCmd} sed -i 's/^plugins=(\(.*\))/plugins=(\1 zsh-autosuggestions zsh-synta
 #切换默认shell到zsh
 ${sudoCmd} chsh -s $(which zsh)
 
-_green 'install oh my zsh...done.\n'
+_green 'Configure oh my zsh...done.\n'
 
 #启动zsh
 ${sudoCmd} exec zsh -l
