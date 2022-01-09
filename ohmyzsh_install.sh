@@ -58,10 +58,11 @@ else
 fi
 
 #切换默认shell到zsh
-${sudoCmd} chsh -s /bin/zsh
+#${sudoCmd} chsh -s /bin/zsh
 
 #安装oh my zsh
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+#sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+source <(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)
 
 #安装插件
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
