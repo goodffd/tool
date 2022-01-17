@@ -510,6 +510,7 @@ add regexp="(\\.|^)beevpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)behance\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)behindkink\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)beijing1989\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)beijing2022\\.art\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)beijingspring\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)beijingzx\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)belamionline\\.com\$" type=FWD forward-to=$gfwdns
