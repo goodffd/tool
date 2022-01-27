@@ -36,12 +36,12 @@ else
     ${sudoCmd} ${systemPackage} install wget dnsutils -y -qq
 fi
 
-dns = $(dig tw6.dnsunlock.com +short)
 wget -O Disney.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list
 sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Disney.list
 sed ':a;N;s/\n/|/g;ta' Disney.list > Disney.list.rosL7
 sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=A address=$disney comment=DN/g' Disney.list
 sed '=' Disney.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/g' > Disney.list.rosdns
+dns = $(dig tw6.dnsunlock.com +short)
 sed -i "1 i:local disney $dns" Disney.list.rosdns
 sed -i '2 i/ip dns static remove [/ip dns static find comment~"DN.*"]' Disney.list.rosdns
 sed -i '3 i/ip dns static' Disney.list.rosdns
