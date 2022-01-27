@@ -42,6 +42,6 @@ sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Disney.list
 sed ':a;N;s/\n/|/g;ta' Disney.list > Disney.list.rosL7
 sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=A address=$disney comment=DN/g' Disney.list
 sed '=' Disney.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/g' > Disney.list.rosdns
-sed -i '1 i:local disney '$dns'' Disney.list.rosdns
+sed -i "1 i:local disney $dns" Disney.list.rosdns
 sed -i '2 i/ip dns static remove [/ip dns static find comment~"DN.*"]' Disney.list.rosdns
 sed -i '3 i/ip dns static' Disney.list.rosdns
