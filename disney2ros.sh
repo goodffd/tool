@@ -44,4 +44,4 @@ sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=A address=$disney
 sed '=' Disney.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > Disney.list.rosdns
 sed -i '1 i:local disney ${dns}' Disney.list.rosdns
 sed -i '2 i/ip dns static remove [/ip dns static find comment~"DN.*"]' Disney.list.rosdns
-sed -i '3 i/ip dns static' Disney.list.new
+sed -i '3 i/ip dns static' Disney.list.rosdns
