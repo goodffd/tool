@@ -36,17 +36,17 @@ else
     ${sudoCmd} ${systemPackage} install wget dnsutils -y -qq
 fi
 
-wget -O Disney.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list
-sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Disney.list
+${sudoCmd} wget -O Disney.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list
+${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Disney.list
 
 #生成ros L7
-sed ':a;N;s/\n/|/g;ta' Disney.list > Disney.list.rosL7
-sed -i 's/^/"/g;s/$/"/g' Disney.list.rosL7
-sed -i 's/^/\/ip firewall layer7-protocol set [find name=disney] regexp=/g' Disney.list.rosL7
+${sudoCmd} sed ':a;N;s/\n/|/g;ta' Disney.list > Disney.list.rosL7
+${sudoCmd} sed -i 's/^/"/g;s/$/"/g' Disney.list.rosL7
+${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=disney] regexp=/g' Disney.list.rosL7
 
 #生成ros dns
-sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=A address=$disney comment=DN/g' Disney.list
-sed '=' Disney.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > Disney.list.rosdns
-sed -i "1 i:local disney $(dig tw6.dnsunlock.com +short)" Disney.list.rosdns
-sed -i '2 i/ip dns static remove [/ip dns static find comment~"DN.*"]' Disney.list.rosdns
-sed -i '3 i/ip dns static' Disney.list.rosdns
+${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=A address=$disney comment=DN/g' Disney.list
+${sudoCmd} sed '=' Disney.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > Disney.list.rosdns
+${sudoCmd} sed -i "1 i:local disney $(dig tw6.dnsunlock.com +short)" Disney.list.rosdns
+${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment~"DN.*"]' Disney.list.rosdns
+${sudoCmd} sed -i '3 i/ip dns static' Disney.list.rosdns
