@@ -5116,6 +5116,7 @@ add regexp="(\\.|^)truebuddha-md\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)trulyergonomic\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)truth101\\.co\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)truthontour\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)truthsocial\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)truveo\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tryheart\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tsctv\\.net\$" type=FWD forward-to=$gfwdns
