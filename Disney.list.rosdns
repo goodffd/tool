@@ -1,4 +1,4 @@
-:local disney 103.137.63.117
+:local disney 
 /ip dns static remove [/ip dns static find comment~"DN.*"]
 /ip dns static
 add regexp="(\\.|^)20thcenturystudios\\.com\\.au\$" type=A address=$disney comment=DN1
