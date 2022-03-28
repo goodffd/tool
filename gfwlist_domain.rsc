@@ -2871,6 +2871,7 @@ add regexp="(\\.|^)iyouport\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)izaobao\\.us\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)izlesem\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)izles\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)jable\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)jamaat\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)jamestown\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)jamyangnorbu\\.com\$" type=FWD forward-to=$gfwdns
@@ -3140,6 +3141,7 @@ add regexp="(\\.|^)line\\.naver\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)line-scdn\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)linglingfa\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lingvodics\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)linkedin\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)linkideo\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)link-o-rama\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)linkuswell\\.com\$" type=FWD forward-to=$gfwdns
@@ -3407,6 +3409,7 @@ add regexp="(\\.|^)mobileways\\.de\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mobypicture\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)moby\\.to\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)modernchinastudies\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)mod\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)moeaic\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)moeerolibrary\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mofa\\.gov\\.tw\$" type=FWD forward-to=$gfwdns

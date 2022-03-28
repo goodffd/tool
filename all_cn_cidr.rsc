@@ -2353,6 +2353,8 @@ add address=103.183.26.0/23 list=CN
 add address=103.183.66.0/23 list=CN
 add address=103.183.122.0/23 list=CN
 add address=103.183.124.0/23 list=CN
+add address=103.184.44.0/22 list=CN
+add address=103.184.60.0/23 list=CN
 add address=103.192.0.0/19 list=CN
 add address=103.192.48.0/21 list=CN
 add address=103.192.56.0/22 list=CN
