@@ -3836,6 +3836,7 @@ add regexp="(\\.|^)opendn\\.xyz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)openervpn\\.in\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)openid\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)openleaks\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)opensea\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)opensource\\.google\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)opentech\\.fund\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)openvpn\\.net\$" type=FWD forward-to=$gfwdns
