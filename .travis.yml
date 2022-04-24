@@ -16,6 +16,7 @@ script:
 - chmod +x ./cnlist2smartdns.sh && ./cnlist2smartdns.sh && mv ./china_domain.conf ./output
 - chmod +x ./nfaws2ros.sh && ./nfaws2ros.sh && mv ./nfaws.rsc ./output
 - chmod +x ./disney2ros.sh && ./disney2ros.sh && mv ./Disney.list.rosL7 ./Disney.list.rosdns -t ./output
+- chmod +x ./uslist2ros.sh && ./uslist2ros.sh && mv ./all_us_cidr.rsc ./output
 - DATE_TIME=$(date "+%Y-%m-%d %H:%M:%S")
 - cd /tmp/
 - git clone https://${GIT_USER}:${TOKEN}@github.com/${GIT_USER}/${REPO}.git --branch gh-pages --single-branch gh-pages > /dev/null 2>&1 || exit 1
