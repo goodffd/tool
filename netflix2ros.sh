@@ -45,7 +45,7 @@ ${sudoCmd} sed -i 's/^/"/g;s/$/"/g' Netflix.list.rosL7
 ${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=netflix] regexp=/g' Netflix.list.rosL7
 
 #生成ros dns
-${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=FWD address=$netflix comment=NF/g' Netflix.list
+${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=FWD forward-to=$netflix comment=NF/g' Netflix.list
 ${sudoCmd} sed '=' Netflix.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > Netflix.list.rosdns
 ${sudoCmd} sed -i "1 i:local netflix 45.11.185.4" Netflix.list.rosdns
 ${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment~"NF.*"]' Netflix.list.rosdns
