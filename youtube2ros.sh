@@ -45,7 +45,7 @@ ${sudoCmd} sed -i 's/^/"/g;s/$/"/g' YouTube.list.rosL7
 ${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=youtube] regexp=/g' YouTube.list.rosL7
 
 #生成ros dns
-${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=FWD address=$youtube comment=YT/g' YouTube.list
+${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=FWD forward-to=$youtube comment=YT/g' YouTube.list
 ${sudoCmd} sed '=' YouTube.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > YouTube.list.rosdns
 ${sudoCmd} sed -i "1 i:local youtube 45.11.185.4" YouTube.list.rosdns
 ${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment~"YT.*"]' YouTube.list.rosdns
