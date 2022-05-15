@@ -38,7 +38,6 @@ fi
 
 ${sudoCmd} wget -O YouTube.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list
 ${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' YouTube.list
-${sudoCmd} echo "music.youtube.com" >> YouTube.list
 
 #生成ros L7
 ${sudoCmd} sed ':a;N;s/\n/|/g;ta' YouTube.list > YouTube.list.rosL7
