@@ -36,7 +36,7 @@ else
     ${sudoCmd} ${systemPackage} install wget dnsutils -y -qq
 fi
 
-${sudoCmd} wget -O YouTube.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
+${sudoCmd} wget -O Netflix.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
 ${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Netflix.list
 
 #生成ros L7
