@@ -45,7 +45,7 @@ ${sudoCmd} sed -i 's/^/"/g;s/$/"/g' Disney.list.rosL7
 ${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=disney] regexp=/g' Disney.list.rosL7
 
 #生成ros dns
-${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=A address=$disney comment=DN/g' Disney.list
+${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=FWD address=$disney comment=DN/g' Disney.list
 ${sudoCmd} sed '=' Disney.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > Disney.list.rosdns
 ${sudoCmd} sed -i "1 i:local disney 45.11.185.4" Disney.list.rosdns
 ${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment~"DN.*"]' Disney.list.rosdns
