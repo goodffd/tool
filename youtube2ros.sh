@@ -36,17 +36,18 @@ else
     ${sudoCmd} ${systemPackage} install wget dnsutils -y -qq
 fi
 
-${sudoCmd} wget -O Disney.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list
-${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Disney.list
+${sudoCmd} wget -O YouTube.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list
+${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' YouTube.list
+${sudoCmd} echo "music.youtube.com" >> YouTube.list
 
 #生成ros L7
-${sudoCmd} sed ':a;N;s/\n/|/g;ta' Disney.list > Disney.list.rosL7
-${sudoCmd} sed -i 's/^/"/g;s/$/"/g' Disney.list.rosL7
-${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=disney] regexp=/g' Disney.list.rosL7
+${sudoCmd} sed ':a;N;s/\n/|/g;ta' YouTube.list > YouTube.list.rosL7
+${sudoCmd} sed -i 's/^/"/g;s/$/"/g' YouTube.list.rosL7
+${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=youtube] regexp=/g' YouTube.list.rosL7
 
 #生成ros dns
-${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=A address=$disney comment=DN/g' Disney.list
-${sudoCmd} sed '=' Disney.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > Disney.list.rosdns
-${sudoCmd} sed -i "1 i:local disney $(dig hk1.dnsunlock.com +short)" Disney.list.rosdns
-${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment~"DN.*"]' Disney.list.rosdns
-${sudoCmd} sed -i '3 i/ip dns static' Disney.list.rosdns
+${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=A address=$youtube comment=DN/g' YouTube.list
+${sudoCmd} sed '=' YouTube.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > YouTube.list.rosdns
+${sudoCmd} sed -i "1 i:local youtube 45.11.185.4" YouTube.list.rosdns
+${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment~"DN.*"]' YouTube.list.rosdns
+${sudoCmd} sed -i '3 i/ip dns static' YouTube.list.rosdns
