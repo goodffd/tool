@@ -285,7 +285,6 @@ add regexp="(\\.|^)aniscartujo\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)annatam\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)anobii\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)anontext\\.com\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)anonymise\\.us\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)anonymitynetwork\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)anonymizer\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)anonymouse\\.org\$" type=FWD forward-to=$gfwdns
@@ -1954,6 +1953,7 @@ add regexp="(\\.|^)gamer\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gamez\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gamousa\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ganges\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)ganjingworld\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gaoming\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gaopi\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gaozhisheng\\.net\$" type=FWD forward-to=$gfwdns
@@ -4107,6 +4107,7 @@ add regexp="(\\.|^)privoxy\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)procopytips\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)project-syndicate\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)prosiben\\.de\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)proton\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)protonvpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)provideocoalition\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)provpnaccounts\\.com\$" type=FWD forward-to=$gfwdns
