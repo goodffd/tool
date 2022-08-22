@@ -3929,6 +3929,7 @@ add regexp="(\\.|^)passiontimes\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)pastebin\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)paste\\.ee\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)pastie\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)patreon\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)paxful\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)pbs\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)pbwiki\\.com\$" type=FWD forward-to=$gfwdns
