@@ -542,6 +542,7 @@ add address=16.162.162.96/29 list=netflix
 add address=16.163.196.0/22 list=netflix
 add address=16.163.206.0/23 list=netflix
 add address=16.171.48.0/22 list=netflix
+add address=18.60.78.192/27 list=netflix
 add address=18.102.2.0/23 list=netflix
 add address=18.117.239.68/30 list=netflix
 add address=18.130.91.144/29 list=netflix
