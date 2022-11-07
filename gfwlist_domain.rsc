@@ -2608,6 +2608,7 @@ add regexp="(\\.|^)hopto\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hornygamer\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hornytrip\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)horrorporn\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)hostloc\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hotair\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hotav\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hotels\\.cn\$" type=FWD forward-to=$gfwdns
@@ -4313,6 +4314,7 @@ add regexp="(\\.|^)ritter\\.vg\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rixcloud\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rixcloud\\.us\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rlwlw\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)rmbl\\.ws\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rmjdw132\\.info\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rmjdw\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)roadshow\\.hk\$" type=FWD forward-to=$gfwdns
@@ -4344,6 +4346,7 @@ add regexp="(\\.|^)rtycminnesota\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ruanyifeng\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rukor\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rule34\\.xxx\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)rumble\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)runbtx\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rushbee\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rusvpn\\.com\$" type=FWD forward-to=$gfwdns
