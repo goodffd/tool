@@ -775,6 +775,7 @@ add regexp="(\\.|^)btbtav\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)btc98\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)btcbank\\.bank\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)btctrade\\.im\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)btdig\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)btdigg\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)btku\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)btku\\.org\$" type=FWD forward-to=$gfwdns
@@ -782,7 +783,6 @@ add regexp="(\\.|^)btspread\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)btsynckeys\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)budaedu\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)buddhanet\\.com\\.tw\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)buddhistchannel\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)buffered\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bullguard\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bullogger\\.com\$" type=FWD forward-to=$gfwdns
@@ -3857,6 +3857,7 @@ add regexp="(\\.|^)openid\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)openleaks\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)opensea\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)opensource\\.google\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)openstreetmap\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)opentech\\.fund\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)openvpn\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)openvpn\\.org\$" type=FWD forward-to=$gfwdns
