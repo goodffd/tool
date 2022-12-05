@@ -3227,7 +3227,6 @@ add address=118.102.32.0/21 list=CN
 add address=118.103.164.0/22 list=CN
 add address=118.103.168.0/21 list=CN
 add address=118.103.176.0/22 list=CN
-add address=118.107.180.0/22 list=CN
 add address=118.112.0.0/13 list=CN
 add address=118.120.0.0/14 list=CN
 add address=118.124.0.0/15 list=CN
