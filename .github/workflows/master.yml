@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 1500
     steps:
       - name: 'Checking'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: 'Publish Github Pages'
         env:
