@@ -304,6 +304,9 @@ add address=3.251.148.120/29 list=netflix
 add address=3.251.152.44/30 list=netflix
 add address=3.253.134.0/23 list=netflix
 add address=3.253.148.0/22 list=netflix
+add address=3.253.174.0/23 list=netflix
+add address=3.253.184.0/22 list=netflix
+add address=3.253.188.0/24 list=netflix
 add address=8.41.4.0/24 list=netflix
 add address=13.36.18.0/28 list=netflix
 add address=13.36.18.32/27 list=netflix
