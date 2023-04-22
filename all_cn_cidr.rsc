@@ -2803,6 +2803,7 @@ add address=103.246.132.0/22 list=CN
 add address=103.246.152.0/21 list=CN
 add address=103.247.168.0/21 list=CN
 add address=103.247.176.0/22 list=CN
+add address=103.247.191.0/24 list=CN
 add address=103.247.200.0/22 list=CN
 add address=103.247.212.0/22 list=CN
 add address=103.248.0.0/23 list=CN
