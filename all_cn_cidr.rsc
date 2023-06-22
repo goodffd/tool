@@ -2635,11 +2635,13 @@ add address=103.224.80.0/22 list=CN
 add address=103.224.220.0/22 list=CN
 add address=103.224.224.0/21 list=CN
 add address=103.224.232.0/22 list=CN
+add address=103.225.18.0/24 list=CN
 add address=103.225.84.0/22 list=CN
 add address=103.226.16.0/22 list=CN
 add address=103.226.40.0/22 list=CN
 add address=103.226.56.0/21 list=CN
 add address=103.226.80.0/22 list=CN
+add address=103.226.116.0/23 list=CN
 add address=103.226.132.0/22 list=CN
 add address=103.226.156.0/22 list=CN
 add address=103.226.180.0/22 list=CN
