@@ -2086,6 +2086,7 @@ add regexp="(\\.|^)goagent\\.biz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)goagent\\.codeplex\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)goagentplus\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gobet\\.cc\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)godaddy\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)godfootsteps\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)godns\\.work\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)godoc\\.org\$" type=FWD forward-to=$gfwdns
