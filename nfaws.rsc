@@ -377,6 +377,7 @@ add address=13.126.243.0/24 list=netflix
 add address=13.127.70.128/27 list=netflix
 add address=13.127.70.160/29 list=netflix
 add address=13.200.7.128/28 list=netflix
+add address=13.200.140.0/23 list=netflix
 add address=13.208.33.8/29 list=netflix
 add address=13.208.33.16/28 list=netflix
 add address=13.208.131.0/27 list=netflix
