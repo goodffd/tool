@@ -36,7 +36,7 @@ else
     ${sudoCmd} ${systemPackage} install wget -y -qq
 fi
 
-wget -N --no-check-certificate -O cndomain2ros.rsc https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Domain_For_Clash.txt
+wget -N --no-check-certificate -O cndomain2ros.rsc https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Domain.txt
 
 cn_domain_filename="cndomain2ros.rsc"
 
