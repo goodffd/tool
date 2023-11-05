@@ -43,7 +43,7 @@ cn_domain_filename="cndomain2ros.rsc"
 #开始处理 cn_domain_filename 内容
 sed -i '/^#/d' ${cn_domain_filename}
 #sed -i 's/\./\\\\./g; s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=FWD forward-to=$cndns/g' ${cn_domain_filename}
-sed -i ''/^\./ s/^.//; s/\(.*\)/add name="\1" type=FWD forward-to=$cndns match-subdomain=yes/g' ${cn_domain_filename}
+sed -i '/^\./ s/^.//; s/\(.*\)/add name="\1" type=FWD forward-to=$cndns match-subdomain=yes/g' ${cn_domain_filename}
 sed -i '1 i:local cndns 211.140.13.188' ${cn_domain_filename}
 sed -i '2 i/ip dns static remove [/ip dns static find type=FWD]' ${cn_domain_filename}
 sed -i '3 i/ip dns static' ${cn_domain_filename}
