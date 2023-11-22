@@ -850,6 +850,7 @@ add address=35.183.92.176/29 list=netflix
 add address=35.183.255.0/24 list=netflix
 add address=37.77.184.0/21 list=netflix
 add address=38.72.126.0/24 list=netflix
+add address=40.176.65.0/24 list=netflix
 add address=43.198.192.104/29 list=netflix
 add address=43.201.155.152/29 list=netflix
 add address=43.201.155.160/29 list=netflix
