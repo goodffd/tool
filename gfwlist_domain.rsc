@@ -436,6 +436,7 @@ add regexp="(\\.|^)babynet\\.com\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)backchina\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)backpackers\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)backtotiananmen\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)bad\\.news\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)badiucao\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)badjojo\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)badoo\\.com\$" type=FWD forward-to=$gfwdns
@@ -2805,6 +2806,7 @@ add regexp="(\\.|^)indiandefensenews\\.in\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)indiemerch\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)info-graf\\.fr\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)initiativesforchina\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)inkbunny\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)inkui\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)inmediahk\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)innermongolia\\.org\$" type=FWD forward-to=$gfwdns
@@ -3315,6 +3317,7 @@ add regexp="(\\.|^)matome-plus\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)matrix\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)matsushimakaede\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)matters\\.news\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)matters\\.town\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)matthewdgreen\\.wordpress\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mattwilcox\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)maturejp\\.com\$" type=FWD forward-to=$gfwdns
