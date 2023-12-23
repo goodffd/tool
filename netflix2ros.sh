@@ -48,6 +48,7 @@ ${sudoCmd} sed -rn '/^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,/!s/^DOMAIN,(.*)/\1/p' Netf
 #${sudoCmd} sed -i 's/^/"/g;s/$/"/g' Netflix.list.rosL7
 #${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=netflix] regexp=/g' Netflix.list.rosL7
 ${sudoCmd} cat netflix_d.txt netflix_ds.txt netflix_dk.txt > netflix.rosL7
+${sudoCmd} sort netflix.rosL7 | uniq > netflix.rosL7
 ${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' netflix.rosL7
 ${sudoCmd} sed -i 's/^/"/g;s/$/"/g' netflix.rosL7
 ${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name="netflix"] regexp=/g' netflix.rosL7
@@ -62,9 +63,9 @@ ${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name="netflix"] r
 #${sudoCmd} sed -i '3 i/ip dns static' Netflix.list.rosdns
 
 #生成ros dns v7.6之后
-${sudoCmd} sed 's/\(.*\)/add name="\1" type=FWD forward-to=$netflix comment=Netflix/g' netflix_d.txt > netflix.dns
-${sudoCmd} sed 's/\(.*\)/add name="\1" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix/g' netflix_ds.txt >> netflix.dns
-${sudoCmd} sed 's/\(.*\)/add regexp="\1" type=FWD forward-to=$netflix comment=Netflix/g' netflix_dk.txt >> netflix.dns
+${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$netflix comment=Netflix } on-error={}/g' netflix_d.txt > netflix.dns
+${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix } on-error={}/g' netflix_ds.txt >> netflix.dns
+${sudoCmd} sed 's/\(.*\)/:do { add regexp="\1" type=FWD forward-to=$netflix comment=Netflix } on-error={}/g' netflix_dk.txt >> netflix.dns
 ${sudoCmd} sed -i '1 i:local netflix 192.168.99.1' netflix.dns
 ${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment="Netflix"]' netflix.dns
 ${sudoCmd} sed -i '3 i/ip dns static' netflix.dns
