@@ -1,29 +1,29 @@
 :local openai 192.168.99.1
 /ip dns static remove [/ip dns static find comment="OpenAI"]
 /ip dns static
-:do { add name="browser-intake-datadoghq.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="static.cloudflareinsights.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="ai.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="algolia.net" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="api.statsig.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="auth0.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="cdn.cloudflare.net" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="challenges.cloudflare.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="chatgpt.livekit.cloud" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="client-api.arkoselabs.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="events.statsigapi.net" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="featuregates.org" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="host.livekit.cloud" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="identrust.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="intercom.io" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="intercomcdn.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="launchdarkly.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="oaistatic.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="oaiusercontent.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="observeit.net" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="poe.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="segment.io" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="sentry.io" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="stripe.com" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add name="turn.livekit.cloud" type=FWD forward-to=$openai match-subdomain=yes comment=OpenAI } on-error={}
-:do { add regexp="(\\.|^)openai+" type=FWD forward-to=$openai comment=OpenAI } on-error={}
+:do { add name="browser-intake-datadoghq.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="static.cloudflareinsights.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="ai.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="algolia.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="api.statsig.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="auth0.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="cdn.cloudflare.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="challenges.cloudflare.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="chatgpt.livekit.cloud" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="client-api.arkoselabs.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="events.statsigapi.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="featuregates.org" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="host.livekit.cloud" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="identrust.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="intercom.io" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="intercomcdn.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="launchdarkly.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="oaistatic.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="oaiusercontent.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="observeit.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="poe.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="segment.io" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="sentry.io" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="stripe.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="turn.livekit.cloud" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add regexp="(\\.|^)openai+" type=FWD forward-to=$openai address-list=openai comment=OpenAI } on-error={}
