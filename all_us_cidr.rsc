@@ -1670,7 +1670,9 @@ add address=23.168.80.0/24 list=US
 add address=23.168.88.0/24 list=US
 add address=23.168.96.0/24 list=US
 add address=23.168.97.0/24 list=US
+add address=23.168.104.0/24 list=US
 add address=23.168.112.0/24 list=US
+add address=23.168.120.0/24 list=US
 add address=23.168.144.0/24 list=US
 add address=23.168.145.0/24 list=US
 add address=23.168.160.0/24 list=US
