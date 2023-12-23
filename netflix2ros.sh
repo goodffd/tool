@@ -37,14 +37,29 @@ else
 fi
 
 ${sudoCmd} wget -O Netflix.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
-${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Netflix.list
+#${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Netflix.list
+${sudoCmd} sed -rn 's/^DOMAIN-SUFFIX,(.*)/\1/p' Netflix.list > netflix_ds.txt
+${sudoCmd} sed -rn 's/^DOMAIN-KEYWORD,(.*)/(\.|^)\1+/p' Netflix.list > netflix_dk.txt
+${sudoCmd} sed -rn '/^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,/!s/^DOMAIN,(.*)/\1/p' Netflix.list > netflix_d.txt
+
 
 #生成ros L7
-${sudoCmd} sed ':a;N;s/\n/|/g;ta' Netflix.list > Netflix.list.rosL7
-${sudoCmd} sed -i 's/^/"/g;s/$/"/g' Netflix.list.rosL7
-${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=netflix] regexp=/g' Netflix.list.rosL7
+#${sudoCmd} sed ':a;N;s/\n/|/g;ta' Netflix.list > Netflix.list.rosL7
+#${sudoCmd} sed -i 's/^/"/g;s/$/"/g' Netflix.list.rosL7
+#${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=netflix] regexp=/g' Netflix.list.rosL7
+${sudoCmd} cat netflix_d.txt netflix_ds.txt netflix_dk.txt > netflix.rosL7
+${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' netflix.rosL7
 
-#生成ros dns
+
+
+#生成ros dns v7.6之前
+#${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=FWD forward-to=$netflix comment=NF/g' Netflix.list
+#${sudoCmd} sed '=' Netflix.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > Netflix.list.rosdns
+#${sudoCmd} sed -i "1 i:local netflix 45.11.185.4" Netflix.list.rosdns
+#${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment~"NF.*"]' Netflix.list.rosdns
+#${sudoCmd} sed -i '3 i/ip dns static' Netflix.list.rosdns
+
+#生成ros dns v7.6之后
 ${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=FWD forward-to=$netflix comment=NF/g' Netflix.list
 ${sudoCmd} sed '=' Netflix.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > Netflix.list.rosdns
 ${sudoCmd} sed -i "1 i:local netflix 45.11.185.4" Netflix.list.rosdns
