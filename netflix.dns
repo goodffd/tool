@@ -1,0 +1,40 @@
+:local netflix 192.168.99.1
+/ip dns static remove [/ip dns static find comment="Netflix"]
+/ip dns static
+add name="e13252.dscg.akamaiedge.net" type=FWD forward-to=$netflix comment=Netflix
+add name="h-netflix.online-metrix.net" type=FWD forward-to=$netflix comment=Netflix
+add name="netflix.com.edgesuite.net" type=FWD forward-to=$netflix comment=Netflix
+add name="cookielaw.org" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="fast.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="flxvpn.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflix.ca" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflix.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflix.com.au" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflix.com.edgesuite.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflix.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest0.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest1.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest10.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest2.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest3.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest4.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest5.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest6.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest7.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest8.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixdnstest9.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixinvestor.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixstudios.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="netflixtechblog.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="nflxext.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="nflximg.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="nflximg.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="nflxsearch.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="nflxso.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="nflxvideo.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="onetrust.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add name="us-west-2.amazonaws.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix
+add regexp="(\\.|^)apiproxy-device-prod-nlb-+" type=FWD forward-to=$netflix comment=Netflix
+add regexp="(\\.|^)dualstack.apiproxy-+" type=FWD forward-to=$netflix comment=Netflix
+add regexp="(\\.|^)dualstack.ichnaea-web-+" type=FWD forward-to=$netflix comment=Netflix
+add regexp="(\\.|^)netflixdnstest+" type=FWD forward-to=$netflix comment=Netflix
