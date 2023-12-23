@@ -47,8 +47,8 @@ ${sudoCmd} sed -rn '/^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,/!s/^DOMAIN,(.*)/\1/p' Netf
 #${sudoCmd} sed ':a;N;s/\n/|/g;ta' Netflix.list > Netflix.list.rosL7
 #${sudoCmd} sed -i 's/^/"/g;s/$/"/g' Netflix.list.rosL7
 #${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=netflix] regexp=/g' Netflix.list.rosL7
-${sudoCmd} cat netflix_d.txt netflix_ds.txt netflix_dk.txt > netflix.rosL7
-${sudoCmd} sort netflix.rosL7 | uniq > netflix.rosL7
+${sudoCmd} cat netflix_d.txt netflix_ds.txt netflix_dk.txt > netflix.txt
+${sudoCmd} sort netflix.txt | uniq > netflix.rosL7
 ${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' netflix.rosL7
 ${sudoCmd} sed -i 's/^/"/g;s/$/"/g' netflix.rosL7
 ${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name="netflix"] regexp=/g' netflix.rosL7
