@@ -63,7 +63,7 @@ ${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name="netflix"] r
 #${sudoCmd} sed -i '3 i/ip dns static' Netflix.list.rosdns
 
 #生成ros dns v7.6之后
-${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$netflix comment=Netflix } on-error={}/g' netflix_d.txt > netflix.dns
+${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix } on-error={}/g' netflix_d.txt > netflix.dns
 ${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix } on-error={}/g' netflix_ds.txt >> netflix.dns
 ${sudoCmd} sed 's/\(.*\)/:do { add regexp="\1" type=FWD forward-to=$netflix comment=Netflix } on-error={}/g' netflix_dk.txt >> netflix.dns
 ${sudoCmd} sed -i '1 i:local netflix 192.168.99.1' netflix.dns
