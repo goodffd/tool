@@ -36,10 +36,10 @@ else
     ${sudoCmd} ${systemPackage} install wget -y -qq
 fi
 
-wget -N --no-check-certificate -O cndomain.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMax/ChinaMax_Domain.list
+${sudoCmd} wget -N --no-check-certificate -O cndomain.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMax/ChinaMax_Domain.list
 
 cn_domain_filename="cndomain.txt"
 
 #开始处理 cn_domain_filename 内容
-sed -i '/^#/d' ${cn_domain_filename}
-sed -i '/^\./ s/^.//; s/\(.*\)/domain:\1/g' ${cn_domain_filename}
+${sudoCmd} sed -i '/^#/d' ${cn_domain_filename}
+${sudoCmd} sed -i '/^\./ s/^.//; s/\(.*\)/domain:\1/g' ${cn_domain_filename}
