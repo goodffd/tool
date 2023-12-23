@@ -1,9 +1,9 @@
 :local netflix 192.168.99.1
 /ip dns static remove [/ip dns static find comment="Netflix"]
 /ip dns static
-:do { add name="e13252.dscg.akamaiedge.net" type=FWD forward-to=$netflix comment=Netflix } on-error={}
-:do { add name="h-netflix.online-metrix.net" type=FWD forward-to=$netflix comment=Netflix } on-error={}
-:do { add name="netflix.com.edgesuite.net" type=FWD forward-to=$netflix comment=Netflix } on-error={}
+:do { add name="e13252.dscg.akamaiedge.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix } on-error={}
+:do { add name="h-netflix.online-metrix.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix } on-error={}
+:do { add name="netflix.com.edgesuite.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix } on-error={}
 :do { add name="cookielaw.org" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix } on-error={}
 :do { add name="fast.com" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix } on-error={}
 :do { add name="flxvpn.net" type=FWD forward-to=$netflix match-subdomain=yes comment=Netflix } on-error={}
