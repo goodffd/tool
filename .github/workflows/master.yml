@@ -32,6 +32,7 @@ jobs:
           chmod +x ./cnlist2smartdns.sh && ./cnlist2smartdns.sh && mv ./china_domain.conf $BUILD_DIR
           chmod +x ./nfaws2ros.sh && ./nfaws2ros.sh && mv ./nfaws.rsc $BUILD_DIR
           chmod +x ./netflix2ros.sh && ./netflix2ros.sh && mv ./netflix.rosL7 ./netflix.dns -t $BUILD_DIR
+          chmod +x ./openai2ros.sh && ./openai2ros.sh && mv ./openai.rosL7 ./openai.dns -t $BUILD_DIR
           chmod +x ./disney2ros.sh && ./disney2ros.sh && mv ./Disney.list.rosL7 ./Disney.list.rosdns -t $BUILD_DIR
           chmod +x ./youtube2ros.sh && ./youtube2ros.sh && mv ./YouTube.list.rosL7 ./YouTube.list.rosdns -t $BUILD_DIR
           chmod +x ./uslist2ros.sh && ./uslist2ros.sh && mv ./all_us_cidr.rsc $BUILD_DIR
