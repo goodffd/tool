@@ -38,7 +38,7 @@ fi
 
 ${sudoCmd} wget -O OpenAI.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/OpenAI/OpenAI.list
 ${sudoCmd} sed -rn 's/^DOMAIN-SUFFIX,(.*)/\1/p' OpenAI.list > openai_ds.txt
-${sudoCmd} sed -rn 's/^DOMAIN-KEYWORD,(.*)/(\\\\.|^)\1+/p' OpenAI.list > openai_dk.txt
+${sudoCmd} sed -rn 's/^DOMAIN-KEYWORD,(.*)/.*\1.*/p' OpenAI.list > openai_dk.txt
 ${sudoCmd} sed -rn '/^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,/!s/^DOMAIN,(.*)/\1/p' OpenAI.list > openai_d.txt
 
 
