@@ -69,6 +69,6 @@ ${sudoCmd} sed 's/\(.*\)/:do { add regexp="\1" type=FWD forward-to=$netflix addr
 ${sudoCmd} sed -i '1 i:local netflix 192.168.99.1' netflix.dns
 ${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment="Netflix"]' netflix.dns
 ${sudoCmd} sed -i '3 i/ip dns static' netflix.dns
-${sudoCmd} sed -i '1 i:local netflix fdac::2' netflix.dnsv6
+${sudoCmd} sed -i '1 i:local netflix fdb0::1' netflix.dnsv6
 ${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment="Netflix_v6"]' netflix.dnsv6
 ${sudoCmd} sed -i '3 i/ip dns static' netflix.dnsv6
