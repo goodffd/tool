@@ -43,18 +43,20 @@ ${sudoCmd} sed -rn '/^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,/!s/^DOMAIN,(.*)/\1/p' Open
 
 
 #生成ros L7
-${sudoCmd} sort openai_ds.txt | uniq > openai_ds.rosL7
-${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai_ds.rosL7
-${sudoCmd} sed -i 's/\(.*\)/(\\\\.|^)(\1)\\$/g' openai_ds.rosL7
+#${sudoCmd} sort openai_ds.txt | uniq > openai_ds.rosL7
+#${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai_ds.rosL7
+#${sudoCmd} sed -i 's/\(.*\)/(\\\\.|^)(\1)\\$/g' openai_ds.rosL7
 
-${sudoCmd} sort openai_dk.txt | uniq > openai_dk.rosL7
-${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai_dk.rosL7
+#${sudoCmd} sort openai_dk.txt | uniq > openai_dk.rosL7
+#${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai_dk.rosL7
 
-${sudoCmd} sort openai_d.txt | uniq > openai_d.rosL7
-${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai_d.rosL7
-${sudoCmd} sed -i 's/\(.*\)/\^(\1)\\$/g' openai_d.rosL7
+#${sudoCmd} sort openai_d.txt | uniq > openai_d.rosL7
+#${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai_d.rosL7
+#${sudoCmd} sed -i 's/\(.*\)/\^(\1)\\$/g' openai_d.rosL7
 
-${sudoCmd} cat openai_d.rosL7 openai_ds.rosL7 openai_dk.rosL7 > openai.rosL7
+#${sudoCmd} cat openai_d.rosL7 openai_ds.rosL7 openai_dk.rosL7 > openai.rosL7
+${sudoCmd} cat openai_d.txt openai_ds.txt openai_dk.txt > openai.txt
+${sudoCmd} sort openai.txt | uniq > openai.rosL7
 ${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai.rosL7
 ${sudoCmd} sed -i 's/^/"/g;s/$/"/g' openai.rosL7
 ${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name="openai"] regexp=/g' openai.rosL7
