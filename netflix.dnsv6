@@ -1,4 +1,4 @@
-:local netflix fdac::2
+:local netflix fdb0::1
 /ip dns static remove [/ip dns static find comment="Netflix_v6"]
 /ip dns static
 :do { add name="e13252.dscg.akamaiedge.net" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
