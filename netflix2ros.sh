@@ -69,9 +69,10 @@ ${sudoCmd} sed 's/\(.*\)/:do { add regexp="\1" type=FWD forward-to=$netflix addr
 ${sudoCmd} sed -i '1 i:local netflix 192.168.99.1' netflix.dns
 ${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment="Netflix"]' netflix.dns
 ${sudoCmd} sed -i '3 i/ip dns static' netflix.dns
-${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}/g' netflix_d.txt > netflix.dnsv6
-${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}/g' netflix_ds.txt >> netflix.dnsv6
-${sudoCmd} sed 's/\(.*\)/:do { add regexp="\1" type=FWD forward-to=$netflix_v6 address-list=netflix_v6 comment=Netflix_v6 } on-error={}/g' netflix_dk.txt >> netflix.dnsv6
-${sudoCmd} sed -i '1 i:local netflix_v6 fdb0::1' netflix.dnsv6
+
+${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}/g' netflix_d.txt > netflix.dnsv6
+${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}/g' netflix_ds.txt >> netflix.dnsv6
+${sudoCmd} sed 's/\(.*\)/:do { add regexp="\1" type=FWD forward-to=$netflixv6 address-list=netflix_v6 comment=Netflix_v6 } on-error={}/g' netflix_dk.txt >> netflix.dnsv6
+${sudoCmd} sed -i '1 i:local netflixv6 fdb0::1' netflix.dnsv6
 ${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment="Netflix_v6"]' netflix.dnsv6
 ${sudoCmd} sed -i '3 i/ip dns static' netflix.dnsv6
