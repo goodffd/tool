@@ -39,16 +39,23 @@ fi
 ${sudoCmd} wget -O Netflix.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
 #${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Netflix.list
 ${sudoCmd} sed -rn 's/^DOMAIN-SUFFIX,(.*)/\1/p' Netflix.list > netflix_ds.txt
-${sudoCmd} sed -rn 's/^DOMAIN-KEYWORD,(.*)/.*\1.*/p' Netflix.list > netflix_dk.txt
+${sudoCmd} sed -rn 's/^DOMAIN-KEYWORD,(.*)/\1/p' Netflix.list > netflix_dk.txt
 ${sudoCmd} sed -rn '/^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,/!s/^DOMAIN,(.*)/\1/p' Netflix.list > netflix_d.txt
 
 
 #生成ros L7
-#${sudoCmd} sed ':a;N;s/\n/|/g;ta' Netflix.list > Netflix.list.rosL7
-#${sudoCmd} sed -i 's/^/"/g;s/$/"/g' Netflix.list.rosL7
-#${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=netflix] regexp=/g' Netflix.list.rosL7
-${sudoCmd} cat netflix_d.txt netflix_ds.txt netflix_dk.txt > netflix.txt
-${sudoCmd} sort netflix.txt | uniq > netflix.rosL7
+${sudoCmd} sort netflix_ds.txt | uniq > netflix_ds.rosL7
+${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' netflix_ds.rosL7
+${sudoCmd} sed -i 's/\(.*\)/(\\\\.|^)(\1)\\$/g' netflix_ds.rosL7
+
+${sudoCmd} sort netflix_dk.txt | uniq > netflix_dk.rosL7
+${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' netflix_dk.rosL7
+
+${sudoCmd} sort netflix_d.txt | uniq > netflix_d.rosL7
+${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' netflix_d.rosL7
+${sudoCmd} sed -i 's/\(.*\)/\^(\1)\\$/g' netflix_d.rosL7
+
+${sudoCmd} cat netflix_d.rosL7 netflix_ds.rosL7 netflix_dk.rosL7 > netflix.rosL7
 ${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' netflix.rosL7
 ${sudoCmd} sed -i 's/^/"/g;s/$/"/g' netflix.rosL7
 ${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name="netflix"] regexp=/g' netflix.rosL7
