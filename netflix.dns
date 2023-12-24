@@ -34,7 +34,7 @@
 :do { add name="nflxvideo.net" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
 :do { add name="onetrust.com" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
 :do { add name="us-west-2.amazonaws.com" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
-:do { add regexp="(\\.|^)apiproxy-device-prod-nlb-+" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
-:do { add regexp="(\\.|^)dualstack.apiproxy-+" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
-:do { add regexp="(\\.|^)dualstack.ichnaea-web-+" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
-:do { add regexp="(\\.|^)netflixdnstest+" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
+:do { add regexp=".*apiproxy-device-prod-nlb-.*" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
+:do { add regexp=".*dualstack.apiproxy-.*" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
+:do { add regexp=".*dualstack.ichnaea-web-.*" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
+:do { add regexp=".*netflixdnstest.*" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
