@@ -37,14 +37,16 @@ else
 fi
 
 wget -N --no-check-certificate -O ./all_cn_cidr.rsc https://ispip.clang.cn/all_cn_cidr.txt
-
+wget -N --no-check-certificate -O ./all_cn_ipv6.rsc https://ispip.clang.cn/all_cn_ipv6.txt
 
 cn_filename="all_cn_cidr.rsc"
 
+cn_filename2="all_cn_ipv6.rsc"
+
 #增加私有地址
-echo "192.168.0.0/16" >> ${cn_filename}
-echo "172.16.0.0/12" >> ${cn_filename}
-echo "10.0.0.0/8" >> ${cn_filename}
+#echo "192.168.0.0/16" >> ${cn_filename}
+#echo "172.16.0.0/12" >> ${cn_filename}
+#echo "10.0.0.0/8" >> ${cn_filename}
 
 #开始处理 cn_filename 内容
 #方法1
@@ -64,3 +66,14 @@ sed -i '2 i/ip firewall address-list remove [/ip firewall address-list find list
 
 #5、在文件第3行前插入新行"/ip firewall address-list"
 sed -i '3 i/ip firewall address-list' ${cn_filename}
+
+#ipv6
+sed -i 's/\(.*\)/add address=\1 list=CN/g' ${cn_filename2}
+在文件第1行前插入新行"/log info "Loading CN ipv6 address list""
+sed -i '1 i/log info "Loading CN ipv6 address list"' ${cn_filename2}
+
+在文件第2行前插入新行"/ipv6 firewall address-list remove [/ipv6 firewall address-list find list=CN]"
+sed -i '2 i/ipv6 firewall address-list remove [/ipv6 firewall address-list find list=CN]' ${cn_filename2}
+
+在文件第3行前插入新行"/ipv6 firewall address-list"
+sed -i '3 i/ipv6 firewall address-list' ${cn_filename2}
