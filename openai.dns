@@ -26,4 +26,4 @@
 :do { add name="sentry.io" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="stripe.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="turn.livekit.cloud" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
-:do { add regexp="(\\.|^)openai+" type=FWD forward-to=$openai address-list=openai comment=OpenAI } on-error={}
+:do { add regexp=".*openai.*" type=FWD forward-to=$openai address-list=openai comment=OpenAI } on-error={}
