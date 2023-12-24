@@ -1,40 +1,40 @@
-:local netflix_v6 fdb0::1
+:local netflixv6 fdb0::1
 /ip dns static remove [/ip dns static find comment="Netflix_v6"]
 /ip dns static
-:do { add name="e13252.dscg.akamaiedge.net" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="h-netflix.online-metrix.net" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflix.com.edgesuite.net" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="cookielaw.org" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="fast.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="flxvpn.net" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflix.ca" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflix.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflix.com.au" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflix.com.edgesuite.net" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflix.net" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest0.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest1.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest10.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest2.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest3.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest4.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest5.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest6.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest7.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest8.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixdnstest9.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixinvestor.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixstudios.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="netflixtechblog.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="nflxext.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="nflximg.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="nflximg.net" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="nflxsearch.net" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="nflxso.net" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="nflxvideo.net" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="onetrust.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add name="us-west-2.amazonaws.com" type=FWD forward-to=$netflix_v6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add regexp="(\\.|^)apiproxy-device-prod-nlb-+" type=FWD forward-to=$netflix_v6 address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add regexp="(\\.|^)dualstack.apiproxy-+" type=FWD forward-to=$netflix_v6 address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add regexp="(\\.|^)dualstack.ichnaea-web-+" type=FWD forward-to=$netflix_v6 address-list=netflix_v6 comment=Netflix_v6 } on-error={}
-:do { add regexp="(\\.|^)netflixdnstest+" type=FWD forward-to=$netflix_v6 address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="e13252.dscg.akamaiedge.net" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="h-netflix.online-metrix.net" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflix.com.edgesuite.net" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="cookielaw.org" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="fast.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="flxvpn.net" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflix.ca" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflix.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflix.com.au" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflix.com.edgesuite.net" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflix.net" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest0.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest1.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest10.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest2.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest3.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest4.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest5.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest6.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest7.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest8.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixdnstest9.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixinvestor.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixstudios.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="netflixtechblog.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="nflxext.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="nflximg.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="nflximg.net" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="nflxsearch.net" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="nflxso.net" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="nflxvideo.net" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="onetrust.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add name="us-west-2.amazonaws.com" type=FWD forward-to=$netflixv6 match-subdomain=yes address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add regexp="(\\.|^)apiproxy-device-prod-nlb-+" type=FWD forward-to=$netflixv6 address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add regexp="(\\.|^)dualstack.apiproxy-+" type=FWD forward-to=$netflixv6 address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add regexp="(\\.|^)dualstack.ichnaea-web-+" type=FWD forward-to=$netflixv6 address-list=netflix_v6 comment=Netflix_v6 } on-error={}
+:do { add regexp="(\\.|^)netflixdnstest+" type=FWD forward-to=$netflixv6 address-list=netflix_v6 comment=Netflix_v6 } on-error={}
