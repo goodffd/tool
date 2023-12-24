@@ -39,7 +39,7 @@ fi
 ${sudoCmd} wget -O Netflix.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
 #${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Netflix.list
 ${sudoCmd} sed -rn 's/^DOMAIN-SUFFIX,(.*)/\1/p' Netflix.list > netflix_ds.txt
-${sudoCmd} sed -rn 's/^DOMAIN-KEYWORD,(.*)/(\\\\.|^)\1+/p' Netflix.list > netflix_dk.txt
+${sudoCmd} sed -rn 's/^DOMAIN-KEYWORD,(.*)/.*\1.*/p' Netflix.list > netflix_dk.txt
 ${sudoCmd} sed -rn '/^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,/!s/^DOMAIN,(.*)/\1/p' Netflix.list > netflix_d.txt
 
 
