@@ -5446,6 +5446,3 @@ add address=223.254.0.0/16 list=CN
 add address=223.255.0.0/17 list=CN
 add address=223.255.236.0/22 list=CN
 add address=223.255.252.0/23 list=CN
-add address=192.168.0.0/16 list=CN
-add address=172.16.0.0/12 list=CN
-add address=10.0.0.0/8 list=CN
