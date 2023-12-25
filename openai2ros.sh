@@ -74,6 +74,6 @@ ${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name="openai"] re
 ${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}/g' openai_d.txt > openai.dns
 ${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}/g' openai_ds.txt >> openai.dns
 ${sudoCmd} sed 's/\(.*\)/:do { add regexp="\1" type=FWD forward-to=$openai address-list=openai comment=OpenAI } on-error={}/g' openai_dk.txt >> openai.dns
-${sudoCmd} sed -i '1 i:local openai 192.168.99.1,192.168.97.1' openai.dns
+${sudoCmd} sed -i '1 i:local openai "192.168.99.1,192.168.97.1"' openai.dns
 ${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment="OpenAI"]' openai.dns
 ${sudoCmd} sed -i '3 i/ip dns static' openai.dns
