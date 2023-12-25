@@ -1,4 +1,4 @@
-:local openai "192.168.99.1,192.168.97.1"
+:local openai 192.168.99.1
 /ip dns static remove [/ip dns static find comment="OpenAI"]
 /ip dns static
 :do { add name="browser-intake-datadoghq.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
