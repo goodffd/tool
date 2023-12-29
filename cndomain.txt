@@ -27689,7 +27689,6 @@ domain:htsec.com
 domain:httingshu.com
 domain:httpcanary.com
 domain:httpcn.com
-domain:httpdns.pro
 domain:htucloud.com
 domain:hturl.cc
 domain:htvaas.com
@@ -34627,7 +34626,6 @@ domain:kuaishouapps.com
 domain:kuaishouba.com
 domain:kuaishougroup.com
 domain:kuaishoupay.com
-domain:kuaishouzt.com
 domain:kuaishuru.net
 domain:kuaisujiasu.net
 domain:kuaisushu-cnd.com
@@ -54758,7 +54756,6 @@ domain:volcdns-test.net
 domain:volcdns.com
 domain:volcdns.pub
 domain:volceapi.com
-domain:volceapplog.com
 domain:volcecr.com
 domain:volcecw.com
 domain:volcenginapi.com
@@ -61023,7 +61020,6 @@ domain:yidianling.com
 domain:yidianliulan.com
 domain:yidiansz.com
 domain:yidianting.xin
-domain:yidianzixun.com
 domain:yidianzx.com
 domain:yidmall.com
 domain:yidong-food.com
