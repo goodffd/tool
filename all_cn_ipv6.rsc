@@ -505,9 +505,11 @@ add address=2401:5c20::/32 list=CN
 add address=2401:5c60::/32 list=CN
 add address=2401:5c80::/32 list=CN
 add address=2401:5fa0::/32 list=CN
+add address=2401:70e0::/32 list=CN
 add address=2401:7180::/32 list=CN
 add address=2401:71c0::/32 list=CN
 add address=2401:7240::/32 list=CN
+add address=2401:7320::/32 list=CN
 add address=2401:7340::/32 list=CN
 add address=2401:7580::/32 list=CN
 add address=2401:7680::/32 list=CN

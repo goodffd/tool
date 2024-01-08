@@ -3702,6 +3702,8 @@ add address=153.101.0.0/16 list=CN
 add address=153.118.0.0/15 list=CN
 add address=154.8.128.0/17 list=CN
 add address=157.0.0.0/16 list=CN
+add address=157.10.34.0/23 list=CN
+add address=157.10.36.0/23 list=CN
 add address=157.18.0.0/16 list=CN
 add address=157.61.0.0/16 list=CN
 add address=157.119.8.0/21 list=CN
