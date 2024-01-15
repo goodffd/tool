@@ -511,6 +511,8 @@ add address=2401:71c0::/32 list=CN
 add address=2401:7240::/32 list=CN
 add address=2401:7320::/32 list=CN
 add address=2401:7340::/32 list=CN
+add address=2401:7360::/32 list=CN
+add address=2401:73a0::/32 list=CN
 add address=2401:7580::/32 list=CN
 add address=2401:7680::/32 list=CN
 add address=2401:7700::/32 list=CN
