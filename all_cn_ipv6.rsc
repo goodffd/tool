@@ -514,10 +514,14 @@ add address=2401:7340::/32 list=CN
 add address=2401:7360::/32 list=CN
 add address=2401:73a0::/32 list=CN
 add address=2401:7580::/32 list=CN
+add address=2401:7660::/32 list=CN
 add address=2401:7680::/32 list=CN
 add address=2401:7700::/32 list=CN
 add address=2401:7780::/32 list=CN
+add address=2401:77e0::/32 list=CN
+add address=2401:7820::/32 list=CN
 add address=2401:7880::/32 list=CN
+add address=2401:78e0::/32 list=CN
 add address=2401:7980::/32 list=CN
 add address=2401:7a00::/32 list=CN
 add address=2401:7a80::/32 list=CN
