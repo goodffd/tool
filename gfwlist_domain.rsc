@@ -2691,6 +2691,7 @@ add regexp="(\\.|^)huiyi\\.in\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hulkshare\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hulu\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)huluim\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)humanparty\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)humanrightspressawards\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hung-ya\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hungerstrikeforaids\\.org\$" type=FWD forward-to=$gfwdns
@@ -4945,6 +4946,7 @@ add regexp="(\\.|^)telegraph\\.co\\.uk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)telesco\\.pe\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tellme\\.pw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tenacy\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)tenor\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tensorflow\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tenzinpalmo\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)terabox\\.com\$" type=FWD forward-to=$gfwdns
