@@ -8,7 +8,7 @@
 :do { add name="api.statsig.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="auth0.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="cdn.cloudflare.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
-:do { add name="challenges.cloudflare.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="chatgpt.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="chatgpt.livekit.cloud" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="client-api.arkoselabs.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="events.statsigapi.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
