@@ -639,7 +639,6 @@ add regexp="(\\.|^)blogger\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blogimg\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bloglines\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bloglovin\\.com\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)blogs\\.icerocket\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blogs\\.libraryinformationtechnology\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blogs\\.tampabay\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blogs\\.yahoo\\.co\\.jp\$" type=FWD forward-to=$gfwdns
@@ -2742,6 +2741,7 @@ add regexp="(\\.|^)ibros\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ibvpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)icams\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ice\\.audionow\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)icedrive\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)icij\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)icl-fi\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)icoco\\.com\$" type=FWD forward-to=$gfwdns
@@ -4378,6 +4378,7 @@ add regexp="(\\.|^)ronjoneswriter\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)roodo\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rosechina\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rotten\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)rou\\.video\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rsdlmonitor\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rsf-chinese\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rsf\\.org\$" type=FWD forward-to=$gfwdns
