@@ -901,6 +901,7 @@ add regexp="(\\.|^)cdn-images\\.mailchimp\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cdn-telegram\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cdn\\.assets\\.lfpcontent\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cdn\\.helixstudios\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)cdn\\.jwplayer\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cdn\\.printfriendly\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cdn\\.seatguru\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cdn\\.softlayer\\.net\$" type=FWD forward-to=$gfwdns
@@ -1614,6 +1615,7 @@ add regexp="(\\.|^)etaa\\.org\\.au\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)etadult\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)etaiwannews\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)etherdelta\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)ethermine\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)etherscan\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)etizer\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)etokki\\.com\$" type=FWD forward-to=$gfwdns
@@ -1650,6 +1652,7 @@ add regexp="(\\.|^)eyny\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ezpc\\.tk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ezpeer\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ezua\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)f2pool\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)f8\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)fa\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)facebook\\.br\$" type=FWD forward-to=$gfwdns
@@ -2656,6 +2659,7 @@ add regexp="(\\.|^)hrcchina\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hrcir\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hrea\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hrichina\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)hrntt\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hrtsea\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hrw\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hrweb\\.org\$" type=FWD forward-to=$gfwdns
@@ -3762,6 +3766,7 @@ add regexp="(\\.|^)noxinfluencer\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)noypf\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)npa\\.go\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)npa\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)npm\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)npnt\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nps\\.gov\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)npsboost\\.com\$" type=FWD forward-to=$gfwdns
@@ -4140,6 +4145,7 @@ add regexp="(\\.|^)postimg\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)posts\\.careerengine\\.us\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)potato\\.im\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)potvpn\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)pourquoi\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)power\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)powerapple\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)powercx\\.com\$" type=FWD forward-to=$gfwdns
@@ -6090,6 +6096,7 @@ add regexp="(\\.|^)yzzk\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)z-lib\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zacebook\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zalmos\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)zamimg\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zannel\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zaobao\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zaobao\\.com\\.sg\$" type=FWD forward-to=$gfwdns
