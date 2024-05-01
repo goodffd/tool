@@ -20,7 +20,6 @@
 :do { add name="oaistatic.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="oaiusercontent.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="observeit.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
-:do { add name="poe.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="segment.io" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="sentry.io" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="stripe.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
