@@ -380,7 +380,6 @@ add address=2400:dd00::/28 list=CN
 add address=2400:dd40::/32 list=CN
 add address=2400:dda0::/32 list=CN
 add address=2400:de00::/32 list=CN
-add address=2400:de20::/32 list=CN
 add address=2400:de80::/32 list=CN
 add address=2400:dee0::/32 list=CN
 add address=2400:e0c0::/32 list=CN
@@ -569,7 +568,10 @@ add address=2401:9b20::/31 list=CN
 add address=2401:9b40::/32 list=CN
 add address=2401:9b60::/32 list=CN
 add address=2401:9bc0::/32 list=CN
+add address=2401:9ca0::/32 list=CN
+add address=2401:9d20::/32 list=CN
 add address=2401:9dc0::/32 list=CN
+add address=2401:9e20::/32 list=CN
 add address=2401:9e40::/32 list=CN
 add address=2401:9f80::/32 list=CN
 add address=2401:a140::/32 list=CN
