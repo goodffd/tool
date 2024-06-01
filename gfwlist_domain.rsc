@@ -5911,6 +5911,7 @@ add regexp="(\\.|^)x-art\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)x-berry\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)x-wall\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)x\\.co\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)x\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)x\\.company\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)x1949x\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)x24hr\\.com\$" type=FWD forward-to=$gfwdns
