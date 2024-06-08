@@ -580,8 +580,10 @@ add address=2401:a140::/32 list=CN
 add address=2401:a180::/32 list=CN
 add address=2401:a2e0::/32 list=CN
 add address=2401:a340::/32 list=CN
+add address=2401:a3a0::/32 list=CN
 add address=2401:a3c0::/32 list=CN
 add address=2401:a4c0::/32 list=CN
+add address=2401:a4e0::/32 list=CN
 add address=2401:a540::/32 list=CN
 add address=2401:a5c0::/32 list=CN
 add address=2401:a640::/32 list=CN
