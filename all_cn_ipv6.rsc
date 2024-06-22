@@ -1555,7 +1555,6 @@ add address=2405:ed40::/32 list=CN
 add address=2405:ee80::/32 list=CN
 add address=2405:ef40::/30 list=CN
 add address=2405:f340::/32 list=CN
-add address=2405:f380::/32 list=CN
 add address=2405:f3c0::/32 list=CN
 add address=2405:f580::/32 list=CN
 add address=2405:f6c0::/32 list=CN
