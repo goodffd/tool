@@ -28671,6 +28671,7 @@ domain:gif5.net
 domain:gifcool.com
 domain:giffox.com
 domain:gifhome.com
+domain:gifshow.com
 domain:giftres.com
 domain:giftsbeijing.com
 domain:gifu-pr.com
