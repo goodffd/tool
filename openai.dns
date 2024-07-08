@@ -2,6 +2,12 @@
 /ip dns static remove [/ip dns static find comment="OpenAI"]
 /ip dns static
 :do { add name="browser-intake-datadoghq.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="chat.openai.com.cdn.cloudflare.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="gemini.google.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="openai-api.arkoselabs.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="openaicomproductionae4b.blob.core.windows.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="production-openaicom-storage.azureedge.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="static.cloudflareinsights.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="ai.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="algolia.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
@@ -20,6 +26,9 @@
 :do { add name="oaistatic.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="oaiusercontent.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="observeit.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="openai.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="openaiapi-site.azureedge.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
+:do { add name="openaicom.imgix.net" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="segment.io" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="sentry.io" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
 :do { add name="stripe.com" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}
