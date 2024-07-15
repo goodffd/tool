@@ -15160,6 +15160,7 @@ domain:cbigame.com
 domain:cbinews.com
 domain:cbismb.com
 domain:cbj1998.com
+domain:cbjq.com
 domain:cbjuice.com
 domain:cbjzw.org
 domain:cbmay.com
@@ -20297,6 +20298,7 @@ domain:ctrip-ttd.hk
 domain:ctrip.co.id
 domain:ctrip.co.kr
 domain:ctrip.co.th
+domain:ctrip.com
 domain:ctrip.com.hk
 domain:ctrip.my
 domain:ctrip.sg
@@ -23745,8 +23747,10 @@ domain:duwenxue.com
 domain:duwenz.com
 domain:duwenzhang.com
 domain:duxiaomai.net
+domain:duxiaoman-int.com
 domain:duxiaoman.com
 domain:duxiaomanfintech.com
+domain:duxiaomantech.com
 domain:duxiaoshuo.com
 domain:duxiu.com
 domain:duxuetang.com
@@ -23829,10 +23833,15 @@ domain:dxiazaicc.com
 domain:dxjh.net
 domain:dxjs.com
 domain:dxlfile.com
+domain:dxm-cdn.com
+domain:dxm-int.com
 domain:dxm-yibai.com
 domain:dxmjinr.com
+domain:dxmlcf.com
+domain:dxmlcfintech.com
 domain:dxmpay.com
 domain:dxmstatic.com
+domain:dxmyqh.com
 domain:dxnky.com
 domain:dxqyy.com
 domain:dxrc.com
@@ -41109,6 +41118,7 @@ domain:juejinchain.com
 domain:juejinqifu.com
 domain:juemei.com
 domain:juemuren4449.com
+domain:juequling.com
 domain:juesheng.com
 domain:juewei.com
 domain:juexiang.com
@@ -83165,6 +83175,7 @@ domain:support.1ucrs.com
 domain:taishun.news01.yunshanit.com
 domain:test.bugs-qa.chromium.org
 domain:test.gbugs-qa.chromium.org
+domain:time.xtracloud.net
 domain:tl.gscm.tv
 domain:trtcanlitv-lh.akamaihd.net
 domain:tv-hls.juyun.tv
