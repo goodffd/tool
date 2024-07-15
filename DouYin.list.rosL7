@@ -1,0 +1,1 @@
+/ip firewall layer7-protocol set [find name=DouYin] regexp="amemv.com|douyincdn.com|douyinpic.com|douyinstatic.com|douyinvod.com|idouyinvod.com|ixigua.com|ixiguavideo.com|pstatp.com|snssdk.com|toutiao.com"
