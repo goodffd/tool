@@ -604,9 +604,11 @@ add address=2401:b040::/32 list=CN
 add address=2401:b180::/32 list=CN
 add address=2401:b220::/32 list=CN
 add address=2401:b340::/32 list=CN
+add address=2401:b360::/32 list=CN
 add address=2401:b400::/32 list=CN
 add address=2401:b480::/32 list=CN
 add address=2401:b4c0::/32 list=CN
+add address=2401:b4e0::/32 list=CN
 add address=2401:b540::/32 list=CN
 add address=2401:b580::/32 list=CN
 add address=2401:b600::/32 list=CN
