@@ -431,6 +431,7 @@ add regexp="(\\.|^)axios\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)axureformac\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)azerbaycan\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)azerimix\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)azirevpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)azubu\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)azurewebsites\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)b-ok\\.cc\$" type=FWD forward-to=$gfwdns
@@ -1101,6 +1102,7 @@ add regexp="(\\.|^)club1069\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)clubhouseapi\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)clyp\\.it\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cmcn\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)cmegroup\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cmi\\.org\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cmp\\.hku\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cms\\.gov\$" type=FWD forward-to=$gfwdns
@@ -2799,6 +2801,7 @@ add regexp="(\\.|^)im88\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)imageab\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)imagefap\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)imageflea\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)imageglass\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)images-gaytube\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)images\\.comico\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)imageshack\\.us\$" type=FWD forward-to=$gfwdns

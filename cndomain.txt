@@ -32653,6 +32653,7 @@ domain:gvi-tech.com
 domain:gvlocalization.com
 domain:gvmocpc.com
 domain:gvoiceplat.com
+domain:gvt2-cn.com
 domain:gvwyuik.com
 domain:gvzen.com
 domain:gw-ec.com
@@ -48287,6 +48288,7 @@ domain:lanzun.net
 domain:lao.si
 domain:laobaicai.net
 domain:laobaigan-hs.com
+domain:laoban100.com
 domain:laobandq.com
 domain:laobanfa.com
 domain:laobangban.com
@@ -65786,8 +65788,10 @@ domain:shengxuxu.com
 domain:shengyan985.com
 domain:shengyasd.com
 domain:shengyeji.com
+domain:shengyi.ai
 domain:shengyi.biz
 domain:shengyidi.com
+domain:shengyizhuanjia.com
 domain:shengyuancc.com
 domain:shengzehr.com
 domain:shengzhaoli.com
@@ -85463,6 +85467,7 @@ domain:yuanbaobaoxian.com
 domain:yuanbaohui.com
 domain:yuanbaokc.com
 domain:yuanbaotaoche.com
+domain:yuanbei.biz
 domain:yuanbin.me
 domain:yuancangipr.com
 domain:yuancdn.com
@@ -90409,8 +90414,6 @@ domain:gongyichuangyi.net
 domain:gpb-hls.streamguys1.com
 domain:gstatic-cn.com
 domain:gtm.oasisfeng.com
-domain:gvt1-cn.com
-domain:gvt2-cn.com
 domain:hindiabp-lh.akamaihd.net
 domain:hls-1.wamu.org
 domain:hls-video01.cdnvideo.ru
