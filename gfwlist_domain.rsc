@@ -1273,7 +1273,6 @@ add regexp="(\\.|^)dalailama-archives\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)dalailama\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)dalailama\\.mn\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)dalailama\\.ru\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)dalailama\\.usc\\.edu\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)dalailama80\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)dalailamacenter\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)dalailamafellows\\.org\$" type=FWD forward-to=$gfwdns
@@ -4799,6 +4798,7 @@ add regexp="(\\.|^)storagenewsletter\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)store\\.steampowered\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)stories\\.google\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)storify\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)storj\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)storm\\.mg\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)stormmediagroup\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)stoweboyd\\.com\$" type=FWD forward-to=$gfwdns
@@ -5482,6 +5482,7 @@ add regexp="(\\.|^)urlparser\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)us\\.to\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)usacn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)usaip\\.eu\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)uscardforum\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)uscnpm\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)userapi\\.nytlog\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)users\\.skynet\\.be\$" type=FWD forward-to=$gfwdns
