@@ -1562,7 +1562,6 @@ add address=2405:e040::/32 list=CN
 add address=2405:e1c0::/32 list=CN
 add address=2405:e600::/32 list=CN
 add address=2405:ed40::/32 list=CN
-add address=2405:ee80::/32 list=CN
 add address=2405:ef40::/30 list=CN
 add address=2405:f340::/32 list=CN
 add address=2405:f3c0::/32 list=CN
