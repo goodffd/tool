@@ -2343,8 +2343,12 @@ add address=23.189.136.0/24 list=US
 add address=23.189.152.0/24 list=US
 add address=23.189.168.0/24 list=US
 add address=23.189.184.0/24 list=US
+add address=23.189.200.0/24 list=US
 add address=23.189.208.0/24 list=US
+add address=23.189.216.0/24 list=US
+add address=23.189.232.0/24 list=US
 add address=23.189.240.0/24 list=US
+add address=23.189.248.0/24 list=US
 add address=23.190.16.0/24 list=US
 add address=23.190.48.0/24 list=US
 add address=23.190.49.0/24 list=US
