@@ -39,6 +39,7 @@ jobs:
           chmod +x ./cndomain2ros.sh && ./cndomain2ros.sh && mv ./cndomain2ros.rsc $BUILD_DIR
           chmod +x ./cndomain.sh && ./cndomain.sh && mv ./cndomain.txt $BUILD_DIR
           chmod +x ./fobidvideo2ros.sh && ./fobidvideo2ros.sh && mv ./DouYin.list.rosL7 ./Youku.list.rosL7 $BUILD_DIR
+          mv ./prefer_ipv4.txt $BUILD_DIR
           DATE_TIME=$(date "+%Y-%m-%d %H:%M:%S")
           cd /tmp/
           git clone https://$MY_SECRET@github.com/$GITHUB_REPOSITORY.git --branch gh-pages --single-branch gh-pages > /dev/null 2>&1 || exit 1
