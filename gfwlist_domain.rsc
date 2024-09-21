@@ -3995,6 +3995,7 @@ add regexp="(\\.|^)partycasino\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)partypoker\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)passion\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)passiontimes\\.hk\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)passwords\\.google\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)paste\\.ee\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)pastebin\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)pastie\\.org\$" type=FWD forward-to=$gfwdns
