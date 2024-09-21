@@ -69,11 +69,11 @@ sed -i '3 i/ip firewall address-list' ${cn_filename}
 
 #ipv6
 sed -i 's/\(.*\)/add address=\1 list=CN/g' ${cn_filename2}
-在文件第1行前插入新行"/log info "Loading CN ipv6 address list""
+#在文件第1行前插入新行"/log info "Loading CN ipv6 address list""
 sed -i '1 i/log info "Loading CN ipv6 address list"' ${cn_filename2}
 
-在文件第2行前插入新行"/ipv6 firewall address-list remove [/ipv6 firewall address-list find list=CN]"
+#在文件第2行前插入新行"/ipv6 firewall address-list remove [/ipv6 firewall address-list find list=CN]"
 sed -i '2 i/ipv6 firewall address-list remove [/ipv6 firewall address-list find list=CN]' ${cn_filename2}
 
-在文件第3行前插入新行"/ipv6 firewall address-list"
+#在文件第3行前插入新行"/ipv6 firewall address-list"
 sed -i '3 i/ipv6 firewall address-list' ${cn_filename2}
