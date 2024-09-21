@@ -27,7 +27,7 @@ jobs:
           export TZ=Asia/Shanghai
           mkdir -p $BUILD_DIR
           chmod +x ./gfwlist2ros.sh && ./gfwlist2ros.sh && mv ./gfwlist_domain.rsc $BUILD_DIR
-          chmod +x ./cnlist2ros.sh && ./cnlist2ros.sh && mv ./all_cn_cidr.rsc ./all_cn_ipv6.rsc ./all_cn.txt $BUILD_DIR
+          chmod +x ./cnlist2ros.sh && ./cnlist2ros.sh && mv ./all_cn_cidr.rsc ./all_cn_ipv6.rsc ./all_cn.txt -t $BUILD_DIR
           chmod +x ./gfwlist2smartdns.sh && ./gfwlist2smartdns.sh && mv ./gfwlist_domain.conf $BUILD_DIR
           chmod +x ./cnlist2smartdns.sh && ./cnlist2smartdns.sh && mv ./china_domain.conf $BUILD_DIR
           chmod +x ./netflix2ros.sh && ./netflix2ros.sh && mv ./netflix.rosL7 ./netflix.dns -t $BUILD_DIR
