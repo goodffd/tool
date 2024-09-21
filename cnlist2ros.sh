@@ -38,7 +38,7 @@ fi
 
 wget -N --no-check-certificate -O ./all_cn_cidr.rsc https://ispip.clang.cn/all_cn_cidr.txt
 wget -N --no-check-certificate -O ./all_cn_ipv6.rsc https://ispip.clang.cn/all_cn_ipv6.txt
-cat all_cn_cidr.txt all_cn_ipv6.txt > all_cn.txt
+cat all_cn_cidr.rsc all_cn_ipv6.rsc > all_cn.txt
 
 cn_filename="all_cn_cidr.rsc"
 
