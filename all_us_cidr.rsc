@@ -2366,6 +2366,8 @@ add address=23.190.72.0/24 list=US
 add address=23.190.80.0/21 list=US
 add address=23.190.88.0/24 list=US
 add address=23.190.104.0/24 list=US
+add address=23.190.120.0/24 list=US
+add address=23.190.136.0/24 list=US
 add address=23.190.144.0/24 list=US
 add address=23.190.176.0/24 list=US
 add address=23.190.192.0/24 list=US
