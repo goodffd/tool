@@ -1663,6 +1663,7 @@ add regexp="(\\.|^)f8\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)fa\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)facebook\\.br\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)facebook\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)facebook\\.de\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)facebook\\.design\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)facebook\\.hu\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)facebook\\.in\$" type=FWD forward-to=$gfwdns
@@ -3394,6 +3395,7 @@ add regexp="(\\.|^)merit-times\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)meshrep\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mesotw\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)messenger\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)meta\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)metacafe\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)metafilter\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)metart\\.com\$" type=FWD forward-to=$gfwdns
@@ -5201,6 +5203,7 @@ add regexp="(\\.|^)torrentprivacy\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torrentproject\\.se\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torrenty\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torrentz\\.eu\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)tortoisesvn\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torvpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tosh\\.comedycentral\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)totalvpn\\.com\$" type=FWD forward-to=$gfwdns
