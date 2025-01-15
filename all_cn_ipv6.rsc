@@ -86,6 +86,7 @@ add address=2001:df4:a980::/48 list=CN
 add address=2001:df4:c180::/48 list=CN
 add address=2001:df4:c580::/48 list=CN
 add address=2001:df4:c780::/48 list=CN
+add address=2001:df4:e140::/48 list=CN
 add address=2001:df5:2080::/48 list=CN
 add address=2001:df5:5f80::/48 list=CN
 add address=2001:df5:7800::/48 list=CN
@@ -671,7 +672,6 @@ add address=2401:f7c0::/32 list=CN
 add address=2401:fa80::/32 list=CN
 add address=2401:fb80::/32 list=CN
 add address=2401:fc80::/32 list=CN
-add address=2401:fe80::/32 list=CN
 add address=2401:ffc0::/32 list=CN
 add address=2402:440::/32 list=CN
 add address=2402:5c0::/32 list=CN
