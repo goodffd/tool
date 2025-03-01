@@ -790,6 +790,7 @@ add regexp="(\\.|^)brookings\\.edu\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)brucewang\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)brutaltgp\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bsky\\.app\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)bsky\\.network\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bsky\\.social\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bt95\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)btaia\\.com\$" type=FWD forward-to=$gfwdns
@@ -1169,6 +1170,7 @@ add regexp="(\\.|^)cochina\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)code1984\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)codeshare\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)codeskulptor\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)cofacts\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)coin2co\\.in\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)coinbase\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)coinbene\\.com\$" type=FWD forward-to=$gfwdns
@@ -2454,6 +2456,7 @@ add regexp="(\\.|^)greenreadings\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)greenvpn\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)greenvpn\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)grindr\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)grok\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)grotty-monday\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ground\\.news\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)groups\\.google\\.cn\$" type=FWD forward-to=$gfwdns
