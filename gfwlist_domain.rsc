@@ -327,6 +327,7 @@ add regexp="(\\.|^)aofriend\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)aofriend\\.com\\.au\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)aojiao\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)aolchannels\\.aol\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)aomedia\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)aomiwang\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)apartmentratings\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)apartments\\.com\$" type=FWD forward-to=$gfwdns
@@ -4354,7 +4355,7 @@ add regexp="(\\.|^)powercx\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)powerphoto\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ppy\\.sh\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)prayforchina\\.net\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)premeforwindows7\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)prcleader\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)premproxy\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)presentation\\.new\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)presentationzen\\.com\$" type=FWD forward-to=$gfwdns
