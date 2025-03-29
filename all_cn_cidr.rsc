@@ -3043,7 +3043,6 @@ add address=114.118.0.0/16 list=CN
 add address=114.119.0.0/17 list=CN
 add address=114.119.192.0/18 list=CN
 add address=114.132.0.0/16 list=CN
-add address=114.134.188.0/23 list=CN
 add address=114.135.0.0/16 list=CN
 add address=114.138.0.0/15 list=CN
 add address=114.141.64.0/21 list=CN
@@ -3791,7 +3790,6 @@ add address=163.179.0.0/16 list=CN
 add address=163.204.0.0/16 list=CN
 add address=163.223.28.0/23 list=CN
 add address=163.223.32.0/23 list=CN
-add address=163.223.68.0/23 list=CN
 add address=163.223.124.0/23 list=CN
 add address=163.223.156.0/23 list=CN
 add address=163.223.173.0/24 list=CN
