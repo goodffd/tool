@@ -426,6 +426,7 @@ add regexp="(\\.|^)atnext\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)auctions\\.yahoo\\.co\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)audacy\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)auntology\\.fandom\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)auth\\.openai\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)authorizeddns\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)authorizeddns\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)authorizeddns\\.us\$" type=FWD forward-to=$gfwdns
@@ -4090,6 +4091,7 @@ add regexp="(\\.|^)open\\.firstory\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)open\\.spotify\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)openallweb\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)opendemocracy\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)opendesktop\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)opendn\\.xyz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)openervpn\\.in\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)openid\\.net\$" type=FWD forward-to=$gfwdns
