@@ -681,6 +681,7 @@ add address=2401:f7c0::/32 list=CN
 add address=2401:f860::/32 list=CN
 add address=2401:fa80::/32 list=CN
 add address=2401:fb80::/32 list=CN
+add address=2401:fc60::/32 list=CN
 add address=2401:fc80::/32 list=CN
 add address=2401:ffc0::/32 list=CN
 add address=2402:440::/32 list=CN
