@@ -120,7 +120,6 @@
 85st.com
 881903.com
 888.com
-8888.google
 888poker.com
 89-64.org
 89.64.charter.constitutionalism.solutions
@@ -423,9 +422,7 @@ atlaspost.com
 atnext.com
 auctions.yahoo.co.jp
 audacy.com
-audiomack.com
 auntology.fandom.com
-auth.openai.com
 authorizeddns.net
 authorizeddns.org
 authorizeddns.us
@@ -1163,8 +1160,8 @@ clipfish.de
 cloakpoint.com
 cloud.dify.ai
 cloud.mail.ru
-cloudflare-dns.com
 cloudflare-ipfs.com
+cloudfront.net
 cloudfunctions.net
 club1069.com
 clubhouseapi.com
@@ -1215,7 +1212,6 @@ cofacts.tw
 coin2co.in
 coinbase.com
 coinbene.com
-coincarp.com
 coinegg.com
 coinex.com
 coingecko.com
@@ -1653,6 +1649,7 @@ empfil.com
 emule-ed2k.com
 emulefans.com
 emuparadise.me
+en.favotter.net
 en.hao123.com
 enanyang.my
 encrypt.me
@@ -1808,7 +1805,6 @@ fan-qiang.com
 fanbox.cc
 fangbinxing.com
 fangeming.com
-fangeming.comffvpn.com
 fangeqiang.com
 fanglizhi.info
 fangmincn.org
@@ -1817,7 +1813,6 @@ fangong.org
 fangongheike.com
 fanhaodang.com
 fanhaolou.com
-fani.com
 fanqiang.network
 fanqiang.tk
 fanqiangdang.com
@@ -1832,12 +1827,13 @@ faproxy.com
 faqserv.com
 fartit.com
 farwestchina.com
+fast.wistia.com
 fastestvpn.com
 fastpic.ru
 fastssh.com
 faststone.org
 fatbtc.com
-favcomic.com
+favstar.fm
 fawanghuihui.org
 faydao.com
 faz.net
@@ -1848,10 +1844,14 @@ fbaddins.com
 fbcdn.net
 fbsbx.com
 fbworkmail.com
+fc2.com
+fc2blog.net
+fc2china.com
 fc2cn.com
 fda.gov.tw
 fdc64.de
 fdc64.org
+fdc89.jp
 feedburner.com
 feeder.co
 feeds.fileforum.com
@@ -1867,6 +1867,8 @@ fengzhenghu.com
 fengzhenghu.net
 fevernet.com
 ff.im
+fffff.at
+fflick.com
 ffvpn.com
 fgmtv.net
 fgmtv.org
@@ -2134,7 +2136,6 @@ geekerhome.com
 geekheart.info
 gekikame.com
 gelbooru.com
-gemini.com
 generated.photos
 genius.com
 geocities.co.jp
@@ -2494,6 +2495,7 @@ gospelherald.com
 got-game.org
 gotdns.ch
 gotgeeks.com
+gotquestions.org
 gotrusted.com
 gotw.ca
 gov.taipei
@@ -2567,7 +2569,6 @@ gyatsostudio.com
 gzm.tv
 gzone-anime.info
 h-china.org
-h-ciyuan.com
 h-moe.com
 h1n1china.org
 h528.com
@@ -2884,6 +2885,7 @@ id.heroku.com
 idemocracy.asia
 identi.ca
 idiomconnection.com
+idope.se
 idouga.com
 idreamx.com
 idv.tw
@@ -3474,7 +3476,6 @@ manicur4ik.ru
 mansion.com
 mansionpoker.com
 manta.com
-manwa.me
 manyvoices.news
 maplew.com
 marc.info
@@ -4066,7 +4067,6 @@ omny.fm
 on.cc
 on2.com
 onapp.com
-one.one.one.one
 onedrive.com
 onedrive.live.com
 onedumb.com
@@ -4094,7 +4094,6 @@ open.firstory.me
 open.spotify.com
 openallweb.com
 opendemocracy.net
-opendesktop.org
 opendn.xyz
 openervpn.in
 openid.net
@@ -4628,7 +4627,6 @@ s3-ap-*.amazonaws.com
 s3-ap-southeast-1.amazonaws.com
 s3-ap-southeast-2.amazonaws.com
 s3.amazonaws.com
-s3.eu-central-1.amazonaws.com
 s8forum.com
 sa.hao123.com
 sacks.com
@@ -4808,7 +4806,6 @@ simplecd.org
 simpleproductivityblog.com
 simpleswap.io
 sinchew.com.my
-sing-box.sagernet.org
 singaporepools.com.sg
 singfortibet.com
 singlelogin.se
@@ -4918,7 +4915,6 @@ sos.org
 sosad.fun
 sosreader.com
 sostibet.org
-sotwe.com
 soubory.com
 soul-plus.net
 soulcaliburhentai.net
@@ -4981,7 +4977,6 @@ ssglobal.me
 ssh91.com
 ssl.webpack.de
 ssl443.org
-ssm.fun
 sspanel.net
 sspro.ml
 ssr.tools
@@ -5049,6 +5044,7 @@ studentsforafreetibet.org
 stumbleupon.com
 stupidvideos.com
 subacme.rerouted.org
+subhd.tv
 substack.com
 successfn.com
 suche.gmx.net
@@ -5277,7 +5273,6 @@ thisav.com
 thlib.org
 thomasbernhard.org
 thongdreams.com
-thotsbay.tv
 threadreaderapp.com
 threads.net
 threatchaos.com
@@ -5775,7 +5770,6 @@ uygur.fc2web.com
 uygur.org
 uymaarip.com
 v2.help
-v2.hysteria.network
 v2ex.com
 v2fly.org
 v2ray.com
@@ -5818,6 +5812,7 @@ video.aol.ca
 video.aol.co.uk
 video.aol.com
 video.ap.org
+video.fdbox.com
 video.foxbusiness.com
 videobam.com
 videodetective.com
