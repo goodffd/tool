@@ -268,6 +268,7 @@ alwaysdata.net
 alwaysvpn.com
 am730.com.hk
 amazon.co.jp
+amazonvideo.com
 ameblo.jp
 americangreencard.com
 americanunfinished.com
@@ -517,6 +518,7 @@ bbs.kimy.com.tw
 bbs.mikocon.com
 bbs.morbell.com
 bbs.mychat.to
+bbs.naixi.net
 bbs.netbig.com
 bbs.nyinfor.com
 bbs.ozchinese.com
@@ -3304,6 +3306,8 @@ latelinenews.com
 lausan.hk
 lbank.info
 ld.hao123img.com
+ldplayer.net
+ldplayer.tw
 le-vpn.com
 leafyvpn.net
 lecloud.net
@@ -4376,6 +4380,7 @@ presentationzen.com
 presidentlee.tw
 prestige-av.com
 pride.google
+primevideo.com
 prism-break.org
 prisoneralert.com
 pritunl.com
@@ -4657,6 +4662,7 @@ safechat.com
 safeguarddefenders.com
 safervpn.com
 safety.google
+sagernet.org
 saintyculture.com
 saiq.me
 sakuralive.com
@@ -5403,6 +5409,7 @@ tibetwrites.org
 ticket.com.tw
 tigervpn.com
 tiktok.com
+tiktokcdn-eu.com
 tiktokcdn-us.com
 tiktokcdn.com
 tiktokv.com
