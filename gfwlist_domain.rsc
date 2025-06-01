@@ -627,6 +627,7 @@ add regexp="(\\.|^)bjzc\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bl-doujinsouko\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blacked\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blacklogic\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)blackmagicdesign\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blackvpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blewpass\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blinkx\\.com\$" type=FWD forward-to=$gfwdns
@@ -4632,9 +4633,15 @@ add regexp="(\\.|^)s1\\.nudezz\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)s1heng\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)s1s1s1\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)s3-ap-*\\.amazonaws\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)s3-ap-northeast-1\\.amazonaws\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)s3-ap-northeast-2\\.amazonaws\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)s3-ap-southeast-1\\.amazonaws\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)s3-ap-southeast-2\\.amazonaws\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)s3-eu-central-1\\.amazonaws\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)s3\\.amazonaws\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)s3\\.ap-northeast-2\\.amazonaws\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)s3\\.eu-central-1\\.amazonaws\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)s3\\.us-east-1\\.amazonaws\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)s8forum\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)sa\\.hao123\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)sacks\\.com\$" type=FWD forward-to=$gfwdns

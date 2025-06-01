@@ -808,6 +808,7 @@ add address=91.209.104.0/24 list=US
 add address=91.210.80.0/22 list=US
 add address=91.213.3.0/24 list=US
 add address=91.213.81.0/24 list=US
+add address=91.213.134.0/24 list=US
 add address=91.213.174.0/24 list=US
 add address=91.213.186.0/24 list=US
 add address=91.213.189.0/24 list=US
@@ -2630,6 +2631,7 @@ add address=205.189.160.0/24 list=US
 add address=205.203.74.0/23 list=US
 add address=205.220.216.0/23 list=US
 add address=205.237.88.0/21 list=US
+add address=206.53.0.0/22 list=US
 add address=206.83.96.0/19 list=US
 add address=206.190.220.0/22 list=US
 add address=206.204.0.0/18 list=US
