@@ -691,12 +691,12 @@ add address=2402:c60::/32 list=CN
 add address=2402:e00::/32 list=CN
 add address=2402:fc0::/32 list=CN
 add address=2402:1000::/32 list=CN
+add address=2402:1160::/32 list=CN
 add address=2402:1440::/32 list=CN
 add address=2402:14c0::/32 list=CN
 add address=2402:1600::/32 list=CN
 add address=2402:1740::/32 list=CN
 add address=2402:19c0::/32 list=CN
-add address=2402:1ec0::/32 list=CN
 add address=2402:1f80::/32 list=CN
 add address=2402:2000::/32 list=CN
 add address=2402:2280::/32 list=CN
@@ -1256,7 +1256,6 @@ add address=2404:3940::/32 list=CN
 add address=2404:3bc0::/32 list=CN
 add address=2404:3c40::/32 list=CN
 add address=2404:3f40::/32 list=CN
-add address=2404:4080::/32 list=CN
 add address=2404:41c0::/32 list=CN
 add address=2404:4540::/32 list=CN
 add address=2404:4740::/32 list=CN
