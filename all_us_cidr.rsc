@@ -1772,7 +1772,6 @@ add address=185.152.128.0/22 list=US
 add address=185.153.204.0/22 list=US
 add address=185.154.4.0/22 list=US
 add address=185.154.244.0/22 list=US
-add address=185.155.75.0/24 list=US
 add address=185.155.100.0/24 list=US
 add address=185.155.136.0/22 list=US
 add address=185.155.180.0/22 list=US
