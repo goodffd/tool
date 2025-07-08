@@ -1350,6 +1350,7 @@ add regexp="(\\.|^)dongtaiwang\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)dongtaiwang\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)dongyangjing\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)dontfilter\\.us\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)doom9\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)doosho\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)doourbest\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)dorjeshugden\\.com\$" type=FWD forward-to=$gfwdns
