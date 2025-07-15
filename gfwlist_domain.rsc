@@ -1432,6 +1432,7 @@ add regexp="(\\.|^)e-hentaidb\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)e-info\\.org\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)e-zone\\.com\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)e123\\.hk\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)e621\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)earlytibet\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)earthcam\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)earthvpn\\.com\$" type=FWD forward-to=$gfwdns
@@ -5605,6 +5606,7 @@ add regexp="(\\.|^)www\\.taiwanonline\\.cc\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www\\.thechinastory\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www\\.wan-press\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www\\.websnapr\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)www\\.xicons\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www\\.zensur\\.freerk\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www1\\.american\\.edu\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www1\\.biz\$" type=FWD forward-to=$gfwdns
