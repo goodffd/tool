@@ -3089,6 +3089,7 @@ add regexp="(\\.|^)lsmwebcast\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lsxszzg\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ltn\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)luckydesigner\\.space\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)ludepress\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)luke54\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)luke54\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lupm\\.org\$" type=FWD forward-to=$gfwdns
@@ -5711,6 +5712,7 @@ add regexp="(\\.|^)yam\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)yam\\.org\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)yande\\.re\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)yanghengjun\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)yangzhi\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)yasni\\.co\\.uk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)yasukuni\\.or\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)yayabay\\.com\$" type=FWD forward-to=$gfwdns
