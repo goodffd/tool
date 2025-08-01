@@ -5381,6 +5381,7 @@ add regexp="(\\.|^)waffle1999\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wahas\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)waikeung\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wainao\\.me\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)walletconnect\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wallmama\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wallpapercasa\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wallproxy\\.com\$" type=FWD forward-to=$gfwdns

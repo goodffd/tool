@@ -142,7 +142,6 @@ add address=45.12.56.0/22 list=US
 add address=45.12.196.0/22 list=US
 add address=45.13.28.0/22 list=US
 add address=45.13.64.0/22 list=US
-add address=45.13.228.0/22 list=US
 add address=45.14.72.0/22 list=US
 add address=45.14.80.0/22 list=US
 add address=45.14.112.0/22 list=US
@@ -156,14 +155,12 @@ add address=45.78.88.0/23 list=US
 add address=45.78.90.0/23 list=US
 add address=45.78.92.0/22 list=US
 add address=45.80.96.0/22 list=US
-add address=45.80.200.0/22 list=US
 add address=45.80.248.0/22 list=US
 add address=45.81.20.0/22 list=US
 add address=45.81.116.0/22 list=US
 add address=45.81.160.0/22 list=US
 add address=45.82.48.0/22 list=US
 add address=45.83.184.0/22 list=US
-add address=45.83.224.0/22 list=US
 add address=45.83.236.0/22 list=US
 add address=45.84.44.0/22 list=US
 add address=45.84.80.0/22 list=US
@@ -184,14 +181,12 @@ add address=45.90.56.0/22 list=US
 add address=45.90.60.0/22 list=US
 add address=45.90.144.0/22 list=US
 add address=45.90.204.0/22 list=US
-add address=45.91.88.0/22 list=US
 add address=45.91.188.0/22 list=US
 add address=45.93.24.0/22 list=US
 add address=45.94.24.0/22 list=US
 add address=45.94.132.0/22 list=US
 add address=45.94.136.0/22 list=US
 add address=45.94.152.0/22 list=US
-add address=45.94.232.0/22 list=US
 add address=45.94.244.0/22 list=US
 add address=45.95.16.0/22 list=US
 add address=45.95.48.0/22 list=US
@@ -220,20 +215,17 @@ add address=45.130.120.0/22 list=US
 add address=45.130.164.0/22 list=US
 add address=45.130.184.0/22 list=US
 add address=45.131.68.0/22 list=US
-add address=45.131.92.0/22 list=US
 add address=45.132.33.0/24 list=US
 add address=45.133.112.0/22 list=US
 add address=45.133.136.0/24 list=US
 add address=45.133.192.0/22 list=US
 add address=45.133.212.0/22 list=US
-add address=45.134.104.0/22 list=US
 add address=45.134.148.0/22 list=US
 add address=45.135.48.0/22 list=US
 add address=45.135.136.0/22 list=US
 add address=45.135.140.0/22 list=US
 add address=45.136.24.0/22 list=US
 add address=45.138.84.0/22 list=US
-add address=45.138.92.0/22 list=US
 add address=45.138.196.0/22 list=US
 add address=45.138.232.0/22 list=US
 add address=45.139.198.0/23 list=US
@@ -247,7 +239,6 @@ add address=45.142.52.0/22 list=US
 add address=45.142.92.0/22 list=US
 add address=45.142.96.0/22 list=US
 add address=45.142.244.0/22 list=US
-add address=45.143.172.0/22 list=US
 add address=45.144.48.0/22 list=US
 add address=45.145.68.0/22 list=US
 add address=45.145.212.0/22 list=US
@@ -259,7 +250,6 @@ add address=45.147.60.0/22 list=US
 add address=45.147.68.0/22 list=US
 add address=45.147.232.0/22 list=US
 add address=45.147.248.0/22 list=US
-add address=45.149.20.0/22 list=US
 add address=45.149.148.0/22 list=US
 add address=45.150.196.0/22 list=US
 add address=45.150.212.0/22 list=US
@@ -287,7 +277,6 @@ add address=45.158.148.0/22 list=US
 add address=45.158.164.0/22 list=US
 add address=45.158.192.0/22 list=US
 add address=45.158.200.0/22 list=US
-add address=45.158.212.0/22 list=US
 add address=45.159.20.0/22 list=US
 add address=45.159.96.0/22 list=US
 add address=45.159.216.0/22 list=US
@@ -566,7 +555,6 @@ add address=81.199.24.0/21 list=US
 add address=82.97.196.0/23 list=US
 add address=82.97.199.0/24 list=US
 add address=82.97.200.0/24 list=US
-add address=82.115.215.0/24 list=US
 add address=82.117.252.0/22 list=US
 add address=82.118.16.0/21 list=US
 add address=82.129.0.0/17 list=US
@@ -1054,6 +1042,8 @@ add address=103.104.131.0/24 list=US
 add address=103.109.234.0/23 list=US
 add address=103.111.32.0/23 list=US
 add address=103.111.180.0/22 list=US
+add address=103.113.225.0/24 list=US
+add address=103.113.226.0/23 list=US
 add address=103.116.16.0/23 list=US
 add address=103.117.100.0/22 list=US
 add address=103.118.4.0/23 list=US
@@ -1505,7 +1495,6 @@ add address=176.67.80.0/21 list=US
 add address=176.105.248.0/22 list=US
 add address=176.105.252.0/22 list=US
 add address=176.111.54.0/23 list=US
-add address=176.111.172.0/24 list=US
 add address=176.111.216.0/21 list=US
 add address=176.113.40.0/22 list=US
 add address=176.115.96.0/21 list=US
@@ -1680,7 +1669,6 @@ add address=185.90.243.0/24 list=US
 add address=185.91.8.0/22 list=US
 add address=185.91.120.0/22 list=US
 add address=185.92.188.0/22 list=US
-add address=185.92.210.0/24 list=US
 add address=185.92.220.0/22 list=US
 add address=185.93.4.0/24 list=US
 add address=185.93.148.0/22 list=US
@@ -1918,7 +1906,6 @@ add address=185.209.84.0/22 list=US
 add address=185.209.128.0/22 list=US
 add address=185.210.40.0/22 list=US
 add address=185.211.8.0/22 list=US
-add address=185.211.42.0/24 list=US
 add address=185.211.120.0/22 list=US
 add address=185.212.115.0/24 list=US
 add address=185.212.144.0/22 list=US
@@ -2390,7 +2377,6 @@ add address=194.110.150.0/24 list=US
 add address=194.110.204.0/24 list=US
 add address=194.113.220.0/24 list=US
 add address=194.116.148.0/23 list=US
-add address=194.116.208.0/24 list=US
 add address=194.120.0.0/24 list=US
 add address=194.120.43.0/24 list=US
 add address=194.120.112.0/22 list=US
@@ -2410,11 +2396,7 @@ add address=194.123.122.0/24 list=US
 add address=194.123.164.0/24 list=US
 add address=194.124.40.0/22 list=US
 add address=194.124.52.0/22 list=US
-add address=194.124.252.0/24 list=US
-add address=194.124.255.0/24 list=US
-add address=194.126.131.0/24 list=US
 add address=194.126.172.0/22 list=US
-add address=194.126.194.0/24 list=US
 add address=194.126.249.0/24 list=US
 add address=194.133.0.0/16 list=US
 add address=194.135.26.0/23 list=US
@@ -2429,7 +2411,6 @@ add address=194.147.136.0/22 list=US
 add address=194.149.76.0/22 list=US
 add address=194.150.0.0/19 list=US
 add address=194.150.32.0/19 list=US
-add address=194.150.167.0/24 list=US
 add address=194.156.112.0/22 list=US
 add address=194.156.154.0/23 list=US
 add address=194.156.162.0/23 list=US
@@ -2524,7 +2505,6 @@ add address=195.143.128.0/17 list=US
 add address=195.146.160.0/19 list=US
 add address=195.149.128.0/18 list=US
 add address=195.158.208.0/22 list=US
-add address=195.158.249.0/24 list=US
 add address=195.160.236.0/22 list=US
 add address=195.162.224.0/19 list=US
 add address=195.177.76.0/22 list=US
@@ -2686,6 +2666,7 @@ add address=209.16.178.0/24 list=US
 add address=209.16.179.0/21 list=US
 add address=209.17.118.0/24 list=US
 add address=209.20.160.0/19 list=US
+add address=209.40.208.0/21 list=US
 add address=209.127.220.0/24 list=US
 add address=209.162.128.0/20 list=US
 add address=209.162.154.0/24 list=US
