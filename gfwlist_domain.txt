@@ -5592,7 +5592,6 @@ www.monlamit.org
 www.moztw.org
 www.msn.com
 www.nbc.com
-www.nodeloc.com
 www.owind.com
 www.oxid.it
 www.powerpointninja.com
@@ -5612,6 +5611,8 @@ www1.biz
 www2.ohchr.org
 www2.rocketbbs.com
 wwwhost.biz
+wxw.cat
+wxw.moe
 wzyboy.im
 x-art.com
 x-berry.com

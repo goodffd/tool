@@ -5595,7 +5595,6 @@ add regexp="(\\.|^)www\\.monlamit\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www\\.moztw\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www\\.msn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www\\.nbc\\.com\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)www\\.nodeloc\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www\\.owind\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www\\.oxid\\.it\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www\\.powerpointninja\\.com\$" type=FWD forward-to=$gfwdns
@@ -5615,6 +5614,8 @@ add regexp="(\\.|^)www1\\.biz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www2\\.ohchr\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)www2\\.rocketbbs\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wwwhost\\.biz\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)wxw\\.cat\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)wxw\\.moe\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wzyboy\\.im\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)x-art\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)x-berry\\.com\$" type=FWD forward-to=$gfwdns

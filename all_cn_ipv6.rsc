@@ -94,7 +94,6 @@ add address=2001:df5:4cc0::/48 list=CN
 add address=2001:df5:5f80::/48 list=CN
 add address=2001:df5:7800::/48 list=CN
 add address=2001:df6:100::/48 list=CN
-add address=2001:df6:3d00::/48 list=CN
 add address=2001:df6:5d00::/48 list=CN
 add address=2001:df6:6800::/48 list=CN
 add address=2001:df6:f400::/48 list=CN
@@ -701,6 +700,7 @@ add address=2402:1be0::/32 list=CN
 add address=2402:1c20::/32 list=CN
 add address=2402:1f80::/32 list=CN
 add address=2402:2000::/32 list=CN
+add address=2402:20e0::/32 list=CN
 add address=2402:2280::/32 list=CN
 add address=2402:2440::/32 list=CN
 add address=2402:24c0::/32 list=CN
@@ -924,7 +924,6 @@ add address=2403:1580::/32 list=CN
 add address=2403:16c0::/32 list=CN
 add address=2403:17c0::/32 list=CN
 add address=2403:1980::/32 list=CN
-add address=2403:1a40::/32 list=CN
 add address=2403:1b80::/32 list=CN
 add address=2403:1c80::/32 list=CN
 add address=2403:1d80::/32 list=CN
@@ -1582,7 +1581,6 @@ add address=2405:f580::/32 list=CN
 add address=2405:f6c0::/32 list=CN
 add address=2405:f940::/32 list=CN
 add address=2405:fdc0::/32 list=CN
-add address=2405:fe80::/32 list=CN
 add address=2405:ff80::/32 list=CN
 add address=2406:40::/32 list=CN
 add address=2406:80::/32 list=CN
