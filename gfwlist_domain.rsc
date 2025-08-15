@@ -514,6 +514,7 @@ add regexp="(\\.|^)bestvpnusa\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bet365\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)betaclouds\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)betfair\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)betterhash\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)betternet\\.co\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bettervpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bettween\\.com\$" type=FWD forward-to=$gfwdns
@@ -540,6 +541,7 @@ add regexp="(\\.|^)bild\\.de\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)biliworld\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)billypan\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)binance\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)binance\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)binancezh\\.cc\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)binux\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bird\\.so\$" type=FWD forward-to=$gfwdns
@@ -551,6 +553,7 @@ add regexp="(\\.|^)bitchute\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bitcointalk\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bitcoinworld\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bitfinex\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)bitget\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bithumb\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bitmex\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bitshare\\.com\$" type=FWD forward-to=$gfwdns
@@ -1046,6 +1049,7 @@ add regexp="(\\.|^)clipconverter\\.cc\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)clipfish\\.de\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cloud\\.dify\\.ai\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cloud\\.mail\\.ru\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)cloudflare-dns\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cloudflare-ipfs\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cloudfunctions\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)club1069\\.com\$" type=FWD forward-to=$gfwdns
@@ -2369,6 +2373,7 @@ add regexp="(\\.|^)hentaivideoworld\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)heqinglian\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)heritage\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)herokuapp\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)herominers\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hexieshe\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hexieshe\\.xyz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hexxeh\\.net\$" type=FWD forward-to=$gfwdns
@@ -2665,6 +2670,7 @@ add regexp="(\\.|^)indiatoday\\.in\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)indiemerch\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)inews-api\\.tvb\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)info-graf\\.fr\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)infura\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)inherit\\.live\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)initiativesforchina\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)inkbunny\\.net\$" type=FWD forward-to=$gfwdns
@@ -2738,6 +2744,7 @@ add regexp="(\\.|^)isupportuyghurs\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)itaiwan\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)italiatibet\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)itasoftware\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)itch\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)itemdb\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)itemfix\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ithelp\\.ithome\\.com\\.tw\$" type=FWD forward-to=$gfwdns
@@ -3089,6 +3096,7 @@ add regexp="(\\.|^)lsmwebcast\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lsxszzg\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ltn\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)luckydesigner\\.space\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)luckymobile\\.ca\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ludepress\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)luke54\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)luke54\\.org\$" type=FWD forward-to=$gfwdns
@@ -3162,6 +3170,7 @@ add regexp="(\\.|^)matters\\.news\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)matters\\.town\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)matthewdgreen\\.wordpress\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mattwilcox\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)maven\\.neoforged\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)maxing\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mayimayi\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mcadforums\\.com\$" type=FWD forward-to=$gfwdns
@@ -3210,6 +3219,7 @@ add regexp="(\\.|^)mesotw\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)messenger\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)meta\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)metafilter\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)metamask\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)metart\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)metarthunter\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)meteorshowersonline\\.com\$" type=FWD forward-to=$gfwdns
@@ -5174,6 +5184,7 @@ add regexp="(\\.|^)unseen\\.is\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)unstable\\.icu\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)unwire\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)uocn\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)upbit\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)updates\\.tdesktop\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)upghsbc\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)upholdjustice\\.org\$" type=FWD forward-to=$gfwdns

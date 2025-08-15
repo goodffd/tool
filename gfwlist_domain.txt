@@ -511,6 +511,7 @@ bestvpnusa.com
 bet365.com
 betaclouds.net
 betfair.com
+betterhash.net
 betternet.co
 bettervpn.com
 bettween.com
@@ -537,6 +538,7 @@ bild.de
 biliworld.com
 billypan.com
 binance.com
+binance.org
 binancezh.cc
 binux.me
 bird.so
@@ -548,6 +550,7 @@ bitchute.com
 bitcointalk.org
 bitcoinworld.com
 bitfinex.com
+bitget.com
 bithumb.com
 bitmex.com
 bitshare.com
@@ -1043,6 +1046,7 @@ clipconverter.cc
 clipfish.de
 cloud.dify.ai
 cloud.mail.ru
+cloudflare-dns.com
 cloudflare-ipfs.com
 cloudfunctions.net
 club1069.com
@@ -2366,6 +2370,7 @@ hentaivideoworld.com
 heqinglian.net
 heritage.org
 herokuapp.com
+herominers.com
 hexieshe.com
 hexieshe.xyz
 hexxeh.net
@@ -2662,6 +2667,7 @@ indiatoday.in
 indiemerch.com
 inews-api.tvb.com
 info-graf.fr
+infura.io
 inherit.live
 initiativesforchina.org
 inkbunny.net
@@ -2735,6 +2741,7 @@ isupportuyghurs.org
 itaiwan.gov.tw
 italiatibet.org
 itasoftware.com
+itch.io
 itemdb.com
 itemfix.com
 ithelp.ithome.com.tw
@@ -3086,6 +3093,7 @@ lsmwebcast.com
 lsxszzg.com
 ltn.com.tw
 luckydesigner.space
+luckymobile.ca
 ludepress.com
 luke54.com
 luke54.org
@@ -3159,6 +3167,7 @@ matters.news
 matters.town
 matthewdgreen.wordpress.com
 mattwilcox.net
+maven.neoforged.net
 maxing.jp
 mayimayi.com
 mcadforums.com
@@ -3207,6 +3216,7 @@ mesotw.com
 messenger.com
 meta.com
 metafilter.com
+metamask.io
 metart.com
 metarthunter.com
 meteorshowersonline.com
@@ -5171,6 +5181,7 @@ unseen.is
 unstable.icu
 unwire.hk
 uocn.org
+upbit.com
 updates.tdesktop.com
 upghsbc.com
 upholdjustice.org

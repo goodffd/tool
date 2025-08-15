@@ -9998,6 +9998,7 @@ domain:aesucai.com
 domain:aet21.com
 domain:aevit.xyz
 domain:aexpec.com
+domain:af-south-1.myhuaweicloud.com
 domain:af122.com
 domain:af36.com
 domain:af360.com
@@ -12243,6 +12244,9 @@ domain:aoyunque.com
 domain:aozhanls.com
 domain:aozhougoufang.com
 domain:ap-china.com
+domain:ap-southeast-1.myhuaweicloud.com
+domain:ap-southeast-2.myhuaweicloud.com
+domain:ap-southeast-3.myhuaweicloud.com
 domain:ap1983.com
 domain:ap4r.com
 domain:ap88.com
@@ -23875,6 +23879,8 @@ domain:cn-chenguang.com
 domain:cn-chx.com
 domain:cn-comfort.com
 domain:cn-cr.com
+domain:cn-east-2.myhuaweicloud.com
+domain:cn-east-3.myhuaweicloud.com
 domain:cn-ebara.com
 domain:cn-elite.com
 domain:cn-em.com
@@ -23899,6 +23905,14 @@ domain:cn-mingda.com
 domain:cn-msedge.net
 domain:cn-mw.com
 domain:cn-natural.com
+domain:cn-north-1.myhuaweicloud.com
+domain:cn-north-2.myhuaweicloud.com
+domain:cn-north-3.myhuaweicloud.com
+domain:cn-north-4.myhuaweicloud.com
+domain:cn-north-5.myhuaweicloud.com
+domain:cn-north-6.myhuaweicloud.com
+domain:cn-north-9.myhuaweicloud.com
+domain:cn-northeast-1.myhuaweicloud.com
 domain:cn-only.com
 domain:cn-psy.com
 domain:cn-railway.net
@@ -23909,6 +23923,10 @@ domain:cn-school.com
 domain:cn-sdf.com
 domain:cn-shine.com
 domain:cn-soft.com
+domain:cn-south-1.myhuaweicloud.com
+domain:cn-south-2.myhuaweicloud.com
+domain:cn-south-4.myhuaweicloud.com
+domain:cn-southwest-2.myhuaweicloud.com
 domain:cn-tf.com
 domain:cn-tom.com
 domain:cn-truck.com
@@ -33767,6 +33785,7 @@ domain:etz927.com
 domain:etzj.net
 domain:etzqw.com
 domain:etzzy.com
+domain:eu-west-0.myhuaweicloud.com
 domain:eu4cn.com
 domain:eu9zx.com
 domain:eub-inc.com
@@ -62421,6 +62440,8 @@ domain:l99.com
 domain:la-bbs.net
 domain:la-chinata.hk
 domain:la-mo.com
+domain:la-north-2.myhuaweicloud.com
+domain:la-south-2.myhuaweicloud.com
 domain:la-technology.com
 domain:la31.com
 domain:la66.com
@@ -71027,7 +71048,6 @@ domain:myhscodes.com
 domain:myhuaweicloud-custom.com
 domain:myhuaweicloud-koodrive.com
 domain:myhuaweicloud-obs.com
-domain:myhuaweicloud.com
 domain:myhuilv.com
 domain:myhwcdn.com
 domain:myhwcloudlive.com
@@ -71339,6 +71359,7 @@ domain:n7433.com
 domain:n802.com
 domain:n8soft.com
 domain:n9z.net
+domain:na-mexico-1.myhuaweicloud.com
 domain:na.ci
 domain:na2sib.com
 domain:naaln.com
@@ -71383,7 +71404,6 @@ domain:naitta.com
 domain:naiveadmin.com
 domain:naiveblue.com
 domain:naiwch.com
-domain:naixi.net
 domain:naixuecha.com
 domain:naiyouxuexi.com
 domain:najingtech.com
@@ -82251,6 +82271,7 @@ domain:rtxuc.com
 domain:rtyhfg.com
 domain:rtyxpt.com
 domain:rtyy.com
+domain:ru-northwest-2.myhuaweicloud.com
 domain:ru5sq.com
 domain:ru9911.com
 domain:rua93.online
@@ -82711,6 +82732,7 @@ domain:s95r.com
 domain:s98s2.com
 domain:s9hospital.com
 domain:s9yun.com
+domain:sa-brazil-1.myhuaweicloud.com
 domain:sa-ec.com
 domain:sa-log.com
 domain:sa-token.cc
@@ -95611,6 +95633,7 @@ domain:tuishuge.com
 domain:tuishujun.com
 domain:tuisnake.com
 domain:tuistone.com
+domain:tuitui.info
 domain:tuitui99.com
 domain:tuituifang.com
 domain:tuituisoft.com
@@ -98061,7 +98084,6 @@ domain:vnanke.com
 domain:vndian.com
 domain:vnet.com
 domain:vnet.mobi
-domain:vniddlg.xyz
 domain:vnlin.com
 domain:vnnox.com
 domain:vnpy.com
