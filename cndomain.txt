@@ -31923,6 +31923,7 @@ domain:dzlaa.com
 domain:dzlems.net
 domain:dzljy.com
 domain:dzllzg.com
+domain:dzlndygh.com
 domain:dzmachines.com
 domain:dzmhospital.com
 domain:dzng.com
@@ -46085,6 +46086,7 @@ domain:hcc11.com
 domain:hcccia.com
 domain:hcciot.com
 domain:hcclhealthcare.com
+domain:hccoeutg.com
 domain:hccpcba.com
 domain:hcdamai.com
 domain:hcdiy.com
@@ -92885,6 +92887,7 @@ domain:tecochina.net
 domain:tecolighting.com
 domain:tecompharma.com
 domain:tecreal.com
+domain:tecunonline.com
 domain:tecyle.com
 domain:teda-veolia.com
 domain:tedagas.com
@@ -103370,6 +103373,7 @@ domain:xcsyy.com
 domain:xct168.com
 domain:xctmr.com
 domain:xcukezmr.com
+domain:xcultur.com
 domain:xcurrency.com
 domain:xcvec.com
 domain:xcvmbyte.com
@@ -107232,7 +107236,9 @@ domain:xxxedu.net
 domain:xxxhhh.com
 domain:xxxinwen.com
 domain:xxxoooxxxooo.net
+domain:xxxx88xxxx.com
 domain:xxxx92xxxx.com
+domain:xxxx96xxxx.com
 domain:xxxxxx6.com
 domain:xxxzzlm.org
 domain:xxycw.com
