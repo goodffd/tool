@@ -36869,7 +36869,6 @@ domain:furenkeji.com
 domain:furielec.com
 domain:furniture-channel.com
 domain:furongedu.com
-domain:furrybar.com
 domain:furrychina.com
 domain:furuijiaju.vip
 domain:furuise.com
@@ -71140,7 +71139,6 @@ domain:mypharma.com
 domain:mypian.com
 domain:mypiao.com
 domain:mypiaojia.com
-domain:mypikpak.net
 domain:mypitaya.com
 domain:mypity.com
 domain:mypiwik.com
@@ -97088,7 +97086,6 @@ domain:ustarl.com
 domain:ustbtc.com
 domain:ustc.edu
 domain:ustcers.com
-domain:ustclug.org
 domain:ustui.com
 domain:usuredata.com
 domain:usuuu.com

@@ -1290,6 +1290,7 @@ add address=143.65.224.0/19 list=US
 add address=144.2.0.0/19 list=US
 add address=144.2.144.0/20 list=US
 add address=144.2.176.0/18 list=US
+add address=144.31.0.0/16 list=US
 add address=144.48.80.0/22 list=US
 add address=144.178.0.0/18 list=US
 add address=145.17.0.0/16 list=US

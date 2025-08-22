@@ -36872,7 +36872,6 @@ add name="furenkeji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="furielec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="furniture-channel.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="furongedu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="furrybar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="furrychina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="furuijiaju.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="furuise.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -71143,7 +71142,6 @@ add name="mypharma.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="mypian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mypiao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mypiaojia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="mypikpak.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mypitaya.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mypity.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mypiwik.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -97091,7 +97089,6 @@ add name="ustarl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ustbtc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ustc.edu" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ustcers.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ustclug.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ustui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="usuredata.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="usuuu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
