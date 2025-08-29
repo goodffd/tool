@@ -1131,6 +1131,7 @@ costco.com
 cotweet.com
 counter.social
 coursehero.com
+covenantswatch.org.tw
 coze.com
 cpj.org
 cpu-monkey.com
@@ -1679,6 +1680,7 @@ fdc64.org
 fdc89.jp
 feedburner.com
 feeder.co
+feedly.com
 feeds.fileforum.com
 feedx.net
 feelssh.com
@@ -1851,6 +1853,8 @@ ftvnews.com.tw
 ftx.com
 fucd.com
 fuchsia.dev
+fuckccp.com
+fuckccp.xyz
 fuckgfw.org
 fulione.com
 fullerconsideration.com
@@ -3307,6 +3311,7 @@ mofos.com
 mog.com
 mohu.club
 mohu.rocks
+moj.gov.tw
 mojim.com
 mol.gov.tw
 molihua.org

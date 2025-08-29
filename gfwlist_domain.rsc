@@ -1134,6 +1134,7 @@ add regexp="(\\.|^)costco\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cotweet\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)counter\\.social\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)coursehero\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)covenantswatch\\.org\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)coze\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cpj\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cpu-monkey\\.com\$" type=FWD forward-to=$gfwdns
@@ -1682,6 +1683,7 @@ add regexp="(\\.|^)fdc64\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)fdc89\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)feedburner\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)feeder\\.co\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)feedly\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)feeds\\.fileforum\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)feedx\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)feelssh\\.com\$" type=FWD forward-to=$gfwdns
@@ -1854,6 +1856,8 @@ add regexp="(\\.|^)ftvnews\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ftx\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)fucd\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)fuchsia\\.dev\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)fuckccp\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)fuckccp\\.xyz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)fuckgfw\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)fulione\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)fullerconsideration\\.com\$" type=FWD forward-to=$gfwdns
@@ -3310,6 +3314,7 @@ add regexp="(\\.|^)mofos\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mog\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mohu\\.club\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mohu\\.rocks\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)moj\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mojim\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mol\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)molihua\\.org\$" type=FWD forward-to=$gfwdns
