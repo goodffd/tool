@@ -738,6 +738,8 @@ add regexp="(\\.|^)brutaltgp\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bsky\\.app\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bsky\\.network\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bsky\\.social\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)bt4g\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)bt4gprx\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bt95\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)btaia\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)btbit\\.net\$" type=FWD forward-to=$gfwdns
@@ -2709,6 +2711,7 @@ add regexp="(\\.|^)iphone4hongkong\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)iphonetaiwan\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)iphonix\\.fr\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ipicture\\.ru\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)ipify\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ipjetable\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ipobar\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ipoock\\.com\$" type=FWD forward-to=$gfwdns
@@ -4685,6 +4688,7 @@ add regexp="(\\.|^)talkcc\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)talkonly\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tanc\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tangren\\.us\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)tanks\\.gg\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)taoism\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tapanwap\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tapatalk\\.com\$" type=FWD forward-to=$gfwdns

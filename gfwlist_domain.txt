@@ -735,6 +735,8 @@ brutaltgp.com
 bsky.app
 bsky.network
 bsky.social
+bt4g.org
+bt4gprx.com
 bt95.com
 btaia.com
 btbit.net
@@ -2706,6 +2708,7 @@ iphone4hongkong.com
 iphonetaiwan.org
 iphonix.fr
 ipicture.ru
+ipify.org
 ipjetable.net
 ipobar.com
 ipoock.com
@@ -4682,6 +4685,7 @@ talkcc.com
 talkonly.net
 tanc.org
 tangren.us
+tanks.gg
 taoism.net
 tapanwap.com
 tapatalk.com
