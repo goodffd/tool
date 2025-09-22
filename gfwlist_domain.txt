@@ -139,6 +139,7 @@ abematv.akamaized.net
 abitno.linpie.com
 ablwang.com
 aboluowang.com
+about.gitlab.com
 about.me
 abplive.com
 abs.edu
@@ -1904,6 +1905,7 @@ gaopi.net
 gardennetworks.com
 gardennetworks.org
 gartlive.com
+garudalinux.org
 gate.io
 gatecoin.com
 gather.com
@@ -3560,6 +3562,7 @@ ninecommentaries.com
 ninjacloak.com
 ninjaproxy.ninja
 nintendium.com
+nirsoft.net
 nitter.cc
 nitter.net
 niu.moe
@@ -5396,6 +5399,7 @@ vpnvip.com
 vpnworldwide.com
 vporn.com
 vpser.net
+vpsxb.net
 vraiesagesse.net
 vrchat.com
 vrmtr.com

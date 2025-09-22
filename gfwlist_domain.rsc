@@ -142,6 +142,7 @@ add regexp="(\\.|^)abematv\\.akamaized\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)abitno\\.linpie\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ablwang\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)aboluowang\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)about\\.gitlab\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)about\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)abplive\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)abs\\.edu\$" type=FWD forward-to=$gfwdns
@@ -1907,6 +1908,7 @@ add regexp="(\\.|^)gaopi\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gardennetworks\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gardennetworks\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gartlive\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)garudalinux\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gate\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gatecoin\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gather\\.com\$" type=FWD forward-to=$gfwdns
@@ -3563,6 +3565,7 @@ add regexp="(\\.|^)ninecommentaries\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ninjacloak\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ninjaproxy\\.ninja\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nintendium\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)nirsoft\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nitter\\.cc\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nitter\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)niu\\.moe\$" type=FWD forward-to=$gfwdns
@@ -5399,6 +5402,7 @@ add regexp="(\\.|^)vpnvip\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vpnworldwide\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vporn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vpser\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)vpsxb\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vraiesagesse\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vrchat\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vrmtr\\.com\$" type=FWD forward-to=$gfwdns
