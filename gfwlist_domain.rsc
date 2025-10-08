@@ -121,6 +121,7 @@ add regexp="(\\.|^)91porny\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)91vps\\.club\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)92ccav\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)991\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)996\\.icu\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)99btgc01\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)99cn\\.info\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)9bis\\.com\$" type=FWD forward-to=$gfwdns
@@ -4479,6 +4480,7 @@ add regexp="(\\.|^)solana\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)solarsystem\\.nasa\\.gov\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)solidaritetibet\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)solidfiles\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)solscan\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)solv\\.finance\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)somee\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)songjianjun\\.com\$" type=FWD forward-to=$gfwdns
@@ -4700,8 +4702,10 @@ add regexp="(\\.|^)tanc\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tangren\\.us\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tanks\\.gg\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)taoism\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)tap\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tapanwap\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tapatalk\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)taptap\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tardigrade\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tarr\\.uspto\\.gov\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)taup\\.net\$" type=FWD forward-to=$gfwdns
@@ -5319,6 +5323,7 @@ add regexp="(\\.|^)vijayatemple\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vilanet\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vilavpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vimeo\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)vimeocdn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vimperator\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vincnd\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vine\\.co\$" type=FWD forward-to=$gfwdns
