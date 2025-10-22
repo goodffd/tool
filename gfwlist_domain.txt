@@ -363,6 +363,7 @@ asia-gaming.com
 asiaharvest.org
 asianage.com
 asianews.it
+asianfanfics.com
 asiansexdiary.com
 asiaone.com
 asiatgp.com
@@ -751,7 +752,6 @@ btc98.com
 btcbank.bank
 btctrade.im
 btdig.com
-btdigg.org
 btguard.com
 btku.me
 btku.org
@@ -5014,6 +5014,7 @@ trt.net.tr
 trtc.com.tw
 truebuddha-md.org
 trulyergonomic.com
+trustwallet.com
 truthsocial.com
 truveo.com
 tryheart.jp
@@ -5471,6 +5472,7 @@ webpkgcache.com
 webrtc.org
 webrush.net
 webs-tv.net
+websdr.org
 website.informer.com
 website.new
 websitepulse.com
@@ -5718,6 +5720,7 @@ xn--ngstr-lra8j.com
 xn--noss43i.com
 xn--oiq.cc
 xn--p8j9a0d9c9a.xn--q9jyb4c
+xn--u2u927b.com
 xnpool.com
 xnxx.com
 xpdo.net
@@ -5843,6 +5846,7 @@ z-lib.gd
 z-lib.gl
 z-lib.io
 z-lib.org
+z-library.ec
 z-library.sk
 zacebook.com
 zalmos.com
