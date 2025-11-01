@@ -46136,7 +46136,10 @@ add name="herllamo-med.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="herllamo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hermod1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hero-geek.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="hero.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="herocoming.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="heroesports.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="herogame.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="herohr.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="heroic-ltd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="heroje.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -85951,6 +85954,7 @@ add name="shyuwl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shyuzhai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shywly.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shyx-bio.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="shyxhy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shyxi5.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shyxwz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shyy6688.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN

@@ -46133,7 +46133,10 @@ domain:herllamo-med.com
 domain:herllamo.com
 domain:hermod1.com
 domain:hero-geek.com
+domain:hero.com
 domain:herocoming.com
+domain:heroesports.com
+domain:herogame.com
 domain:herohr.net
 domain:heroic-ltd.com
 domain:heroje.com
@@ -85948,6 +85951,7 @@ domain:shyuwl.com
 domain:shyuzhai.com
 domain:shywly.com
 domain:shyx-bio.com
+domain:shyxhy.com
 domain:shyxi5.com
 domain:shyxwz.com
 domain:shyy6688.com
