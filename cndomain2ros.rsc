@@ -52542,7 +52542,6 @@ add name="imlianpu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="imliuyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="imlizhi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="immeee.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="immersivetranslate.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="immfast.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="immi520.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="immiexpo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -114311,6 +114310,7 @@ add name="zhuanhuamao.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="zhuanhuanqi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhuanhuanqi.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhuaniao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="zhuaninc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhuankeapp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhuankebang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhuankezu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN

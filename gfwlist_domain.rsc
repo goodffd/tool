@@ -1736,6 +1736,7 @@ add regexp="(\\.|^)flagsonline\\.it\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)flecheinthepeche\\.fr\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)fleshbot\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)fleursdeslettres\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)flexclip\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)flexpool\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)flgjustice\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)flickr\\.com\$" type=FWD forward-to=$gfwdns
@@ -2653,6 +2654,7 @@ add regexp="(\\.|^)imagefap\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)imageflea\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)imageglass\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)images-gaytube\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)images\\.prismic\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)imageshack\\.us\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)imagevenue\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)imagezilla\\.net\$" type=FWD forward-to=$gfwdns
@@ -4757,6 +4759,7 @@ add regexp="(\\.|^)telegraph\\.co\\.uk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)telesco\\.pe\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tellapart\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tellme\\.pw\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)temu\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tenacy\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tenor\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tensorflow\\.org\$" type=FWD forward-to=$gfwdns

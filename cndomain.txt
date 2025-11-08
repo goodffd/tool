@@ -52539,7 +52539,6 @@ domain:imlianpu.com
 domain:imliuyi.com
 domain:imlizhi.com
 domain:immeee.com
-domain:immersivetranslate.com
 domain:immfast.com
 domain:immi520.com
 domain:immiexpo.com
@@ -114308,6 +114307,7 @@ domain:zhuanhuamao.com
 domain:zhuanhuanqi.com
 domain:zhuanhuanqi.net
 domain:zhuaniao.com
+domain:zhuaninc.com
 domain:zhuankeapp.com
 domain:zhuankebang.com
 domain:zhuankezu.com
