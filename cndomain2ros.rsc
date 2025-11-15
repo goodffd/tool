@@ -27008,6 +27008,7 @@ add name="cztrjs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cztv.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cztv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cztv.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="cztvcdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cztvcloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cztzkg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="czur.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -52721,7 +52722,6 @@ add name="inferoey.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="infertilitybridge.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="infimotion.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="infineon-autoeco.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="infineon.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="infini-ai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="infinisign.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="infinitescript.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -73819,7 +73819,6 @@ add name="oogsy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="oohdear.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ooiii.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="oojsq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ooklaserver.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="oolap.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="oomake.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="oonne.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -92554,7 +92553,6 @@ add name="thzab.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="thzu.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ti-node.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ti-solar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ti.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ti0s.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tiamaes.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tian-gang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -117165,6 +117163,7 @@ add name="5c3639aa99149.streamlock.net" type=FWD forward-to=$cndns match-subdoma
 add name="6.mms.vlog.xuite.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="a.xttv.top" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="abclive2-lh.akamaihd.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="activate.activation-v2.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="activation-v2.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="admob-cn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="afcs.dell.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -117271,6 +117270,18 @@ add name="jpts.sinovision.net" type=FWD forward-to=$cndns match-subdomain=yes co
 add name="kcrw.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kjzz.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kpbs-wowza.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-cinfo.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-crypto-wifiplus.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-dc1-cert.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-dc1-file.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-dc1.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-file.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-info.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-kas.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-mdr.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-tcert.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-url.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ksn-verdict.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kut-hls.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kwmu-flash.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lb.streaming.sk" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -117345,6 +117356,7 @@ add name="redirector.gvt1.com" type=FWD forward-to=$cndns match-subdomain=yes co
 add name="redirector.offline-maps.gvt1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="redirector.snap.gvt1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="redirector.xn--ngstr-lra8j.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="refresh-bkg.activation-v2.kaspersky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rfcmedia.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rfimonde-lh.akamaihd.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rmtv24hweblive-lh.akamaihd.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
