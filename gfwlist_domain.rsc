@@ -169,6 +169,7 @@ add regexp="(\\.|^)addictedtocoffee\\.de\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)addons\\.mozilla\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)addyoutube\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)adelaidebbs\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)adguard-vpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)admin\\.recaptcha\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)admob\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)adpl\\.org\\.hk\$" type=FWD forward-to=$gfwdns
@@ -193,6 +194,7 @@ add regexp="(\\.|^)agnesb\\.fr\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)agoogleaday\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)agro\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ai\\.binwang\\.me\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)ai\\.dev\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)aiosearch\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)aiph\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)airasia\\.com\$" type=FWD forward-to=$gfwdns
@@ -1062,6 +1064,7 @@ add regexp="(\\.|^)cloud\\.dify\\.ai\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cloud\\.mail\\.ru\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cloudflare-dns\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cloudflare-ipfs\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)cloudflarestatus\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cloudfunctions\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)club1069\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)clubhouseapi\\.com\$" type=FWD forward-to=$gfwdns
@@ -2308,6 +2311,7 @@ add regexp="(\\.|^)gravatar\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)greasyfork\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)greatfire\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)greatfire\\.us7\\.list-manage\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)greatfirevpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)greatfirewall\\.biz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)greatfirewallofchina\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)greatroc\\.org\$" type=FWD forward-to=$gfwdns
@@ -2376,6 +2380,7 @@ add regexp="(\\.|^)hautelookcdn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)have8\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hbg\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hbo\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)hbomax\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hclips\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hd\\.stheadline\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)hdtvb\\.net\$" type=FWD forward-to=$gfwdns
@@ -3048,6 +3053,7 @@ add regexp="(\\.|^)liaowangxizang\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)liberal\\.org\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)libertysculpturepark\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)libertytimes\\.com\\.tw\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)library-access\\.sk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)library\\.usc\\.cuhk\\.edu\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)libredd\\.it\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lifemiles\\.com\$" type=FWD forward-to=$gfwdns
@@ -3144,7 +3150,6 @@ add regexp="(\\.|^)ly\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lyfhk\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lzjscript\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lzmtnews\\.org\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)m-team\\.cc\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)m\\.hkgalden\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)m\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)m\\.moegirl\\.org\$" type=FWD forward-to=$gfwdns
@@ -3273,6 +3278,7 @@ add regexp="(\\.|^)microvpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)middle-way\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mihr\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mihua\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)mij\\.rip\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mikanani\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mike\\.cz\\.cc\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mikesoltys\\.com\$" type=FWD forward-to=$gfwdns
@@ -3317,7 +3323,9 @@ add regexp="(\\.|^)mixi\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mixpod\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mixx\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mizzmona\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)mji\\.rip\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mjib\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)mjj\\.rip\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mjlsh\\.usc\\.cuhk\\.edu\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mlc\\.ai\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mlcool\\.com\$" type=FWD forward-to=$gfwdns
@@ -4230,6 +4238,7 @@ add regexp="(\\.|^)rule34video\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rumble\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)runbtx\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rushbee\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)rustdesk\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rusvpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ruten\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)rutracker\\.net\$" type=FWD forward-to=$gfwdns
@@ -5570,6 +5579,7 @@ add regexp="(\\.|^)wikinews\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wikipedia\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wikipedia\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wikisource\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)wikiunblocked\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wikiversity\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wikivoyage\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)wikiwand\\.com\$" type=FWD forward-to=$gfwdns
@@ -5736,6 +5746,7 @@ add regexp="(\\.|^)xml-training-guide\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xmovies\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--11xs86f\\.icu\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--4gq171p\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)xn--9iqy04a7fi01l\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--9pr62r24a\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--czq75pvv1aj5c\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--i2ru8q2qg\\.com\$" type=FWD forward-to=$gfwdns
