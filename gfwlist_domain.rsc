@@ -3472,6 +3472,7 @@ add regexp="(\\.|^)nalandabodhi\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nalandawest\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)namgyal\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)namgyalmonastery\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)namu\\.wiki\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nanopool\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nanyang\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nanyangpost\\.com\$" type=FWD forward-to=$gfwdns
@@ -3896,6 +3897,7 @@ add regexp="(\\.|^)picacomic\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)picacomiccn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)picasaweb\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)picidae\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)picsart\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)picturedip\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)picturesocial\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)picuki\\.com\$" type=FWD forward-to=$gfwdns
