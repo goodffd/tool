@@ -5888,6 +5888,7 @@ add regexp="(\\.|^)zacebook\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zalmos\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zamimg\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zaobao\\.com\\.sg\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)zaochenbao\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zapto\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zattoo\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zb\\.com\$" type=FWD forward-to=$gfwdns
