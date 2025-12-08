@@ -9742,7 +9742,6 @@ add name="aestheticbutler.xyz" type=FWD forward-to=$cndns match-subdomain=yes co
 add name="aesucai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aevit.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aexpec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="af-south-1.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="af122.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="af36.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="af360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -11967,9 +11966,6 @@ add name="aoyunque.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="aozhanls.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aozhougoufang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ap-china.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ap-southeast-1.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ap-southeast-2.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ap-southeast-3.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ap1983.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ap4r.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ap88.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -12254,7 +12250,6 @@ add name="aqumon.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqviwv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqvx8mcr392mv7.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqxx.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="aqyad.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqyqqy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqyzm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -23006,7 +23001,6 @@ add name="cllk.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="clloz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="clmpg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="clngaa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cloooud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cloopen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cloopen.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cloopm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -23448,8 +23442,6 @@ add name="cn-chenguang.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="cn-chx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-comfort.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-cr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-east-2.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-east-3.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-elite.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-em.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-ferment.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -23473,14 +23465,6 @@ add name="cn-mingda.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="cn-msedge.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-mw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-natural.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-north-1.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-north-2.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-north-3.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-north-4.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-north-5.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-north-6.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-north-9.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-northeast-1.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-only.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-psy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-railway.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -23491,10 +23475,6 @@ add name="cn-school.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="cn-sdf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-shine.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-soft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-south-1.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-south-2.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-south-4.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cn-southwest-2.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-tf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-tom.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cn-truck.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -33343,7 +33323,6 @@ add name="etz927.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="etzj.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="etzqw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="etzzy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="eu-west-0.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eu4cn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eub-inc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="euci-software.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -61582,8 +61561,6 @@ add name="l99.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="la-bbs.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="la-chinata.hk" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="la-mo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="la-north-2.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="la-south-2.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="la-technology.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="la31.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="laawoo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -66190,6 +66167,7 @@ add name="m-edu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="m-finder.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="m-hero.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="m-rainbow.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="m-team.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="m.travelzoo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="m1.run" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="m123.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -70088,6 +70066,7 @@ add name="myhuaweicloud-custom.com" type=FWD forward-to=$cndns match-subdomain=y
 add name="myhuaweicloud-date.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="myhuaweicloud-koodrive.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="myhuaweicloud-obs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="myhuilv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="myhwcdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="myhwcloudlive.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -70390,7 +70369,6 @@ add name="n63.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="n802.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="n8soft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="n9z.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="na-mexico-1.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="na.ci" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="naaln.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nabluemedia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -75866,7 +75844,6 @@ add name="pki.plus" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pkm360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pkma.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pko123.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="pkoplink.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pkpky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pkpmjc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pkpmsoft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -81257,7 +81234,6 @@ add name="rtxuc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rtyhfg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rtyxpt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rtyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ru-northwest-2.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ru5sq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rua93.online" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ruan.cloud" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -81715,7 +81691,6 @@ add name="s95r.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="s98s2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="s9hospital.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="s9yun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sa-brazil-1.myhuaweicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sa-ec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sa-log.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sa-tencentclb.cloud" type=FWD forward-to=$cndns match-subdomain=yes comment=CN

@@ -9739,7 +9739,6 @@ domain:aestheticbutler.xyz
 domain:aesucai.com
 domain:aevit.xyz
 domain:aexpec.com
-domain:af-south-1.myhuaweicloud.com
 domain:af122.com
 domain:af36.com
 domain:af360.com
@@ -11964,9 +11963,6 @@ domain:aoyunque.com
 domain:aozhanls.com
 domain:aozhougoufang.com
 domain:ap-china.com
-domain:ap-southeast-1.myhuaweicloud.com
-domain:ap-southeast-2.myhuaweicloud.com
-domain:ap-southeast-3.myhuaweicloud.com
 domain:ap1983.com
 domain:ap4r.com
 domain:ap88.com
@@ -12251,7 +12247,6 @@ domain:aqumon.com
 domain:aqviwv.com
 domain:aqvx8mcr392mv7.com
 domain:aqxx.org
-domain:aqyad.com
 domain:aqyqqy.com
 domain:aqyun.com
 domain:aqyzm.com
@@ -23003,7 +22998,6 @@ domain:cllk.net
 domain:clloz.com
 domain:clmpg.com
 domain:clngaa.com
-domain:cloooud.com
 domain:cloopen.com
 domain:cloopen.net
 domain:cloopm.com
@@ -23445,8 +23439,6 @@ domain:cn-chenguang.com
 domain:cn-chx.com
 domain:cn-comfort.com
 domain:cn-cr.com
-domain:cn-east-2.myhuaweicloud.com
-domain:cn-east-3.myhuaweicloud.com
 domain:cn-elite.com
 domain:cn-em.com
 domain:cn-ferment.com
@@ -23470,14 +23462,6 @@ domain:cn-mingda.com
 domain:cn-msedge.net
 domain:cn-mw.com
 domain:cn-natural.com
-domain:cn-north-1.myhuaweicloud.com
-domain:cn-north-2.myhuaweicloud.com
-domain:cn-north-3.myhuaweicloud.com
-domain:cn-north-4.myhuaweicloud.com
-domain:cn-north-5.myhuaweicloud.com
-domain:cn-north-6.myhuaweicloud.com
-domain:cn-north-9.myhuaweicloud.com
-domain:cn-northeast-1.myhuaweicloud.com
 domain:cn-only.com
 domain:cn-psy.com
 domain:cn-railway.net
@@ -23488,10 +23472,6 @@ domain:cn-school.com
 domain:cn-sdf.com
 domain:cn-shine.com
 domain:cn-soft.com
-domain:cn-south-1.myhuaweicloud.com
-domain:cn-south-2.myhuaweicloud.com
-domain:cn-south-4.myhuaweicloud.com
-domain:cn-southwest-2.myhuaweicloud.com
 domain:cn-tf.com
 domain:cn-tom.com
 domain:cn-truck.com
@@ -33340,7 +33320,6 @@ domain:etz927.com
 domain:etzj.net
 domain:etzqw.com
 domain:etzzy.com
-domain:eu-west-0.myhuaweicloud.com
 domain:eu4cn.com
 domain:eub-inc.com
 domain:euci-software.com
@@ -61579,8 +61558,6 @@ domain:l99.com
 domain:la-bbs.net
 domain:la-chinata.hk
 domain:la-mo.com
-domain:la-north-2.myhuaweicloud.com
-domain:la-south-2.myhuaweicloud.com
 domain:la-technology.com
 domain:la31.com
 domain:laawoo.com
@@ -66187,6 +66164,7 @@ domain:m-edu.com
 domain:m-finder.com
 domain:m-hero.com
 domain:m-rainbow.com
+domain:m-team.cc
 domain:m.travelzoo.com
 domain:m1.run
 domain:m123.com
@@ -70085,6 +70063,7 @@ domain:myhuaweicloud-custom.com
 domain:myhuaweicloud-date.com
 domain:myhuaweicloud-koodrive.com
 domain:myhuaweicloud-obs.com
+domain:myhuaweicloud.com
 domain:myhuilv.com
 domain:myhwcdn.com
 domain:myhwcloudlive.com
@@ -70387,7 +70366,6 @@ domain:n63.com
 domain:n802.com
 domain:n8soft.com
 domain:n9z.net
-domain:na-mexico-1.myhuaweicloud.com
 domain:na.ci
 domain:naaln.com
 domain:nabluemedia.com
@@ -75863,7 +75841,6 @@ domain:pki.plus
 domain:pkm360.com
 domain:pkma.cc
 domain:pko123.com
-domain:pkoplink.com
 domain:pkpky.com
 domain:pkpmjc.com
 domain:pkpmsoft.com
@@ -81254,7 +81231,6 @@ domain:rtxuc.com
 domain:rtyhfg.com
 domain:rtyxpt.com
 domain:rtyy.com
-domain:ru-northwest-2.myhuaweicloud.com
 domain:ru5sq.com
 domain:rua93.online
 domain:ruan.cloud
@@ -81712,7 +81688,6 @@ domain:s95r.com
 domain:s98s2.com
 domain:s9hospital.com
 domain:s9yun.com
-domain:sa-brazil-1.myhuaweicloud.com
 domain:sa-ec.com
 domain:sa-log.com
 domain:sa-tencentclb.cloud
