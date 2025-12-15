@@ -295,6 +295,7 @@ add regexp="(\\.|^)anthropic\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)antichristendom\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)antiwave\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)antpool\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)anuneko\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)anyporn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)anysex\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ao3\\.org\$" type=FWD forward-to=$gfwdns
@@ -2841,6 +2842,7 @@ add regexp="(\\.|^)jeanyim\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)jetos\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)jex\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)jgoodies\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)jhelab\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)jiangweiping\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)jiaoyou8\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)jiehua\\.cz\$" type=FWD forward-to=$gfwdns
@@ -3945,6 +3947,7 @@ add regexp="(\\.|^)pobieramy\\.top\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)podbean\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)podcast\\.co\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)podictionary\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)podwise\\.ai\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)poe\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)points-media\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)pokerstars\\.com\$" type=FWD forward-to=$gfwdns
@@ -4111,9 +4114,11 @@ add regexp="(\\.|^)radicalparty\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)radiko\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)radio-canada\\.ca\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)radio-en-ligne\\.fr\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)radio\\.co\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)radio\\.garden\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)radioaustralia\\.net\\.au\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)radiohilight\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)radiojar\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)radioline\\.co\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)radiovaticana\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)radiovncr\\.com\$" type=FWD forward-to=$gfwdns
