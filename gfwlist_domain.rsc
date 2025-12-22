@@ -557,6 +557,7 @@ add regexp="(\\.|^)bird\\.so\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bit-z\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bit\\.do\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bit\\.ly\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)bitbaby\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bitbay\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bitchute\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bitcointalk\\.org\$" type=FWD forward-to=$gfwdns
@@ -2633,6 +2634,7 @@ add regexp="(\\.|^)iconpaper\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)icu-project\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)id\\.hao123\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)id\\.heroku\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)idcflare\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)idemocracy\\.asia\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)identi\\.ca\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)idiomconnection\\.com\$" type=FWD forward-to=$gfwdns
@@ -3835,6 +3837,7 @@ add regexp="(\\.|^)parkansky\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)parler\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)parse\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)parsevideo\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)partnerstack\\.xyz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)partycasino\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)partypoker\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)passion\\.com\$" type=FWD forward-to=$gfwdns
@@ -4601,6 +4604,7 @@ add regexp="(\\.|^)startpage\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)startuplivingchina\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)stat\\.gov\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)static-economist\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)static\\.pocketcasts\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)static\\.shemalez\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)static01\\.nyt\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)staticflickr\\.com\$" type=FWD forward-to=$gfwdns
