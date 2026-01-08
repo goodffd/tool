@@ -61,7 +61,6 @@ add name="008.bet" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="00817.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="0086l.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="0086org.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="008gj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="008sport.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="0098118.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="009job.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -299,7 +298,6 @@ add name="028pxw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="028sh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="028sjkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="028yyyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="029-xinxi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="029200.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="02924.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="029558.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -567,7 +565,6 @@ add name="0605.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="0609.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="0618.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="06192.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="0626.lol" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="063108.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="0631rc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="0632idc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -1142,6 +1139,7 @@ add name="1122.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="11222.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="112682.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="1128job.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="112998.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="112seo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="112wan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="11315.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -1655,7 +1653,6 @@ add name="15job.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="15kuaixiu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="15lu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="15ms.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="15re.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="15scsc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="15sn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="15wkd6i45lq3.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -1783,7 +1780,6 @@ add name="168kaifu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="168kk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="168kn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="168lyq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="168manhua.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="168mlj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="168moliao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="168rcw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -1828,7 +1824,6 @@ add name="16type.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="16tz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="16wl.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="16xx8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="16ye.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="17.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="170.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="170066.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -2069,7 +2064,6 @@ add name="17sysj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="17t.co" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="17tanwan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="17taoca.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="17taoqu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="17taotaoa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="17taotaob.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="17taotaoba.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -2140,7 +2134,6 @@ add name="17zyxy.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="18.cm" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="18000000001.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="1800zz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="180102.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="18023.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="18095.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="180disk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -2382,7 +2375,6 @@ add name="1hwz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="1ij6ut.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="1iptv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="1j1x.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="1j8.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="1jbest.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="1jh3a5806i.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="1jiesong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -2688,7 +2680,6 @@ add name="21shipin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="21shte.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="21sjmg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="21sla.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="21smov.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="21so.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="21softs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="21spv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -2741,7 +2732,6 @@ add name="224700.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="224837439.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="224m.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="225.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="2250329.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="2255039.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="2258.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="2259.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -2938,7 +2928,6 @@ add name="2629.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="263-mail.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="263.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="263.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="2639911.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="263cv.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="263em.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="263fc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -2988,7 +2977,6 @@ add name="2755005.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="277sy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="27813000.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="278wan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="279.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="279love.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="279tt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="279wo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -3009,7 +2997,6 @@ add name="281826.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="2827.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="28283.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="282g.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="2835177ccc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="283d.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="2848168.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="28493.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -3047,7 +3034,6 @@ add name="2980.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="299906.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="29dnue.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="29nh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="29wt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="29xf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="2agi.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="2ai2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -3392,7 +3378,6 @@ add name="3361.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="33655.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="3366.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="3366.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="3366812ccc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="336685.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="336688.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="3366886633.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -4041,7 +4026,6 @@ add name="3dsnail.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="3dtakers.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="3dtank.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="3dtoo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="3dtvbits.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="3dwebyx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="3dwhere.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="3dxt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -4437,7 +4421,6 @@ add name="45yx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="461000.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="46412.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="4644440.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="4658271.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="46644.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="46771313.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="4687794fd9.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -4485,7 +4468,6 @@ add name="49363.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="4937711.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="495.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="495495.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="49644913.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="497-img.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="497.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="498.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -5676,7 +5658,6 @@ add name="5368111.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="537300.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="53797.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="537a.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="537images13.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="537images20.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="537images22.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="537images41.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -5958,7 +5939,6 @@ add name="587.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="587image.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="5884.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="5888.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="588art.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="588ku.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="588tao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="588z.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -6426,7 +6406,6 @@ add name="61psy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="61sheji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="61sou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="61tg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="61xs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="62115.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="62126tt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="62212366.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -6476,7 +6455,6 @@ add name="64365.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="645250.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="6453.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="64538.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="645w.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="646000.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="6463.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="64644444.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -6713,7 +6691,6 @@ add name="695828.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="695ljg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="696157.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="69698689.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="69853.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="698wan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="69916666.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="699333.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -6731,7 +6708,6 @@ add name="69xiu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="69yc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="69ys.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="69zw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="6a.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="6a8a.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="6aas.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="6adj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -7101,7 +7077,6 @@ add name="777haoka.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="777lala.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="777moban.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="777sy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="777xx888kk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="777yh.am" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="7788.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="7788js.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -7454,7 +7429,6 @@ add name="81677.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="816798.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="8169.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="817398.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="8175835ccc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="81761.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="818.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="81813.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -7524,7 +7498,6 @@ add name="8336.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="833k5u23mb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="83480900.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="835444.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="835images21.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="835images28.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="835images32.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="835images38.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -7753,9 +7726,7 @@ add name="888jiagong.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="888pic.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="888ppt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="888rj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="888s.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="888twt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="888xx666kk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="8890.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="8890tu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="8896.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -8556,7 +8527,6 @@ add name="98187411.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="9823f7b9o6.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="984g.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="985.so" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="985211.link" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="985900.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="985dh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="985hezi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -8918,7 +8888,6 @@ add name="9yaocn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="9yc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="9ye.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="9yiban.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="9yjk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="9you.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="9you.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="9yread.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -9019,7 +8988,6 @@ add name="aamyoe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aanroute.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aap5.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aaplimg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="aar.asia" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aardio.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aarkpbkc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aaronlam.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -9102,7 +9070,6 @@ add name="abitcg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="abite.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="abiz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="abkou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="abl.asia" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="able-elec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ablejeans.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ablesci.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -9298,7 +9265,6 @@ add name="acwing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="acwlkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="acxk.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="acxxg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="acz.asia" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ad-cn.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ad-diamond.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ad-gone.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -10241,7 +10207,6 @@ add name="airchinacargo.com" type=FWD forward-to=$cndns match-subdomain=yes comm
 add name="airchinagroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="airchinaim.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="airchinamedia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="aircom-sh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aircourses.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="airdali.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="airdoc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -11466,7 +11431,6 @@ add name="antgv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="antibanads.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="antibodychina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="anticheatexpert.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="antilgbt.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="antiquelearn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="antiy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="antiy.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -11979,7 +11943,6 @@ add name="aqrose.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqrsblg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqsc.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqsiqauto.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="aqsyssm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqtd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqtowngas.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aqtwpc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -12065,7 +12028,6 @@ add name="arin-elec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="arinchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="arisastar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ark301.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="arkchuxin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="arkfeng.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="arkfwq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="arkid.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -12809,7 +12771,6 @@ add name="axa123.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="axatp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="axbsec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="axbur.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="axcadsf.cfd" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="axcf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="axentbath.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="axera-tech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -13268,7 +13229,6 @@ add name="baikalminer.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="baikalyq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baikangyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baike.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="baike76.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baikecs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baiked.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baikehuanjing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -13438,7 +13398,6 @@ add name="baizengtech.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="baizhan.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baizhanke.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baizhanlive.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="baizhiedu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baizhouniao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baizlink.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bajasaechina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -13462,7 +13421,6 @@ add name="balancer-sh.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="baldc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baldor-tech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baletu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="balifafa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="balift.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="balihe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="balijieji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -13805,7 +13763,6 @@ add name="baoxinchewang.com" type=FWD forward-to=$cndns match-subdomain=yes comm
 add name="baoxingmuye.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baoxinleasing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baoxins.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="baoxinwen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baoxiu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baoxiu.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="baoxuexi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -13972,7 +13929,6 @@ add name="bbkys.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bblcdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bblmw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bblops.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="bblskj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bbmuwwxyk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bbmy.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bbobo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -14350,7 +14306,6 @@ add name="beihailihe.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="beihaimayi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="beihaiqiuzhi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="beihaireexpo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="beihaiting.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="beihaiwuyeguanli.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="beihaiwz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="beihan.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -14467,7 +14422,6 @@ add name="beiyinqi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="beiyiskjc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="beiyongzhan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="beiyuwangxiao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="beizengtech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="beizhua.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="beiziman.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bej9.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -14545,7 +14499,6 @@ add name="bensiea.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="benweitang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="benweng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="benxiang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="benxiaoqu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="benyh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="benyouhui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="benyuannet.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -15332,7 +15285,6 @@ add name="bioxtime.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="bipaihang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bipvcn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="biqg8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="biqiao.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="biqige.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="biqiuge.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="biqu.ge" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -15419,7 +15371,6 @@ add name="bitautotech.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="bitbe.at" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bitbrowser.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bitcar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="bitcellulose.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bitcron.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bitdefender-cn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="biteabc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -16122,6 +16073,7 @@ add name="bk-cdn01.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="bk3r.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bk41.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bk5u.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="bkaivl2daed.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bkapigw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bkapps.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bkbyxa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -17042,7 +16994,6 @@ add name="bsz666.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bszhly.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bszxtl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bszyqc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="bt-audio.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bt-club.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bt6.club" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bt66.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -17184,7 +17135,6 @@ add name="buguangdeng.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="bugukj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bugutime.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bugxia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="buhuangziben.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="buhuyo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="buickcare.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="buidea.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -17382,7 +17332,6 @@ add name="byclean.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="byd.auto" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="byd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bydauto.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="bydfbj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bydglobal.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bydhaiyang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bydit.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -17428,7 +17377,6 @@ add name="bypanghu.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="bypbn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="bypos.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="byqsc.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="byqzw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="byr-navi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="byr.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="byr.wiki" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -18438,7 +18386,6 @@ add name="cc707.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cc7m.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cc8.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cc86.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cc8z.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cca135.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ccabchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ccai.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -18607,7 +18554,6 @@ add name="ccjoy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ccjoyland.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ccjs120.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ccjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ccjt.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ccjxcn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ccjytv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ccjzzj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -18785,7 +18731,6 @@ add name="cctvse.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cctvweishi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cctvxftx365.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cctw.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cctx123.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cctypx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cctzz.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ccughc.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -19257,7 +19202,6 @@ add name="cdyzhotel.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="cdzdgw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cdzgh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cdzgzs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cdzhsj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cdzhuoyu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cdzimo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cdzixun.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -19508,6 +19452,7 @@ add name="cf69.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cfachina.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cfanlost.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cfbond.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="cfc108.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cfc365.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cfca-c.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cfccd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -20254,7 +20199,6 @@ add name="chengtianxiajy.com" type=FWD forward-to=$cndns match-subdomain=yes com
 add name="chengtiexinxi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chengtongjz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chengtu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="chenguangnetwork.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chengw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chengwei.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chengweitx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -20308,7 +20252,6 @@ add name="chenruo.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chens.life" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chenshipin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chensuyang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="chenty.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chenva.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chenwenwl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chenxiao.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -20381,7 +20324,6 @@ add name="chewulin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="chexian9.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chexiancha.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chexiang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="chexianinfo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chexiaoliang.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chexinmeng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="chexiu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -22177,7 +22119,6 @@ add name="cicfexpo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="cicg.tech" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ciciec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cicihappy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cicilisp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cicmag.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cicnn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cicoe.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -22495,7 +22436,6 @@ add name="cjslcg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cjspd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cjsy.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cjsyedu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cjsyyhsyzx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cjtl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cjtmsp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cjtouzi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -22804,6 +22744,7 @@ add name="cloudroom.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="clouds1000.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cloudsanya.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cloudsation.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="cloudsconverge.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cloudsec1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cloudsec1.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cloudsee.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -22890,7 +22831,6 @@ add name="cltt.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="club-pc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="clubcarev.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="clubhy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="clubweixin.samsung.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cluerich.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="clwhk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="clx360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -22966,7 +22906,6 @@ add name="cmd8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cmda-ccs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cmda.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cmdcxls.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cmdns.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cmdpe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cmdschool.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cmdsir.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -23377,7 +23316,6 @@ add name="cndoct.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cndog.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cndongrun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cndongxiao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cndongya.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cndoornet.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cndoors.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cndqjc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -24064,7 +24002,6 @@ add name="cnzjdd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cnzjj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cnzjol.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cnzkzg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cnzmzy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cnznfy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cnzps.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cnzrc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -24244,7 +24181,6 @@ add name="cofool.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cofortest.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cogcpa.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cogdelschool.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cogertn2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cogitosoft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cognizepower.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cogobuy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -24263,7 +24199,6 @@ add name="coinall.live" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="coinall.ltd" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="coincsd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="coindog.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="coinglass.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="coinnice.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="coinrobotics.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="coins-carnival.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -24546,7 +24481,6 @@ add name="corpease.net" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="corpize.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="corpring.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="coryes.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="corys.fun" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cos-beauty.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cos-show.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cos126.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -24710,6 +24644,7 @@ add name="cpu114.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cpu668.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cpu7.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cpubbs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="cpuchaopin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cpudj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cpuh2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cpury.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -24733,7 +24668,6 @@ add name="cq-pf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cq-qqcg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cq-rongjia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cq-sound.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cq-spring.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cq-tencentclb.cloud" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cq-tencentclb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cq-tencentclb.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -25002,7 +24936,6 @@ add name="cqjtedu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqjtsn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqjunan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqjx.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cqjxw.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqjy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqjyfcyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqjyhuida.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -25184,7 +25117,6 @@ add name="cqsongshan.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="cqspx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqsq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqssgf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cqssxwsxx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqstgxy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqstjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cqstjzx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -25395,7 +25327,6 @@ add name="cr-leasing.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="cr-newenergy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cr-power.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cr11gcsgd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cr11gee.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cr15g.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cr173.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cr175.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -25716,7 +25647,6 @@ add name="cshufanyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="cshxdc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cshxschool.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cshypg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="cshyqx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cshzywkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="csiamd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="csic-711.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -25762,7 +25692,6 @@ add name="cslfans.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cslgfd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cslkjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cslou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="csluye.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cslxzx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="cslyrc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="csmadik.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -26559,7 +26488,6 @@ add name="czfhdmls.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="czfph.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="czgcsb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="czgd.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="czgdgs.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="czgdly.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="czgjj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="czgjj.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -26928,7 +26856,6 @@ add name="dailijizhang.cc" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="dailiweishang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dailugou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dailygn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="dailyhongkong.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dailyqd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="daimafans.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="daimagongfang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -27741,7 +27668,6 @@ add name="ddlequ.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ddmap.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ddmer.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ddmogo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ddna.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ddnddn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ddnspod.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ddnsto.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -27983,7 +27909,6 @@ add name="delunyk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="deluxewatchbox.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="deluxworld.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="deluya.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="demage.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="demanmedical.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="demark-jgkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="demaxmedical.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -28411,7 +28336,6 @@ add name="dh5idnf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dh7373.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dh7999.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dh818.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="dh883.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dh9191.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dh978.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dhaitun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -28592,7 +28516,6 @@ add name="dianwoyou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="dianxian.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dianxian8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dianxiandianlanchang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="dianxiao2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dianxiaobao.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dianxiaomi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dianxin.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -28709,7 +28632,6 @@ add name="diducoder.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="diebian.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dieclock.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="diemoe.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="diemz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dieniao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dieqiu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="diershoubing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -29130,7 +29052,6 @@ add name="dl.delivery.mp.microsoft.com" type=FWD forward-to=$cndns match-subdoma
 add name="dl0728.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dl23zx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dl2link.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="dl321.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dl56.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dl8z.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dlairport.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -29341,7 +29262,6 @@ add name="dns123.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dns12345.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dns200.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dns2008.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="dns2023.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dns567.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dns6132.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dns666.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -29717,7 +29637,6 @@ add name="dongliw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="donglizhixin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="donglongfm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dongman.la" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="dongman520.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dongmanwang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dongmanxingkong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dongmanzx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -29997,7 +29916,6 @@ add name="downjoy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="downke.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="downkr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="downkuai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="download-cn.msi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="download.microsoft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="download.visualstudio.microsoft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="downloads.ltd" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -30208,7 +30126,6 @@ add name="drughk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="druid.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="drupalla.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="drupalproject.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="drv.tw" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="drvceo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="drvi.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="drvsky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -30287,6 +30204,7 @@ add name="dswql.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dswqw2025.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dswx.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dswzxh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="dsx.ac" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dsx2020.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dsxliuxue.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dsxys.pro" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -30318,6 +30236,7 @@ add name="dtlqg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dtlty.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dtmbw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dtmiller.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="dtminds.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dtmuban.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dtnews.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dtrcb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -30602,7 +30521,6 @@ add name="duoying.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="duoyinsu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="duoyoumi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="duozhi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="duozhishidai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="duozhuayu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="duozhuayu.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="duoziwang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -30738,6 +30656,7 @@ add name="dxhuafu.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dxinzf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dxjs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dxjt2013.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="dxjzz666.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dxlfile.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dxm-cdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="dxm-int.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -31655,7 +31574,6 @@ add name="ediaoyu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="edifier.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="edimob.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="edingzhuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="edirect.asia" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="edisec.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="editorjianying.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="editsprings.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -31808,7 +31726,6 @@ add name="eeqiu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eeskill.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eeso.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eestar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="eeswa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eetoday.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eetop.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eetrend.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -32217,7 +32134,6 @@ add name="emlinix.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="emlog.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="emmmn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="emodor.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="emohe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="emoji6.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="emojimobile.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="emoriko.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -32414,7 +32330,6 @@ add name="eoacme1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eoacme2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eoacme3.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eoaluminium.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="eoaoo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eoeandroid.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eoemarket.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eoemarket.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -32621,7 +32536,6 @@ add name="ertmineq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="ertongkongjian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ertongtuku.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ertoutiao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ertzxc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="erun.cloud" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="erun360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="erw.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -32706,7 +32620,6 @@ add name="esportsreg.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="espressif.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="esr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="essaystar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="essbjs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="essca.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="essclick.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="essemi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -32949,7 +32862,6 @@ add name="everspry.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="everstar.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="everstray.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="eversun-chn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="everybodygame.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="everybodysuo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="everychina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="everydo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -33291,7 +33203,6 @@ add name="f11w.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="f130.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="f139.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="f1943w.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="f1c.lol" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="f1zd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="f26.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="f2time.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -33771,7 +33682,6 @@ add name="fateqi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fatfreader.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fatherai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fatiao.pro" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="fatieku.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fatier.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fatoan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fatvg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -33853,7 +33763,6 @@ add name="fcg0770.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fcgasj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fcgby.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fcgcgs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="fcgdawanmatou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fcgfcjy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fcgfzjy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fcggsj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -34266,7 +34175,6 @@ add name="fenglinjiu.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="fenglinlab.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fenglu-alu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fengmaniu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="fengmaniutouch.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fengmap.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fengmeng.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fengmios.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -34834,7 +34742,6 @@ add name="fjxwx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fjxxal.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fjybyjjysos.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fjyc8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="fjycedu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fjycw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fjydnews.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fjyfjsjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -34987,7 +34894,6 @@ add name="flyfunny.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="flygo.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flygon.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flyhand.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="flyine.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flyingeffect.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flyme.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flyme.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -35002,7 +34908,6 @@ add name="flysand.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flysheeep.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flytcloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flytexpress.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="flyy.fun" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flyzyblog.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flzc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="flzhan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -35392,7 +35297,6 @@ add name="freeidea.win" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="freejishu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="freekaobo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="freekaoyan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="freekeyan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="freelycode.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="freelynb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="freelynet.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -36020,7 +35924,6 @@ add name="fxe0898.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fxeyee.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fxeyetips.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fxfbx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="fxfcw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fxfcyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fxgjwy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fxgz8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -36280,7 +36183,6 @@ add name="g-var.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="g00gle.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="g052m43e2ghn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="g1080.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="g12345.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="g12e.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="g12e.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="g188.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -36456,7 +36358,6 @@ add name="gamemcu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gamemei.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gamenow.club" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gameol.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gamepf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gamepingce.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gamer520.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gamerboom.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -36537,7 +36438,6 @@ add name="ganode.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ganqi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ganqi.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ganqing10.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gansha.co" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ganso.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gansuairport.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gansumuseum.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -36922,7 +36822,6 @@ add name="gdcic.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdcjrhcjh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdcjtd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdcjxx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gdcndq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdcocodemer.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdcoop.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdcopper.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -37150,7 +37049,6 @@ add name="gdpace.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdpdd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdpengquan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdpia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gdpingzheng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdprm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdprm.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdpysc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -37228,7 +37126,6 @@ add name="gdsunli.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdsuxie.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdswgc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdswine.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gdswkj668.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdsxgd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdsxgf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gdsytech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -38924,7 +38821,6 @@ add name="gocchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="gocdn.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gocea.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="goceshi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gochego.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="goclee.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gocn.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="godaily.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -39759,7 +39655,6 @@ add name="gtarcade.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="gtarsc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gtastart.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gtaxqh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gtbrowser.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gtc-power.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gtcedu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gtcfla.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -40406,7 +40301,6 @@ add name="guoyunjc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="guoyusec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="guoyutec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="guozaoke.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="guozeyu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="guozh.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="guozhangroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="guozhanjiaoyu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -40948,7 +40842,6 @@ add name="gxggdq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxggfhsmy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxgghx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxggm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gxggmy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxghfs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxghjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxghpg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -40962,7 +40855,6 @@ add name="gxgjjl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxgjjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxgjny.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxgjzy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gxgkcat.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxgkzzr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxgl588.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxglft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -41128,7 +41020,6 @@ add name="gxhmba.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxhmcm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxhmdjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxhnyt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gxholy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxhongchuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxhonggang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxhongning.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -41305,7 +41196,6 @@ add name="gxjiuxincpa.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="gxjiuyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxjiuyi99.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxjixu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="gxjiyong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxjiyu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxjjb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gxjjfds.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -43711,7 +43601,6 @@ add name="hangdaxinli.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="hangdianzhizao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hangduhc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hangf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hangfkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hanggao.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hangge.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hanghaimeng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -44467,7 +44356,6 @@ add name="hbddjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hbddrn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hbdefon.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hbdfmlw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hbdhy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hbdjcc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hbdjk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hbdmia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -44831,7 +44719,6 @@ add name="hc376.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hc39.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hc3yy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hc6756.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hc699.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hc79.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hc943.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hcaj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -44846,7 +44733,6 @@ add name="hcclhealthcare.com" type=FWD forward-to=$cndns match-subdomain=yes com
 add name="hccoeutg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hccpcba.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hcdamai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hcdiy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hcdyhr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hceia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hcepay.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -44921,7 +44807,6 @@ add name="hczsbj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hczshb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hczxmr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hczyw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hd-dwr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hd-english.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hd-english.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hd-mw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -45170,7 +45055,6 @@ add name="hecai360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="hecaijing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hecdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hecdn.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hechangquan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hechangshipin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hechangtech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hechengbb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -45883,7 +45767,6 @@ add name="hgxxgz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hgxxgz.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hgyrnk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hgyys.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hgzcjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hgzk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hgzkb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hgzrt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -45927,7 +45810,6 @@ add name="hhhg258.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hhhji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hhhkpb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hhhoo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hhhppp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hhhstz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hhhtfdj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hhhtfin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -46299,7 +46181,6 @@ add name="hitui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hitv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hiusers.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hiveshared.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hiveview.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hivi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hivictor.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hiwafer.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -46323,7 +46204,6 @@ add name="hiyouqu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hiyun.site" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hiyun.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hizaoan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hizg.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hizh.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hizhecheng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hizj.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -46566,7 +46446,6 @@ add name="hljpost.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hljradio.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hljrcc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hljsdm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hljsph.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hljszjxhw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hljtchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hljtcm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -46785,7 +46664,6 @@ add name="hnfapiao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="hnfcis.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnfcjr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnfck.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hnfdx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnfjz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnfles.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnfudu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -46794,7 +46672,6 @@ add name="hnfysg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hngajs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hngangjiegou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hngbjy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hngbw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hngdkg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hngh.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnghzl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -46916,7 +46793,6 @@ add name="hnnzwhyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="hnoak.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnoceanrace.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnoexpo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hnofc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnoscar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnpdig.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnpfw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -47049,7 +46925,6 @@ add name="hnwlxh.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnwlycg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnwsbz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnwtqx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hnwtv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnwwsjzx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnwyxx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hnwz8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -47270,7 +47145,6 @@ add name="hongda-steeltube.com" type=FWD forward-to=$cndns match-subdomain=yes c
 add name="hongdaishu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hongdamach.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hongdatec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hongdaym.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hongdefund.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hongdian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hongdianfund.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -47417,7 +47291,6 @@ add name="hongyu-qi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="hongyuanpharm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hongyuanqh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hongyue.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hongyuejiu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hongyugroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hongyugz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hongyumedical.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -47732,7 +47605,6 @@ add name="hq114.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hq88.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hqbd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hqbnb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hqbsh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hqbuy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hqbuycdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hqc-china.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -47836,7 +47708,6 @@ add name="hrbar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hrbbcf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hrbbleasing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hrbeduy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hrbehkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hrbesd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hrbj.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hrbjianchewang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -47905,7 +47776,6 @@ add name="hs-fe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hs-outlets.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hs-sz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hs.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hs10000.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hs13z.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hs2z.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hs326.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -48461,7 +48331,6 @@ add name="huanidc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="huanju.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="huanjutang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="huanjuyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="huankkk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="huanle.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="huanle800.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="huanlecdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -50029,7 +49898,6 @@ add name="hzhebei.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhehua.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhehui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhengding.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hzhengshang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhengtong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhfdc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -50045,7 +49913,6 @@ add name="hzhltec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhm888.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhnano.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhnzdh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="hzhongou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhqdj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhqqz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hzhr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -50368,6 +50235,7 @@ add name="i-fanr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="i-firefly.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="i-haitao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="i-hifi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="i-ktv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="i-lewan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="i-lu.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="i-m.dev" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -50524,7 +50392,6 @@ add name="iask-media.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="iask.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iask.in" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iaskbus.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="iaskgo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iaskhot.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iasmr.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iat-auto.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -50735,7 +50602,6 @@ add name="icbkfs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="icbkus.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="icbuy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="icc.link" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="icc365.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iccchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iccessh.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iccgame.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -51399,7 +51265,6 @@ add name="ihaier.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihailanjiang.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihaima.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihaique.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ihaitiao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihaiu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihaiyan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihanbridge.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -51422,7 +51287,6 @@ add name="ihdty.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihealthcoming.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihei5.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iheima.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="iheima.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihello.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihelpy.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihemuu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -51483,7 +51347,6 @@ add name="ihuoshanstatic.com" type=FWD forward-to=$cndns match-subdomain=yes com
 add name="ihuoshanvod.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihuoyan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihupo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ihush.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihuyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihwrm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ihx.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -52143,6 +52006,7 @@ add name="initff.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="initialview.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="initjj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="initkk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="initll.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="initnn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="initpp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="initqq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -52151,6 +52015,7 @@ add name="initrr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="inittt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="inituu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="initvv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="initww.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="initxb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="initxx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="initzz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -52774,7 +52639,6 @@ add name="isinosig.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="isixiang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="isixue.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="isjike.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="iskpay.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iskryou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="isky000.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iskyjoy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -53118,7 +52982,6 @@ add name="itzhai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="itzhengshu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="itzhimei.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="itzhp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="itziy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="itzjj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="itzm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="itzmx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -53172,7 +53035,6 @@ add name="ivolces.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ivqamtkr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ivrwan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ivsky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ivtfx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ivu4e.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ivvajob.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ivweb.io" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -53307,7 +53169,6 @@ add name="ixywy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ixzgkzps.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ixzzcgl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iy-cd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="iy51.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyamusic.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyangxi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyaou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -53343,12 +53204,12 @@ add name="iyong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyongpdf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyooread.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyoou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="iyoubo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyoucai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyoudui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyouhun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyoujia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyoujiao.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="iyouke.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyoule.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyouman.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="iyouqian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -53654,7 +53515,6 @@ add name="jcex.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jcf94.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jcgcn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jcgcw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="jcgjb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jchat.io" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jchl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jchla.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -54384,7 +54244,6 @@ add name="jiangbeiyiyuan.net" type=FWD forward-to=$cndns match-subdomain=yes com
 add name="jiangchaochina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jiangcp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jiangduoduo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="jianggesh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jiangguimei.asia" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jiangguo.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jianghaiqu.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -54591,7 +54450,6 @@ add name="jiaoshizhuye.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="jiaoshoubang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jiaoshouhuayuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jiaotu.men" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="jiaow.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jiaoya.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jiaoyf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jiaoyibao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -55557,7 +55415,6 @@ add name="jitgame.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jitianhz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jitriroad.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jittbang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="jitu5.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jitucdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jitukaisuo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jituofuture.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -55993,7 +55850,6 @@ add name="jlc-smt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jlc-zh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jlc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jlcar.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="jlcca.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jlccad.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jlccam.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jlccnc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -56168,7 +56024,6 @@ add name="jmzns.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jn-bank.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jn-cits.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jn001.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="jn123456.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jn1535.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jn172.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jn720.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -57181,7 +57036,6 @@ add name="jsxdyh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jsxfedu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jsxggx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jsxgjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="jsxhkg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jsxhljt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jsxhrcb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jsxht.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -57311,7 +57165,6 @@ add name="jtg2g.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jtggame.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jtgloble.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jtgzfw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="jthcsx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jtj-kr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jtjiaoyu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jtjms-ae.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -57962,9 +57815,7 @@ add name="jxsuji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jxswjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jxswskj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jxswzjx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="jxsxdp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jxsxdz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="jxszsj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jxszxyjhyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jxszyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jxt1314.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -58310,7 +58161,6 @@ add name="kaayun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kaba365.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kabapay.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kabasiji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="kabitu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kaboy.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kabu1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kachecn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -58685,7 +58535,6 @@ add name="kaoqinyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="kaoruo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kaoshenzazhi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kaoshi110.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="kaoshi110.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kaoshi365.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kaoshi86.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kaoshibao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -58870,7 +58719,6 @@ add name="keanrui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="keaopt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="keba.host" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kebango.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="kebenku.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kebi.biz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kebide.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kebingzao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -59291,7 +59139,6 @@ add name="kingdee.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kingdeemall.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kingdeestar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kingdeeyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="kingdeezx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kingdelgc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kingdom-ceramic.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kingdomfishing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -60078,7 +59925,6 @@ add name="ktcomposite.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="ktctjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ktcupdate.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ktfdsb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ktgzdmw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kting.info" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ktkt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ktlshu.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -60260,7 +60106,6 @@ add name="kuaiyizu.net" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="kuaiyong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuaiyoujia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuaiyouxi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="kuaiyu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuaiyuepu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuaiyugo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuaiyunds.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -60304,7 +60149,6 @@ add name="kuangjiwan.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="kuangming.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuangshitech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuangshun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="kuangstudy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuangxiangit.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuangyeyuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuangyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -60449,7 +60293,6 @@ add name="kunlunyb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="kunmingbc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kunmingguolv.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kunmingkanghui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="kunnabeila.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kunpengkg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kunpengtn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kunpo.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -60462,7 +60305,6 @@ add name="kuo-yi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuobuy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuocaicdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuocaidns.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="kuocaitm.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuocaiyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuoo8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kuosanyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -60903,7 +60745,6 @@ add name="lamost.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lamoton.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lampbi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lampouomo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="lamsg.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lamuba.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lamyu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lan-bridge.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -61512,7 +61353,6 @@ add name="lcqjsjxxx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="lcqwdz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lcrc.ltd" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lcrcbank.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="lcrq.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lcsepu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lcsgxjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lcsrmyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -61560,7 +61400,6 @@ add name="ldfdcw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldgjj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldgslb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldhrd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ldhxbj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldhy.click" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldj-edujy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldjt-china.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -61576,6 +61415,7 @@ add name="ldseals.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldshijie.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldshj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldsink.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ldstark.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldtdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldtec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ldteq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -61659,7 +61499,6 @@ add name="leapmie.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="leapmmw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="leapmotor.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="learn-quantum.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="learn.microsoft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="learndiary.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="learnfuture.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="learningsj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -61945,7 +61784,6 @@ add name="leopardtale.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="leopump.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="leozwang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lepaicm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="lepanshoping.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lepiaoyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="leptv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lepumedical.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -62312,7 +62150,6 @@ add name="lianguowang.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="liangwanjianshe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liangwei.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liangxinyao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="liangye-xo.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liangyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liangyi360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liangyiyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -62409,7 +62246,6 @@ add name="liaoningmoduo.com" type=FWD forward-to=$cndns match-subdomain=yes comm
 add name="liaoningpharm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liaosam.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liaotiantu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="liaowei.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liaoworking.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liaoxiwenhua.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liaoxuefeng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -63277,7 +63113,6 @@ add name="livesone.net" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="livesupport24x7.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liveuc.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liveupdate-cn.msi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="liveupdate.msi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="livevideostack.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="living.ai" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="livnj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -63337,7 +63172,6 @@ add name="liyi99.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liyinewmaterial.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liyingfei.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liyinka.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="liyjx.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liyu8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liyuan1999.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="liyuan99.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -63458,7 +63292,6 @@ add name="lkong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lkong.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lkpc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lkqihang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="lkshu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lksmarttech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lkssite.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lkszj.info" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -63540,7 +63373,6 @@ add name="lmkggf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lmkzx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lmlc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lmlq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="lmm8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lmnano.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lmnsaas.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lmonkey.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -63719,7 +63551,6 @@ add name="lohjs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lohkahhotels.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="loho88.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lohu.info" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="loioo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="loj.ac" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="loji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="loke123.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -63857,7 +63688,6 @@ add name="longstonechina.com" type=FWD forward-to=$cndns match-subdomain=yes com
 add name="longsunhd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="longsys.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="longtaifoods.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="longtask.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="longtec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="longtugame.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="longtuojixie.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -63875,7 +63705,6 @@ add name="longxi-tech.net" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="longxia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="longxianwen.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="longxinglong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="longxingweilai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="longxinli.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="longxintec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="longxuan.ren" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -64109,7 +63938,6 @@ add name="lqyqjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lqzh.me" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lqzp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lqzwdj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="lqzwsqy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lr-amm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lr-link.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lr8888.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -64664,7 +64492,6 @@ add name="lvjhx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lvjiaoya121.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lvjieplus.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lvjinsuo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="lvjitangbao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lvjiwang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lvjuelaw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lvjuf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -64784,7 +64611,6 @@ add name="lx138.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lx3.cok.elexapp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lx598.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lxapk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="lxbbt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lxbio.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lxbtrip.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lxccl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -64879,7 +64705,6 @@ add name="lycdw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lycheer.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lyckw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lycs-arc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="lycua.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lyd-china.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lyd6688.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lydaas.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -66190,7 +66015,6 @@ add name="mcc0.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mcc460.pub.3gppnetwork.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mccbim.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mccchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="mcchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mccshhospital.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mcd.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mcdchina.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -67159,7 +66983,6 @@ add name="miaxis.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mibao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mibaoxian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mibei.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="mibokids.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mic-s.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="micai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="micai315.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -67354,7 +67177,6 @@ add name="milanshishang.com" type=FWD forward-to=$cndns match-subdomain=yes comm
 add name="milanvip.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="milchips.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mileage.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="milegj1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="milejia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="milemovie.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mileshub.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -68201,7 +68023,6 @@ add name="moldinginductor.com" type=FWD forward-to=$cndns match-subdomain=yes co
 add name="moldnano.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="moleecel.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="molefitting.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="molegu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="molerose.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="molesdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="molibaike.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -68249,7 +68070,6 @@ add name="moneydata.hk" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="monfetch.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mongac.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="monhun.fun" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="monidai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="monidata.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="monkeylsp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="monknow.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -68294,7 +68114,6 @@ add name="moontonapp.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="moontontech.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="moonvy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="moonvy.cool" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="moooc.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mooooc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mooool.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mooore.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -68451,7 +68270,6 @@ add name="moyann.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="moyoyo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="moypk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="moyubuluo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="moyude.ren" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="moyugroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="moyunteng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="moz8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -68626,12 +68444,10 @@ add name="mst-jc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mstatik.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mstchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mstxx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="msudz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="msunland.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="msweekly.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="msxf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="msxf.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="msxh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="msxt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="msxxg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="msy5.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -68729,14 +68545,12 @@ add name="mtzscp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mtzuichen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mu69.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="muaedge.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="muaing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mubanjianli.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mubanwan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mubixueyuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mubon.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mubu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mubucm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="mucaipin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mucanzhe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mucf.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mucfc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -69034,7 +68848,6 @@ add name="myaqsh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="myarena7.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="myarowanas.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="myauth.us" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="mybaby100.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mybabya.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mybarrefitness.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mybdqn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -69622,7 +69435,6 @@ add name="nanochrom.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="nanoeast.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nanoer.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nanoinglobal.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="nanojanus.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nanomicro.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nanomotions.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nanomxenes.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -69836,7 +69648,6 @@ add name="nbmai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nbmedicalsystem.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nbmiao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nbmidun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="nbmotive.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nbmpzs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nbmylike.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nbmyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -70014,7 +69825,6 @@ add name="ndxlj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ndyt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ndzfl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ndzls.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ndzsx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ne01.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ne21.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ne365.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -70140,7 +69950,6 @@ add name="netconst.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="netcoretec.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="netcute.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="netded.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="netdzb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="netease-inc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="netease.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="netease.im" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -71075,7 +70884,6 @@ add name="njpud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="njpujiang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="njqchyxh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="njqhjy.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="njqifu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="njqihong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="njqinghai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="njqixiashan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -71372,7 +71180,6 @@ add name="nn9yy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnairport.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnanyang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnayd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="nnbainian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnbanrui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnbbrn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnbdfyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -71661,7 +71468,6 @@ add name="nnybskq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnych.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnydcs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnyfjc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="nnyfyfy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnyhjc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnyhtx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nnyhxl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -71854,7 +71660,6 @@ add name="notetao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="notetech.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="notonlymoon.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="notrisk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="nouoo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nouriz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nova-test.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="novaicare.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -71900,7 +71705,6 @@ add name="nowmsg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nowo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nowodds.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nowre.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="nows.fun" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nowscore.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nowtop.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="nowxz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -72046,7 +71850,6 @@ add name="ntcaac.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ntcchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ntce.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ntcfy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ntcor.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ntdingke.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ntdjk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ntdsyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -72542,7 +72345,6 @@ add name="officezhushou.com" type=FWD forward-to=$cndns match-subdomain=yes comm
 add name="officezy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="offodd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="offshoremedia.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="offside.hk" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ofgame.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ofidc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ofo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -73045,7 +72847,6 @@ add name="oplinking.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="oplus.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="oplustrust.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="opmaterial.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="opoefweof-sopoop.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="opp2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="oppein.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="opplestore.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -73160,7 +72961,6 @@ add name="orienttumor.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="orientzj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="orientzr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="orifound.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="orig-download.msi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="orig-liveupdate.msi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="originalimg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="originalkindergarten.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -74263,7 +74063,6 @@ add name="pengyuwei.net" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="pengzhihui.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="penhuijiqi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="peninsula-med.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="penjuanus.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="penlingaizao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="penno-pallet.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pensunny.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -74717,7 +74516,6 @@ add name="pingxuan123.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="pingxue.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pingxx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pingyin.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="pingyou.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pingzishuo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pinhaohuo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pinhui001.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -74870,7 +74668,6 @@ add name="pku-cele.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="pku-hc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pku-hit.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pku-lvxin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="pku.tech" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pku666.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pkucare.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pkucarenjk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -74980,7 +74777,6 @@ add name="plsbd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="plsdeyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="plsfybjy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pltgd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="plumcrk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pluosi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pluralitycn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="plures.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -75475,7 +75271,6 @@ add name="primerachina.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="primeton.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="princechem.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="print86.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="printer-china.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="printerwhy.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="printhome.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="printhr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -75490,6 +75285,7 @@ add name="prjdrj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="prkfyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="prnewspress.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pro001.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="pro1stand.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pro400.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="proangela.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="proav-china.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -75806,7 +75602,6 @@ add name="pv265.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pvacegurmbz3e.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pvc-diban.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pvc123.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="pvcliping.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pvpin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pvz.moe" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="pw-partners.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -76121,7 +75916,6 @@ add name="qcwhxx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qcwlseo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qcwp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qcwxjs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qcwz8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qcxrby.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qcxs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qcxzls.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -76229,7 +76023,6 @@ add name="qdnzrmyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="qdpdjx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qdport.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qdpr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qdqehb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qdqiche.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qdqihang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qdqs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -76397,7 +76190,6 @@ add name="qhdjgyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhdlcdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhdnews.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhdnxgyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qhdrc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhdren.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhduhu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhdvtc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -76409,7 +76201,6 @@ add name="qhee-ma.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhee.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhfx.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhfzcp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qhg7.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhgas.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhgufen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhholding.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -76440,6 +76231,7 @@ add name="qhpta.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhrch.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhrcsc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhres.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="qhres2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhrqxh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhsat.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qhscw.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -76635,7 +76427,6 @@ add name="qianxungroup.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="qianxuntrip.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qianyan.biz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qianyan001.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qianyanchefang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qianye88.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qianyierp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qianyikeji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -76829,7 +76620,6 @@ add name="qiigame.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qiivoo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qijedu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qijee.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qiji.tech" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qijiadianzi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qijian99.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qijianzs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -77163,7 +76953,6 @@ add name="qinxuye.me" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qinyi.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qinyuanyang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qinyukehuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qinzc.me" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qinzhe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qinzhou.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qinzhou360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -77222,7 +77011,6 @@ add name="qishuta.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qishuta.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qisi.co" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qisool.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qisuya.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qita.love" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qitaifu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qitaijiuye.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -77360,7 +77148,6 @@ add name="qiyuns3.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qiyuntong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qiyutech.tech" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qiyutianxia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qizhanming.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qizheplay.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qizhidao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qizhihaotian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -77422,7 +77209,6 @@ add name="qkhg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qking.ink" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qkisp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qkkj88.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qkkjbj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qkkjd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qkl234.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qknode.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -77442,7 +77228,6 @@ add name="ql18.mobi" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ql1d.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ql361.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ql361.shop" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ql789.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qlan99.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qlbchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qlbg.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -77485,6 +77270,7 @@ add name="qlyyqd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qlzygs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qm119.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qm120.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="qm2009.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qm41.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qm69.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qm989.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -78681,7 +78467,6 @@ add name="qzcns.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qzct.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qzda.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qzdatasoft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="qzdfys.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qzdswy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qzdxcj888.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qzdyyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -78917,7 +78702,6 @@ add name="rangti.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rangxue.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rangzong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ranhou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="rankaiyx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rankingonline.jp" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ranknowcn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ranliao.biz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -79332,7 +79116,6 @@ add name="renaren.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="renbenai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="renbenzhihui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="renbj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="rencai.biz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rencaijia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rencaijob.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rencheng1991.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -79964,7 +79747,6 @@ add name="rootcloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="rootguide.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rootintech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rootjl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="rootopen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="roouoo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ropefitting.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ropinsite.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -80826,7 +80608,6 @@ add name="sandegroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="sandinggas.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sandload.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sanduoyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sandworld.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sanen.online" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sanfangshun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sanfen666.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -80836,7 +80617,6 @@ add name="sanfi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sanfinehospital.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sanfo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sanfu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sang.pub" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sangaopatent.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sangbang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sangem.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -81390,7 +81170,6 @@ add name="scigy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sciimg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sciirc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="scijet.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="scijuyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="scilucy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="scimall.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="scimall.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -81590,7 +81369,6 @@ add name="scyyxh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sczg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sczgzb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sczht.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sczlhkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sczlsgs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sczsfs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sczshz.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -81755,7 +81533,6 @@ add name="sdgsjc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdgslb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdgslbc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdgslbd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sdgswh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdgswl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdgsxcljt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdgsxxjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -81900,7 +81677,6 @@ add name="sdlxsj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdly35.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdlyjygs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdlysz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sdlz.tech" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdm0377.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdmctech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdmdcm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -81969,7 +81745,6 @@ add name="sdsalt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdsansen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdsazgs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdsazxh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sdsbhjgc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdsbjp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdschdlxxhyxh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sdsdbjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -82286,7 +82061,6 @@ add name="segotep.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="segwayrobotics.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sehand.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sehimalayanqj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sehnam.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="seida.tech" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="seijoin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="seilway.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -82693,7 +82467,6 @@ add name="sh-huate.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="sh-huayang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sh-hwbaoan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sh-hywin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sh-impact.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sh-italent.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sh-iwatani.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sh-jiapeng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -82915,7 +82688,6 @@ add name="shanghai-map.net" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="shanghai-pictures.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shanghai-sports.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shanghai-test.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="shanghai369.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shanghaiahte.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shanghaiairport.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shanghaiairporttour.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -83195,7 +82967,6 @@ add name="sharetome.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="sharetrace.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sharevdi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sharewaf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sharewithu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sharexbar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sharexiang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sharingclass.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -83301,7 +83072,6 @@ add name="shdmu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shdnjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shdouxie.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shdpa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="shdpyq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shdrc.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shdrkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shdsd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -83588,7 +83358,6 @@ add name="shenzhekou.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="shenzhen-kuaiji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shenzhen-world.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shenzhenair.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="shenzhenbaoanmarathon.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shenzhenbianhua.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shenzhenew.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shenzheninvestment.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -83724,7 +83493,6 @@ add name="shhuu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shhweili.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shhws.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shhxbk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="shhxf119.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shhxpx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shhxyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shhxzq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -83815,7 +83583,6 @@ add name="shijiesanqingshan.com" type=FWD forward-to=$cndns match-subdomain=yes 
 add name="shijieshijian.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shijiexia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shijieyouxi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="shijieyunlian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shijiezz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shijihr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shijihulian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -84263,7 +84030,6 @@ add name="shouqiev.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="shouqu.me" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shoushenlvcheng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shoutai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="shoutao.biz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shouxi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shouxieti.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shouxihu.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -84330,7 +84096,6 @@ add name="shpgx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shphschool.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shpiano.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shpingda.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="shplhs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shppa.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shps518.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="shpsncp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -86007,7 +85772,6 @@ add name="smartzzx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="smarun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="smaryun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="smasmj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="smaty.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="smb956101.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="smbinn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="smbxw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -86398,7 +86162,6 @@ add name="sogou.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sogoucdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sogoucdndl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sogouimecdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sogouw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sogowan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sogw.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="soharp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -86944,7 +86707,6 @@ add name="sptccn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="spthome.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sptv-1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="spug.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="spush.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="spvtime.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="spwj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="spxgas.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -87234,6 +86996,8 @@ add name="stage1st.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="stage3rd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="staginfo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="staidson.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="stand2pro.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="stand3pro.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="standard-groups.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="standardcn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="standardshop.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -87248,7 +87012,6 @@ add name="star-kid.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="star-linear.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="star-meeting.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="star-new-material.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="star-pos.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="star-river.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="star365.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="star7game.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -87944,7 +87707,6 @@ add name="suo.im" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="suobao8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="suobifa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="suobuy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="suodaozl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="suoer-group.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="suofeiya.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="suofeiyashop.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -88039,7 +87801,6 @@ add name="supplierlist.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="supplywater.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="support-cn.samsung.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="supreme-oe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="supuvalve.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="supwisdom.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="supwk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="suqian360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -88513,7 +88274,6 @@ add name="sxzxsdf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sxzydj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sxzyfy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sxzytech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="sxzzdxsc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sy-game.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sy-home.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sy-yy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -88728,7 +88488,6 @@ add name="syygjs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="syyjs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="syylfh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="syyqls.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="syys.cafe" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="syysjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="syyx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="syyy99.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -89378,7 +89137,6 @@ add name="szsep.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szsewo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szsfgc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szsh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="szshequ.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szshtjm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szshuangjin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szshuori.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -89406,7 +89164,6 @@ add name="szssct.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szssda.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szssep.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szssfor.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="szssty.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szsswcs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szsszx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="szsta.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -89651,7 +89408,6 @@ add name="t086.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="t1.ink" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="t10.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="t105.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="t12.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="t123yh.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="t139.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="t1networks.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -89784,7 +89540,6 @@ add name="taijiewuliu.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="taijiny.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="taijio.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="taijs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="taijudaquan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="taijutv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="taikaibyq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="taikaihuanbao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -89973,7 +89728,6 @@ add name="tangxiagoodview.com" type=FWD forward-to=$cndns match-subdomain=yes co
 add name="tangyeedu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tangyoufushi.fun" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tangyuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="tangzhuan666.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tanhaibo.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tanho.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tanjigroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -90159,7 +89913,6 @@ add name="taotaoit.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="taotaosports.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="taoth.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="taotian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="taotiwang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="taotu8.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="taotv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="taotv.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -90640,7 +90393,6 @@ add name="techo.show" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="techoke.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="techonegame.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="techqianmo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="techshidai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="techsir.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="techsize.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="techtmt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -91217,7 +90969,6 @@ add name="th-tencentclb.com" type=FWD forward-to=$cndns match-subdomain=yes comm
 add name="th-tencentclb.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="th-tencentclb.work" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="th-water.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="th.app" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="th.bing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="th38.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="th99.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -91461,7 +91212,6 @@ add name="tiancaixing.net" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="tiancao360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tiancehang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tianchanggongjiao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="tianche.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tianchenalum.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tianchengas.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tianchi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -91766,7 +91516,6 @@ add name="tiefen.space" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="tiegu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tiehuatu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tiejiang.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="tiejiapai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tiejiong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tiejunmedia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tiekuangshi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -91817,7 +91566,6 @@ add name="tijian123.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="tijianbao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tijianshangmen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tijianzhuanjia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="tijiaoshou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tijox.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tijox.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tijox.hk" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -92039,7 +91787,6 @@ add name="tjczjxsb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="tjdeviser.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tjdewy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tjdrzc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="tjduo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tjdyf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tjeco-city.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tjeti.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -93287,7 +93034,6 @@ add name="tses.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tsflc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tsfqw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tsg-online.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="tsggwl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tsggx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tsgks.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tshaisen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -93444,7 +93190,6 @@ add name="ttmn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ttmnq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ttmv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ttn8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ttnaoli.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ttnea.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ttnongli.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ttnqh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -93684,7 +93429,6 @@ add name="tumicomm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="tumormed.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tumukaoyan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tumukeji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="tumuzhe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tumwf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tumyu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tuna.wiki" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -94121,7 +93865,6 @@ add name="tytzy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tytzyyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tytzzy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tyuanlv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="tyue.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tyust.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tyututy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tyuyan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -94174,6 +93917,7 @@ add name="tzhwcc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tzjob.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tzjxl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tzjyjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="tzjz123.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tzjzsw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tzkameng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="tzkciz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -94708,7 +94452,6 @@ add name="unclenowayapi.com" type=FWD forward-to=$cndns match-subdomain=yes comm
 add name="uncletalk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="unclicks.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="uncoverman.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="und188.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="under-5.shop" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="underfill.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="uneatclean.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -96590,6 +96333,7 @@ add name="wagonsclub.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="waha.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="waheaven.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wahlap.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="wahlap.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wahsanggroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wahtaisz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wahuto.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -96663,7 +96407,6 @@ add name="walkingpad.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="walkkind.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="walknode.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="walkthechat.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="wallba.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wallcoo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wallcoo.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="walle-web.io" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -96808,7 +96551,6 @@ add name="wangfujing.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="wanggongwang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wanggou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wangguai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="wanghaicheng.online" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wanghaifeng.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wanghanyue.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wanghao.me" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -96879,7 +96621,6 @@ add name="wangweiluo.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="wangwo.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wangxc.club" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wangxiangyule.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="wangxiannen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wangxianyuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wangxiao.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wangxiaobao.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -96995,7 +96736,6 @@ add name="wannuoda.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="wanplus.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wanpufeiliu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wanqianyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="wanqiu123.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wanqiula.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wanqutong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wanren.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -97269,7 +97009,6 @@ add name="wcjbb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wcjbb.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wcjm.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wclbox.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="wclog1222.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wcloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wcode.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wcp.hk" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -97545,7 +97284,6 @@ add name="wegene.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wego-healthcare.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wegooooo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wehandbio.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="weharvest.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wehefei.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wehelpwin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="weherepost.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -97617,7 +97355,6 @@ add name="weiengift.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="weifengchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="weifenghr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="weifengke.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="weifengou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="weifengtang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="weifenpay.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="weiforyou.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -97975,7 +97712,6 @@ add name="welzek.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wemagfmp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wemart.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="weme.fun" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="wemechat.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wemeche.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wemediacn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wemomo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -98693,7 +98429,6 @@ add name="whtaxi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whtbglass.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whtbgroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whtbq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="whtby.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whtcm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whtcsz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whtdcb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -98788,7 +98523,6 @@ add name="whysw.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whysx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whysxc2c.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="whyungu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whyuntai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whyunzhou.fun" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="whyushang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -99198,6 +98932,7 @@ add name="wjsldy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wjsms.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wjsw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wjtr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="wjttl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wjtzyg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wjwuqiang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wjx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -99455,7 +99190,6 @@ add name="woaidu.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="woaihaoyouxi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="woaihuahua.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="woaihuoshan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="woailai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="woaipu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="woaiseo.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="woaishouban.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -99489,7 +99223,6 @@ add name="wodecrowd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="wodecun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wodedagong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wodeev.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="wodeoffice.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wodescw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wodeshebao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wodeshucheng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -100437,7 +100170,6 @@ add name="wwldz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wwmhdq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wwnet.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wwrcw.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="wws23.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wwsgh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wwsq.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="wwstat.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -101495,7 +101227,6 @@ add name="xfpaas.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xfpass.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xfpg119.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xfplay.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xfplay.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xfprecise.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xfq.life" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xfr3u4lz94.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -101814,7 +101545,6 @@ add name="xiangqu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiangrikui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiangrikuijianzhan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiangrikuisite.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xiangrongtaihe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiangruichina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiangruizulin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiangshang360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -102165,7 +101895,6 @@ add name="xiaoma.io" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiaoma.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiaomachuxing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiaomagaojian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xiaomagouche.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiaomai.live" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiaomai5.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiaomaidong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -102450,7 +102179,6 @@ add name="xiazaijidi.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="xiazais.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiazaitool.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiazaiwx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xiazaiziti.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiazhougroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xibaike.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xibaiwang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -102489,7 +102217,6 @@ add name="xieche.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xieche.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiecheng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiechuangw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xiedagyl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiedaimala.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiedajia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xiedao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -103050,7 +102777,6 @@ add name="xinqiyejia.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="xinqtech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xinquanedu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xinquji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xinran1016.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xinranliu.me" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xinrenxinshi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xinri.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -103110,7 +102836,6 @@ add name="xintuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xintucdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xintuosoft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xintv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xinvry4chips.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xinwangcj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xinwanr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xinweier.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -103486,7 +103211,6 @@ add name="xjgameinfo.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="xjgc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xjggjy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xjgj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xjgkzs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xjgqt.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xjgsdm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xjgt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -103909,7 +103633,6 @@ add name="xn--6xv710dola.net" type=FWD forward-to=$cndns match-subdomain=yes com
 add name="xn--730-l44eu9iitvv9h.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xn--7mqy6dj0brts55e.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xn--7qvz7xssa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xn--7stv4oc3evv7b.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xn--88-9s0f59z.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xn--8lqrjra071bi0qgga421cs99a4qeqwm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xn--8ou124e6ek.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -104721,7 +104444,6 @@ add name="xunbang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xunbao178.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xunbaozhifu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xunbf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xunbibao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xunbin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xunbo.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xunchabing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -105043,7 +104765,6 @@ add name="xy120.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xy1212.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xy1758.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xy178.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xy280.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xy3000.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xy36z.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xy3yy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -105483,7 +105204,6 @@ add name="yalishiyanji.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="yalixinli.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yalj.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yalongbay.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yalongsi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yalqq8976.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yamaijia.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yameisj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -105599,7 +105319,6 @@ add name="yangwangauto.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="yangwc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yangwenlong.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yangwenqing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yangxi.tech" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yangxiang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yangxiangdb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yangxingzhen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -105633,7 +105352,6 @@ add name="yangzijiang.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="yangziwater.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yangzw.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yanhaijing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yanheyey.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yanhuamedia.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yanhuoidc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yaniu.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -106078,7 +105796,6 @@ add name="ycyjkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ycym.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ycypin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ycyui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ycyunyu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ycyunyuk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ycyz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ycyzwb.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -106177,6 +105894,7 @@ add name="ydx2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ydxrf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ydxxt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ydyb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="ydycdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ydyeducation.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ydyj.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ydylcn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -106426,6 +106144,7 @@ add name="yfdurl8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yfdurl9.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yfdxs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yfdyf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="yfemj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yffood.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yffy120.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yffzkl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -106556,7 +106275,6 @@ add name="yhgzjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yhhh8888.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yhhjcc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yhhotel.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yhhsyl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yhidc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yhindustrial.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yhj9.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -106675,7 +106393,6 @@ add name="yichangly.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="yichangmarathon.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yiche.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yichemall.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yichen88.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yichengfood.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yichengji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yichengnews.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -107631,8 +107348,6 @@ add name="yjygx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yjyxiyan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yjyz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yjz9.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yjzb.app" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yjzb.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yjzcalzcxm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yjzf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yk-bio.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -107698,7 +107413,6 @@ add name="yl0008168.com" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="yl01.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yl1001.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yl1988.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yl2272.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yl344.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ylallinone.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ylbeef.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -107808,7 +107522,6 @@ add name="ylwyw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ylxdtww.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ylxgf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ylxhmy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ylxhy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ylxw.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ylxweb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ylxyct.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -107893,7 +107606,6 @@ add name="ymtc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ymtie.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ymtmt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ymtnet.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ymu4.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ymuuy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ymvkt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ymwcds.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -107934,7 +107646,6 @@ add name="ynfwyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ynfxw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yngas.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yngd016.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ynggzy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yngp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yngsxy.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yngw518.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -108274,7 +107985,6 @@ add name="youcheyihou.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="youchuhuodong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youcloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youcsky.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="youda.pro" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youda8.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youdajx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youdao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -108362,7 +108072,6 @@ add name="youke.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youked.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youkeda.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youkego.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="youkelai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youkexueyuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youkia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youkia.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -108562,7 +108271,6 @@ add name="youxicheng.net" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="youxicitang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youxidaxue.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youxidr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="youxidudu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youxidun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youxiduo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youxifan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -108668,7 +108376,6 @@ add name="youzhou-knife.com" type=FWD forward-to=$cndns match-subdomain=yes comm
 add name="youzhu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youzhuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youzi02.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="youzibank.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youzibuy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youzijie.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youzijimu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -109112,7 +108819,6 @@ add name="yuangongbao.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="yuanhaitaiji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanhangqiche.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanhangzyt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yuanhaomumen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanhechem.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanhengyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanheyaoye.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -109285,7 +108991,6 @@ add name="yueloo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuelu.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuelun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuelvxing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yuelxc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuemagroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yueme.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuemei.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -109535,7 +109240,6 @@ add name="yuncechina.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="yunceng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yunchelogistics.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuncheng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yunchengfang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yunchexing.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yunchip.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yunchonglife.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -109757,7 +109461,6 @@ add name="yunrenshi.net" type=FWD forward-to=$cndns match-subdomain=yes comment=
 add name="yunrg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yunrongu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yunruicloud.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yunruift.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yunruikj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yunruizz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yunsd.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -110059,7 +109762,6 @@ add name="ywdier.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ywditan315.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yweisugar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ywfby.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="ywfex.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ywgc.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ywgd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ywhack.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -110254,7 +109956,6 @@ add name="yxylbz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yxyy33.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yxyzjx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yxz.me" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yxzb.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yxzcemet.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yxzd.info" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yxzggame.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -110308,7 +110009,6 @@ add name="yyets.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yyfax.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yyfdcw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yyfqm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="yyfsb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yyfunning.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yyg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yyg120.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -110711,7 +110411,6 @@ add name="zallxk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zamcs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zampdmp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zamplink.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zan.run" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zanao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zanba.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zanbai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -110850,6 +110549,7 @@ add name="zbpengxuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="zbqlm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zbra-inc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zbrhsc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="zbrty.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zbsfdy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zbsjzy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zbsonline.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -111330,7 +111030,6 @@ add name="zggjsmc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zggldgj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zgglkx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zgglyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zggongkao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zggqzp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zggroups.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zggtxhw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -111950,7 +111649,6 @@ add name="zhenai.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhenaihn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhenandl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhenaoyaoye.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zhenbatech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhenbi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhenbizi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhenchu.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -112390,7 +112088,6 @@ add name="zhishutang.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="zhishuyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhisiyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhisuoyi.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zhisutui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhitaiparking.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhitangvalve.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhitaosoft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -112463,7 +112160,6 @@ add name="zhiyuanyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="zhiyuanzhongyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhiyuapp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhiyueit.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zhiyuequan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhiyun-cn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhiyun-tech.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhiyungc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -112760,7 +112456,6 @@ add name="zhongyagroup.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="zhongyangkeji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhongyangweixiu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhongyao365.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zhongyaokiln.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhongyapeicui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhongyasmart.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhongyejy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -112978,7 +112673,6 @@ add name="zhuhaily.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="zhuhaimarathon.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhuhd.win" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhuhua.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zhuhudong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhuige.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhuigong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhuiguang.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -113133,7 +112827,6 @@ add name="zhushan.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhushandata.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhushiyao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhushou001.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zhushuiwen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhust.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhutao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhutaostudio.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -113911,7 +113604,6 @@ add name="zjscdb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zjsck.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zjscs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zjsdbjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zjsdjlkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zjseaport.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zjsee.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zjsfkj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -114334,7 +114026,6 @@ add name="zmren.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmrenwu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmsq.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmssh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zmtc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmtpc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmtquan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmubf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -114343,7 +114034,6 @@ add name="zmumu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmweb.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmwo.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmwxxcx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zmxph.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmye5vly.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmyui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zmyyc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -114593,7 +114283,6 @@ add name="zpwamdew.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="zpwcb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zpwz.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zpxrmyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zq101.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zq12369.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zq235.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zq6.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -115117,7 +114806,6 @@ add name="zusan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zushouji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zushoushou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zuszw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zutianke.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zutingwan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zuulee.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zuwuzhuyi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -115139,7 +114827,6 @@ add name="zvryuq7xg31x5g.com" type=FWD forward-to=$cndns match-subdomain=yes com
 add name="zvstapp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zvsts.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zvv.me" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zvvxsco.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zw-tencentclb.cloud" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zw-tencentclb.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zw-tencentclb.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -115409,7 +115096,6 @@ add name="zyip.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zyiwater.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zyixi.xyz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zyixinx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zyiz.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zyjhzyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zyjiajiao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zyjjt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -115496,7 +115182,6 @@ add name="zyykj168.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="zyylee.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zyz119.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zyzhan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zyzkb.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zyzl120.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zyzw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zz-hh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -115686,7 +115371,6 @@ add name="zzxworld.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="zzxx.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zzxy.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zzy2001.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="zzyan360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zzyauto.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zzycpa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zzyecc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -115825,6 +115509,7 @@ add name="gongyichuangyi.net" type=FWD forward-to=$cndns match-subdomain=yes com
 add name="gpb-hls.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gstatic-cn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gtm.oasisfeng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="hb2stream1.baoxinwen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hindiabp-lh.akamaihd.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hls-1.wamu.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="hls-video01.cdnvideo.ru" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -115858,6 +115543,7 @@ add name="ksn-verdict.geoksn.kaspersky.com" type=FWD forward-to=$cndns match-sub
 add name="kut-hls.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kwmu-flash.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="lb.streaming.sk" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="learn.microsoft.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="live-350k.streamingfast.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="live-echotv.cdnvideo.ru" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="live.hnzzzzzdst.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -115954,6 +115640,7 @@ add name="staging-databe.floonet.goog" type=FWD forward-to=$cndns match-subdomai
 add name="staging.databe.floonet.goog" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="static-login.gog-statics.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="steamcommunity-a.akamaihd.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="stream.baoxinwen.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="stream.dybtv.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="stream.guihet.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="stream.houstonpublicmedia.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN

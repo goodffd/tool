@@ -192,6 +192,7 @@ agoogleaday.com
 agro.hk
 ai.binwang.me
 ai.dev
+ai.studio
 aiosearch.com
 aiph.net
 airasia.com
@@ -1017,6 +1018,7 @@ chrome.com
 chromecast.com
 chromeexperiments.com
 chromestatus.com
+chromium.org 
 chuang-yen.org
 chubold.com
 chubun.com
@@ -1259,6 +1261,7 @@ david-kilgour.com
 dawangidc.com
 daxa.cn
 daylife.com
+dazn.com
 db.tt
 dbgjd.com
 dcard.tw
@@ -2770,7 +2773,6 @@ ismalltits.com
 ismprofessional.net
 isohunt.com
 israbox.com
-issues.chromium.org 
 issuu.com
 istars.co.nz
 istockphoto.com
@@ -3754,6 +3756,8 @@ onmypc.org
 onthehunt.com
 ontrac.com
 oojj.de
+ooni.io
+ooni.org
 open.com.hk
 open.firstory.me
 openai.com
@@ -3865,6 +3869,7 @@ pct.org.tw
 pdetails.com
 pdproxy.com
 pds.nasa.gov
+pdst.fm
 peace.ca
 peacefire.org
 peeasian.com
@@ -3914,6 +3919,23 @@ ping.fm
 pinimg.com
 pinkrod.com
 pinoy-n.com
+pinterest.at
+pinterest.ca
+pinterest.cl
+pinterest.co.uk
+pinterest.com
+pinterest.com.au
+pinterest.com.mx
+pinterest.de
+pinterest.es
+pinterest.fr
+pinterest.ie
+pinterest.it
+pinterest.jp
+pinterest.nz
+pinterest.ph
+pinterest.pt
+pinterest.se
 pioneer-worker.forums-free.com
 pipii.tv
 piraattilahti.org
@@ -5259,6 +5281,7 @@ unseen.is
 unstable.icu
 unwire.hk
 uocn.org
+up.audio
 upbit.com
 updates.tdesktop.com
 upghsbc.com
@@ -5722,6 +5745,7 @@ xbabe.com
 xbookcn.com
 xbtce.com
 xcafe.in
+xcancel.com
 xcity.jp
 xcritic.com
 xerotica.com
