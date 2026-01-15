@@ -143,7 +143,6 @@ add regexp="(\\.|^)abematv\\.akamaized\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)abitno\\.linpie\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ablwang\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)aboluowang\\.com\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)about\\.gitlab\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)about\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)abplive\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)abs\\.edu\$" type=FWD forward-to=$gfwdns
@@ -1021,7 +1020,7 @@ add regexp="(\\.|^)chrome\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)chromecast\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)chromeexperiments\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)chromestatus\\.com\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)chromium\\.org \$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)chromium\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)chuang-yen\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)chubold\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)chubun\\.com\$" type=FWD forward-to=$gfwdns
@@ -2006,6 +2005,7 @@ add regexp="(\\.|^)github\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)githubassets\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)githubcopilot\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)githubusercontent\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)gitlab\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gitlab\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gizlen\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gjczz\\.com\$" type=FWD forward-to=$gfwdns
