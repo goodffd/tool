@@ -430,6 +430,7 @@ add regexp="(\\.|^)b0ne\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)babylonbee\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)babynet\\.com\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)backchina\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)backend-v2\\.crixet\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)backpackers\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)backtotiananmen\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bad\\.news\$" type=FWD forward-to=$gfwdns
