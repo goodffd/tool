@@ -79672,7 +79672,6 @@ domain:redmagic.com
 domain:redmart.com
 domain:redmou.com
 domain:rednetdns.com
-domain:rednotecdn.com
 domain:redocn.com
 domain:redodopower.com
 domain:redoop.com
@@ -102100,7 +102099,6 @@ domain:xhsf.com
 domain:xhslink.com
 domain:xhslw.com
 domain:xhsmlt.com
-domain:xhsrcdn.com
 domain:xhsrmyy.com
 domain:xhsxmt.com
 domain:xhsyqx.com

@@ -79675,7 +79675,6 @@ add name="redmagic.com" type=FWD forward-to=$cndns match-subdomain=yes comment=C
 add name="redmart.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="redmou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="rednetdns.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="rednotecdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="redocn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="redodopower.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="redoop.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -102103,7 +102102,6 @@ add name="xhsf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xhslink.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xhslw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xhsmlt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="xhsrcdn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xhsrmyy.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xhsxmt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xhsyqx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
