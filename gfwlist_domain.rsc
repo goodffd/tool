@@ -1264,6 +1264,7 @@ add regexp="(\\.|^)free\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)freebeacon\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)freebrowser\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)freechinaweibo\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)freedom\\.gov\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)freedomhouse\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)freedominfonetweb\\.wordpress\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)freedomsherald\\.org\$" type=FWD forward-to=$gfwdns
@@ -3509,6 +3510,7 @@ add regexp="(\\.|^)toppornsites\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)topsy\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)toptip\\.ca\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)toptoon\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)tor\\.eff\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torguard\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torlock\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torproject\\.org\$" type=FWD forward-to=$gfwdns
@@ -3663,6 +3665,7 @@ add regexp="(\\.|^)uncyclopedia\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)underwoodammo\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)unholyknight\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)unirule\\.cloud\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)uniswap\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)unknownspace\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)unmineable\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)unseen\\.is\$" type=FWD forward-to=$gfwdns
