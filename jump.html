@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>正在打开得到APP...</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 16px;
+            padding: 40px 30px;
+            text-align: center;
+            max-width: 340px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #FF6B6B, #ee5a24);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+        }
+        h1 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #FF6B6B, #ee5a24);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 12px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:active {
+            transform: scale(0.98);
+            opacity: 0.9;
+        }
+        .fallback {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #FF6B6B;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .hidden { display: none; }
+        .tips {
+            background: #fff8e1;
+            border: 1px solid #ffe082;
+            border-radius: 8px;
+            padding: 12px;
+            margin-top: 15px;
+            font-size: 13px;
+            color: #f57c00;
+            text-align: left;
+        }
+        .tips-icon {
+            margin-right: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 加载中 -->
+        <div id="loading">
+            <div class="spinner"></div>
+            <h1>正在打开得到APP...</h1>
+            <p>请稍候，正在尝试唤起得到APP</p>
+        </div>
+        
+        <!-- 唤起失败提示 -->
+        <div id="fallback" class="fallback hidden">
+            <div class="logo">📚</div>
+            <h1>请手动打开</h1>
+            <p>点击下面按钮，或在得到APP中搜索相关内容</p>
+            
+            <button id="scheme-btn" class="btn">在得到APP中打开</button>
+            
+            <div class="tips">
+                <span class="tips-icon">💡</span>
+                <strong>提示：</strong>部分课程需在得到APP内查看，网页版可能无法播放。
+            </div>
+        </div>
+        
+        <!-- 微信引导 -->
+        <div id="wechat-tips" class="hidden">
+            <div class="logo">📱</div>
+            <h1>请点击右上角</h1>
+            <p>选择「在浏览器打开」，即可唤起得到APP</p>
+            <div class="tips">
+                <span class="tips-icon">⚠️</span>
+                微信内置浏览器无法直接唤起APP，请在系统浏览器中打开此页面。
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 获取URL参数
+        function getParam(name) {
+            const url = new URL(window.location.href);
+            return url.searchParams.get(name);
+        }
+        
+        // 构造scheme链接
+        const articleId = getParam('id');
+        const ptype = getParam('type') || '65';
+        
+        // 得到APP scheme链接
+        const schemeUrl = `igetapp://article/video/playback?id=${articleId}&type=${ptype}&articleId=${articleId}&articleType=${ptype}&autoPlay=true`;
+        
+        // 检测环境
+        const ua = navigator.userAgent.toLowerCase();
+        const isWechat = ua.indexOf('micromessenger') !== -1;
+        
+        // 显示元素
+        function show(id) {
+            document.getElementById(id).classList.remove('hidden');
+        }
+        function hide(id) {
+            document.getElementById(id).classList.add('hidden');
+        }
+        
+        // 尝试唤起APP
+        function openApp() {
+            // 使用 location.href 跳转 scheme
+            window.location.href = schemeUrl;
+        }
+        
+        // 按钮点击事件 - 强制唤起
+        document.getElementById('scheme-btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            openApp();
+            
+            // 显示提示
+            this.textContent = '正在唤起...';
+            setTimeout(() => {
+                this.textContent = '在得到APP中打开';
+            }, 2000);
+        });
+        
+        // 页面加载处理
+        window.onload = function() {
+            if (!articleId) {
+                hide('loading');
+                show('fallback');
+                document.querySelector('#fallback h1').textContent = '参数错误';
+                document.querySelector('#fallback p').textContent = '缺少文章ID';
+                return;
+            }
+            
+            if (isWechat) {
+                // 微信环境 - 显示引导
+                hide('loading');
+                hide('fallback');
+                show('wechat-tips');
+            } else {
+                // 非微信环境 - 自动唤起
+                openApp();
+                
+                // 3秒后显示手动按钮（给用户选择）
+                setTimeout(() => {
+                    hide('loading');
+                    show('fallback');
+                }, 3000);
+            }
+        };
+    </script>
+</body>
+</html>
