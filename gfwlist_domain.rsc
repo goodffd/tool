@@ -3100,6 +3100,7 @@ add regexp="(\\.|^)shenyunshop\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)shenzhoufilm\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)shenzhouzhengdao\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)shiksha\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)shitjournal\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)shixiao\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)shizhao\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)shodanhq\\.com\$" type=FWD forward-to=$gfwdns
@@ -4024,6 +4025,7 @@ add regexp="(\\.|^)xbtce\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xcafe\\.in\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xcancel\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xcity\\.jp\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)xdaforums\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xerotica\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xfinity\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xfxssr\\.me\$" type=FWD forward-to=$gfwdns

@@ -1,6 +1,7 @@
 /log info "Loading US ipv4 address list"
 /ip firewall address-list remove [/ip firewall address-list find list=US]
 /ip firewall address-list
+add address=2.26.0.0/15 list=US
 add address=2.56.8.0/24 list=US
 add address=2.56.9.0/24 list=US
 add address=2.56.32.0/22 list=US
@@ -474,6 +475,8 @@ add address=62.132.114.0/23 list=US
 add address=62.132.116.0/23 list=US
 add address=62.132.132.0/23 list=US
 add address=62.164.224.0/19 list=US
+add address=62.171.232.0/21 list=US
+add address=62.171.240.0/21 list=US
 add address=62.192.96.0/19 list=US
 add address=62.204.49.0/24 list=US
 add address=62.229.0.0/16 list=US
@@ -543,6 +546,7 @@ add address=69.164.96.0/24 list=US
 add address=70.40.160.0/20 list=US
 add address=72.56.0.0/16 list=US
 add address=74.112.152.0/21 list=US
+add address=74.113.232.0/22 list=US
 add address=74.124.204.0/22 list=US
 add address=74.205.245.0/24 list=US
 add address=77.67.0.0/17 list=US
@@ -620,6 +624,7 @@ add address=80.173.192.0/21 list=US
 add address=80.173.232.0/21 list=US
 add address=80.173.240.0/20 list=US
 add address=80.203.128.0/17 list=US
+add address=80.224.254.0/24 list=US
 add address=80.240.16.0/20 list=US
 add address=80.240.103.0/24 list=US
 add address=80.240.111.0/24 list=US
@@ -639,6 +644,11 @@ add address=81.31.208.0/21 list=US
 add address=81.85.128.0/19 list=US
 add address=81.85.176.0/20 list=US
 add address=81.94.96.0/20 list=US
+add address=81.172.0.0/19 list=US
+add address=81.172.48.0/21 list=US
+add address=81.172.56.0/22 list=US
+add address=81.172.66.0/24 list=US
+add address=81.172.116.0/24 list=US
 add address=81.199.24.0/21 list=US
 add address=82.97.196.0/23 list=US
 add address=82.97.199.0/24 list=US
@@ -783,6 +793,7 @@ add address=87.121.45.0/24 list=US
 add address=87.121.87.0/24 list=US
 add address=87.192.88.0/21 list=US
 add address=87.192.208.0/21 list=US
+add address=87.232.72.0/21 list=US
 add address=87.232.144.0/20 list=US
 add address=87.232.200.0/21 list=US
 add address=87.232.208.0/20 list=US
@@ -1432,7 +1443,11 @@ add address=139.28.224.0/22 list=US
 add address=139.79.0.0/16 list=US
 add address=139.84.64.0/19 list=US
 add address=139.84.96.0/19 list=US
-add address=139.100.0.0/17 list=US
+add address=139.100.0.0/18 list=US
+add address=139.100.100.0/22 list=US
+add address=139.100.104.0/21 list=US
+add address=139.100.112.0/20 list=US
+add address=139.100.128.0/19 list=US
 add address=139.100.176.0/18 list=US
 add address=139.178.64.0/19 list=US
 add address=139.178.128.0/17 list=US
@@ -2714,6 +2729,7 @@ add address=195.34.80.0/23 list=US
 add address=195.39.196.0/23 list=US
 add address=195.43.130.0/24 list=US
 add address=195.46.39.0/24 list=US
+add address=195.60.92.64/26 list=US
 add address=195.61.0.0/16 list=US
 add address=195.62.89.0/24 list=US
 add address=195.64.32.0/19 list=US
@@ -2915,6 +2931,7 @@ add address=206.83.96.0/19 list=US
 add address=206.190.220.0/22 list=US
 add address=206.204.0.0/18 list=US
 add address=206.204.104.0/22 list=US
+add address=206.206.16.0/20 list=US
 add address=206.209.76.0/22 list=US
 add address=206.245.166.0/23 list=US
 add address=207.29.200.0/21 list=US
@@ -3093,6 +3110,7 @@ add address=217.142.16.0/20 list=US
 add address=217.144.108.0/22 list=US
 add address=217.149.104.0/21 list=US
 add address=217.171.80.0/20 list=US
+add address=217.177.80.0/21 list=US
 add address=217.195.152.0/22 list=US
 add address=217.195.224.0/20 list=US
 add address=217.195.240.0/20 list=US
