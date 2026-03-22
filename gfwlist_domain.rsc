@@ -78,6 +78,7 @@ add regexp="(\\.|^)9news\\.com\\.au\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)a-normal-day\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)a248\\.e\\.akamai\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)aamacau\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)aave\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)abc\\.net\\.au\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)abc\\.xyz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)abebooks\\.co\\.uk\$" type=FWD forward-to=$gfwdns
@@ -746,6 +747,7 @@ add regexp="(\\.|^)chromeexperiments\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)chromestatus\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)chromium\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ci-en\\.jp\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)cia\\.gov\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cici\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ciciai\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cirosantilli\\.com\$" type=FWD forward-to=$gfwdns
@@ -2607,8 +2609,10 @@ add regexp="(\\.|^)ogate\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ohmyrss\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ok\\.ru\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)okayfreedom\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)okcoin\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)okex\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)okk\\.tw\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)oklink\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)okpool\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)okx\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)old\\.honeynet\\.org\$" type=FWD forward-to=$gfwdns

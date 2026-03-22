@@ -34558,13 +34558,11 @@ domain:esou.biz
 domain:esoua.com
 domain:esound.vip
 domain:esouou.com
-domain:esp8266.com
 domain:espeedpost.com
 domain:esplus.club
 domain:espnlol.com
 domain:esports-console.com
 domain:esportsreg.com
-domain:espressif.com
 domain:esr.com
 domain:essaystar.com
 domain:essca.com
@@ -74796,7 +74794,6 @@ domain:okk123.com
 domain:okki.com
 domain:okktee.com
 domain:oklaapp.com
-domain:oklink.com
 domain:oklinklink.com
 domain:oklpoi.com
 domain:okmao.com

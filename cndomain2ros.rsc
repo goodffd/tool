@@ -34561,13 +34561,11 @@ add name="esou.biz" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="esoua.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="esound.vip" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="esouou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="esp8266.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="espeedpost.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="esplus.club" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="espnlol.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="esports-console.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="esportsreg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="espressif.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="esr.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="essaystar.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="essca.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -74799,7 +74797,6 @@ add name="okk123.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="okki.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="okktee.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="oklaapp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="oklink.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="oklinklink.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="oklpoi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="okmao.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
