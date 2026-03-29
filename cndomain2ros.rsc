@@ -12727,6 +12727,7 @@ add name="anhuiry.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="anhuisjx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="anhuisuya.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="anhuiwine.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="anhuiyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="anhuizk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ani-sh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="aniccw.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -118241,6 +118242,7 @@ add name="icecast-ruvr.cdnvideo.ru" type=FWD forward-to=$cndns match-subdomain=y
 add name="images-cn-8.ssl-images-amazon.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="images-cn.ssl-images-amazon.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ip.istatmenus.app" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="izattime.qcomgeo2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="jpts.sinovision.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kcrw.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="kjzz.streamguys1.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -118422,6 +118424,7 @@ add name="www.szmgiptv.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="www.yxssp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="www4-static.gog-statics.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="xn--flw351e.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="xtratime.qcomgeo2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youku.cdn2-youku.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zb.dehua.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zb.pzhgd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN

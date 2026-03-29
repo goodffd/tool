@@ -4050,11 +4050,13 @@ add regexp="(\\.|^)xjtravelguide\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xm\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xml-training-guide\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--11xs86f\\.icu\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)xn--1jqvh729avzfcy2d8ummib\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--4gq171p\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--9iqy04a7fi01l\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--9pr62r24a\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--czq75pvv1aj5c\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--i2ru8q2qg\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)xn--kcrv3utim32hx9f6qe\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--ngstr-lra8j\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--noss43i\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)xn--oiq\\.cc\$" type=FWD forward-to=$gfwdns

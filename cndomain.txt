@@ -12724,6 +12724,7 @@ domain:anhuiry.com
 domain:anhuisjx.com
 domain:anhuisuya.com
 domain:anhuiwine.com
+domain:anhuiyun.com
 domain:anhuizk.com
 domain:ani-sh.com
 domain:aniccw.net
@@ -118238,6 +118239,7 @@ domain:icecast-ruvr.cdnvideo.ru
 domain:images-cn-8.ssl-images-amazon.com
 domain:images-cn.ssl-images-amazon.com
 domain:ip.istatmenus.app
+domain:izattime.qcomgeo2.com
 domain:jpts.sinovision.net
 domain:kcrw.streamguys1.com
 domain:kjzz.streamguys1.com
@@ -118419,6 +118421,7 @@ domain:www.szmgiptv.com
 domain:www.yxssp.com
 domain:www4-static.gog-statics.com
 domain:xn--flw351e.com
+domain:xtratime.qcomgeo2.com
 domain:youku.cdn2-youku.com
 domain:zb.dehua.tv
 domain:zb.pzhgd.com
