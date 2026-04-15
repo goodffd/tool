@@ -184,11 +184,9 @@ angela-merkel.de
 angola.org
 angularjs.org
 aniscartujo.com
-annas-archive.in
-annas-archive.li
-annas-archive.org
-annas-archive.pm
-annas-archive.se
+annas-archive.gd
+annas-archive.gl
+annas-archive.pk
 anobii.com
 anonfiles.com
 anonymouse.org
@@ -1010,7 +1008,6 @@ doublethinklab.org
 douchi.space
 dougscripts.com
 doujincafe.com
-download.aircrack-ng.org
 download.dappcdn.com
 dpool.top
 dpp.org.tw
@@ -1796,8 +1793,6 @@ hk.gradconnection.com
 hk.jiepang.com
 hk01.com
 hka8964.wordpress.com
-hkacg.com
-hkacg.net
 hkanews.wordpress.com
 hkbookcity.com
 hkchronicles.com
@@ -2312,7 +2307,6 @@ mediafreakcity.com
 mediawiki.org
 medium.com
 meee.com.tw
-meetup.com
 mega.co.nz
 mega.io
 mega.nz
@@ -2380,6 +2374,7 @@ mirrorbooks.com
 mirrormedia.mg
 missav.com
 missav.ws
+mistral.ai
 mitbbs.com
 miuipolska.pl
 mixero.com
@@ -2442,7 +2437,6 @@ muzi.com
 muzi.net
 muzu.tv
 mvg.jp
-mx981.com
 my-private-network.co.uk
 my.pcloud.com
 myaudiocast.com
@@ -2648,6 +2642,7 @@ ooni.io
 ooni.org
 open.firstory.me
 openai.com
+openart.ai
 opencritic.com
 opendemocracy.net
 openid.net
@@ -2886,7 +2881,6 @@ pursuestar.com
 putty.org
 pximg.net
 python.com.tw
-pytorch.org
 qbittorrent.org
 qgirl.com.tw
 qi-gong.me
@@ -3018,15 +3012,7 @@ rutracker.org
 rxhj.net
 s-cute.com
 s.yimg.com
-s3-ap-*.amazonaws.com
 s3-ap-northeast-1.amazonaws.com
-s3-ap-northeast-2.amazonaws.com
-s3-ap-southeast-1.amazonaws.com
-s3-ap-southeast-2.amazonaws.com
-s3-eu-central-1.amazonaws.com
-s3.ap-northeast-2.amazonaws.com
-s3.eu-central-1.amazonaws.com
-s3.us-east-1.amazonaws.com
 sacks.com
 sacom.hk
 sadistic-v.com
@@ -3048,6 +3034,7 @@ savetibet.org
 savetibetstore.org
 saveuighur.org
 sbme.me
+sbti.unun.dev
 scache.vzw.com
 scache1.vzw.com
 scache2.vzw.com
@@ -3352,7 +3339,6 @@ tbsn.org
 tbssqh.org
 teachparentstech.org
 technews.tw
-techspot.com
 techviz.net
 teck.in
 teco-hk.org
@@ -3366,7 +3352,6 @@ telegram.me
 telegram.org
 telegram.space
 telegramdownload.com
-telegraph.co.uk
 telesco.pe
 tellapart.com
 temu.com
@@ -3833,7 +3818,6 @@ vrchat.com
 vrporn.com
 vrsmash.com
 vtunnel.com
-vuku.cc
 vultryhw.com
 w-pool.com
 w3s.link
@@ -4048,7 +4032,6 @@ xijie.wordpress.com
 xing.com
 xinjiangpolicefiles.org
 xinmiao.com.hk
-xjp.cc
 xjtravelguide.com
 xm.com
 xml-training-guide.com
