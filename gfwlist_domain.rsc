@@ -293,6 +293,7 @@ add regexp="(\\.|^)avdb\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)avg\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)avgle\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)avidemux\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)avistaz\\.to\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)avmo\\.pw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)avmoo\\.pw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)avoision\\.com\$" type=FWD forward-to=$gfwdns
