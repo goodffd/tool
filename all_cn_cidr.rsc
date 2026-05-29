@@ -757,6 +757,7 @@ add address=71.131.192.0/18 list=CN
 add address=71.132.0.0/18 list=CN
 add address=71.136.64.0/18 list=CN
 add address=71.137.0.0/18 list=CN
+add address=74.122.24.0/24 list=CN
 add address=78.105.182.0/23 list=CN
 add address=79.133.176.0/24 list=CN
 add address=81.68.0.0/14 list=CN
