@@ -2014,6 +2014,7 @@ add address=185.79.140.0/22 list=US
 add address=185.81.72.0/22 list=US
 add address=185.81.100.0/22 list=US
 add address=185.82.216.0/22 list=US
+add address=185.83.68.0/22 list=US
 add address=185.83.156.0/22 list=US
 add address=185.83.214.0/24 list=US
 add address=185.88.180.0/22 list=US

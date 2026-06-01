@@ -327,6 +327,7 @@ add regexp="(\\.|^)bangchen\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bangdream\\.space\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bangkokpost\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bangumi\\.moe\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)bangumi\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bangyoulater\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bankmobilevibe\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bannedbook\\.org\$" type=FWD forward-to=$gfwdns
@@ -382,6 +383,7 @@ add regexp="(\\.|^)bettween\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)betvictor\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bfnn\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bfsh\\.hk\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)bgm\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bgme\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bgvpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)biblesforamerica\\.org\$" type=FWD forward-to=$gfwdns
@@ -700,6 +702,7 @@ add regexp="(\\.|^)chenpokongvip\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)chenshan20042005\\.wordpress\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cherrysave\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)chhongbi\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)chii\\.in\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)china-mmm\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)china-review\\.com\\.ua\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)china-week\\.com\$" type=FWD forward-to=$gfwdns
