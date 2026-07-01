@@ -52,7 +52,9 @@ add address=5.253.184.0/22 list=US
 add address=9.142.0.0/16 list=US
 add address=9.151.0.0/16 list=US
 add address=9.232.0.0/15 list=US
+add address=9.236.0.0/16 list=US
 add address=9.237.0.0/16 list=US
+add address=9.240.0.0/15 list=US
 add address=9.246.0.0/16 list=US
 add address=9.249.0.0/16 list=US
 add address=13.116.0.0/16 list=US
