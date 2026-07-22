@@ -16,6 +16,7 @@ add regexp="(\\.|^)1688\\.com\\.au\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)173ng\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)18board\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)18comic\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)18comic\\.vip\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)18mh\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)1984bbs\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)1991way\\.com\$" type=FWD forward-to=$gfwdns
@@ -785,6 +786,7 @@ add regexp="(\\.|^)civilmedia\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)civitai\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cixiaoya\\.club\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ck101\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)clashyun\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)classicalguitarblog\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)claude\\.ai\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)claude\\.com\$" type=FWD forward-to=$gfwdns
@@ -3438,6 +3440,7 @@ add regexp="(\\.|^)synapse\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)syncback\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)synergyse\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)syosetu\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)sysub\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)t-g\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)t\\.co\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)t\\.me\$" type=FWD forward-to=$gfwdns
@@ -4316,6 +4319,7 @@ add regexp="(\\.|^)zdnet\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zello\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zenmate\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zenmate\\.com\\.ru\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)zenmux\\.ai\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zerohedge\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zeronet\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)zh-hans\\.cfsh99\\.com\$" type=FWD forward-to=$gfwdns
