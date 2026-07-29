@@ -774,6 +774,7 @@ add regexp="(\\.|^)ci-en\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cia\\.gov\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cici\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ciciai\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)circle19\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)cirosantilli\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)citizencn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)citizenlab\\.ca\$" type=FWD forward-to=$gfwdns
@@ -2176,6 +2177,7 @@ add regexp="(\\.|^)kanshifang\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)kantie\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)kaotic\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)karayou\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)kards\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)kathmandupost\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)kawaiikawaii\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)kawase\\.com\$" type=FWD forward-to=$gfwdns
@@ -3654,6 +3656,7 @@ add regexp="(\\.|^)to-porno\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)togetter\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)token\\.im\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tokenlon\\.im\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)tokenplus\\.app\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tokyo-porn-tube\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tokyocn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tomp3\\.cc\$" type=FWD forward-to=$gfwdns
@@ -3695,6 +3698,7 @@ add regexp="(\\.|^)trtworld\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)truebuddha-md\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)trustwallet\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)truthsocial\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)tryai\\.dev\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tryheart\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tsdr\\.uspto\\.gov\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tt1069\\.com\$" type=FWD forward-to=$gfwdns
