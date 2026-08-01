@@ -1631,6 +1631,7 @@ add address=153.55.160.0/20 list=US
 add address=153.56.206.0/23 list=US
 add address=153.76.112.0/20 list=US
 add address=153.76.248.0/22 list=US
+add address=153.79.112.0/20 list=US
 add address=153.79.128.0/19 list=US
 add address=153.79.192.0/19 list=US
 add address=154.14.0.0/16 list=US
@@ -1658,12 +1659,6 @@ add address=158.175.0.0/16 list=US
 add address=158.176.0.0/16 list=US
 add address=158.177.0.0/16 list=US
 add address=158.178.0.0/17 list=US
-add address=158.178.128.0/18 list=US
-add address=158.179.1.0/19 list=US
-add address=158.179.128.0/17 list=US
-add address=158.180.0.0/18 list=US
-add address=158.180.160.0/19 list=US
-add address=158.180.226.0/20 list=US
 add address=158.231.0.0/16 list=US
 add address=159.8.0.0/16 list=US
 add address=159.23.0.0/16 list=US
@@ -1701,7 +1696,6 @@ add address=161.71.0.0/16 list=US
 add address=161.104.0.0/21 list=US
 add address=161.104.68.0/22 list=US
 add address=161.104.72.0/22 list=US
-add address=161.104.78.0/23 list=US
 add address=161.104.112.0/20 list=US
 add address=161.104.128.0/19 list=US
 add address=161.104.224.0/19 list=US

@@ -2262,6 +2262,7 @@ add regexp="(\\.|^)lenwhite\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)leonardo\\.ai\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lesoir\\.be\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)letscorp\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)level-plus\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lexica\\.art\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)lhakar\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)li\\.taipei\$" type=FWD forward-to=$gfwdns
@@ -2680,6 +2681,7 @@ add regexp="(\\.|^)ntd\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ntdtv\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ntdtv\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ntdtv\\.cz\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)nthlink\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nuexpo\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nurgo-software\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nusatrip\\.com\$" type=FWD forward-to=$gfwdns
@@ -3880,6 +3882,7 @@ add regexp="(\\.|^)uyghurstudies\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)uyghurtribunal\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)uygur\\.fc2web\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)uymaarip\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)v\\.recipes\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)v2\\.help\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)v2\\.hysteria\\.network\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)v2ex\\.com\$" type=FWD forward-to=$gfwdns
