@@ -1455,6 +1455,7 @@ add regexp="(\\.|^)geti2p\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getlantern\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getmalus\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getmdl\\.io\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)getmonero\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getoutline\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getsession\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getsync\\.com\$" type=FWD forward-to=$gfwdns
@@ -2653,6 +2654,7 @@ add regexp="(\\.|^)nga\\.mil\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nhentai\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nic\\.cz\\.cc\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nic\\.gov\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)nicoseiga\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nicovideo\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nightswatch\\.top\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nikke-en\\.com\$" type=FWD forward-to=$gfwdns
