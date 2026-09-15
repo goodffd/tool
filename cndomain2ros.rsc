@@ -83774,7 +83774,6 @@ add name="spsb114.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="spsicloudport.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="spsisctgroup.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="spsisncl.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
-add name="spst2.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="spsy.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sptcc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="sptccn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -104861,6 +104860,7 @@ add name="yuano.cc" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanpanguoji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanqiao.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanqiao.pw" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="yuanqidesk.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanqilt.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanqingsh.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="yuanqisenlin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN

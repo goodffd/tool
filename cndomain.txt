@@ -83771,7 +83771,6 @@ domain:spsb114.com
 domain:spsicloudport.com
 domain:spsisctgroup.com
 domain:spsisncl.com
-domain:spst2.com
 domain:spsy.org
 domain:sptcc.com
 domain:sptccn.com
@@ -104858,6 +104857,7 @@ domain:yuano.cc
 domain:yuanpanguoji.com
 domain:yuanqiao.net
 domain:yuanqiao.pw
+domain:yuanqidesk.com
 domain:yuanqilt.com
 domain:yuanqingsh.com
 domain:yuanqisenlin.com
