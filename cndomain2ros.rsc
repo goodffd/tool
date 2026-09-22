@@ -34811,6 +34811,7 @@ add name="fnnspa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fnos.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fnrcw.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fnrczp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="fnrrc.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fnsbqvz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fnscore.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="fnwlzz.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -38653,6 +38654,7 @@ add name="gongkongmall.com" type=FWD forward-to=$cndns match-subdomain=yes comme
 add name="gongkongsaas.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gonglf.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gonglve.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="gongniukaiguan.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gongnou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gongpin.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="gongpingjia.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -64167,6 +64169,7 @@ add name="mdaehx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mdbchina.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mdbimg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mdclub.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="mddclass.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mdddg.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mddj.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="mddlsa.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -75295,6 +75298,7 @@ add name="qudaiji.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qudao168.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qudaowuyou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qudayun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="qudian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qudingshui.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qudong.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="qudong51.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -90836,6 +90840,7 @@ add name="ubmsinoexpo.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="uboat100.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="uborn.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="uboxol.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="uboxs.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ubs001.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ubssdic.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="ubtrobot.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -92943,6 +92948,7 @@ add name="vwwmsd.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="vx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="vx56.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="vxe.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="vxhcm.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="vxia.net" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="vxiaocheng.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="vxinyou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -104039,6 +104045,7 @@ add name="youbangkeyi.com" type=FWD forward-to=$cndns match-subdomain=yes commen
 add name="youbangyun.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youbbs.org" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youbian.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="youbianku.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youbibi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youbike.me" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="youbikecn.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -108148,6 +108155,7 @@ add name="zhongliangxny.com" type=FWD forward-to=$cndns match-subdomain=yes comm
 add name="zhonglianhuashu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhonglianhuaxin.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhonglianyx.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="zhongliujie.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhongliusp.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhongliuyiyuan.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zhonglue-consulting.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
@@ -110357,6 +110365,7 @@ add name="zuixiaoyao.com" type=FWD forward-to=$cndns match-subdomain=yes comment
 add name="zuixu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zuiyanke.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zuiyou.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
+add name="zuiyou.tv" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zuiyouxi.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zuizhifu.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
 add name="zuji360.com" type=FWD forward-to=$cndns match-subdomain=yes comment=CN
