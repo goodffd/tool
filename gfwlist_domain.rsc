@@ -613,6 +613,7 @@ add regexp="(\\.|^)byrut\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)c-est-simple\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)c-span\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)c-spanvideo\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)c\\.go-mpulse\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)c\\.mi\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)c2cx\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)c3pool\\.com\$" type=FWD forward-to=$gfwdns
@@ -3026,6 +3027,7 @@ add regexp="(\\.|^)qiangyou\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)qianmo\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)qiwen\\.lu\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)qmp4\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)qobuz\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)qoos\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)qq\\.co\\.za\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)qstatus\\.com\$" type=FWD forward-to=$gfwdns
@@ -3904,6 +3906,7 @@ add regexp="(\\.|^)valeursactuelles\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vansky\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vaticannews\\.va\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vatn\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)vava8\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vcf-online\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vcfbuilder\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)veed\\.io\$" type=FWD forward-to=$gfwdns
