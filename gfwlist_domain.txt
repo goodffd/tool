@@ -6,6 +6,7 @@
 10musume.com
 123av.com
 123av.me
+123av.org
 12bet.com
 12vpn.com
 12vpn.net
@@ -58,6 +59,7 @@
 6parker.com
 6parknews.com
 7capture.com
+7x24hrs.com
 8-d.com
 85cc.us
 881903.com
@@ -858,6 +860,7 @@ comparitech.com
 compileheart.com
 connect.facebook.net
 conoha.jp
+console.typesafe.ai
 contests.twilio.com
 cool18.com
 coolaler.com
@@ -1413,6 +1416,7 @@ g.ai
 g.co
 g0v.social
 g6hentai.com
+ga.jspm.io
 gab.com
 gabocorp.com
 gagaoolala.com
@@ -2220,6 +2224,7 @@ khc.edu.tw
 kichiku-doujinko.com
 kik.com
 killwall.com
+kimootoko.net
 kindle4rss.com
 kindleren.com
 kingdomsalvation.org
@@ -2460,7 +2465,9 @@ meridian-trust.org
 meripet.com
 merit-times.com.tw
 messenger.com
+meta.ai
 meta.com
+metaaivm.com
 metafilter.com
 metamask.io
 metart.com
@@ -2500,6 +2507,7 @@ mingshengbao.com
 minhhue.net
 miningpoolhub.com
 ministrybooks.org
+minkch.com
 minzhuzhongguo.org
 miraheze.org
 mirdc.org.tw
@@ -2561,6 +2569,7 @@ mos.ru
 mosavi.io
 motherless.com
 movements.org
+movie.eroterest.net
 moviefap.com
 mpettis.com
 mpfinance.com
@@ -2694,6 +2703,9 @@ nitter.net
 niu.moe
 niusnews.com
 njactb.org
+njav.com
+njav.tv
+njavtv.com
 nlfreevpn.com
 nmsl.website
 nnews.eu
@@ -2947,6 +2959,7 @@ plexvpn.pro
 plurk.com
 plus.codes
 pmatehunter.com
+po-kaki-to.com
 po2b.com
 podbean.com
 podcast.co
@@ -4418,6 +4431,7 @@ zootool.com
 zophar.net
 zorrovpn.com
 zozotown.com
+zozovideo.com
 zpn.im
 zspeeder.me
 zuo.la
