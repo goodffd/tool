@@ -1,9 +1,6 @@
 :local netflix 192.168.16.8
 /ip dns static remove [/ip dns static find comment="Netflix"]
 /ip dns static
-:do { add name="e13252.dscg.akamaiedge.net" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
-:do { add name="h-netflix.online-metrix.net" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
-:do { add name="netflix.com.edgesuite.net" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
 :do { add name="cookielaw.org" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
 :do { add name="fast.com" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
 :do { add name="flxvpn.net" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
@@ -34,7 +31,10 @@
 :do { add name="nflxvideo.net" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
 :do { add name="onetrust.com" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
 :do { add name="us-west-2.amazonaws.com" type=FWD forward-to=$netflix match-subdomain=yes address-list=netflix comment=Netflix } on-error={}
+:do { add name="e13252.dscg.akamaiedge.net" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
+:do { add name="h-netflix.online-metrix.net" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
+:do { add name="netflix.com.edgesuite.net" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
 :do { add regexp="apiproxy-device-prod-nlb-" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
-:do { add regexp="dualstack.apiproxy-" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
-:do { add regexp="dualstack.ichnaea-web-" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
+:do { add regexp="dualstack\\.apiproxy-" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
+:do { add regexp="dualstack\\.ichnaea-web-" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
 :do { add regexp="netflixdnstest" type=FWD forward-to=$netflix address-list=netflix comment=Netflix } on-error={}
