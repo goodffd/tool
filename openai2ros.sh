@@ -51,7 +51,7 @@ ${sudoCmd} wget -O "$LIST" https://raw.githubusercontent.com/blackmatrix7/ios_ru
 sed -En 's/^DOMAIN(-SUFFIX)?,([^,]*).*/\1|\2/p' "$LIST" | sort -u > openai.map
 
 #===== 生成 ROS L7（两类合并，点全部转义）=====
-l7=$(cut -d'|' -f2 openai.map | sed 's/\./\\\\./g' | paste -sd'|' -)
+l7=$(cut -d'|' -f2 openai.map | sort -u | sed 's/\./\\\\./g' | paste -sd'|' -)
 if [ -n "$l7" ]; then
   printf '/ip firewall layer7-protocol set [find name="%s"] regexp="%s"\n' "$L7_NAME" "$l7" > openai.rosL7
 else
