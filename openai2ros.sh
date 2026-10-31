@@ -46,10 +46,11 @@ export LC_ALL=C
 
 ${sudoCmd} wget -O "$LIST" https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/OpenAI/OpenAI.list
 
-#===== 一条 sed 提取：\1 为空即 DOMAIN，非空即 -SUFFIX / -KEYWORD =====
-sed -En 's/^DOMAIN(-SUFFIX|-KEYWORD)?,([^,]*).*/\1|\2/p' "$LIST" | sort -u > openai.map
+#===== 一条 sed 提取：\1 为空即 DOMAIN，-SUFFIX 即后缀域名 =====
+# DOMAIN-KEYWORD 是"含该字串即命中"，L7 里会误伤无关流量，这里不取
+sed -En 's/^DOMAIN(-SUFFIX)?,([^,]*).*/\1|\2/p' "$LIST" | sort -u > openai.map
 
-#===== 生成 ROS L7（三类合并，点全部转义）=====
+#===== 生成 ROS L7（两类合并，点全部转义）=====
 l7=$(cut -d'|' -f2 openai.map | sed 's/\./\\\\./g' | paste -sd'|' -)
 if [ -n "$l7" ]; then
   printf '/ip firewall layer7-protocol set [find name="%s"] regexp="%s"\n' "$L7_NAME" "$l7" > openai.rosL7
@@ -65,6 +66,5 @@ fi
   sed -En \
     -e "s/^[|](.*)/:do { add name=\"\1\" type=FWD forward-to=\$openai address-list=$L7_NAME comment=$DNS_COMMENT } on-error={}/p" \
     -e "s/^-SUFFIX[|](.*)/:do { add name=\"\1\" type=FWD forward-to=\$openai match-subdomain=yes address-list=$L7_NAME comment=$DNS_COMMENT } on-error={}/p" \
-    -e "s/^-KEYWORD[|](.*)/:do { add regexp=\"\1\" type=FWD forward-to=\$openai address-list=$L7_NAME comment=$DNS_COMMENT } on-error={}/p" \
     openai.map
 } > openai.dns
