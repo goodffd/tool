@@ -30,50 +30,41 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   systemPackage="yum"
 fi
 
-if [ ${systemPackage} == "yum" ]; then
+if [ "${systemPackage}" = "yum" ]; then
     ${sudoCmd} ${systemPackage} install wget bind-utils -y -q
 else
     ${sudoCmd} ${systemPackage} install wget dnsutils -y -qq
 fi
 
-${sudoCmd} wget -O OpenAI.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/OpenAI/OpenAI.list
-${sudoCmd} sed -rn 's/^DOMAIN-SUFFIX,(.*)/\1/p' OpenAI.list > openai_ds.txt
-${sudoCmd} sed -rn 's/^DOMAIN-KEYWORD,(.*)/\1/p' OpenAI.list > openai_dk.txt
-${sudoCmd} sed -rn '/^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,/!s/^DOMAIN,(.*)/\1/p' OpenAI.list > openai_d.txt
+#===== 可调参数 =====
+UPSTREAM_DNS="192.168.99.1"    # 分流上游 DNS
+L7_NAME="openai"               # layer7-protocol 规则名
+DNS_COMMENT="OpenAI"           # dns static 标记注释
+LIST="OpenAI.list"
 
+export LC_ALL=C
 
-#生成ros L7
-#${sudoCmd} sort openai_ds.txt | uniq > openai_ds.rosL7
-#${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai_ds.rosL7
-#${sudoCmd} sed -i 's/\(.*\)/(\\\\.|^)(\1)\\$/g' openai_ds.rosL7
+${sudoCmd} wget -O "$LIST" https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/OpenAI/OpenAI.list
 
-#${sudoCmd} sort openai_dk.txt | uniq > openai_dk.rosL7
-#${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai_dk.rosL7
+#===== 一条 sed 提取：\1 为空即 DOMAIN，非空即 -SUFFIX / -KEYWORD =====
+sed -En 's/^DOMAIN(-SUFFIX|-KEYWORD)?,([^,]*).*/\1|\2/p' "$LIST" | sort -u > openai.map
 
-#${sudoCmd} sort openai_d.txt | uniq > openai_d.rosL7
-#${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai_d.rosL7
-#${sudoCmd} sed -i 's/\(.*\)/\^(\1)\\$/g' openai_d.rosL7
+#===== 生成 ROS L7（三类合并，点全部转义）=====
+l7=$(cut -d'|' -f2 openai.map | sed 's/\./\\\\./g' | paste -sd'|' -)
+if [ -n "$l7" ]; then
+  printf '/ip firewall layer7-protocol set [find name="%s"] regexp="%s"\n' "$L7_NAME" "$l7" > openai.rosL7
+else
+  echo "未提取到域名，跳过 L7" >&2
+fi
 
-#${sudoCmd} cat openai_d.rosL7 openai_ds.rosL7 openai_dk.rosL7 > openai.rosL7
-${sudoCmd} cat openai_d.txt openai_ds.txt openai_dk.txt > openai.txt
-${sudoCmd} sort openai.txt | uniq > openai.rosL7
-${sudoCmd} sed -i ':a;N;s/\n/|/g;ta' openai.rosL7
-${sudoCmd} sed -i 's/^/"/g;s/$/"/g' openai.rosL7
-${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name="openai"] regexp=/g' openai.rosL7
-
-
-
-#生成ros dns v7.6之前
-#${sudoCmd} sed -i 's/\./\\\\./g;s/\(.*\)/add regexp="(\\\\.|^)\1\\$" type=FWD forward-to=$netflix comment=NF/g' Netflix.list
-#${sudoCmd} sed '=' Netflix.list | sed -r 'N;s/([^\n]+)\n(.*)/\2\1/' > Netflix.list.rosdns
-#${sudoCmd} sed -i '1 i:local netflix 45.11.185.4' Netflix.list.rosdns
-#${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment~"NF.*"]' Netflix.list.rosdns
-#${sudoCmd} sed -i '3 i/ip dns static' Netflix.list.rosdns
-
-#生成ros dns v7.6之后
-${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}/g' openai_d.txt > openai.dns
-${sudoCmd} sed 's/\(.*\)/:do { add name="\1" type=FWD forward-to=$openai match-subdomain=yes address-list=openai comment=OpenAI } on-error={}/g' openai_ds.txt >> openai.dns
-${sudoCmd} sed 's/\(.*\)/:do { add regexp="\1" type=FWD forward-to=$openai address-list=openai comment=OpenAI } on-error={}/g' openai_dk.txt >> openai.dns
-${sudoCmd} sed -i '1 i:local openai 192.168.99.1' openai.dns
-${sudoCmd} sed -i '2 i/ip dns static remove [/ip dns static find comment="OpenAI"]' openai.dns
-${sudoCmd} sed -i '3 i/ip dns static' openai.dns
+#===== 生成 ROS DNS (v7.6+ FWD)，按类型分派 =====
+{
+  printf ':local openai %s\n' "$UPSTREAM_DNS"
+  printf '/ip dns static remove [/ip dns static find comment="%s"]\n' "$DNS_COMMENT"
+  printf '/ip dns static\n'
+  sed -En \
+    -e "s/^[|](.*)/:do { add name=\"\1\" type=FWD forward-to=\$openai address-list=$L7_NAME comment=$DNS_COMMENT } on-error={}/p" \
+    -e "s/^-SUFFIX[|](.*)/:do { add name=\"\1\" type=FWD forward-to=\$openai match-subdomain=yes address-list=$L7_NAME comment=$DNS_COMMENT } on-error={}/p" \
+    -e "s/^-KEYWORD[|](.*)/:do { add regexp=\"\1\" type=FWD forward-to=\$openai address-list=$L7_NAME comment=$DNS_COMMENT } on-error={}/p" \
+    openai.map
+} > openai.dns
