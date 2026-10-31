@@ -30,7 +30,7 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   systemPackage="yum"
 fi
 
-if [ ${systemPackage} == "yum" ]; then
+if [ ${systemPackage} = "yum" ]; then
     ${sudoCmd} ${systemPackage} install wget bind-utils -y -q
 else
     ${sudoCmd} ${systemPackage} install wget dnsutils -y -qq
