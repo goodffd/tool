@@ -36,19 +36,16 @@ else
     ${sudoCmd} ${systemPackage} install wget dnsutils -y -qq
 fi
 
-#Get DouYin domain
+#提取域名 -> 转义点 -> 拼成一行 -> 套上ROS命令
+gen_l7() {
+  local line
+  line=$(sed -rn 's/^DOMAIN(-SUFFIX|-KEYWORD)?,([^,]*).*/\2/p' "$2" | sed 's/\./\\\\./g' | paste -sd'|' -)
+  [ -n "$line" ] || { echo "$2: 未提取到域名，跳过" >&2; return 1; }
+  printf '/ip firewall layer7-protocol set [find name=%s] regexp="%s"\n' "$1" "$line" > "$2.rosL7"
+}
+
 ${sudoCmd} wget -O DouYin.list https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/DouYin/DouYin.list
-${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' DouYin.list
-
-#Get Youku domain
 ${sudoCmd} wget -O Youku.list https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Youku/Youku.list
-${sudoCmd} sed -rni 's/^DOMAIN-SUFFIX,(.*)/\1/p' Youku.list
 
-#生成ros L7
-${sudoCmd} sed ':a;N;s/\n/|/g;ta' DouYin.list > DouYin.list.rosL7
-${sudoCmd} sed -i 's/^/"/g;s/$/"/g' DouYin.list.rosL7
-${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=DouYin] regexp=/g' DouYin.list.rosL7
-
-${sudoCmd} sed ':a;N;s/\n/|/g;ta' Youku.list > Youku.list.rosL7
-${sudoCmd} sed -i 's/^/"/g;s/$/"/g' Youku.list.rosL7
-${sudoCmd} sed -i 's/^/\/ip firewall layer7-protocol set [find name=Youku] regexp=/g' Youku.list.rosL7
+gen_l7 DouYin DouYin.list
+gen_l7 Youku Youku.list
