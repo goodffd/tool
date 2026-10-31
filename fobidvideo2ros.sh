@@ -37,9 +37,10 @@ else
 fi
 
 #===== 提取域名 -> 转义点 -> 拼成一行 -> 套上 ROS 命令 =====
+# 只取 DOMAIN / DOMAIN-SUFFIX；DOMAIN-KEYWORD 是"含该字串即命中"，放 L7 里会误伤
 gen_l7() {
   local line
-  line=$(sed -En 's/^DOMAIN(-SUFFIX|-KEYWORD)?,([^,]*).*/\2/p' "$2" | sed 's/\./\\\\./g' | paste -sd'|' -)
+  line=$(sed -En 's/^DOMAIN(-SUFFIX)?,([^,]*).*/\2/p' "$2" | sed 's/\./\\\\./g' | paste -sd'|' -)
   [ -n "$line" ] || { echo "$2: 未提取到域名，跳过" >&2; return 1; }
   printf '/ip firewall layer7-protocol set [find name="%s"] regexp="%s"\n' "$1" "$line" > "$2.rosL7"
 }
