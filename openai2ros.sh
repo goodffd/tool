@@ -40,18 +40,19 @@ fi
 UPSTREAM_DNS="192.168.99.1"    # 分流上游 DNS
 L7_NAME="openai"               # layer7-protocol 规则名
 DNS_COMMENT="OpenAI"           # dns static 标记注释
+MOSDNS_OUT="openaidomain2mosdns.txt"  # mosdns domain_set 输出
 LIST="OpenAI.list"
 
 export LC_ALL=C
 
 ${sudoCmd} wget -O "$LIST" https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/OpenAI/OpenAI.list
 
-#===== 一条 sed 提取：\1 为空即 DOMAIN，-SUFFIX 即后缀域名 =====
-# DOMAIN-KEYWORD 是"含该字串即命中"，L7 里会误伤无关流量，这里不取
-sed -En 's/^DOMAIN(-SUFFIX)?,([^,]*).*/\1|\2/p' "$LIST" | sort -u > openai.map
+#===== 一条 sed 提取：\1 为空即 DOMAIN，非空即 -SUFFIX / -KEYWORD =====
+# map 保留三类，L7/DNS 只用前两类，mosdns 那份三类都要
+sed -En 's/^DOMAIN(-SUFFIX|-KEYWORD)?,([^,]*).*/\1|\2/p' "$LIST" | sort -u > openai.map
 
-#===== 生成 ROS L7（两类合并，点全部转义）=====
-l7=$(cut -d'|' -f2 openai.map | sort -u | sed 's/\./\\\\./g' | paste -sd'|' -)
+#===== 生成 ROS L7（排除 DOMAIN-KEYWORD，它"含该字串即命中"，会误伤无关流量）=====
+l7=$(grep -v '^-KEYWORD|' openai.map | cut -d'|' -f2 | sort -u | sed 's/\./\\\\./g' | paste -sd'|' -)
 if [ -n "$l7" ]; then
   printf '/ip firewall layer7-protocol set [find name="%s"] regexp="%s"\n' "$L7_NAME" "$l7" > openai.rosL7
 else
@@ -68,3 +69,10 @@ fi
     -e "s/^-SUFFIX[|](.*)/:do { add name=\"\1\" type=FWD forward-to=\$openai match-subdomain=yes address-list=$L7_NAME comment=$DNS_COMMENT } on-error={}/p" \
     openai.map
 } > openai.dns
+
+#===== 生成 mosdns domain_set（三类都保留，按 full -> domain -> keyword 排列）=====
+{
+  sed -En 's/^[|](.*)/full:\1/p'          openai.map
+  sed -En 's/^-SUFFIX[|](.*)/domain:\1/p' openai.map
+  sed -En 's/^-KEYWORD[|](.*)/keyword:\1/p' openai.map
+} > "$MOSDNS_OUT"
