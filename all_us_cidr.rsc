@@ -837,6 +837,7 @@ add address=85.137.96.0/20 list=US
 add address=85.137.112.0/20 list=US
 add address=85.137.216.0/22 list=US
 add address=85.137.224.0/22 list=US
+add address=85.149.240.0/20 list=US
 add address=85.151.0.0/16 list=US
 add address=85.155.96.0/21 list=US
 add address=85.155.112.0/22 list=US
